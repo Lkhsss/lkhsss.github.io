@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>物质的量</title>
+    <link href="/2022/11/26/%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/"/>
+    <url>/2022/11/26/%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</url>
+    
+    <content type="html"><![CDATA[<h1 id="物质的量"><a href="#物质的量" class="headerlink" title="物质的量"></a>物质的量</h1><p>高中化学必修一；第二章 海水中的重要元素——钠和氯；第七讲 物质的量</p><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>表示含有一定数目粒子的集合体</p><h2 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h2><p>使用<code>n</code>表示</p><h2 id="单位"><a href="#单位" class="headerlink" title="单位"></a>单位</h2><p>摩尔，简称摩，符号为mol</p><h2 id="表示方法"><a href="#表示方法" class="headerlink" title="表示方法"></a>表示方法</h2><p>    <code>x</code> <code>mol</code> <code>化学式</code></p><p>例如：</p><ul><li><p>0.5mol $H_2O$ </p></li><li><p>1 mol $H^+$</p></li><li><p>2 mol $CO_3^{2-}$</p></li><li><p>4 mol 氧原子</p></li></ul><h2 id="易错点"><a href="#易错点" class="headerlink" title="易错点"></a>易错点</h2><ul><li><p>用摩尔表示物质的量时必须指定微粒的名称、符号或化学式。<strong>可以使用中文</strong>，只要不引起歧义</p></li><li><p>“物质的量”为一个专有名词。“物质的量”<strong>既不</strong>表示物质的数量，<strong>也不</strong>表示物质的质量。</p></li><li><p>摩尔不是物理量，是<strong>物质的量</strong>这一基本物理量的<strong>单位</strong></p></li><li><p>物质的量不能表示宏观物质</p></li></ul><h2 id="“物质的量”总结"><a href="#“物质的量”总结" class="headerlink" title="“物质的量”总结"></a>“物质的量”总结</h2><pre><code class=" mermaid">graph LRA[&quot;物质的量&quot;]--定义--&gt;id1([表示含有一定数目粒子的集合体])A--表示符号--&gt;id2&#123;n&#125;A--单位--&gt;摩尔,简称摩,符号为molA--使用对象--&gt;所有微观粒子</code></pre><hr><h1 id="阿伏加德罗常数"><a href="#阿伏加德罗常数" class="headerlink" title="阿伏加德罗常数"></a>阿伏加德罗常数</h1><h2 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h2><p>国际上定义1 mol粒子的集合体所含的粒子数与0.012kg $^{12}$C中所含有的碳原子数目相同，约为$6.02\times10^{23}$。1 mol任意粒子的粒子数叫做阿伏加德罗常数。</p><h2 id="符号-1"><a href="#符号-1" class="headerlink" title="符号"></a>符号</h2><p>阿伏加德罗常数使用符号 $N_A$ 表示</p><h2 id="单位-1"><a href="#单位-1" class="headerlink" title="单位"></a>单位</h2><p>$mol^{-1}$</p><h2 id="近似值"><a href="#近似值" class="headerlink" title="近似值"></a>近似值</h2><p>1$N_A$ $\approx$ $6.02\times10^{23}$</p><h2 id="计算公式"><a href="#计算公式" class="headerlink" title="计算公式"></a>计算公式</h2><table><thead><tr><th align="center">公式</th><th align="center">理解</th></tr></thead><tbody><tr><td align="center">$n&#x3D;\frac{N}{N_A}$</td><td align="center">$物质的量&#x3D;\frac{粒子总数}{阿伏加德罗常数}$</td></tr><tr><td align="center">$N&#x3D;n\cdot N_A$</td><td align="center">$粒子总数&#x3D;物质的量\cdot 阿伏加德罗常数$</td></tr><tr><td align="center">$N_A&#x3D;\frac{N}{n}$</td><td align="center">$阿伏加德罗常数&#x3D;\frac{粒子总数}{物质的量}$</td></tr></tbody></table><blockquote><p><code>n</code>为<a href="#%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F">物质的量</a></p><p>N为粒子数</p></blockquote><h2 id="理解记忆"><a href="#理解记忆" class="headerlink" title="理解记忆"></a>理解记忆</h2><ol><li><p><u>阿伏加德罗常数是一个有<a href="#%E5%8D%95%E4%BD%8D-1">单位</a>的物理量，不是一个纯数字</u>。（类似于圆周率$\pi$，但是有单位）</p></li><li><p>使用<strong>物质含有的粒子总量</strong><code>N</code> 除以 <strong>一个单位物质的量</strong> 所含有的 粒子数 等于 该物质含有几个 单位物质的量。</p><blockquote><p>形象记忆：假如求一袋大米有多少粒。整整一袋大米不可能去数有多少粒，但是如果知道一小碗可以装多少粒大米，就可以用碗快速地算出一袋大米有多少碗米，进而算出一袋大米有多少粒。</p><p><code>一袋大米</code>：物质含有的粒子总量—&gt;<code>N</code></p><p><code>一碗米的粒数</code>：一个单位物质的量—&gt;$N_A$</p><p><code>物质的量</code>：一袋大米有多少碗米—&gt;<code>n</code></p></blockquote></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+      <category>高中</category>
+      
+      <category>化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高中</tag>
+      
+      <tag>化学</tag>
+      
+      <tag>内卷笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>氯及其化合物</title>
+    <link href="/2022/11/19/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/"/>
+    <url>/2022/11/19/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</url>
+    
+    <content type="html"><![CDATA[<h1 id="氯单质–-cl-2"><a href="#氯单质–-cl-2" class="headerlink" title="氯单质–$cl_2$"></a>氯单质–$cl_2$</h1><h2 id="物理性质"><a href="#物理性质" class="headerlink" title="物理性质"></a>物理性质</h2><ul><li><p>气态</p></li><li><p>黄绿色</p><img src="https://img2.baidu.com/it/u=3759710032,3643689725&fm=253&fmt=auto&app=138&f=JPEG?w=151&h=160" title="" alt="https://img1.baidu.com/it/u=2744913012,3117706635&fm=253&fmt=auto&app=138&f=JPEG?w=204&h=220" width="61"></li><li><p>有刺激性气味</p></li><li><p>有毒</p></li><li><p>密度比空气大</p></li><li><p>可溶于水</p><div class="note note-info">            <p>由于氯气密度比空气大，且可溶于水，</p><p>所以收集时使用<a href="https://baike.baidu.com/item/%E5%90%91%E4%B8%8A%E6%8E%92%E7%A9%BA%E6%B0%94%E6%B3%95#1"><strong>向上排空气法</strong></a></p>          </div></li><li><p>易液化</p><div class="note note-info">            <p>储存在钢瓶当中（绿色）</p>          </div></li></ul><h2 id="化学性质"><a href="#化学性质" class="headerlink" title="化学性质"></a>化学性质</h2><p>易得电子，表现出强<strong>氧化性</strong>，很活泼</p><h3 id="与金属反应"><a href="#与金属反应" class="headerlink" title="与金属反应"></a>与金属反应</h3><table><thead><tr><th align="center">金属</th><th align="center">化学方程式</th><th align="center">现象</th><th align="center">溶液颜色</th></tr></thead><tbody><tr><td align="center">Na</td><td align="center">$\ce{2Na + cl_2 \xlongequal[]{点燃} 2Nacl}$</td><td align="center">剧烈燃烧，产生白<strong>烟</strong></td><td align="center">\</td></tr><tr><td align="center">Fe</td><td align="center">$\ce{2Fe + 3cl_2 \xlongequal[]{点燃} 2Fecl_3}$</td><td align="center">剧烈燃烧，产生棕褐色烟</td><td align="center">\</td></tr><tr><td align="center">Cu</td><td align="center">$\ce{Cu + cl_2 \xlongequal[]{点燃} Cucl_2}$</td><td align="center">剧烈燃烧，产生棕黄色烟</td><td align="center">浓溶液-黄绿色；稀溶液：蓝色</td></tr></tbody></table><h3 id="与非金属反应"><a href="#与非金属反应" class="headerlink" title="与非金属反应"></a>与非金属反应</h3><table><thead><tr><th align="center">物质</th><th align="center">化学方程式</th><th align="center">现象</th></tr></thead><tbody><tr><td align="center">$H_2$</td><td align="center">$\ce{H_2 + cl_2 \xlongequal[]{点燃} 2HCl}$</td><td align="center">安静地燃烧，发出苍白色火焰，瓶口有白雾<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="HCl分子挥发后与水蒸气结合形成白雾">[1]</span></a></sup>出现</td></tr><tr><td align="center">$H_2$</td><td align="center">$\ce{H_2 + cl_2 \xlongequal[]{光照} 2HCl}$</td><td align="center"><strong>爆炸</strong></td></tr><tr><td align="center">P</td><td align="center">$\ce{2P + 3cl_2(少) \xlongequal[]{点燃} 2PCl_3}$</td><td align="center">剧烈燃烧，产生白雾</td></tr><tr><td align="center">P</td><td align="center">$\ce{2P + 5cl_2(多) \xlongequal[]{点燃} 2PCl_5}$</td><td align="center">剧烈燃烧，产生白烟</td></tr></tbody></table><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>HCl分子挥发后与水蒸气结合形成白雾<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+      <category>高中</category>
+      
+      <category>化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高中</tag>
+      
+      <tag>化学</tag>
+      
+      <tag>内卷笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>高一物理公式总结</title>
+    <link href="/2022/11/12/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
+    <url>/2022/11/12/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</url>
+    
+    <content type="html"><![CDATA[<h1 id="高一物理公式总结"><a href="#高一物理公式总结" class="headerlink" title="高一物理公式总结"></a>高一物理公式总结</h1><h2 id="加速度-acceleration"><a href="#加速度-acceleration" class="headerlink" title="加速度(acceleration)"></a>加速度(acceleration)</h2><p>用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向</p><h3 id="a-x3D-frac-Delta-v-Delta-t"><a href="#a-x3D-frac-Delta-v-Delta-t" class="headerlink" title="$$a&#x3D;\frac{\Delta v}{\Delta t}$$"></a>$$a&#x3D;\frac{\Delta v}{\Delta t}$$</h3><blockquote><p>$\Delta v$为速度变化量，$\Delta t$为发生这个变化所需要的时间</p></blockquote><hr><h2 id="速度方程"><a href="#速度方程" class="headerlink" title="速度方程"></a>速度方程</h2><p>匀变速直线运动的速度与时间的关系式</p><h3 id="v-t-x3D-v-0-at"><a href="#v-t-x3D-v-0-at" class="headerlink" title="$$v_t&#x3D;v_0+at$$"></a>$$v_t&#x3D;v_0+at$$</h3><blockquote><p>$v_t$，$v_0$和加速度 a 都是矢量</p><p>加速度 a 在式中作为常量存在</p></blockquote><hr><h2 id="位移方程"><a href="#位移方程" class="headerlink" title="位移方程"></a>位移方程</h2><p>匀变速直线运动的位移与时间的关系式</p><h3 id="x-x3D-v-0-t-frac-1-2-at-2"><a href="#x-x3D-v-0-t-frac-1-2-at-2" class="headerlink" title="$$x&#x3D;v_0 t+\frac{1}{2}at^2$$"></a>$$x&#x3D;v_0 t+\frac{1}{2}at^2$$</h3><hr><h2 id="位移差公式"><a href="#位移差公式" class="headerlink" title="位移差公式"></a>位移差公式</h2><p>在匀变速直线运动中，相邻两段相同时间的位移差</p><h3 id="Delta-x-x3D-at-2"><a href="#Delta-x-x3D-at-2" class="headerlink" title="$$\Delta x&#x3D;at^2$$"></a>$$\Delta x&#x3D;at^2$$</h3><hr><h2 id="速度位移公式"><a href="#速度位移公式" class="headerlink" title="速度位移公式"></a>速度位移公式</h2><h3 id="v-t-2-v-0-2-x3D-2ax"><a href="#v-t-2-v-0-2-x3D-2ax" class="headerlink" title="$$v_t^2-v_0^2&#x3D;2ax$$"></a>$$v_t^2-v_0^2&#x3D;2ax$$</h3><blockquote><p>特点：计算时不涉及时间</p></blockquote><hr><h2 id="位移中点瞬时速度公式"><a href="#位移中点瞬时速度公式" class="headerlink" title="位移中点瞬时速度公式"></a>位移中点瞬时速度公式</h2><h3 id="v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2"><a href="#v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2" class="headerlink" title="$$v_\frac{x}{2}&#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$"></a>$$v_\frac{x}{2}&#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$</h3><details><summary>证明过程</summary><p>$v_\frac{x}{2} ^2-v_0^2=2a\times\frac{x}{2}$</p><p>移项可得：$v_\frac{x}{2} ^2=ax+v_0^2$ ①</p><p>$v_t^2-v_\frac{x}{2}^2=2a\times\frac{x}{2}$</p><p>化简可得：$v_t^2-v_\frac{x}{2}^2=ax$ ②</p><p>将②代入①可得：$v_\frac{x}{2} ^2=v_t^2-v_\frac{x}{2}^2+v_0^2$</p><p>化简可得：$2v_\frac{x}{2} ^2=v_0^2+v_t^2$</p><p>最终得：$v_\frac{x}{2}=\sqrt{\frac{v_0^2+v_t^2}{2}}$</p></details><hr><h2 id="胡克定律"><a href="#胡克定律" class="headerlink" title="胡克定律"></a>胡克定律</h2><p>在弹性限度内，弹簧弹力 F 的大小与弹簧的伸长量成正比。</p><p>$$F&#x3D;kx$$</p><blockquote><p>比例系数 k 称为弹簧的<strong>劲度系数</strong></p></blockquote><hr><h2 id="滑动摩擦力公式"><a href="#滑动摩擦力公式" class="headerlink" title="滑动摩擦力公式"></a>滑动摩擦力公式</h2><p>$$f&#x3D;\mu N$$</p><blockquote><p>比例系数$\mu$叫做<strong>动摩擦因数</strong>，是两个力的比值，没有单位。</p><p>$\mu$的大小仅与两个接触面的材料、粗糙程度等情况有关。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+      <category>高中</category>
+      
+      <category>物理</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高中</tag>
+      
+      <tag>物理</tag>
+      
+      <tag>总结</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>HTML-容器元素</title>
+    <link href="/2022/11/06/html-container-element/"/>
+    <url>/2022/11/06/html-container-element/</url>
+    
+    <content type="html"><![CDATA[<h1 id="容器元素"><a href="#容器元素" class="headerlink" title="容器元素"></a>容器元素</h1><p>HTML 学习 - 容器元素</p><span id="more"></span><h2 id="div-元素"><a href="#div-元素" class="headerlink" title="div 元素"></a>div 元素</h2><p>作用：分割网页，达到不同区域实现不同样式，不同功能，应用广泛</p><blockquote><p>注：div 标签没有任何语义</p></blockquote><h2 id="其他容器元素"><a href="#其他容器元素" class="headerlink" title="其他容器元素"></a>其他容器元素</h2><p>在 html5 中，为了解决语义化的问题，方便搜索引擎和浏览器识别网页内容，引入了许多有语义的容器标签</p><h3 id="header元素"><a href="#header元素" class="headerlink" title="- header元素"></a>- <code>header</code>元素</h3><p>通常用于表示页头；有时也可以表示文章的头部。<br>例：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span><br></code></pre></td></tr></table></figure><h3 id="footer元素"><a href="#footer元素" class="headerlink" title="- footer元素"></a>- <code>footer</code>元素</h3><p>通常用于表示页脚；有时也可以表示文章的尾部。<br>例：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span><br></code></pre></td></tr></table></figure><h3 id="article元素"><a href="#article元素" class="headerlink" title="- article元素"></a>- <code>article</code>元素</h3><p>通常用于表示整篇文章<br>例：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>页头<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>正文<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>页尾<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span><br></code></pre></td></tr></table></figure><blockquote><p>注：<code>article</code>, <code>header</code>和<code>footer</code>与<code>div</code>在本质上没有区别，只是它们有语义，方便语义化</p></blockquote><h3 id="section元素"><a href="#section元素" class="headerlink" title="- section元素"></a>- <code>section</code>元素</h3><p>通常表示文章的章节<br>例：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>第一章<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>第一章内容<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span><br><br><span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>第二章<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>第二章内容<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span><br></code></pre></td></tr></table></figure><h3 id="aside元素"><a href="#aside元素" class="headerlink" title="- aside元素"></a>- <code>aside</code>元素</h3><p>通常表示附加信息<br>例：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">aside</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>侧边栏信息<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span><br></code></pre></td></tr></table></figure><h3 id="nav元素"><a href="#nav元素" class="headerlink" title="- nav元素"></a>- <code>nav</code>元素</h3><p>导航元素<br>例：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>百度<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>谷歌<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>必应<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+      <category>html</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>html</tag>
+      
+      <tag>编程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
