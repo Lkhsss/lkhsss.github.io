@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lkhsss.github.io</id>
+    <title>LKH的网站 • Posts by &#34;内卷笔记&#34; tag</title>
+    <link href="https://lkhsss.github.io" />
+    <updated>2022-11-26T14:12:20.000Z</updated>
+    <category term="html" />
+    <category term="编程" />
+    <category term="Python" />
+    <category term="高中" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="物理" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="数学" />
+    <entry>
+        <id>https://lkhsss.github.io/2022/11/26/%E5%8C%96%E5%AD%A6-%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</id>
+        <title>物质的量</title>
+        <link rel="alternate" href="https://lkhsss.github.io/2022/11/26/%E5%8C%96%E5%AD%A6-%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/"/>
+        <content type="html">&lt;h1 id=&#34;物质的量&#34;&gt;&lt;a href=&#34;#物质的量&#34; class=&#34;headerlink&#34; title=&#34;物质的量&#34;&gt;&lt;/a&gt;物质的量&lt;/h1&gt;&lt;p&gt;高中化学必修一；第二章 海水中的重要元素——钠和氯；第七讲 物质的量&lt;/p&gt;
+&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#定义&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;表示含有一定数目粒子的集合体&lt;/p&gt;
+&lt;h2 id=&#34;符号&#34;&gt;&lt;a href=&#34;#符号&#34; class=&#34;headerlink&#34; title=&#34;符号&#34;&gt;&lt;/a&gt;符号&lt;/h2&gt;&lt;p&gt;使用&lt;code&gt;n&lt;/code&gt;表示&lt;/p&gt;
+&lt;h2 id=&#34;单位&#34;&gt;&lt;a href=&#34;#单位&#34; class=&#34;headerlink&#34; title=&#34;单位&#34;&gt;&lt;/a&gt;单位&lt;/h2&gt;&lt;p&gt;摩尔，简称摩，符号为mol&lt;/p&gt;
+&lt;h2 id=&#34;表示方法&#34;&gt;&lt;a href=&#34;#表示方法&#34; class=&#34;headerlink&#34; title=&#34;表示方法&#34;&gt;&lt;/a&gt;表示方法&lt;/h2&gt;&lt;p&gt;    &lt;code&gt;x&lt;/code&gt; &lt;code&gt;mol&lt;/code&gt; &lt;code&gt;化学式&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;0.5mol $H_2O$ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 mol $H^+$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2 mol $CO_3^{2-}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;4 mol 氧原子&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;易错点&#34;&gt;&lt;a href=&#34;#易错点&#34; class=&#34;headerlink&#34; title=&#34;易错点&#34;&gt;&lt;/a&gt;易错点&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;用摩尔表示物质的量时必须指定微粒的名称、符号或化学式。&lt;strong&gt;可以使用中文&lt;/strong&gt;，只要不引起歧义&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“物质的量”为一个专有名词。“物质的量”&lt;strong&gt;既不&lt;/strong&gt;表示物质的数量，&lt;strong&gt;也不&lt;/strong&gt;表示物质的质量。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;摩尔不是物理量，是&lt;strong&gt;物质的量&lt;/strong&gt;这一基本物理量的&lt;strong&gt;单位&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;物质的量不能表示宏观物质&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;“物质的量”总结&#34;&gt;&lt;a href=&#34;#“物质的量”总结&#34; class=&#34;headerlink&#34; title=&#34;“物质的量”总结&#34;&gt;&lt;/a&gt;“物质的量”总结&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34; mermaid&#34;&gt;graph LR
+
+A[&amp;quot;物质的量&amp;quot;]--定义--&amp;gt;id1([表示含有一定数目粒子的集合体])
+A--表示符号--&amp;gt;id2&amp;#123;n&amp;#125;
+A--单位--&amp;gt;摩尔,简称摩,符号为mol
+A--使用对象--&amp;gt;所有微观粒子
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+&lt;h1 id=&#34;阿伏加德罗常数&#34;&gt;&lt;a href=&#34;#阿伏加德罗常数&#34; class=&#34;headerlink&#34; title=&#34;阿伏加德罗常数&#34;&gt;&lt;/a&gt;阿伏加德罗常数&lt;/h1&gt;&lt;h2 id=&#34;定义-1&#34;&gt;&lt;a href=&#34;#定义-1&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;国际上定义1 mol粒子的集合体所含的粒子数与0.012kg $^{12}$C中所含有的碳原子数目相同，约为$6.02\times10^{23}$。1 mol任意粒子的粒子数叫做阿伏加德罗常数。&lt;/p&gt;
+&lt;h2 id=&#34;符号-1&#34;&gt;&lt;a href=&#34;#符号-1&#34; class=&#34;headerlink&#34; title=&#34;符号&#34;&gt;&lt;/a&gt;符号&lt;/h2&gt;&lt;p&gt;阿伏加德罗常数使用符号 $N_A$ 表示&lt;/p&gt;
+&lt;h2 id=&#34;单位-1&#34;&gt;&lt;a href=&#34;#单位-1&#34; class=&#34;headerlink&#34; title=&#34;单位&#34;&gt;&lt;/a&gt;单位&lt;/h2&gt;&lt;p&gt;$mol^{-1}$&lt;/p&gt;
+&lt;h2 id=&#34;近似值&#34;&gt;&lt;a href=&#34;#近似值&#34; class=&#34;headerlink&#34; title=&#34;近似值&#34;&gt;&lt;/a&gt;近似值&lt;/h2&gt;&lt;p&gt;1$N_A$ $\approx$ $6.02\times10^{23}$&lt;/p&gt;
+&lt;h2 id=&#34;计算公式&#34;&gt;&lt;a href=&#34;#计算公式&#34; class=&#34;headerlink&#34; title=&#34;计算公式&#34;&gt;&lt;/a&gt;计算公式&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;公式&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;理解&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$n&amp;#x3D;\frac{N}{N_A}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$物质的量&amp;#x3D;\frac{粒子总数}{阿伏加德罗常数}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$N&amp;#x3D;n\cdot N_A$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$粒子总数&amp;#x3D;物质的量\cdot 阿伏加德罗常数$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$N_A&amp;#x3D;\frac{N}{n}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$阿伏加德罗常数&amp;#x3D;\frac{粒子总数}{物质的量}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;n&lt;/code&gt;为&lt;a href=&#34;#%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F&#34;&gt;物质的量&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;N为粒子数&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;理解记忆&#34;&gt;&lt;a href=&#34;#理解记忆&#34; class=&#34;headerlink&#34; title=&#34;理解记忆&#34;&gt;&lt;/a&gt;理解记忆&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;u&gt;阿伏加德罗常数是一个有&lt;a href=&#34;#%E5%8D%95%E4%BD%8D-1&#34;&gt;单位&lt;/a&gt;的物理量，不是一个纯数字&lt;/u&gt;。（类似于圆周率$\pi$，但是有单位）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用&lt;strong&gt;物质含有的粒子总量&lt;/strong&gt;&lt;code&gt;N&lt;/code&gt; 除以 &lt;strong&gt;一个单位物质的量&lt;/strong&gt; 所含有的 粒子数 等于 该物质含有几个 单位物质的量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;形象记忆：假如求一袋大米有多少粒。整整一袋大米不可能去数有多少粒，但是如果知道一小碗可以装多少粒大米，就可以用碗快速地算出一袋大米有多少碗米，进而算出一袋大米有多少粒。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;一袋大米&lt;/code&gt;：物质含有的粒子总量—&amp;gt;&lt;code&gt;N&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;一碗米的粒数&lt;/code&gt;：一个单位物质的量—&amp;gt;$N_A$&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;物质的量&lt;/code&gt;：一袋大米有多少碗米—&amp;gt;&lt;code&gt;n&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;摩尔质量&#34;&gt;&lt;a href=&#34;#摩尔质量&#34; class=&#34;headerlink&#34; title=&#34;摩尔质量&#34;&gt;&lt;/a&gt;摩尔质量&lt;/h1&gt;</content>
+        <category term="高中" />
+        <category term="化学" />
+        <category term="内卷笔记" />
+        <updated>2022-11-26T14:12:20.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://lkhsss.github.io/2022/11/19/%E5%8C%96%E5%AD%A6-%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</id>
+        <title>氯及其化合物</title>
+        <link rel="alternate" href="https://lkhsss.github.io/2022/11/19/%E5%8C%96%E5%AD%A6-%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/"/>
+        <content type="html">&lt;h1 id=&#34;氯单质–-cl-2&#34;&gt;&lt;a href=&#34;#氯单质–-cl-2&#34; class=&#34;headerlink&#34; title=&#34;氯单质–$cl_2$&#34;&gt;&lt;/a&gt;氯单质–$cl_2$&lt;/h1&gt;&lt;h2 id=&#34;物理性质&#34;&gt;&lt;a href=&#34;#物理性质&#34; class=&#34;headerlink&#34; title=&#34;物理性质&#34;&gt;&lt;/a&gt;物理性质&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;气态&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;黄绿色&lt;/p&gt;
+&lt;img src=&#34;https://img2.baidu.com/it/u=3759710032,3643689725&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=151&amp;h=160&#34; title=&#34;&#34; alt=&#34;https://img1.baidu.com/it/u=2744913012,3117706635&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=204&amp;h=220&#34; width=&#34;61&#34;&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有刺激性气味&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有毒&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;密度比空气大&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;可溶于水&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;由于氯气密度比空气大，且可溶于水，&lt;/p&gt;&lt;p&gt;所以收集时使用&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%91%E4%B8%8A%E6%8E%92%E7%A9%BA%E6%B0%94%E6%B3%95#1&#34;&gt;&lt;strong&gt;向上排空气法&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;易液化&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;储存在钢瓶当中（绿色）&lt;/p&gt;
+          &lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;化学性质&#34;&gt;&lt;a href=&#34;#化学性质&#34; class=&#34;headerlink&#34; title=&#34;化学性质&#34;&gt;&lt;/a&gt;化学性质&lt;/h2&gt;&lt;p&gt;易得电子，表现出强&lt;strong&gt;氧化性&lt;/strong&gt;，很活泼&lt;/p&gt;
+&lt;h3 id=&#34;与金属反应&#34;&gt;&lt;a href=&#34;#与金属反应&#34; class=&#34;headerlink&#34; title=&#34;与金属反应&#34;&gt;&lt;/a&gt;与金属反应&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;金属&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;化学方程式&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;现象&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;溶液颜色&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Na&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2Na + cl_2 \xlongequal[]{点燃} 2Nacl}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白&lt;strong&gt;烟&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;\&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Fe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2Fe + 3cl_2 \xlongequal[]{点燃} 2Fecl_3}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生棕褐色烟&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;\&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Cu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{Cu + cl_2 \xlongequal[]{点燃} Cucl_2}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生棕黄色烟&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;浓溶液-黄绿色；稀溶液：蓝色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&#34;与非金属反应&#34;&gt;&lt;a href=&#34;#与非金属反应&#34; class=&#34;headerlink&#34; title=&#34;与非金属反应&#34;&gt;&lt;/a&gt;与非金属反应&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;物质&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;化学方程式&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;现象&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$H_2$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{H_2 + cl_2 \xlongequal[]{点燃} 2HCl}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安静地燃烧，发出苍白色火焰，瓶口有白雾&lt;sup id=&#34;fnref:1&#34; class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn:1&#34; rel=&#34;footnote&#34;&gt;&lt;span class=&#34;hint--top hint--rounded&#34; aria-label=&#34;HCl分子挥发后与水蒸气结合形成白雾&#34;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;出现&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$H_2$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{H_2 + cl_2 \xlongequal[]{光照} 2HCl}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;爆炸&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;P&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2P + 3cl_2(少) \xlongequal[]{点燃} 2PCl_3}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白雾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;P&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2P + 5cl_2(多) \xlongequal[]{点燃} 2PCl_5}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白烟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
+&lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
+        <category term="高中" />
+        <category term="化学" />
+        <category term="内卷笔记" />
+        <updated>2022-11-19T15:48:51.000Z</updated>
+    </entry>
+</feed>

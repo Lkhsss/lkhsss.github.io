@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>LKH的网站</title>
+        <link>https://lkhsss.github.io</link>
+        <description>一个年轻程序猿的主页，包含了很多东西......</description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
+        <lastBuildDate>Thu, 15 Dec 2022 00:04:09 +0800</lastBuildDate>
+        <category>html</category>
+        <category>编程</category>
+        <category>Python</category>
+        <category>高中</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
+        <category>物理</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>数学</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
+            <title>三角函数诱导公式</title>
+            <link>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
+            <category>高中</category>
+            <category>公式</category>
+            <category>总结</category>
+            <category>数学</category>
+            <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式一.72wdanc6c140.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;287&#34;&gt;
+
+&lt;p&gt;设α为任意角,终边相同的角的同名三角函数的值相等&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-alpha-2k-pi-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-alpha-2k-pi-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\alpha+2k\pi)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\alpha+2k\pi)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-alpha-2k-pi-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-2k-pi-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-alpha-2k-pi-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-2k-pi-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式二.20aio1igg00w.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;282&#34;&gt;
+
+&lt;p&gt;设α为任意角，π+α的三角函数值与α的三角函数值之间的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-pi-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-pi-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\pi+\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\pi+\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式三.16d4ijgd80ps.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;278&#34;&gt;
+
+&lt;p&gt;任意角α与 -α的三角函数值之间的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(-\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(-\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式四.5hishprhs9s0.webp&#34; alt=&#34;诱导公式四&#34; width=&#34;299&#34;&gt;
+
+&lt;p&gt;π-α与α的三角函数值之间的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-pi-alpha-x3D-sin-alpha-1&#34;&gt;&lt;a href=&#34;#sin-pi-alpha-x3D-sin-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\pi-\alpha)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\pi-\alpha)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha-1&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha-1&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/12/10/Python-python-click/</guid>
+            <title>python-Click库</title>
+            <link>https://lkhsss.github.io/2022/12/10/Python-python-click/</link>
+            <category>编程</category>
+            <category>Python</category>
+            <pubDate>Sat, 10 Dec 2022 10:20:24 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;Click&#34;&gt;&lt;a href=&#34;#Click&#34; class=&#34;headerlink&#34; title=&#34;Click&#34;&gt;&lt;/a&gt;Click&lt;/h1&gt;&lt;p&gt;Click全名&lt;em&gt;Command Line Interface Creation Kit&lt;/em&gt;，是一个用于构建命令行的第三方库，相较于Python自带的&lt;a href=&#34;https://docs.python.org/zh-cn/3/library/argparse.html&#34;&gt;Argparse&lt;/a&gt;更加友好和易用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;官方文档：&lt;a href=&#34;https://palletsprojects.com/p/click/&#34;&gt;Click | The Pallets Projects&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PyPI：&lt;a href=&#34;https://pypi.org/project/click/&#34;&gt;Click · PyPI&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;安装&#34;&gt;&lt;a href=&#34;#安装&#34; class=&#34;headerlink&#34; title=&#34;安装&#34;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;&lt;code&gt;pip install click&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;用法&#34;&gt;&lt;a href=&#34;#用法&#34; class=&#34;headerlink&#34; title=&#34;用法&#34;&gt;&lt;/a&gt;用法&lt;/h2&gt;&lt;p&gt;引用库&lt;code&gt;import click&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;click-command&#34;&gt;&lt;a href=&#34;#click-command&#34; class=&#34;headerlink&#34; title=&#34;@click.command()&#34;&gt;&lt;/a&gt;@click.command()&lt;/h3&gt;&lt;p&gt;使用&lt;code&gt;@click.command()&lt;/code&gt;修饰想要构建为命令行命令的函数&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs python&#34;&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;&amp;#x27;&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;filename: test.py&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;&amp;#x27;&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; click&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-meta&#34;&gt;@click.command()  &lt;/span&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 为函数`test()`添加修饰器&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;test&lt;/span&gt;():&lt;br&gt;    click.echo(&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;测试函数，没有什么卵用&amp;quot;&lt;/span&gt;)&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;if&lt;/span&gt; __name__ == &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;:&lt;br&gt;    test()&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;添加后和没有加没有任何不同，因为没有使用&lt;code&gt;@click.option()&lt;/code&gt;进行命令行选项的进一步设置&lt;/p&gt;
+&lt;p&gt;使用&lt;code&gt;click.echo()&lt;/code&gt;是为了更好的终端兼容性&lt;/p&gt;
+&lt;h3 id=&#34;click-option&#34;&gt;&lt;a href=&#34;#click-option&#34; class=&#34;headerlink&#34; title=&#34;@click.option()&#34;&gt;&lt;/a&gt;@click.option()&lt;/h3&gt;&lt;p&gt;使用&lt;code&gt;@click.option()&lt;/code&gt;增加修饰选项&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs python&#34;&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;&amp;#x27;&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;filename: test.py&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;&amp;#x27;&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; click&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-meta&#34;&gt;@click.command()  &lt;/span&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 为函数`test()`添加修饰器&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-meta&#34;&gt;@click.option(&lt;span class=&#34;hljs-params&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;-n&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;--name&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    prompt=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;请输入你的名字&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    default=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;无名氏&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-built_in&#34;&gt;help&lt;/span&gt;=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;你的名字。默认值为“无名氏”&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-built_in&#34;&gt;type&lt;/span&gt;=&lt;span class=&#34;hljs-built_in&#34;&gt;str&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;&lt;/span&gt;) &lt;/span&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 设置参数&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;test&lt;/span&gt;(&lt;span class=&#34;hljs-params&#34;&gt;name&lt;/span&gt;):&lt;br&gt;    click.echo((&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;你输入的名字为：&amp;#123;&amp;#125;&amp;quot;&lt;/span&gt;).&lt;span class=&#34;hljs-built_in&#34;&gt;format&lt;/span&gt;(name)) &lt;span class=&#34;hljs-comment&#34;&gt;#输出&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;if&lt;/span&gt; __name__ == &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;: &lt;span class=&#34;hljs-comment&#34;&gt;# 程序入口&lt;/span&gt;&lt;br&gt;    test()&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;lkhsss@LKH-PC:~$ python test.py -n LKH&lt;br&gt;你输入的名字为：LKH&lt;br&gt;&lt;br&gt;lkhsss@LKH-PC:~$ python test.py&lt;br&gt;请输入你的名字 [无名氏]: LKH&lt;br&gt;你输入的名字为：LKH&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;@click.option()&lt;/code&gt;接受一种参数多种名字，上例的&lt;code&gt;-n&lt;/code&gt;和&lt;code&gt;--name&lt;/code&gt;都指向了一个函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用&lt;code&gt;prompt&lt;/code&gt;指定必须要求输入的参数在没有传入时显示的提示&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;blockquote&gt;
+&lt;p&gt;当使用了&lt;code&gt;prompt&lt;/code&gt;时，click会认为该参数为必须项，会主动询问参数的值&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用&lt;code&gt;help&lt;/code&gt;指定该参数的帮助信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用&lt;code&gt;type&lt;/code&gt;指定传入数据的类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用&lt;code&gt;type=click.Choice[&amp;#39;A&amp;#39;,&amp;#39;B&amp;#39;]&lt;/code&gt;限制该参数只能从A和B中选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;菜单选项&#34;&gt;&lt;a href=&#34;#菜单选项&#34; class=&#34;headerlink&#34; title=&#34;菜单选项&#34;&gt;&lt;/a&gt;菜单选项&lt;/h3&gt;&lt;p&gt;配置好参数后，click自动为我们准备了&lt;code&gt;--help&lt;/code&gt;选项，其中包含了我们在&lt;code&gt;help&lt;/code&gt;中加入的帮助信息&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;lkhsss@LKH-PC:~$ python test.py --&lt;span class=&#34;hljs-built_in&#34;&gt;help&lt;/span&gt;&lt;br&gt;Usage: test.py [OPTIONS]&lt;br&gt;&lt;br&gt;Options:&lt;br&gt;  -n, --name TEXT  你的名字。默认值为“无名氏”&lt;br&gt;  --&lt;span class=&#34;hljs-built_in&#34;&gt;help&lt;/span&gt;           Show this message and &lt;span class=&#34;hljs-built_in&#34;&gt;exit&lt;/span&gt;.&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;示例&#34;&gt;&lt;a href=&#34;#示例&#34; class=&#34;headerlink&#34; title=&#34;示例&#34;&gt;&lt;/a&gt;示例&lt;/h2&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs python&#34;&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;&amp;#x27;&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;filename: test.py&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;author: Lkhsss&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;&amp;#x27;&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;import&lt;/span&gt; click&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-meta&#34;&gt;@click.command()  &lt;/span&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 为函数`test()`添加修饰器&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-meta&#34;&gt;@click.option(&lt;span class=&#34;hljs-params&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;-n&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;--name&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    prompt=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;请输入你的名字&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    default=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;无名氏&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-built_in&#34;&gt;help&lt;/span&gt;=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;你的名字，传入参数后将显示在输出中。默认值为“无名氏”&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-built_in&#34;&gt;type&lt;/span&gt;=&lt;span class=&#34;hljs-built_in&#34;&gt;str&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 选择可以传入`test()`的参数&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 可以使用多个参数名，输入&amp;quot;-n&amp;quot;，&amp;quot;--name&amp;quot;都会指向`test()`函数&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 使用default参数设置参数默认值&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;# 使用help参数设置帮助菜单&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-meta&#34;&gt;@click.option(&lt;span class=&#34;hljs-params&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;-c&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;--count&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    prompt=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;请输入循环次数&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    default=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-built_in&#34;&gt;help&lt;/span&gt;=&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;显示名字次数，默认值为1&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;    &lt;span class=&#34;hljs-built_in&#34;&gt;type&lt;/span&gt;=&lt;span class=&#34;hljs-built_in&#34;&gt;int&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-params&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;test&lt;/span&gt;(&lt;span class=&#34;hljs-params&#34;&gt;name, count&lt;/span&gt;):&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; i &lt;span class=&#34;hljs-keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;hljs-built_in&#34;&gt;range&lt;/span&gt;(count):&lt;br&gt;        click.echo((&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;&amp;#123;&amp;#125;，你好。&amp;quot;&lt;/span&gt;).&lt;span class=&#34;hljs-built_in&#34;&gt;format&lt;/span&gt;(name))&lt;br&gt;    click.echo(&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;这是一个示例函数，可以输出你在命令行中输入的名字，用来测试click库&amp;quot;&lt;/span&gt;)&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;if&lt;/span&gt; __name__ == &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;:&lt;br&gt;    test()&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/11/26/%E5%8C%96%E5%AD%A6-%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</guid>
+            <title>物质的量</title>
+            <link>https://lkhsss.github.io/2022/11/26/%E5%8C%96%E5%AD%A6-%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</link>
+            <category>高中</category>
+            <category>化学</category>
+            <category>内卷笔记</category>
+            <pubDate>Sat, 26 Nov 2022 22:12:20 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;物质的量&#34;&gt;&lt;a href=&#34;#物质的量&#34; class=&#34;headerlink&#34; title=&#34;物质的量&#34;&gt;&lt;/a&gt;物质的量&lt;/h1&gt;&lt;p&gt;高中化学必修一；第二章 海水中的重要元素——钠和氯；第七讲 物质的量&lt;/p&gt;
+&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#定义&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;表示含有一定数目粒子的集合体&lt;/p&gt;
+&lt;h2 id=&#34;符号&#34;&gt;&lt;a href=&#34;#符号&#34; class=&#34;headerlink&#34; title=&#34;符号&#34;&gt;&lt;/a&gt;符号&lt;/h2&gt;&lt;p&gt;使用&lt;code&gt;n&lt;/code&gt;表示&lt;/p&gt;
+&lt;h2 id=&#34;单位&#34;&gt;&lt;a href=&#34;#单位&#34; class=&#34;headerlink&#34; title=&#34;单位&#34;&gt;&lt;/a&gt;单位&lt;/h2&gt;&lt;p&gt;摩尔，简称摩，符号为mol&lt;/p&gt;
+&lt;h2 id=&#34;表示方法&#34;&gt;&lt;a href=&#34;#表示方法&#34; class=&#34;headerlink&#34; title=&#34;表示方法&#34;&gt;&lt;/a&gt;表示方法&lt;/h2&gt;&lt;p&gt;    &lt;code&gt;x&lt;/code&gt; &lt;code&gt;mol&lt;/code&gt; &lt;code&gt;化学式&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;0.5mol $H_2O$ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 mol $H^+$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2 mol $CO_3^{2-}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;4 mol 氧原子&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;易错点&#34;&gt;&lt;a href=&#34;#易错点&#34; class=&#34;headerlink&#34; title=&#34;易错点&#34;&gt;&lt;/a&gt;易错点&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;用摩尔表示物质的量时必须指定微粒的名称、符号或化学式。&lt;strong&gt;可以使用中文&lt;/strong&gt;，只要不引起歧义&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“物质的量”为一个专有名词。“物质的量”&lt;strong&gt;既不&lt;/strong&gt;表示物质的数量，&lt;strong&gt;也不&lt;/strong&gt;表示物质的质量。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;摩尔不是物理量，是&lt;strong&gt;物质的量&lt;/strong&gt;这一基本物理量的&lt;strong&gt;单位&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;物质的量不能表示宏观物质&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;“物质的量”总结&#34;&gt;&lt;a href=&#34;#“物质的量”总结&#34; class=&#34;headerlink&#34; title=&#34;“物质的量”总结&#34;&gt;&lt;/a&gt;“物质的量”总结&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34; mermaid&#34;&gt;graph LR
+
+A[&amp;quot;物质的量&amp;quot;]--定义--&amp;gt;id1([表示含有一定数目粒子的集合体])
+A--表示符号--&amp;gt;id2&amp;#123;n&amp;#125;
+A--单位--&amp;gt;摩尔,简称摩,符号为mol
+A--使用对象--&amp;gt;所有微观粒子
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+&lt;h1 id=&#34;阿伏加德罗常数&#34;&gt;&lt;a href=&#34;#阿伏加德罗常数&#34; class=&#34;headerlink&#34; title=&#34;阿伏加德罗常数&#34;&gt;&lt;/a&gt;阿伏加德罗常数&lt;/h1&gt;&lt;h2 id=&#34;定义-1&#34;&gt;&lt;a href=&#34;#定义-1&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;国际上定义1 mol粒子的集合体所含的粒子数与0.012kg $^{12}$C中所含有的碳原子数目相同，约为$6.02\times10^{23}$。1 mol任意粒子的粒子数叫做阿伏加德罗常数。&lt;/p&gt;
+&lt;h2 id=&#34;符号-1&#34;&gt;&lt;a href=&#34;#符号-1&#34; class=&#34;headerlink&#34; title=&#34;符号&#34;&gt;&lt;/a&gt;符号&lt;/h2&gt;&lt;p&gt;阿伏加德罗常数使用符号 $N_A$ 表示&lt;/p&gt;
+&lt;h2 id=&#34;单位-1&#34;&gt;&lt;a href=&#34;#单位-1&#34; class=&#34;headerlink&#34; title=&#34;单位&#34;&gt;&lt;/a&gt;单位&lt;/h2&gt;&lt;p&gt;$mol^{-1}$&lt;/p&gt;
+&lt;h2 id=&#34;近似值&#34;&gt;&lt;a href=&#34;#近似值&#34; class=&#34;headerlink&#34; title=&#34;近似值&#34;&gt;&lt;/a&gt;近似值&lt;/h2&gt;&lt;p&gt;1$N_A$ $\approx$ $6.02\times10^{23}$&lt;/p&gt;
+&lt;h2 id=&#34;计算公式&#34;&gt;&lt;a href=&#34;#计算公式&#34; class=&#34;headerlink&#34; title=&#34;计算公式&#34;&gt;&lt;/a&gt;计算公式&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;公式&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;理解&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$n&amp;#x3D;\frac{N}{N_A}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$物质的量&amp;#x3D;\frac{粒子总数}{阿伏加德罗常数}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$N&amp;#x3D;n\cdot N_A$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$粒子总数&amp;#x3D;物质的量\cdot 阿伏加德罗常数$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$N_A&amp;#x3D;\frac{N}{n}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$阿伏加德罗常数&amp;#x3D;\frac{粒子总数}{物质的量}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;n&lt;/code&gt;为&lt;a href=&#34;#%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F&#34;&gt;物质的量&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;N为粒子数&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;理解记忆&#34;&gt;&lt;a href=&#34;#理解记忆&#34; class=&#34;headerlink&#34; title=&#34;理解记忆&#34;&gt;&lt;/a&gt;理解记忆&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;u&gt;阿伏加德罗常数是一个有&lt;a href=&#34;#%E5%8D%95%E4%BD%8D-1&#34;&gt;单位&lt;/a&gt;的物理量，不是一个纯数字&lt;/u&gt;。（类似于圆周率$\pi$，但是有单位）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用&lt;strong&gt;物质含有的粒子总量&lt;/strong&gt;&lt;code&gt;N&lt;/code&gt; 除以 &lt;strong&gt;一个单位物质的量&lt;/strong&gt; 所含有的 粒子数 等于 该物质含有几个 单位物质的量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;形象记忆：假如求一袋大米有多少粒。整整一袋大米不可能去数有多少粒，但是如果知道一小碗可以装多少粒大米，就可以用碗快速地算出一袋大米有多少碗米，进而算出一袋大米有多少粒。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;一袋大米&lt;/code&gt;：物质含有的粒子总量—&amp;gt;&lt;code&gt;N&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;一碗米的粒数&lt;/code&gt;：一个单位物质的量—&amp;gt;$N_A$&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;物质的量&lt;/code&gt;：一袋大米有多少碗米—&amp;gt;&lt;code&gt;n&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;摩尔质量&#34;&gt;&lt;a href=&#34;#摩尔质量&#34; class=&#34;headerlink&#34; title=&#34;摩尔质量&#34;&gt;&lt;/a&gt;摩尔质量&lt;/h1&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/11/19/%E5%8C%96%E5%AD%A6-%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
+            <title>氯及其化合物</title>
+            <link>https://lkhsss.github.io/2022/11/19/%E5%8C%96%E5%AD%A6-%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</link>
+            <category>高中</category>
+            <category>化学</category>
+            <category>内卷笔记</category>
+            <pubDate>Sat, 19 Nov 2022 23:48:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;氯单质–-cl-2&#34;&gt;&lt;a href=&#34;#氯单质–-cl-2&#34; class=&#34;headerlink&#34; title=&#34;氯单质–$cl_2$&#34;&gt;&lt;/a&gt;氯单质–$cl_2$&lt;/h1&gt;&lt;h2 id=&#34;物理性质&#34;&gt;&lt;a href=&#34;#物理性质&#34; class=&#34;headerlink&#34; title=&#34;物理性质&#34;&gt;&lt;/a&gt;物理性质&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;气态&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;黄绿色&lt;/p&gt;
+&lt;img src=&#34;https://img2.baidu.com/it/u=3759710032,3643689725&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=151&amp;h=160&#34; title=&#34;&#34; alt=&#34;https://img1.baidu.com/it/u=2744913012,3117706635&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=204&amp;h=220&#34; width=&#34;61&#34;&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有刺激性气味&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有毒&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;密度比空气大&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;可溶于水&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;由于氯气密度比空气大，且可溶于水，&lt;/p&gt;&lt;p&gt;所以收集时使用&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%91%E4%B8%8A%E6%8E%92%E7%A9%BA%E6%B0%94%E6%B3%95#1&#34;&gt;&lt;strong&gt;向上排空气法&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;易液化&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;储存在钢瓶当中（绿色）&lt;/p&gt;
+          &lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;化学性质&#34;&gt;&lt;a href=&#34;#化学性质&#34; class=&#34;headerlink&#34; title=&#34;化学性质&#34;&gt;&lt;/a&gt;化学性质&lt;/h2&gt;&lt;p&gt;易得电子，表现出强&lt;strong&gt;氧化性&lt;/strong&gt;，很活泼&lt;/p&gt;
+&lt;h3 id=&#34;与金属反应&#34;&gt;&lt;a href=&#34;#与金属反应&#34; class=&#34;headerlink&#34; title=&#34;与金属反应&#34;&gt;&lt;/a&gt;与金属反应&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;金属&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;化学方程式&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;现象&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;溶液颜色&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Na&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2Na + cl_2 \xlongequal[]{点燃} 2Nacl}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白&lt;strong&gt;烟&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;\&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Fe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2Fe + 3cl_2 \xlongequal[]{点燃} 2Fecl_3}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生棕褐色烟&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;\&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Cu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{Cu + cl_2 \xlongequal[]{点燃} Cucl_2}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生棕黄色烟&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;浓溶液-黄绿色；稀溶液：蓝色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&#34;与非金属反应&#34;&gt;&lt;a href=&#34;#与非金属反应&#34; class=&#34;headerlink&#34; title=&#34;与非金属反应&#34;&gt;&lt;/a&gt;与非金属反应&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;物质&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;化学方程式&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;现象&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$H_2$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{H_2 + cl_2 \xlongequal[]{点燃} 2HCl}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安静地燃烧，发出苍白色火焰，瓶口有白雾&lt;sup id=&#34;fnref:1&#34; class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn:1&#34; rel=&#34;footnote&#34;&gt;&lt;span class=&#34;hint--top hint--rounded&#34; aria-label=&#34;HCl分子挥发后与水蒸气结合形成白雾&#34;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;出现&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;$H_2$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{H_2 + cl_2 \xlongequal[]{光照} 2HCl}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;爆炸&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;P&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2P + 3cl_2(少) \xlongequal[]{点燃} 2PCl_3}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白雾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;P&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$\ce{2P + 5cl_2(多) \xlongequal[]{点燃} 2PCl_5}$&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白烟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
+&lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
+            <title>高一物理公式总结</title>
+            <link>https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
+            <category>高中</category>
+            <category>物理</category>
+            <category>公式</category>
+            <category>总结</category>
+            <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;高一物理公式总结&#34;&gt;&lt;a href=&#34;#高一物理公式总结&#34; class=&#34;headerlink&#34; title=&#34;高一物理公式总结&#34;&gt;&lt;/a&gt;高一物理公式总结&lt;/h1&gt;&lt;h2 id=&#34;加速度-acceleration&#34;&gt;&lt;a href=&#34;#加速度-acceleration&#34; class=&#34;headerlink&#34; title=&#34;加速度(acceleration)&#34;&gt;&lt;/a&gt;加速度(acceleration)&lt;/h2&gt;&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
+&lt;h3 id=&#34;a-x3D-frac-Delta-v-Delta-t&#34;&gt;&lt;a href=&#34;#a-x3D-frac-Delta-v-Delta-t&#34; class=&#34;headerlink&#34; title=&#34;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&#34;&gt;&lt;/a&gt;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;$\Delta v$为速度变化量，$\Delta t$为发生这个变化所需要的时间&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;速度方程&#34;&gt;&lt;a href=&#34;#速度方程&#34; class=&#34;headerlink&#34; title=&#34;速度方程&#34;&gt;&lt;/a&gt;速度方程&lt;/h2&gt;&lt;p&gt;匀变速直线运动的速度与时间的关系式&lt;/p&gt;
+&lt;h3 id=&#34;v-t-x3D-v-0-at&#34;&gt;&lt;a href=&#34;#v-t-x3D-v-0-at&#34; class=&#34;headerlink&#34; title=&#34;$$v_t&amp;#x3D;v_0+at$$&#34;&gt;&lt;/a&gt;$$v_t&amp;#x3D;v_0+at$$&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;$v_t$，$v_0$和加速度 a 都是矢量&lt;/p&gt;
+&lt;p&gt;加速度 a 在式中作为常量存在&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;位移方程&#34;&gt;&lt;a href=&#34;#位移方程&#34; class=&#34;headerlink&#34; title=&#34;位移方程&#34;&gt;&lt;/a&gt;位移方程&lt;/h2&gt;&lt;p&gt;匀变速直线运动的位移与时间的关系式&lt;/p&gt;
+&lt;h3 id=&#34;x-x3D-v-0-t-frac-1-2-at-2&#34;&gt;&lt;a href=&#34;#x-x3D-v-0-t-frac-1-2-at-2&#34; class=&#34;headerlink&#34; title=&#34;$$x&amp;#x3D;v_0 t+\frac{1}{2}at^2$$&#34;&gt;&lt;/a&gt;$$x&amp;#x3D;v_0 t+\frac{1}{2}at^2$$&lt;/h3&gt;&lt;hr&gt;
+&lt;h2 id=&#34;位移差公式&#34;&gt;&lt;a href=&#34;#位移差公式&#34; class=&#34;headerlink&#34; title=&#34;位移差公式&#34;&gt;&lt;/a&gt;位移差公式&lt;/h2&gt;&lt;p&gt;在匀变速直线运动中，相邻两段相同时间的位移差&lt;/p&gt;
+&lt;h3 id=&#34;Delta-x-x3D-at-2&#34;&gt;&lt;a href=&#34;#Delta-x-x3D-at-2&#34; class=&#34;headerlink&#34; title=&#34;$$\Delta x&amp;#x3D;at^2$$&#34;&gt;&lt;/a&gt;$$\Delta x&amp;#x3D;at^2$$&lt;/h3&gt;&lt;hr&gt;
+&lt;h2 id=&#34;速度位移公式&#34;&gt;&lt;a href=&#34;#速度位移公式&#34; class=&#34;headerlink&#34; title=&#34;速度位移公式&#34;&gt;&lt;/a&gt;速度位移公式&lt;/h2&gt;&lt;h3 id=&#34;v-t-2-v-0-2-x3D-2ax&#34;&gt;&lt;a href=&#34;#v-t-2-v-0-2-x3D-2ax&#34; class=&#34;headerlink&#34; title=&#34;$$v_t^2-v_0^2&amp;#x3D;2ax$$&#34;&gt;&lt;/a&gt;$$v_t^2-v_0^2&amp;#x3D;2ax$$&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;特点：计算时不涉及时间&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;位移中点瞬时速度公式&#34;&gt;&lt;a href=&#34;#位移中点瞬时速度公式&#34; class=&#34;headerlink&#34; title=&#34;位移中点瞬时速度公式&#34;&gt;&lt;/a&gt;位移中点瞬时速度公式&lt;/h2&gt;&lt;h3 id=&#34;v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2&#34;&gt;&lt;a href=&#34;#v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2&#34; class=&#34;headerlink&#34; title=&#34;$$v_\frac{x}{2}&amp;#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$&#34;&gt;&lt;/a&gt;$$v_\frac{x}{2}&amp;#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$&lt;/h3&gt;&lt;details&gt;
+&lt;summary&gt;证明过程&lt;/summary&gt;
+&lt;p&gt;$v_\frac{x}{2} ^2-v_0^2=2a\times\frac{x}{2}$&lt;/p&gt;
+&lt;p&gt;移项可得：$v_\frac{x}{2} ^2=ax+v_0^2$ ①&lt;/p&gt;
+&lt;p&gt;$v_t^2-v_\frac{x}{2}^2=2a\times\frac{x}{2}$&lt;/p&gt;
+&lt;p&gt;化简可得：$v_t^2-v_\frac{x}{2}^2=ax$ ②&lt;/p&gt;
+&lt;p&gt;将②代入①可得：$v_\frac{x}{2} ^2=v_t^2-v_\frac{x}{2}^2+v_0^2$&lt;/p&gt;
+&lt;p&gt;化简可得：$2v_\frac{x}{2} ^2=v_0^2+v_t^2$&lt;/p&gt;
+&lt;p&gt;最终得：$v_\frac{x}{2}=\sqrt{\frac{v_0^2+v_t^2}{2}}$&lt;/p&gt;
+&lt;/details&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;胡克定律&#34;&gt;&lt;a href=&#34;#胡克定律&#34; class=&#34;headerlink&#34; title=&#34;胡克定律&#34;&gt;&lt;/a&gt;胡克定律&lt;/h2&gt;&lt;p&gt;在弹性限度内，弹簧弹力 F 的大小与弹簧的伸长量成正比。&lt;/p&gt;
+&lt;p&gt;$$F&amp;#x3D;kx$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;比例系数 k 称为弹簧的&lt;strong&gt;劲度系数&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;滑动摩擦力公式&#34;&gt;&lt;a href=&#34;#滑动摩擦力公式&#34; class=&#34;headerlink&#34; title=&#34;滑动摩擦力公式&#34;&gt;&lt;/a&gt;滑动摩擦力公式&lt;/h2&gt;&lt;p&gt;$$f&amp;#x3D;\mu N$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;比例系数$\mu$叫做&lt;strong&gt;动摩擦因数&lt;/strong&gt;，是两个力的比值，没有单位。&lt;/p&gt;
+&lt;p&gt;$\mu$的大小仅与两个接触面的材料、粗糙程度等情况有关。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/11/06/html-html-container-element/</guid>
+            <title>HTML-容器元素</title>
+            <link>https://lkhsss.github.io/2022/11/06/html-html-container-element/</link>
+            <category>html</category>
+            <category>编程</category>
+            <pubDate>Sun, 06 Nov 2022 11:52:22 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;容器元素&#34;&gt;&lt;a href=&#34;#容器元素&#34; class=&#34;headerlink&#34; title=&#34;容器元素&#34;&gt;&lt;/a&gt;容器元素&lt;/h1&gt;&lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h2 id=&#34;div-元素&#34;&gt;&lt;a href=&#34;#div-元素&#34; class=&#34;headerlink&#34; title=&#34;div 元素&#34;&gt;&lt;/a&gt;div 元素&lt;/h2&gt;&lt;p&gt;作用：分割网页，达到不同区域实现不同样式，不同功能，应用广泛&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：div 标签没有任何语义&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;其他容器元素&#34;&gt;&lt;a href=&#34;#其他容器元素&#34; class=&#34;headerlink&#34; title=&#34;其他容器元素&#34;&gt;&lt;/a&gt;其他容器元素&lt;/h2&gt;&lt;p&gt;在 html5 中，为了解决语义化的问题，方便搜索引擎和浏览器识别网页内容，引入了许多有语义的容器标签&lt;/p&gt;
+&lt;h3 id=&#34;header元素&#34;&gt;&lt;a href=&#34;#header元素&#34; class=&#34;headerlink&#34; title=&#34;- header元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;header&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常用于表示页头；有时也可以表示文章的头部。&lt;br&gt;例：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;footer元素&#34;&gt;&lt;a href=&#34;#footer元素&#34; class=&#34;headerlink&#34; title=&#34;- footer元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;footer&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常用于表示页脚；有时也可以表示文章的尾部。&lt;br&gt;例：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;article元素&#34;&gt;&lt;a href=&#34;#article元素&#34; class=&#34;headerlink&#34; title=&#34;- article元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;article&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常用于表示整篇文章&lt;br&gt;例：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;article&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;页头&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;正文&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;页尾&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;article&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;注：&lt;code&gt;article&lt;/code&gt;, &lt;code&gt;header&lt;/code&gt;和&lt;code&gt;footer&lt;/code&gt;与&lt;code&gt;div&lt;/code&gt;在本质上没有区别，只是它们有语义，方便语义化&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;section元素&#34;&gt;&lt;a href=&#34;#section元素&#34; class=&#34;headerlink&#34; title=&#34;- section元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;section&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常表示文章的章节&lt;br&gt;例：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;第一章&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;第一章内容&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;第二章&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;第二章内容&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;aside元素&#34;&gt;&lt;a href=&#34;#aside元素&#34; class=&#34;headerlink&#34; title=&#34;- aside元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;aside&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常表示附加信息&lt;br&gt;例：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;aside&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;侧边栏信息&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;aside&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;nav元素&#34;&gt;&lt;a href=&#34;#nav元素&#34; class=&#34;headerlink&#34; title=&#34;- nav元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;nav&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;导航元素&lt;br&gt;例：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;百度&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;谷歌&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;必应&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

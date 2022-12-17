@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>LKH的网站 • Posts by &#34;数学&#34; category</title>
+        <link>https://lkhsss.github.io</link>
+        <description>一个年轻程序猿的主页，包含了很多东西......</description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
+        <lastBuildDate>Thu, 15 Dec 2022 00:04:09 +0800</lastBuildDate>
+        <category>html</category>
+        <category>编程</category>
+        <category>Python</category>
+        <category>高中</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
+        <category>物理</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>数学</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
+            <title>三角函数诱导公式</title>
+            <link>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
+            <category>高中</category>
+            <category>公式</category>
+            <category>总结</category>
+            <category>数学</category>
+            <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式一.72wdanc6c140.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;287&#34;&gt;
+
+&lt;p&gt;设α为任意角,终边相同的角的同名三角函数的值相等&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-alpha-2k-pi-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-alpha-2k-pi-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\alpha+2k\pi)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\alpha+2k\pi)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-alpha-2k-pi-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-2k-pi-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-alpha-2k-pi-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-2k-pi-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式二.20aio1igg00w.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;282&#34;&gt;
+
+&lt;p&gt;设α为任意角，π+α的三角函数值与α的三角函数值之间的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-pi-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-pi-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\pi+\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\pi+\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式三.16d4ijgd80ps.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;278&#34;&gt;
+
+&lt;p&gt;任意角α与 -α的三角函数值之间的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(-\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(-\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式四.5hishprhs9s0.webp&#34; alt=&#34;诱导公式四&#34; width=&#34;299&#34;&gt;
+
+&lt;p&gt;π-α与α的三角函数值之间的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-pi-alpha-x3D-sin-alpha-1&#34;&gt;&lt;a href=&#34;#sin-pi-alpha-x3D-sin-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\pi-\alpha)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\pi-\alpha)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha-1&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha-1&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
