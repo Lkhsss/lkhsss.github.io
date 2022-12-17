@@ -7,26 +7,26 @@
         <language>zh-CN</language>
         <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
         <lastBuildDate>Thu, 15 Dec 2022 00:04:09 +0800</lastBuildDate>
-        <category>html</category>
         <category>编程</category>
         <category>Python</category>
+        <category>html</category>
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
-        <category>物理</category>
+        <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>数学</category>
+        <category>物理</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
             <title>三角函数诱导公式</title>
             <link>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
             <category>高中</category>
+            <category>数学</category>
             <category>公式</category>
             <category>总结</category>
-            <category>数学</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式一.72wdanc6c140.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;287&#34;&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
 
 &lt;p&gt;设α为任意角,终边相同的角的同名三角函数的值相等&lt;/p&gt;
 &lt;ul&gt;
@@ -34,7 +34,7 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-alpha-2k-pi-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-2k-pi-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-alpha-2k-pi-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-2k-pi-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式二.20aio1igg00w.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;282&#34;&gt;
+&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式二.4j3th9s0n2u0.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;327&#34;&gt;
 
 &lt;p&gt;设α为任意角，π+α的三角函数值与α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
@@ -42,7 +42,7 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式三.16d4ijgd80ps.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;278&#34;&gt;
+&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式三.29dt9ipdu4sg.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;331&#34;&gt;
 
 &lt;p&gt;任意角α与 -α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
@@ -50,7 +50,7 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式四.5hishprhs9s0.webp&#34; alt=&#34;诱导公式四&#34; width=&#34;299&#34;&gt;
+&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式四.2bopwlazvyqs.webp&#34; title=&#34;&#34; alt=&#34;诱导公式四&#34; width=&#34;349&#34;&gt;
 
 &lt;p&gt;π-α与α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
@@ -292,9 +292,9 @@ A--使用对象--&amp;gt;所有微观粒子
             <title>高一物理公式总结</title>
             <link>https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
             <category>高中</category>
-            <category>物理</category>
             <category>公式</category>
             <category>总结</category>
+            <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;高一物理公式总结&#34;&gt;&lt;a href=&#34;#高一物理公式总结&#34; class=&#34;headerlink&#34; title=&#34;高一物理公式总结&#34;&gt;&lt;/a&gt;高一物理公式总结&lt;/h1&gt;&lt;h2 id=&#34;加速度-acceleration&#34;&gt;&lt;a href=&#34;#加速度-acceleration&#34; class=&#34;headerlink&#34; title=&#34;加速度(acceleration)&#34;&gt;&lt;/a&gt;加速度(acceleration)&lt;/h2&gt;&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
 &lt;h3 id=&#34;a-x3D-frac-Delta-v-Delta-t&#34;&gt;&lt;a href=&#34;#a-x3D-frac-Delta-v-Delta-t&#34; class=&#34;headerlink&#34; title=&#34;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&#34;&gt;&lt;/a&gt;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;&lt;blockquote&gt;
@@ -344,8 +344,8 @@ A--使用对象--&amp;gt;所有微观粒子
             <guid isPermalink="true">https://lkhsss.github.io/2022/11/06/html-html-container-element/</guid>
             <title>HTML-容器元素</title>
             <link>https://lkhsss.github.io/2022/11/06/html-html-container-element/</link>
-            <category>html</category>
             <category>编程</category>
+            <category>html</category>
             <pubDate>Sun, 06 Nov 2022 11:52:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;容器元素&#34;&gt;&lt;a href=&#34;#容器元素&#34; class=&#34;headerlink&#34; title=&#34;容器元素&#34;&gt;&lt;/a&gt;容器元素&lt;/h1&gt;&lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;

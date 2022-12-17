@@ -4,21 +4,21 @@
     <title>LKH的网站 • Posts by &#34;数学&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2022-12-14T16:04:09.000Z</updated>
-    <category term="html" />
     <category term="编程" />
     <category term="Python" />
+    <category term="html" />
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="物理" />
+    <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="数学" />
+    <category term="物理" />
     <entry>
         <id>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</id>
         <title>三角函数诱导公式</title>
         <link rel="alternate" href="https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/"/>
-        <content type="html">&lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式一.72wdanc6c140.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;287&#34;&gt;
+        <content type="html">&lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
 
 &lt;p&gt;设α为任意角,终边相同的角的同名三角函数的值相等&lt;/p&gt;
 &lt;ul&gt;
@@ -26,7 +26,7 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-alpha-2k-pi-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-2k-pi-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-alpha-2k-pi-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-2k-pi-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式二.20aio1igg00w.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;282&#34;&gt;
+&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式二.4j3th9s0n2u0.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;327&#34;&gt;
 
 &lt;p&gt;设α为任意角，π+α的三角函数值与α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
@@ -34,7 +34,7 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式三.16d4ijgd80ps.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;278&#34;&gt;
+&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式三.29dt9ipdu4sg.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;331&#34;&gt;
 
 &lt;p&gt;任意角α与 -α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
@@ -42,7 +42,7 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/诱导公式四.5hishprhs9s0.webp&#34; alt=&#34;诱导公式四&#34; width=&#34;299&#34;&gt;
+&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式四.2bopwlazvyqs.webp&#34; title=&#34;&#34; alt=&#34;诱导公式四&#34; width=&#34;349&#34;&gt;
 
 &lt;p&gt;π-α与α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
@@ -52,9 +52,9 @@
 &lt;/ul&gt;
 </content>
         <category term="高中" />
+        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
-        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
 </feed>
