@@ -9,7 +9,6 @@
         <lastBuildDate>Sat, 10 Dec 2022 10:20:24 +0800</lastBuildDate>
         <category>编程</category>
         <category>Python</category>
-        <category>html</category>
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
@@ -17,6 +16,7 @@
         <category>公式</category>
         <category>总结</category>
         <category>物理</category>
+        <category>Html</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2022/12/10/Python-python-click/</guid>
             <title>python-Click库</title>
