@@ -9,22 +9,22 @@
         <lastBuildDate>Thu, 15 Dec 2022 00:04:09 +0800</lastBuildDate>
         <category>编程</category>
         <category>Python</category>
+        <category>Html</category>
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
-        <category>数学</category>
+        <category>物理</category>
         <category>公式</category>
         <category>总结</category>
-        <category>物理</category>
-        <category>Html</category>
+        <category>数学</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
             <title>三角函数诱导公式</title>
             <link>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
             <category>高中</category>
-            <category>数学</category>
             <category>公式</category>
             <category>总结</category>
+            <category>数学</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
 
@@ -58,6 +58,40 @@
 &lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha-1&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha-1&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式五&#34;&gt;&lt;a href=&#34;#诱导公式五&#34; class=&#34;headerlink&#34; title=&#34;诱导公式五&#34;&gt;&lt;/a&gt;诱导公式五&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;file:///C:/Users/likhs/AppData/Roaming/marktext/images/2022-12-17-19-37-15-image.png&#34; alt=&#34;&#34; width=&#34;348&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-frac-pi-2-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#sin-frac-pi-2-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\frac{\pi}{2}-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\sin(\frac{\pi}{2}-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-frac-pi-2-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#cos-frac-pi-2-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\frac{\pi}{2}-\alpha)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\cos(\frac{\pi}{2}-\alpha)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;诱导公式六&#34;&gt;&lt;a href=&#34;#诱导公式六&#34; class=&#34;headerlink&#34; title=&#34;诱导公式六&#34;&gt;&lt;/a&gt;诱导公式六&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式六.gv58kq5xx60.webp&#34; alt=&#34;诱导公式六&#34; width=&#34;356&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&#34;sin-frac-pi-2-alpha-x3D-cos-alpha-1&#34;&gt;&lt;a href=&#34;#sin-frac-pi-2-alpha-x3D-cos-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\frac{\pi}{2}+\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\sin(\frac{\pi}{2}+\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&#34;cos-frac-pi-2-alpha-x3D-sin-alpha-1&#34;&gt;&lt;a href=&#34;#cos-frac-pi-2-alpha-x3D-sin-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\frac{\pi}{2}+\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\cos(\frac{\pi}{2}+\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;总结&#34;&gt;&lt;a href=&#34;#总结&#34; class=&#34;headerlink&#34; title=&#34;总结&#34;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;h2 id=&#34;诱导公式五六规律&#34;&gt;&lt;a href=&#34;#诱导公式五六规律&#34; class=&#34;headerlink&#34; title=&#34;诱导公式五六规律&#34;&gt;&lt;/a&gt;诱导公式五六规律&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;角$\frac{\pi}{2}\pm\alpha$的正弦等于角$\alpha$的余弦；角$\frac{\pi}{2}\pm\alpha$的余弦等于角$\alpha$的正弦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“函数名改变，符号看象限”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h2 id=&#34;六组公式应用场景&#34;&gt;&lt;a href=&#34;#六组公式应用场景&#34; class=&#34;headerlink&#34; title=&#34;六组公式应用场景&#34;&gt;&lt;/a&gt;六组公式应用场景&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;公式一：将任意角转化到0~$2\pi$之间的角求值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;公式二：将0&lt;del&gt;2$\pi$之间的角转为0&lt;/del&gt;$\pi$之间的角求值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;公式三：将负角转化为正角求值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;公式四：将$(\frac{\pi}{2},\pi)$之间的角转化为$(0,\frac{\pi}{2})$之间的角求值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;公式五六：正余弦之间相互转化&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
@@ -65,9 +99,9 @@
             <title>高一物理公式总结</title>
             <link>https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
             <category>高中</category>
+            <category>物理</category>
             <category>公式</category>
             <category>总结</category>
-            <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;高一物理公式总结&#34;&gt;&lt;a href=&#34;#高一物理公式总结&#34; class=&#34;headerlink&#34; title=&#34;高一物理公式总结&#34;&gt;&lt;/a&gt;高一物理公式总结&lt;/h1&gt;&lt;h2 id=&#34;加速度-acceleration&#34;&gt;&lt;a href=&#34;#加速度-acceleration&#34; class=&#34;headerlink&#34; title=&#34;加速度(acceleration)&#34;&gt;&lt;/a&gt;加速度(acceleration)&lt;/h2&gt;&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
 &lt;h3 id=&#34;a-x3D-frac-Delta-v-Delta-t&#34;&gt;&lt;a href=&#34;#a-x3D-frac-Delta-v-Delta-t&#34; class=&#34;headerlink&#34; title=&#34;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&#34;&gt;&lt;/a&gt;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;&lt;blockquote&gt;
