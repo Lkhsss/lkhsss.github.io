@@ -4,16 +4,16 @@
     <title>LKH的网站 • Posts by &#34;高中&#34; tag</title>
     <link href="https://lkhsss.github.io" />
     <updated>2022-12-14T16:04:09.000Z</updated>
-    <category term="Html" />
     <category term="编程" />
     <category term="Python" />
+    <category term="Html" />
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
+    <category term="数学" />
     <entry>
         <id>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</id>
         <title>三角函数诱导公式</title>
@@ -86,9 +86,9 @@
 &lt;/ol&gt;
 </content>
         <category term="高中" />
-        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
+        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
@@ -315,9 +315,9 @@ A--使用对象--&amp;gt;所有微观粒子
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
+        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
-        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
 </feed>

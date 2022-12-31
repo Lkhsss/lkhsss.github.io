@@ -28,11 +28,11 @@
       
       <tag>高中</tag>
       
-      <tag>数学</tag>
-      
       <tag>公式</tag>
       
       <tag>总结</tag>
+      
+      <tag>数学</tag>
       
     </tags>
     
@@ -160,11 +160,11 @@
       
       <tag>高中</tag>
       
+      <tag>物理</tag>
+      
       <tag>公式</tag>
       
       <tag>总结</tag>
-      
-      <tag>物理</tag>
       
     </tags>
     
@@ -191,9 +191,9 @@
     
     <tags>
       
-      <tag>Html</tag>
-      
       <tag>编程</tag>
+      
+      <tag>Html</tag>
       
     </tags>
     
