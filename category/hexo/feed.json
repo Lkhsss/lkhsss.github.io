@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "LKH的网站 • All posts by \"hexo\" category",
+    "description": "一个年轻程序猿的主页，包含了很多东西......",
+    "home_page_url": "https://lkhsss.github.io",
+    "items": [
+        {
+            "id": "https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/",
+            "url": "https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/",
+            "title": "LaTex 数学公式速查表",
+            "date_published": "2023-01-02T03:53:06.000Z",
+            "content_html": "<h2 id=\"分数\"><a href=\"#分数\" class=\"headerlink\" title=\"分数\"></a>分数</h2><p><code>$\\frac&#123;分子&#125;&#123;分母&#125;$</code></p>\n<p>$\\frac{分子}{分母}$</p>\n<h2 id=\"派\"><a href=\"#派\" class=\"headerlink\" title=\"派\"></a>派</h2><p><code>$\\pi$</code></p>\n<p>$\\pi$</p>\n<h2 id=\"希腊字母\"><a href=\"#希腊字母\" class=\"headerlink\" title=\"希腊字母\"></a>希腊字母</h2><p><code>$\\alpha$</code></p>\n<p>$\\alpha$</p>\n<h2 id=\"角度\"><a href=\"#角度\" class=\"headerlink\" title=\"角度\"></a>角度</h2><p><code>$^\\circ$</code></p>\n<p>$^\\circ$</p>\n",
+            "tags": [
+                "hexo",
+                "LaTex"
+            ]
+        }
+    ]
+}

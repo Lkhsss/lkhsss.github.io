@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>LaTex 数学公式速查表</title>
+    <link href="/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
+    <url>/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
+    
+    <content type="html"><![CDATA[<h2 id="分数"><a href="#分数" class="headerlink" title="分数"></a>分数</h2><p><code>$\frac&#123;分子&#125;&#123;分母&#125;$</code></p><p>$\frac{分子}{分母}$</p><h2 id="派"><a href="#派" class="headerlink" title="派"></a>派</h2><p><code>$\pi$</code></p><p>$\pi$</p><h2 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h2><p><code>$\alpha$</code></p><p>$\alpha$</p><h2 id="角度"><a href="#角度" class="headerlink" title="角度"></a>角度</h2><p><code>$^\circ$</code></p><p>$^\circ$</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程</category>
+      
+      <category>hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+      <tag>LaTex</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>三角函数诱导公式</title>
     <link href="/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/"/>
     <url>/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</url>
@@ -33,6 +62,37 @@
       <tag>公式</tag>
       
       <tag>总结</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Java入门</title>
+    <link href="/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/"/>
+    <url>/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="万事开头难，先写一个-HelloWorld"><a href="#万事开头难，先写一个-HelloWorld" class="headerlink" title="万事开头难，先写一个 HelloWorld"></a>万事开头难，先写一个 HelloWorld</h1><p>从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>    <span class="hljs-comment">/* 第一个Java程序</span><br><span class="hljs-comment">     * 它将输出字符串 Hello World</span><br><span class="hljs-comment">     */</span><br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World&quot;</span>); <span class="hljs-comment">// 输出 Hello World</span><br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure><hr><h2 id="运行步骤"><a href="#运行步骤" class="headerlink" title="运行步骤"></a>运行步骤</h2><ul><li>保存为文件**<code>HelloWorld.java</code>**</li></ul><blockquote><p>注意，文件名一定要是<code>HelloWorld.java</code>! 不然会有奇怪的事情发生哦（<a href="#public%E7%B1%BB">Why?</a>）</p></blockquote><ul><li><p>在<strong>该文件目录下</strong>分别运行<code>javac HelloWorld.java</code>和<code>java HelloWorld</code>进行编译和运行</p></li><li><p>也可以直接输入<code>java HelloWorld.java</code>进行运行（Java 11 新增功能，单个文件直接运行）</p></li></ul><h2 id="完整输出过程"><a href="#完整输出过程" class="headerlink" title="完整输出过程"></a>完整输出过程</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">lkhsss@LKH-PC:/mnt/d/Java$ javac HelloWorld.java<br>lkhsss@LKH-PC:/mnt/d/Java$ java HelloWorld<br>Hello World<br></code></pre></td></tr></table></figure><p>或者直接</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">lkhsss@LKH-PC:/mnt/d/Java$ java HelloWorld.java<br>Hello World<br></code></pre></td></tr></table></figure><hr><h1 id="语法解析"><a href="#语法解析" class="headerlink" title="语法解析"></a>语法解析</h1><h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;&#125;<br></code></pre></td></tr></table></figure><p>这玩意儿叫做 java 的类(class)。其中<code>public</code>表示这个类公开，而<code>HelloWorld</code>则为这个类的类名。</p><h3 id="public-类"><a href="#public-类" class="headerlink" title="public 类"></a>public 类</h3><p>在 java 程序当中，可以同时出现很多个类，但有且仅有一个类是<code>public</code>并且这个<code>public</code>类的名字<strong>必须和文件名相同</strong>。</p><p>因为每一个 java 程序运行的时候都会先执行 public 这个类（类似于 Python 中的<code>__init__</code>）。</p><h3 id="多个类"><a href="#多个类" class="headerlink" title="多个类"></a>多个类</h3><p>也可以多个类，然后相互调用</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>    <span class="hljs-comment">/* 第一个Java程序</span><br><span class="hljs-comment">     * 它将输出字符串 Hello World</span><br><span class="hljs-comment">     */</span><br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World&quot;</span>); <span class="hljs-comment">// 输出 Hello World</span><br>        about a=<span class="hljs-keyword">new</span> <span class="hljs-title class_">about</span>(); <span class="hljs-comment">//创建一个about类</span><br>        a.sayabout(); <span class="hljs-comment">//调用about类中的sayabout()方法</span><br><br>    &#125;<br>&#125;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">about</span> &#123;<br>    <span class="hljs-keyword">void</span> <span class="hljs-title function_">sayabout</span><span class="hljs-params">()</span> &#123;<br>        System.out.println(<span class="hljs-string">&quot;现在我正在学习java&quot;</span>);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>输出：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">lkhsss@LKH-PC:/mnt/d/Java$ java HelloWorld.java<br>Hello World<br>现在我正在学习java<br></code></pre></td></tr></table></figure><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;&#125;<br></code></pre></td></tr></table></figure><p>这个玩意儿叫做 java 的方法。</p><p>类似于其他编程语言的<strong>函数</strong>。</p><p>将一段可重复运行的代码绑在一起调用，简化代码，提高代码的可读性，可维护性，可重用性，安全性。</p><h3 id="修饰符"><a href="#修饰符" class="headerlink" title="修饰符"></a>修饰符</h3><p>java 方法的首个属性就是<strong>访问修饰符</strong>。</p><p>访问修饰符分为 公有的(public)，默认的(default)，私有的(private)，受保护的(protected) 和 私有的(private)。</p><table><thead><tr><th align="center">修饰符</th><th align="center">区别</th></tr></thead><tbody><tr><td align="center">public</td><td align="center">可以被所有其他类所访问</td></tr><tr><td align="center">default</td><td align="center">同一包中的类可以访问，声明时没有加修饰符</td></tr><tr><td align="center">protected</td><td align="center">自身，子类及同一个包中类可以访问。</td></tr><tr><td align="center">private</td><td align="center">只能被自己访问和修改</td></tr></tbody></table><h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">System.out.println(<span class="hljs-string">&quot;Hello World&quot;</span>);<br></code></pre></td></tr></table></figure><p>只是输出一个 Hello World 而已</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程</category>
+      
+      <category>Java</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>学习</tag>
       
     </tags>
     

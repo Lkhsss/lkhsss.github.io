@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lkhsss.github.io</id>
+    <title>LKH的网站 • Posts by &#34;java&#34; tag</title>
+    <link href="https://lkhsss.github.io" />
+    <updated>2022-12-12T16:32:49.000Z</updated>
+    <category term="Html" />
+    <category term="编程" />
+    <category term="Java" />
+    <category term="学习" />
+    <category term="Python" />
+    <category term="hexo" />
+    <category term="LaTex" />
+    <category term="高中" />
+    <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="物理" />
+    <entry>
+        <id>https://lkhsss.github.io/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/</id>
+        <title>Java入门</title>
+        <link rel="alternate" href="https://lkhsss.github.io/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/"/>
+        <content type="html">&lt;h1 id=&#34;万事开头难，先写一个-HelloWorld&#34;&gt;&lt;a href=&#34;#万事开头难，先写一个-HelloWorld&#34; class=&#34;headerlink&#34; title=&#34;万事开头难，先写一个 HelloWorld&#34;&gt;&lt;/a&gt;万事开头难，先写一个 HelloWorld&lt;/h1&gt;&lt;p&gt;从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs java&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;HelloWorld&lt;/span&gt; &amp;#123;&lt;br&gt;    &lt;span class=&#34;hljs-comment&#34;&gt;/* 第一个Java程序&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;     * 它将输出字符串 Hello World&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;     */&lt;/span&gt;&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;br&gt;        System.out.println(&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;); &lt;span class=&#34;hljs-comment&#34;&gt;// 输出 Hello World&lt;/span&gt;&lt;br&gt;    &amp;#125;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;运行步骤&#34;&gt;&lt;a href=&#34;#运行步骤&#34; class=&#34;headerlink&#34; title=&#34;运行步骤&#34;&gt;&lt;/a&gt;运行步骤&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;保存为文件**&lt;code&gt;HelloWorld.java&lt;/code&gt;**&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意，文件名一定要是&lt;code&gt;HelloWorld.java&lt;/code&gt;! 不然会有奇怪的事情发生哦（&lt;a href=&#34;#public%E7%B1%BB&#34;&gt;Why?&lt;/a&gt;）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在&lt;strong&gt;该文件目录下&lt;/strong&gt;分别运行&lt;code&gt;javac HelloWorld.java&lt;/code&gt;和&lt;code&gt;java HelloWorld&lt;/code&gt;进行编译和运行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;也可以直接输入&lt;code&gt;java HelloWorld.java&lt;/code&gt;进行运行（Java 11 新增功能，单个文件直接运行）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;完整输出过程&#34;&gt;&lt;a href=&#34;#完整输出过程&#34; class=&#34;headerlink&#34; title=&#34;完整输出过程&#34;&gt;&lt;/a&gt;完整输出过程&lt;/h2&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;lkhsss@LKH-PC:/mnt/d/Java$ javac HelloWorld.java&lt;br&gt;lkhsss@LKH-PC:/mnt/d/Java$ java HelloWorld&lt;br&gt;Hello World&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;或者直接&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;lkhsss@LKH-PC:/mnt/d/Java$ java HelloWorld.java&lt;br&gt;Hello World&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h1 id=&#34;语法解析&#34;&gt;&lt;a href=&#34;#语法解析&#34; class=&#34;headerlink&#34; title=&#34;语法解析&#34;&gt;&lt;/a&gt;语法解析&lt;/h1&gt;&lt;h2 id=&#34;类&#34;&gt;&lt;a href=&#34;#类&#34; class=&#34;headerlink&#34; title=&#34;类&#34;&gt;&lt;/a&gt;类&lt;/h2&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs java&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;HelloWorld&lt;/span&gt; &amp;#123;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;这玩意儿叫做 java 的类(class)。其中&lt;code&gt;public&lt;/code&gt;表示这个类公开，而&lt;code&gt;HelloWorld&lt;/code&gt;则为这个类的类名。&lt;/p&gt;
+&lt;h3 id=&#34;public-类&#34;&gt;&lt;a href=&#34;#public-类&#34; class=&#34;headerlink&#34; title=&#34;public 类&#34;&gt;&lt;/a&gt;public 类&lt;/h3&gt;&lt;p&gt;在 java 程序当中，可以同时出现很多个类，但有且仅有一个类是&lt;code&gt;public&lt;/code&gt;并且这个&lt;code&gt;public&lt;/code&gt;类的名字&lt;strong&gt;必须和文件名相同&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;因为每一个 java 程序运行的时候都会先执行 public 这个类（类似于 Python 中的&lt;code&gt;__init__&lt;/code&gt;）。&lt;/p&gt;
+&lt;h3 id=&#34;多个类&#34;&gt;&lt;a href=&#34;#多个类&#34; class=&#34;headerlink&#34; title=&#34;多个类&#34;&gt;&lt;/a&gt;多个类&lt;/h3&gt;&lt;p&gt;也可以多个类，然后相互调用&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs java&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;HelloWorld&lt;/span&gt; &amp;#123;&lt;br&gt;    &lt;span class=&#34;hljs-comment&#34;&gt;/* 第一个Java程序&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;     * 它将输出字符串 Hello World&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;     */&lt;/span&gt;&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;br&gt;        System.out.println(&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;); &lt;span class=&#34;hljs-comment&#34;&gt;// 输出 Hello World&lt;/span&gt;&lt;br&gt;        about a=&lt;span class=&#34;hljs-keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;about&lt;/span&gt;(); &lt;span class=&#34;hljs-comment&#34;&gt;//创建一个about类&lt;/span&gt;&lt;br&gt;        a.sayabout(); &lt;span class=&#34;hljs-comment&#34;&gt;//调用about类中的sayabout()方法&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &amp;#125;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;about&lt;/span&gt; &amp;#123;&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;sayabout&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;()&lt;/span&gt; &amp;#123;&lt;br&gt;        System.out.println(&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;现在我正在学习java&amp;quot;&lt;/span&gt;);&lt;br&gt;    &amp;#125;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;输出：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;lkhsss@LKH-PC:/mnt/d/Java$ java HelloWorld.java&lt;br&gt;Hello World&lt;br&gt;现在我正在学习java&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;方法&#34;&gt;&lt;a href=&#34;#方法&#34; class=&#34;headerlink&#34; title=&#34;方法&#34;&gt;&lt;/a&gt;方法&lt;/h2&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs java&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;这个玩意儿叫做 java 的方法。&lt;/p&gt;
+&lt;p&gt;类似于其他编程语言的&lt;strong&gt;函数&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;将一段可重复运行的代码绑在一起调用，简化代码，提高代码的可读性，可维护性，可重用性，安全性。&lt;/p&gt;
+&lt;h3 id=&#34;修饰符&#34;&gt;&lt;a href=&#34;#修饰符&#34; class=&#34;headerlink&#34; title=&#34;修饰符&#34;&gt;&lt;/a&gt;修饰符&lt;/h3&gt;&lt;p&gt;java 方法的首个属性就是&lt;strong&gt;访问修饰符&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;访问修饰符分为 公有的(public)，默认的(default)，私有的(private)，受保护的(protected) 和 私有的(private)。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;修饰符&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;区别&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;public&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;可以被所有其他类所访问&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;default&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;同一包中的类可以访问，声明时没有加修饰符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;protected&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;自身，子类及同一个包中类可以访问。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;private&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;只能被自己访问和修改&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id=&#34;输出&#34;&gt;&lt;a href=&#34;#输出&#34; class=&#34;headerlink&#34; title=&#34;输出&#34;&gt;&lt;/a&gt;输出&lt;/h2&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs java&#34;&gt;System.out.println(&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;只是输出一个 Hello World 而已&lt;/p&gt;
+</content>
+        <category term="编程" />
+        <category term="Java" />
+        <category term="学习" />
+        <updated>2022-12-12T16:32:49.000Z</updated>
+    </entry>
+</feed>
