@@ -7,25 +7,27 @@
         <language>zh-CN</language>
         <pubDate>Mon, 02 Jan 2023 11:53:06 +0800</pubDate>
         <lastBuildDate>Mon, 02 Jan 2023 11:53:06 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>Html</category>
         <category>编程</category>
         <category>Java</category>
         <category>学习</category>
-        <category>Python</category>
-        <category>hexo</category>
-        <category>LaTex</category>
         <category>高中</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
         <category>物理</category>
+        <category>Liunx</category>
+        <category>WSL</category>
+        <category>Python</category>
         <item>
-            <guid isPermalink="true">https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</guid>
             <title>LaTex 数学公式速查表</title>
-            <link>https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</link>
-            <category>hexo</category>
+            <link>https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</link>
+            <category>Hexo</category>
             <category>LaTex</category>
             <pubDate>Mon, 02 Jan 2023 11:53:06 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;分数&#34;&gt;&lt;a href=&#34;#分数&#34; class=&#34;headerlink&#34; title=&#34;分数&#34;&gt;&lt;/a&gt;分数&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\frac&amp;#123;分子&amp;#125;&amp;#123;分母&amp;#125;$&lt;/code&gt;&lt;/p&gt;
@@ -116,9 +118,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://lkhsss.github.io/2022/12/10/Python-python-click/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/</guid>
             <title>python-Click库</title>
-            <link>https://lkhsss.github.io/2022/12/10/Python-python-click/</link>
+            <link>https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/</link>
             <category>编程</category>
             <category>Python</category>
             <pubDate>Sat, 10 Dec 2022 10:20:24 +0800</pubDate>

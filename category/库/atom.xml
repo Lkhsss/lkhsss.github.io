@@ -4,24 +4,26 @@
     <title>LKH的网站 • Posts by &#34;库&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2022-12-10T02:20:24.000Z</updated>
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
     <category term="Java" />
     <category term="学习" />
-    <category term="Python" />
-    <category term="hexo" />
-    <category term="LaTex" />
     <category term="高中" />
+    <category term="化学" />
+    <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="化学" />
-    <category term="内卷笔记" />
     <category term="物理" />
+    <category term="Liunx" />
+    <category term="WSL" />
+    <category term="Python" />
     <entry>
-        <id>https://lkhsss.github.io/2022/12/10/Python-python-click/</id>
+        <id>https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/</id>
         <title>python-Click库</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/12/10/Python-python-click/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/"/>
         <content type="html">&lt;h1 id=&#34;Click&#34;&gt;&lt;a href=&#34;#Click&#34; class=&#34;headerlink&#34; title=&#34;Click&#34;&gt;&lt;/a&gt;Click&lt;/h1&gt;&lt;p&gt;Click全名&lt;em&gt;Command Line Interface Creation Kit&lt;/em&gt;，是一个用于构建命令行的第三方库，相较于Python自带的&lt;a href=&#34;https://docs.python.org/zh-cn/3/library/argparse.html&#34;&gt;Argparse&lt;/a&gt;更加友好和易用。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;官方文档：&lt;a href=&#34;https://palletsprojects.com/p/click/&#34;&gt;Click | The Pallets Projects&lt;/a&gt;&lt;/p&gt;

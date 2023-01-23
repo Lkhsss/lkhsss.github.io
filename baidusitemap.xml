@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</loc>
+    <loc>https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2023-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</loc>
     <lastmod>2023-01-02</lastmod>
   </url>
   <url>
@@ -13,7 +17,7 @@
     <lastmod>2022-12-12</lastmod>
   </url>
   <url>
-    <loc>https://lkhsss.github.io/2022/12/10/Python-python-click/</loc>
+    <loc>https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/</loc>
     <lastmod>2022-12-10</lastmod>
   </url>
   <url>

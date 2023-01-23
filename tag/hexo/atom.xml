@@ -4,24 +4,26 @@
     <title>LKH的网站 • Posts by &#34;hexo&#34; tag</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-01-02T03:53:06.000Z</updated>
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
     <category term="Java" />
     <category term="学习" />
-    <category term="Python" />
-    <category term="hexo" />
-    <category term="LaTex" />
     <category term="高中" />
+    <category term="化学" />
+    <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="化学" />
-    <category term="内卷笔记" />
     <category term="物理" />
+    <category term="Liunx" />
+    <category term="WSL" />
+    <category term="Python" />
     <entry>
-        <id>https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
+        <id>https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
         <title>LaTex 数学公式速查表</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2023/01/02/hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
         <content type="html">&lt;h2 id=&#34;分数&#34;&gt;&lt;a href=&#34;#分数&#34; class=&#34;headerlink&#34; title=&#34;分数&#34;&gt;&lt;/a&gt;分数&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\frac&amp;#123;分子&amp;#125;&amp;#123;分母&amp;#125;$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;$\frac{分子}{分母}$&lt;/p&gt;
 &lt;h2 id=&#34;派&#34;&gt;&lt;a href=&#34;#派&#34; class=&#34;headerlink&#34; title=&#34;派&#34;&gt;&lt;/a&gt;派&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\pi$&lt;/code&gt;&lt;/p&gt;
@@ -31,7 +33,7 @@
 &lt;h2 id=&#34;角度&#34;&gt;&lt;a href=&#34;#角度&#34; class=&#34;headerlink&#34; title=&#34;角度&#34;&gt;&lt;/a&gt;角度&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$^\circ$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;$^\circ$&lt;/p&gt;
 </content>
-        <category term="hexo" />
+        <category term="Hexo" />
         <category term="LaTex" />
         <updated>2023-01-02T03:53:06.000Z</updated>
     </entry>
