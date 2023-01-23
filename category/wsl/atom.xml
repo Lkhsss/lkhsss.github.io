@@ -17,9 +17,9 @@
     <category term="公式" />
     <category term="总结" />
     <category term="物理" />
+    <category term="Python" />
     <category term="Liunx" />
     <category term="WSL" />
-    <category term="Python" />
     <entry>
         <id>https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</id>
         <title>WSL Ubuntu 美化</title>
@@ -71,8 +71,6 @@
 
 &lt;p&gt;然后复制ohmyzsh配置文件到zsh配置文件&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;cp&lt;/span&gt; ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
 
 &lt;h3 id=&#34;安装powerlevel10k主题&#34;&gt;&lt;a href=&#34;#安装powerlevel10k主题&#34; class=&#34;headerlink&#34; title=&#34;安装powerlevel10k主题&#34;&gt;&lt;/a&gt;安装powerlevel10k主题&lt;/h3&gt;&lt;p&gt;官方源安装：&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;git &lt;span class=&#34;hljs-built_in&#34;&gt;clone&lt;/span&gt; --depth=1 https://github.com/romkatv/powerlevel10k.git &lt;span class=&#34;hljs-variable&#34;&gt;$&amp;#123;ZSH_CUSTOM:-&lt;span class=&#34;hljs-variable&#34;&gt;$HOME&lt;/span&gt;/.oh-my-zsh/custom&amp;#125;&lt;/span&gt;/themes/powerlevel10k&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -146,7 +144,7 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;4-安装插件&#34;&gt;&lt;a href=&#34;#4-安装插件&#34; class=&#34;headerlink&#34; title=&#34;4.安装插件&#34;&gt;&lt;/a&gt;4.安装插件&lt;/h2&gt;&lt;h3 id=&#34;命令语法高亮&#34;&gt;&lt;a href=&#34;#命令语法高亮&#34; class=&#34;headerlink&#34; title=&#34;命令语法高亮&#34;&gt;&lt;/a&gt;命令语法高亮&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;git &lt;span class=&#34;hljs-built_in&#34;&gt;clone&lt;/span&gt; https://gitee.com/Annihilater/zsh-syntax-highlighting.git &lt;span class=&#34;hljs-variable&#34;&gt;$&amp;#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&amp;#125;&lt;/span&gt;/plugins/zsh-syntax-highlighting&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h3 id=&#34;自动命令提示&#34;&gt;&lt;a href=&#34;#自动命令提示&#34; class=&#34;headerlink&#34; title=&#34;自动命令提示&#34;&gt;&lt;/a&gt;自动命令提示&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;git &lt;span class=&#34;hljs-built_in&#34;&gt;clone&lt;/span&gt; https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;自动命令提示&#34;&gt;&lt;a href=&#34;#自动命令提示&#34; class=&#34;headerlink&#34; title=&#34;自动命令提示&#34;&gt;&lt;/a&gt;自动命令提示&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;git &lt;span class=&#34;hljs-built_in&#34;&gt;clone&lt;/span&gt; https://gitee.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h3 id=&#34;加载插件&#34;&gt;&lt;a href=&#34;#加载插件&#34; class=&#34;headerlink&#34; title=&#34;加载插件&#34;&gt;&lt;/a&gt;加载插件&lt;/h3&gt;&lt;p&gt;安装好后在&lt;code&gt;~/.zshrc&lt;/code&gt;中引入&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;plugins=(&lt;br&gt;    git&lt;br&gt;    zsh-syntax-highlighting&lt;br&gt;    zsh-autosuggestions&lt;br&gt;)&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
