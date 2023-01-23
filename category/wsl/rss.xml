@@ -20,14 +20,14 @@
         <category>公式</category>
         <category>总结</category>
         <category>物理</category>
-        <category>Python</category>
-        <category>Liunx</category>
+        <category>Linux</category>
         <category>WSL</category>
+        <category>Python</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</guid>
             <title>WSL Ubuntu 美化</title>
             <link>https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</link>
-            <category>Liunx</category>
+            <category>Linux</category>
             <category>WSL</category>
             <pubDate>Mon, 23 Jan 2023 20:57:23 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;自从微软公布了WSL后我就玩得不亦乐乎，重装系统后配置好的终端美化没了。很多步骤的忘了，记个笔记以备以后不备之需。&lt;/p&gt;

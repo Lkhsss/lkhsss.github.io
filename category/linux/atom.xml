@@ -17,9 +17,9 @@
     <category term="公式" />
     <category term="总结" />
     <category term="物理" />
-    <category term="Python" />
-    <category term="Liunx" />
+    <category term="Linux" />
     <category term="WSL" />
+    <category term="Python" />
     <entry>
         <id>https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</id>
         <title>WSL Ubuntu 美化</title>
@@ -160,7 +160,7 @@
 &lt;h2 id=&#34;最终成品&#34;&gt;&lt;a href=&#34;#最终成品&#34; class=&#34;headerlink&#34; title=&#34;最终成品&#34;&gt;&lt;/a&gt;最终成品&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%9C%80%E7%BB%88%E6%88%90%E5%93%81.webp&#34; alt=&#34;最终成品&#34;&gt;&lt;/p&gt;
 &lt;p&gt;漂亮吧！嘿嘿嘿嘿&lt;/p&gt;
 </content>
-        <category term="Liunx" />
+        <category term="Linux" />
         <category term="WSL" />
         <updated>2023-01-23T12:57:23.000Z</updated>
     </entry>
