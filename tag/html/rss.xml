@@ -14,14 +14,15 @@
         <category>Java</category>
         <category>学习</category>
         <category>高中</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>物理</category>
         <category>Linux</category>
         <category>WSL</category>
+        <category>Kali</category>
         <category>Python</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2022/11/06/Html-container-element/</guid>
@@ -30,34 +31,61 @@
             <category>Html</category>
             <category>编程</category>
             <pubDate>Sun, 06 Nov 2022 11:52:22 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;容器元素&#34;&gt;&lt;a href=&#34;#容器元素&#34; class=&#34;headerlink&#34; title=&#34;容器元素&#34;&gt;&lt;/a&gt;容器元素&lt;/h1&gt;&lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;
+            <description><![CDATA[ &lt;h1&gt;容器元素&lt;/h1&gt;
+&lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-
-&lt;h2 id=&#34;div-元素&#34;&gt;&lt;a href=&#34;#div-元素&#34; class=&#34;headerlink&#34; title=&#34;div 元素&#34;&gt;&lt;/a&gt;div 元素&lt;/h2&gt;&lt;p&gt;作用：分割网页，达到不同区域实现不同样式，不同功能，应用广泛&lt;/p&gt;
+&lt;h2 id=&#34;div-元素&#34;&gt;div 元素&lt;/h2&gt;
+&lt;p&gt;作用：分割网页，达到不同区域实现不同样式，不同功能，应用广泛&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注：div 标签没有任何语义&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;其他容器元素&#34;&gt;&lt;a href=&#34;#其他容器元素&#34; class=&#34;headerlink&#34; title=&#34;其他容器元素&#34;&gt;&lt;/a&gt;其他容器元素&lt;/h2&gt;&lt;p&gt;在 html5 中，为了解决语义化的问题，方便搜索引擎和浏览器识别网页内容，引入了许多有语义的容器标签&lt;/p&gt;
-&lt;h3 id=&#34;header元素&#34;&gt;&lt;a href=&#34;#header元素&#34; class=&#34;headerlink&#34; title=&#34;- header元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;header&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常用于表示页头；有时也可以表示文章的头部。&lt;br&gt;例：&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h3 id=&#34;footer元素&#34;&gt;&lt;a href=&#34;#footer元素&#34; class=&#34;headerlink&#34; title=&#34;- footer元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;footer&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常用于表示页脚；有时也可以表示文章的尾部。&lt;br&gt;例：&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h3 id=&#34;article元素&#34;&gt;&lt;a href=&#34;#article元素&#34; class=&#34;headerlink&#34; title=&#34;- article元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;article&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常用于表示整篇文章&lt;br&gt;例：&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;article&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;页头&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;正文&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;页尾&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;article&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
+&lt;h2 id=&#34;其他容器元素&#34;&gt;其他容器元素&lt;/h2&gt;
+&lt;p&gt;在 html5 中，为了解决语义化的问题，方便搜索引擎和浏览器识别网页内容，引入了许多有语义的容器标签&lt;/p&gt;
+&lt;h3 id=&#34;header元素&#34;&gt;- &lt;code&gt;header&lt;/code&gt;元素&lt;/h3&gt;
+&lt;p&gt;通常用于表示页头；有时也可以表示文章的头部。&lt;br&gt;
+例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;&amp;lt;header&amp;gt;&amp;lt;&amp;#x2F;header&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;footer元素&#34;&gt;- &lt;code&gt;footer&lt;/code&gt;元素&lt;/h3&gt;
+&lt;p&gt;通常用于表示页脚；有时也可以表示文章的尾部。&lt;br&gt;
+例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;&amp;lt;footer&amp;gt;&amp;lt;&amp;#x2F;footer&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;article元素&#34;&gt;- &lt;code&gt;article&lt;/code&gt;元素&lt;/h3&gt;
+&lt;p&gt;通常用于表示整篇文章&lt;br&gt;
+例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;&amp;lt;article&amp;gt;
+  &amp;lt;header&amp;gt;页头&amp;lt;&amp;#x2F;header&amp;gt;
+  &amp;lt;p&amp;gt;正文&amp;lt;&amp;#x2F;p&amp;gt;
+  &amp;lt;footer&amp;gt;页尾&amp;lt;&amp;#x2F;footer&amp;gt;
+&amp;lt;&amp;#x2F;article&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注：&lt;code&gt;article&lt;/code&gt;, &lt;code&gt;header&lt;/code&gt;和&lt;code&gt;footer&lt;/code&gt;与&lt;code&gt;div&lt;/code&gt;在本质上没有区别，只是它们有语义，方便语义化&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;section元素&#34;&gt;&lt;a href=&#34;#section元素&#34; class=&#34;headerlink&#34; title=&#34;- section元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;section&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常表示文章的章节&lt;br&gt;例：&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;第一章&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;第一章内容&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;第二章&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;h2&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;第二章内容&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;section元素&#34;&gt;- &lt;code&gt;section&lt;/code&gt;元素&lt;/h3&gt;
+&lt;p&gt;通常表示文章的章节&lt;br&gt;
+例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;&amp;lt;section&amp;gt;
+  &amp;lt;h2&amp;gt;第一章&amp;lt;&amp;#x2F;h2&amp;gt;
+  &amp;lt;p&amp;gt;第一章内容&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;section&amp;gt;
 
-&lt;h3 id=&#34;aside元素&#34;&gt;&lt;a href=&#34;#aside元素&#34; class=&#34;headerlink&#34; title=&#34;- aside元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;aside&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;通常表示附加信息&lt;br&gt;例：&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;aside&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;侧边栏信息&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;aside&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h3 id=&#34;nav元素&#34;&gt;&lt;a href=&#34;#nav元素&#34; class=&#34;headerlink&#34; title=&#34;- nav元素&#34;&gt;&lt;/a&gt;- &lt;code&gt;nav&lt;/code&gt;元素&lt;/h3&gt;&lt;p&gt;导航元素&lt;br&gt;例：&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;百度&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;谷歌&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;必应&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-tag&#34;&gt;&amp;lt;/&lt;span class=&#34;hljs-name&#34;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&amp;lt;section&amp;gt;
+  &amp;lt;h2&amp;gt;第二章&amp;lt;&amp;#x2F;h2&amp;gt;
+  &amp;lt;p&amp;gt;第二章内容&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;section&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;aside元素&#34;&gt;- &lt;code&gt;aside&lt;/code&gt;元素&lt;/h3&gt;
+&lt;p&gt;通常表示附加信息&lt;br&gt;
+例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;&amp;lt;aside&amp;gt;
+  &amp;lt;p&amp;gt;侧边栏信息&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;aside&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;nav元素&#34;&gt;- &lt;code&gt;nav&lt;/code&gt;元素&lt;/h3&gt;
+&lt;p&gt;导航元素&lt;br&gt;
+例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;&amp;lt;nav&amp;gt;
+  &amp;lt;p&amp;gt;百度&amp;lt;&amp;#x2F;p&amp;gt;
+  &amp;lt;p&amp;gt;谷歌&amp;lt;&amp;#x2F;p&amp;gt;
+  &amp;lt;p&amp;gt;必应&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;nav&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
         </item>
     </channel>

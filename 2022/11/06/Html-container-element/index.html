@@ -16,12 +16,12 @@
   <meta name="author" content="LKH">
   <meta name="keywords" content="主页 博客 编程">
   
-    <meta name="description" content="容器元素HTML 学习 - 容器元素">
+    <meta name="description" content="容器元素 HTML 学习 - 容器元素">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HTML-容器元素">
 <meta property="og:url" content="https://lkhsss.github.io/2022/11/06/Html-container-element/">
 <meta property="og:site_name" content="LKH的网站">
-<meta property="og:description" content="容器元素HTML 学习 - 容器元素">
+<meta property="og:description" content="容器元素 HTML 学习 - 容器元素">
 <meta property="og:locale">
 <meta property="og:image" content="https://cdn.staticaly.com/gh/Lkhsss/picx@main/Html/%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/%3Cdiv%3E.webp">
 <meta property="article:published_time" content="2022-11-06T03:52:22.000Z">
@@ -43,6 +43,8 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/prism/1.28.0/plugins/line-numbers/prism-line-numbers.min.css" />
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
@@ -76,7 +78,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"lkhsss.github.io","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home","tag","category","about","links","page"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"3060d340ee076edcd2a16bd08d4ad57a","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"BVEvjfzG1fbxdCSMfLiFIQ75-gzGzoHsz","app_key":"EmHB1jNkOwTLWaudtyOeMd7B","server_url":"https://bvevjfzg.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"lkhsss.github.io","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home","tag","category","about","links","page"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"3060d340ee076edcd2a16bd08d4ad57a","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"BVEvjfzG1fbxdCSMfLiFIQ75-gzGzoHsz","app_key":"EmHB1jNkOwTLWaudtyOeMd7B","server_url":"https://bvevjfzg.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -152,7 +154,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                首页
+                <span>首页</span>
               </a>
             </li>
           
@@ -164,7 +166,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                归档
+                <span>归档</span>
               </a>
             </li>
           
@@ -176,7 +178,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                分类
+                <span>分类</span>
               </a>
             </li>
           
@@ -188,7 +190,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                标签
+                <span>标签</span>
               </a>
             </li>
           
@@ -200,7 +202,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                关于
+                <span>关于</span>
               </a>
             </li>
           
@@ -213,7 +215,7 @@
               <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="iconfont icon-codeforces"></i>
-                资源
+                <span>资源</span>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
@@ -222,7 +224,7 @@
                   
                   <a class="dropdown-item" href="/resource/application">
                     <i class="iconfont icon-ruanjianzhongxin"></i>
-                    软件库
+                    <span>软件库</span>
                   </a>
                 
               </div>
@@ -237,7 +239,7 @@
               <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="iconfont icon-zenyaowan"></i>
-                好玩的
+                <span>好玩的</span>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
@@ -246,7 +248,7 @@
                   
                   <a class="dropdown-item" href="/firework/">
                     <i class="iconfont icon-firework"></i>
-                    烟花来喽
+                    <span>烟花来喽</span>
                   </a>
                 
               </div>
@@ -260,7 +262,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/links/">
                 <i class="iconfont icon-link-fill"></i>
-                友链
+                <span>友链</span>
               </a>
             </li>
           
@@ -268,15 +270,16 @@
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+              <i class="iconfont icon-search"></i>
             </a>
           </li>
           
         
         
           <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
           </li>
         
       </ul>
@@ -287,7 +290,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('https://cdn.staticaly.com/gh/Lkhsss/picx@main/banner.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -321,7 +324,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          797 字
+          863 字
         
       </span>
     
@@ -332,7 +335,7 @@
         
         
         
-          7 分钟
+          8 分钟
         
       </span>
     
@@ -390,7 +393,7 @@
         aria-expanded="true"
       >
         编程
-        <span class="list-group-count">(4)</span>
+        <span class="list-group-count">(5)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
@@ -417,7 +420,7 @@
         aria-expanded="false"
       >
         Hexo
-        <span class="list-group-count">(1)</span>
+        <span class="list-group-count">(2)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
@@ -428,6 +431,15 @@
           
   <div class="category-post-list">
     
+    
+      
+      
+        <a href="/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/" title="Hexo-fluid主题Tag插件"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Hexo-fluid主题Tag插件</span>
+        </a>
+      
     
       
       
@@ -608,34 +620,61 @@
             
               <div class="markdown-body">
                 
-                <h1 id="容器元素"><a href="#容器元素" class="headerlink" title="容器元素"></a>容器元素</h1><p>HTML 学习 - 容器元素</p>
+                <h1>容器元素</h1>
+<p>HTML 学习 - 容器元素</p>
 <span id="more"></span>
-
-<h2 id="div-元素"><a href="#div-元素" class="headerlink" title="div 元素"></a>div 元素</h2><p>作用：分割网页，达到不同区域实现不同样式，不同功能，应用广泛</p>
+<h2 id="div-元素">div 元素</h2>
+<p>作用：分割网页，达到不同区域实现不同样式，不同功能，应用广泛</p>
 <blockquote>
 <p>注：div 标签没有任何语义</p>
 </blockquote>
-<h2 id="其他容器元素"><a href="#其他容器元素" class="headerlink" title="其他容器元素"></a>其他容器元素</h2><p>在 html5 中，为了解决语义化的问题，方便搜索引擎和浏览器识别网页内容，引入了许多有语义的容器标签</p>
-<h3 id="header元素"><a href="#header元素" class="headerlink" title="- header元素"></a>- <code>header</code>元素</h3><p>通常用于表示页头；有时也可以表示文章的头部。<br>例：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="footer元素"><a href="#footer元素" class="headerlink" title="- footer元素"></a>- <code>footer</code>元素</h3><p>通常用于表示页脚；有时也可以表示文章的尾部。<br>例：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="article元素"><a href="#article元素" class="headerlink" title="- article元素"></a>- <code>article</code>元素</h3><p>通常用于表示整篇文章<br>例：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>页头<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>正文<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>页尾<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span><br></code></pre></td></tr></table></figure>
-
+<h2 id="其他容器元素">其他容器元素</h2>
+<p>在 html5 中，为了解决语义化的问题，方便搜索引擎和浏览器识别网页内容，引入了许多有语义的容器标签</p>
+<h3 id="header元素">- <code>header</code>元素</h3>
+<p>通常用于表示页头；有时也可以表示文章的头部。<br>
+例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup">&lt;header&gt;&lt;&#x2F;header&gt;</code></pre></div></figure>
+<h3 id="footer元素">- <code>footer</code>元素</h3>
+<p>通常用于表示页脚；有时也可以表示文章的尾部。<br>
+例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup">&lt;footer&gt;&lt;&#x2F;footer&gt;</code></pre></div></figure>
+<h3 id="article元素">- <code>article</code>元素</h3>
+<p>通常用于表示整篇文章<br>
+例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup">&lt;article&gt;
+  &lt;header&gt;页头&lt;&#x2F;header&gt;
+  &lt;p&gt;正文&lt;&#x2F;p&gt;
+  &lt;footer&gt;页尾&lt;&#x2F;footer&gt;
+&lt;&#x2F;article&gt;</code></pre></div></figure>
 <blockquote>
 <p>注：<code>article</code>, <code>header</code>和<code>footer</code>与<code>div</code>在本质上没有区别，只是它们有语义，方便语义化</p>
 </blockquote>
-<h3 id="section元素"><a href="#section元素" class="headerlink" title="- section元素"></a>- <code>section</code>元素</h3><p>通常表示文章的章节<br>例：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>第一章<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>第一章内容<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span><br><br><span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>第二章<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>第二章内容<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span><br></code></pre></td></tr></table></figure>
+<h3 id="section元素">- <code>section</code>元素</h3>
+<p>通常表示文章的章节<br>
+例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup">&lt;section&gt;
+  &lt;h2&gt;第一章&lt;&#x2F;h2&gt;
+  &lt;p&gt;第一章内容&lt;&#x2F;p&gt;
+&lt;&#x2F;section&gt;
 
-<h3 id="aside元素"><a href="#aside元素" class="headerlink" title="- aside元素"></a>- <code>aside</code>元素</h3><p>通常表示附加信息<br>例：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">aside</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>侧边栏信息<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="nav元素"><a href="#nav元素" class="headerlink" title="- nav元素"></a>- <code>nav</code>元素</h3><p>导航元素<br>例：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>百度<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>谷歌<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>必应<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span><br></code></pre></td></tr></table></figure>
+&lt;section&gt;
+  &lt;h2&gt;第二章&lt;&#x2F;h2&gt;
+  &lt;p&gt;第二章内容&lt;&#x2F;p&gt;
+&lt;&#x2F;section&gt;</code></pre></div></figure>
+<h3 id="aside元素">- <code>aside</code>元素</h3>
+<p>通常表示附加信息<br>
+例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup">&lt;aside&gt;
+  &lt;p&gt;侧边栏信息&lt;&#x2F;p&gt;
+&lt;&#x2F;aside&gt;</code></pre></div></figure>
+<h3 id="nav元素">- <code>nav</code>元素</h3>
+<p>导航元素<br>
+例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup">&lt;nav&gt;
+  &lt;p&gt;百度&lt;&#x2F;p&gt;
+  &lt;p&gt;谷歌&lt;&#x2F;p&gt;
+  &lt;p&gt;必应&lt;&#x2F;p&gt;
+&lt;&#x2F;nav&gt;</code></pre></div></figure>
 
                 
               </div>
@@ -757,8 +796,10 @@
             </div>
 
             
-  <article id="comments" lazyload>
-    
+  
+  
+    <article id="comments" lazyload>
+      
   <div id="valine"></div>
   <script type="text/javascript">
     Fluid.utils.loadComments('#valine', function() {
@@ -782,7 +823,8 @@
   <noscript>Please enable JavaScript to view the comments</noscript>
 
 
-  </article>
+    </article>
+  
 
 
           </article>
@@ -794,7 +836,10 @@
       
   <aside class="sidebar" style="margin-left: -1rem">
     <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
 
@@ -978,6 +1023,12 @@
   });
 </script>
 
+
+  <script  src="https://lib.baomitu.com/prism/1.28.0/components/prism-core.min.js" ></script>
+
+  <script  src="https://lib.baomitu.com/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js" ></script>
+
+  <script  src="https://lib.baomitu.com/prism/1.28.0/plugins/line-numbers/prism-line-numbers.min.js" ></script>
 
   <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
 

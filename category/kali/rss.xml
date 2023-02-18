@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>LKH的网站 • Posts by &#34;kali&#34; category</title>
+        <link>https://lkhsss.github.io</link>
+        <description>一个年轻程序猿的主页，包含了很多东西......</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 04 Feb 2023 20:05:16 +0800</pubDate>
+        <lastBuildDate>Sat, 04 Feb 2023 20:05:16 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>LaTex</category>
+        <category>Html</category>
+        <category>编程</category>
+        <category>Java</category>
+        <category>学习</category>
+        <category>高中</category>
+        <category>数学</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
+        <category>物理</category>
+        <category>Linux</category>
+        <category>WSL</category>
+        <category>Kali</category>
+        <category>Python</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2023/02/04/Linux-Kali-Kali%E6%8D%A2%E6%BA%90/</guid>
+            <title>Kali 更新源/软件源</title>
+            <link>https://lkhsss.github.io/2023/02/04/Linux-Kali-Kali%E6%8D%A2%E6%BA%90/</link>
+            <category>Linux</category>
+            <category>Kali</category>
+            <pubDate>Sat, 04 Feb 2023 20:05:16 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;源文件位置：&lt;code&gt;/etc/apt/sources.list&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;直接键入&lt;code&gt;sudo vim /etc/apt/sources.list&lt;/code&gt;即可开始编辑&lt;/p&gt;
+&lt;h2 id=&#34;清华源&#34;&gt;清华源&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/kali/&#34;&gt;清华大学开源软件镜像站&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;deb http:&amp;#x2F;&amp;#x2F;mirrors.tuna.tsinghua.edu.cn&amp;#x2F;kali kali-rolling main contrib non-free
+deb-src https:&amp;#x2F;&amp;#x2F;mirrors.tuna.tsinghua.edu.cn&amp;#x2F;kali kali-rolling main contrib non-free&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;阿里源&#34;&gt;阿里源&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.aliyun.com/mirror/kali&#34;&gt;阿里巴巴开源镜像站&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;deb http:&amp;#x2F;&amp;#x2F;mirrors.aliyun.com&amp;#x2F;kali kali-rolling main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.aliyun.com&amp;#x2F;kali kali-rolling main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;中科大源&#34;&gt;中科大源&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mirrors.ustc.edu.cn/kali&#34;&gt;USTC Open Source Software Mirror&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;deb http:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;kali kali-rolling main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;kali kali-rolling main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;网易源&#34;&gt;网易源&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mirrors.163.com/debian/&#34;&gt;网易开源镜像站&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;deb http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy main non-free contrib
+deb http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy-proposed-updates main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy-proposed-updates main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian-security wheezy&amp;#x2F;updates main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;东软源&#34;&gt;东软源&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mirrors.neusoft.edu.cn/kali/&#34;&gt;大连东软信息学院开源镜像站&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;deb http:&amp;#x2F;&amp;#x2F;mirrors.neusoft.edu.cn&amp;#x2F;kali kali-rolling&amp;#x2F;main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.neusoft.edu.cn&amp;#x2F;kali kali-rolling&amp;#x2F;main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;官方源&#34;&gt;官方源&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://http.kali.org/kali/&#34;&gt;kali Linux | Penetration Testing Distribution&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;deb http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;汇总&#34;&gt;汇总&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-text&#34; data-language=&#34;text&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;#清华大学
+deb http:&amp;#x2F;&amp;#x2F;mirrors.tuna.tsinghua.edu.cn&amp;#x2F;kali kali-rolling main contrib non-free
+deb-src https:&amp;#x2F;&amp;#x2F;mirrors.tuna.tsinghua.edu.cn&amp;#x2F;kali kali-rolling main contrib non-free
+#中科大
+deb http:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;kali kali-rolling main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;kali kali-rolling main non-free contrib
+#阿里云
+deb http:&amp;#x2F;&amp;#x2F;mirrors.aliyun.com&amp;#x2F;kali kali-rolling main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.aliyun.com&amp;#x2F;kali kali-rolling main non-free contrib
+#163
+deb http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy main non-free contrib
+deb http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy-proposed-updates main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian wheezy-proposed-updates main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.163.com&amp;#x2F;debian-security wheezy&amp;#x2F;updates main non-free contrib
+#东软大学
+deb http:&amp;#x2F;&amp;#x2F;mirrors.neusoft.edu.cn&amp;#x2F;kali kali-rolling&amp;#x2F;main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;mirrors.neusoft.edu.cn&amp;#x2F;kali kali-rolling&amp;#x2F;main non-free contrib
+#官方源
+deb http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-free contrib
+deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

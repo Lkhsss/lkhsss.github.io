@@ -5,8 +5,8 @@
         <link>https://lkhsss.github.io</link>
         <description>一个年轻程序猿的主页，包含了很多东西......</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 02 Jan 2023 11:53:06 +0800</pubDate>
-        <lastBuildDate>Mon, 02 Jan 2023 11:53:06 +0800</lastBuildDate>
+        <pubDate>Sat, 18 Feb 2023 10:45:29 +0800</pubDate>
+        <lastBuildDate>Sat, 18 Feb 2023 10:45:29 +0800</lastBuildDate>
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
@@ -14,15 +14,108 @@
         <category>Java</category>
         <category>学习</category>
         <category>高中</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>物理</category>
         <category>Linux</category>
         <category>WSL</category>
+        <category>Kali</category>
         <category>Python</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/</guid>
+            <title>Hexo-fluid主题Tag插件</title>
+            <link>https://lkhsss.github.io/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/</link>
+            <category>Hexo</category>
+            <pubDate>Sat, 18 Feb 2023 10:45:29 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Hexo fluid主题的Tag插件，在此整理记录，方便取用&lt;br&gt;
+官网：&lt;a href=&#34;https://hexo.fluid-dev.com/docs/guide/#tag-%E6%8F%92%E4%BB%B6&#34;&gt;配置指南 | Hexo Fluid 用户手册 | Tag 插件&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;便签&#34;&gt;便签&lt;/h2&gt;
+&lt;h3 id=&#34;紫色&#34;&gt;紫色&lt;/h3&gt;
+&lt;div class=&#34;note note-primary&#34;&gt;
+            &lt;p&gt;primary&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note primary %&amp;#125;
+primary
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;灰色&#34;&gt;灰色&lt;/h3&gt;
+&lt;div class=&#34;note note-secondary&#34;&gt;
+            &lt;p&gt;secondary&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note secondary %&amp;#125;
+secondary
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;绿色&#34;&gt;绿色&lt;/h3&gt;
+&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;success&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note success %&amp;#125;
+success
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;红色&#34;&gt;红色&lt;/h3&gt;
+&lt;div class=&#34;note note-danger&#34;&gt;
+            &lt;p&gt;danger&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note danger %&amp;#125;
+danger
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;黄色&#34;&gt;黄色&lt;/h3&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;warning&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note warning %&amp;#125;
+warning
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;蓝色&#34;&gt;蓝色&lt;/h3&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;info&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note info %&amp;#125;
+info
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;黑色&#34;&gt;黑色&lt;/h3&gt;
+&lt;div class=&#34;note note-light&#34;&gt;
+            &lt;p&gt;light&lt;/p&gt;
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note light %&amp;#125;
+light
+&amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;行内标签&#34;&gt;行内标签&lt;/h2&gt;
+&lt;span class=&#34;label label-primary&#34;&gt;primary&lt;/span&gt;
+&lt;span class=&#34;label label-default&#34;&gt;default&lt;/span&gt;
+&lt;span class=&#34;label label-info&#34;&gt;info&lt;/span&gt;
+&lt;span class=&#34;label label-success&#34;&gt;success&lt;/span&gt;
+&lt;span class=&#34;label label-warning&#34;&gt;warning&lt;/span&gt;
+&lt;span class=&#34;label label-danger&#34;&gt;danger&lt;/span&gt;
+&lt;h2 id=&#34;勾选框&#34;&gt;勾选框&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% cb text, checked?, incline? %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;div&gt;
+            &lt;input type=&#34;checkbox&#34; disabled checked=&#34;checked&#34;&gt;勾选
+          &lt;/div&gt;
+&lt;div&gt;
+            &lt;input type=&#34;checkbox&#34; disabled &gt;不勾选
+          &lt;/div&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% cb 勾选, true, false%&amp;#125;
+&amp;#123;% cb 不勾选, false, false%&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;按钮&#34;&gt;按钮&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% btn 链接, 显示文本, 鼠标悬浮文字 %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;a class=&#34;btn&#34; href=&#34;链接&#34;  title=&#34;悬浮文字&#34; target=&#34;_blank&#34;&gt;显示文本&lt;/a&gt;
+&lt;h2 id=&#34;组图&#34;&gt;组图&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% gi total n1-n2-... %&amp;#125;
+  ![](url)
+  ![](url)
+  ![](url)
+  ![](url)
+  ![](url)
+&amp;#123;% endgi %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;total：图片总数量，对应中间包含的图片 url 数量&lt;br&gt;n1-n2-…：每行的图片数量，可以省略，默认单行最多 3 张图，求和必须相等于 total，否则按默认样式&lt;/p&gt;
+          &lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</guid>
             <title>LaTex 数学公式速查表</title>
@@ -30,14 +123,18 @@
             <category>Hexo</category>
             <category>LaTex</category>
             <pubDate>Mon, 02 Jan 2023 11:53:06 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;分数&#34;&gt;&lt;a href=&#34;#分数&#34; class=&#34;headerlink&#34; title=&#34;分数&#34;&gt;&lt;/a&gt;分数&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\frac&amp;#123;分子&amp;#125;&amp;#123;分母&amp;#125;$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;$\frac{分子}{分母}$&lt;/p&gt;
-&lt;h2 id=&#34;派&#34;&gt;&lt;a href=&#34;#派&#34; class=&#34;headerlink&#34; title=&#34;派&#34;&gt;&lt;/a&gt;派&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\pi$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;$\pi$&lt;/p&gt;
-&lt;h2 id=&#34;希腊字母&#34;&gt;&lt;a href=&#34;#希腊字母&#34; class=&#34;headerlink&#34; title=&#34;希腊字母&#34;&gt;&lt;/a&gt;希腊字母&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\alpha$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;$\alpha$&lt;/p&gt;
-&lt;h2 id=&#34;角度&#34;&gt;&lt;a href=&#34;#角度&#34; class=&#34;headerlink&#34; title=&#34;角度&#34;&gt;&lt;/a&gt;角度&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$^\circ$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;$^\circ$&lt;/p&gt;
+            <description><![CDATA[ &lt;h2 id=&#34;分数&#34;&gt;分数&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$\frac&amp;#123;分子&amp;#125;&amp;#123;分母&amp;#125;$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mtext&gt;分子&lt;/mtext&gt;&lt;mtext&gt;分母&lt;/mtext&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\frac{分子}{分母}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.2173em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8723em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord cjk_fallback mtight&#34;&gt;分母&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord cjk_fallback mtight&#34;&gt;分子&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;派&#34;&gt;派&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$\pi$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\pi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;希腊字母&#34;&gt;希腊字母&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$\alpha$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;角度&#34;&gt;角度&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$^\circ$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;mo&gt;∘&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;^\circ&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6741em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6741em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;∘&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

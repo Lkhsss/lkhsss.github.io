@@ -11,39 +11,53 @@
     <category term="Java" />
     <category term="学习" />
     <category term="高中" />
-    <category term="化学" />
-    <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="化学" />
+    <category term="内卷笔记" />
     <category term="物理" />
     <category term="Linux" />
     <category term="WSL" />
+    <category term="Kali" />
     <category term="Python" />
     <entry>
         <id>https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
         <title>高一物理公式总结</title>
         <link rel="alternate" href="https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
-        <content type="html">&lt;h1 id=&#34;高一物理公式总结&#34;&gt;&lt;a href=&#34;#高一物理公式总结&#34; class=&#34;headerlink&#34; title=&#34;高一物理公式总结&#34;&gt;&lt;/a&gt;高一物理公式总结&lt;/h1&gt;&lt;h2 id=&#34;加速度-acceleration&#34;&gt;&lt;a href=&#34;#加速度-acceleration&#34; class=&#34;headerlink&#34; title=&#34;加速度(acceleration)&#34;&gt;&lt;/a&gt;加速度(acceleration)&lt;/h2&gt;&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
-&lt;h3 id=&#34;a-x3D-frac-Delta-v-Delta-t&#34;&gt;&lt;a href=&#34;#a-x3D-frac-Delta-v-Delta-t&#34; class=&#34;headerlink&#34; title=&#34;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&#34;&gt;&lt;/a&gt;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;$\Delta v$为速度变化量，$\Delta t$为发生这个变化所需要的时间&lt;/p&gt;
+        <content type="html">&lt;h1&gt;高一物理公式总结&lt;/h1&gt;
+&lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
+&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
+&lt;h3 id=&#34;a-frac-Delta-v-Delta-t&#34;&gt;$$a=\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Δ&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\Delta v&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;Δ&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;为速度变化量，&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Δ&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\Delta t&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;Δ&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;为发生这个变化所需要的时间&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;速度方程&#34;&gt;&lt;a href=&#34;#速度方程&#34; class=&#34;headerlink&#34; title=&#34;速度方程&#34;&gt;&lt;/a&gt;速度方程&lt;/h2&gt;&lt;p&gt;匀变速直线运动的速度与时间的关系式&lt;/p&gt;
-&lt;h3 id=&#34;v-t-x3D-v-0-at&#34;&gt;&lt;a href=&#34;#v-t-x3D-v-0-at&#34; class=&#34;headerlink&#34; title=&#34;$$v_t&amp;#x3D;v_0+at$$&#34;&gt;&lt;/a&gt;$$v_t&amp;#x3D;v_0+at$$&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;$v_t$，$v_0$和加速度 a 都是矢量&lt;/p&gt;
+&lt;h2 id=&#34;速度方程&#34;&gt;速度方程&lt;/h2&gt;
+&lt;p&gt;匀变速直线运动的速度与时间的关系式&lt;/p&gt;
+&lt;h3 id=&#34;v-t-v-0-at&#34;&gt;$$v_t=v_0+at$$&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;v_t&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.5806em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.2806em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;v_0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.5806em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;和加速度 a 都是矢量&lt;/p&gt;
 &lt;p&gt;加速度 a 在式中作为常量存在&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;位移方程&#34;&gt;&lt;a href=&#34;#位移方程&#34; class=&#34;headerlink&#34; title=&#34;位移方程&#34;&gt;&lt;/a&gt;位移方程&lt;/h2&gt;&lt;p&gt;匀变速直线运动的位移与时间的关系式&lt;/p&gt;
-&lt;h3 id=&#34;x-x3D-v-0-t-frac-1-2-at-2&#34;&gt;&lt;a href=&#34;#x-x3D-v-0-t-frac-1-2-at-2&#34; class=&#34;headerlink&#34; title=&#34;$$x&amp;#x3D;v_0 t+\frac{1}{2}at^2$$&#34;&gt;&lt;/a&gt;$$x&amp;#x3D;v_0 t+\frac{1}{2}at^2$$&lt;/h3&gt;&lt;hr&gt;
-&lt;h2 id=&#34;位移差公式&#34;&gt;&lt;a href=&#34;#位移差公式&#34; class=&#34;headerlink&#34; title=&#34;位移差公式&#34;&gt;&lt;/a&gt;位移差公式&lt;/h2&gt;&lt;p&gt;在匀变速直线运动中，相邻两段相同时间的位移差&lt;/p&gt;
-&lt;h3 id=&#34;Delta-x-x3D-at-2&#34;&gt;&lt;a href=&#34;#Delta-x-x3D-at-2&#34; class=&#34;headerlink&#34; title=&#34;$$\Delta x&amp;#x3D;at^2$$&#34;&gt;&lt;/a&gt;$$\Delta x&amp;#x3D;at^2$$&lt;/h3&gt;&lt;hr&gt;
-&lt;h2 id=&#34;速度位移公式&#34;&gt;&lt;a href=&#34;#速度位移公式&#34; class=&#34;headerlink&#34; title=&#34;速度位移公式&#34;&gt;&lt;/a&gt;速度位移公式&lt;/h2&gt;&lt;h3 id=&#34;v-t-2-v-0-2-x3D-2ax&#34;&gt;&lt;a href=&#34;#v-t-2-v-0-2-x3D-2ax&#34; class=&#34;headerlink&#34; title=&#34;$$v_t^2-v_0^2&amp;#x3D;2ax$$&#34;&gt;&lt;/a&gt;$$v_t^2-v_0^2&amp;#x3D;2ax$$&lt;/h3&gt;&lt;blockquote&gt;
+&lt;h2 id=&#34;位移方程&#34;&gt;位移方程&lt;/h2&gt;
+&lt;p&gt;匀变速直线运动的位移与时间的关系式&lt;/p&gt;
+&lt;h3 id=&#34;x-v-0-t-frac-1-2-at-2&#34;&gt;$$x=v_0 t+\frac{1}{2}at^2$$&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;位移差公式&#34;&gt;位移差公式&lt;/h2&gt;
+&lt;p&gt;在匀变速直线运动中，相邻两段相同时间的位移差&lt;/p&gt;
+&lt;h3 id=&#34;Delta-x-at-2&#34;&gt;$$\Delta x=at^2$$&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;速度位移公式&#34;&gt;速度位移公式&lt;/h2&gt;
+&lt;h3 id=&#34;v-t-2-v-0-2-2ax&#34;&gt;$$v_t^2-v_0^2=2ax$$&lt;/h3&gt;
+&lt;blockquote&gt;
 &lt;p&gt;特点：计算时不涉及时间&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;位移中点瞬时速度公式&#34;&gt;&lt;a href=&#34;#位移中点瞬时速度公式&#34; class=&#34;headerlink&#34; title=&#34;位移中点瞬时速度公式&#34;&gt;&lt;/a&gt;位移中点瞬时速度公式&lt;/h2&gt;&lt;h3 id=&#34;v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2&#34;&gt;&lt;a href=&#34;#v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2&#34; class=&#34;headerlink&#34; title=&#34;$$v_\frac{x}{2}&amp;#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$&#34;&gt;&lt;/a&gt;$$v_\frac{x}{2}&amp;#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$&lt;/h3&gt;&lt;details&gt;
+&lt;h2 id=&#34;位移中点瞬时速度公式&#34;&gt;位移中点瞬时速度公式&lt;/h2&gt;
+&lt;h3 id=&#34;v-frac-x-2-sqrt-frac-v-0-2-v-t-2-2&#34;&gt;$$v_\frac{x}{2}=\sqrt{\frac{v_0^2+v_t^2}{2}}$$&lt;/h3&gt;
+&lt;details&gt;
 &lt;summary&gt;证明过程&lt;/summary&gt;
 &lt;p&gt;$v_\frac{x}{2} ^2-v_0^2=2a\times\frac{x}{2}$&lt;/p&gt;
 &lt;p&gt;移项可得：$v_\frac{x}{2} ^2=ax+v_0^2$ ①&lt;/p&gt;
@@ -53,18 +67,21 @@
 &lt;p&gt;化简可得：$2v_\frac{x}{2} ^2=v_0^2+v_t^2$&lt;/p&gt;
 &lt;p&gt;最终得：$v_\frac{x}{2}=\sqrt{\frac{v_0^2+v_t^2}{2}}$&lt;/p&gt;
 &lt;/details&gt;
-
 &lt;hr&gt;
-&lt;h2 id=&#34;胡克定律&#34;&gt;&lt;a href=&#34;#胡克定律&#34; class=&#34;headerlink&#34; title=&#34;胡克定律&#34;&gt;&lt;/a&gt;胡克定律&lt;/h2&gt;&lt;p&gt;在弹性限度内，弹簧弹力 F 的大小与弹簧的伸长量成正比。&lt;/p&gt;
-&lt;p&gt;$$F&amp;#x3D;kx$$&lt;/p&gt;
+&lt;h2 id=&#34;胡克定律&#34;&gt;胡克定律&lt;/h2&gt;
+&lt;p&gt;在弹性限度内，弹簧弹力 F 的大小与弹簧的伸长量成正比。&lt;/p&gt;
+&lt;p class=&#34;katex-block &#34;&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;F=kx
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03148em;&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;比例系数 k 称为弹簧的&lt;strong&gt;劲度系数&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;滑动摩擦力公式&#34;&gt;&lt;a href=&#34;#滑动摩擦力公式&#34; class=&#34;headerlink&#34; title=&#34;滑动摩擦力公式&#34;&gt;&lt;/a&gt;滑动摩擦力公式&lt;/h2&gt;&lt;p&gt;$$f&amp;#x3D;\mu N$$&lt;/p&gt;
+&lt;h2 id=&#34;滑动摩擦力公式&#34;&gt;滑动摩擦力公式&lt;/h2&gt;
+&lt;p class=&#34;katex-block &#34;&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f=\mu N
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8889em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8778em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;μ&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10903em;&#34;&gt;N&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;比例系数$\mu$叫做&lt;strong&gt;动摩擦因数&lt;/strong&gt;，是两个力的比值，没有单位。&lt;/p&gt;
-&lt;p&gt;$\mu$的大小仅与两个接触面的材料、粗糙程度等情况有关。&lt;/p&gt;
+&lt;p&gt;比例系数&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mu&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.625em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;μ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;叫做&lt;strong&gt;动摩擦因数&lt;/strong&gt;，是两个力的比值，没有单位。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mu&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.625em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;μ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;的大小仅与两个接触面的材料、粗糙程度等情况有关。&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />

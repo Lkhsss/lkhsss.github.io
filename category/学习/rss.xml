@@ -5,8 +5,8 @@
         <link>https://lkhsss.github.io</link>
         <description>一个年轻程序猿的主页，包含了很多东西......</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
-        <lastBuildDate>Thu, 15 Dec 2022 00:04:09 +0800</lastBuildDate>
+        <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
+        <lastBuildDate>Sat, 18 Feb 2023 09:46:25 +0800</lastBuildDate>
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
@@ -14,15 +14,39 @@
         <category>Java</category>
         <category>学习</category>
         <category>高中</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>物理</category>
         <category>Linux</category>
         <category>WSL</category>
+        <category>Kali</category>
         <category>Python</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2023/02/18/%E5%8C%96%E5%AD%A6-%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
+            <title>物理性质和化学性质</title>
+            <link>https://lkhsss.github.io/2023/02/18/%E5%8C%96%E5%AD%A6-%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</link>
+            <category>高中</category>
+            <category>化学</category>
+            <category>内卷笔记</category>
+            <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;物质在化学变化中表现出来的性质叫化学性质，如铁在潮湿的空气中生成铁锈，铜能在潮湿的空气中生成铜绿。化学性质只能通过化学变化表现出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;常见的化学性质&lt;/strong&gt;：可燃性、稳定性、活泼性、毒性、氧化性、还原性、酸碱性、缩水性、酸碱性等&lt;/p&gt;
+&lt;p&gt;例：铁的生锈、节日的焰火、酸碱中和&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;物理性质&#34;&gt;物理性质&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;物质不需要发生化学变化就表现出来都的性质叫物理性质&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;常见的物理性质&lt;/strong&gt;：颜色、状态、气味、硬度、熔点、沸点、密度、可溶性等&lt;/p&gt;
+&lt;p&gt;例：固态的冰受热熔化成水、液态的水蒸发变成水蒸气、水蒸气冷凝成水、汽油挥发&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
             <title>三角函数诱导公式</title>
@@ -32,158 +56,117 @@
             <category>公式</category>
             <category>总结</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;诱导公式一&#34;&gt;&lt;a href=&#34;#诱导公式一&#34; class=&#34;headerlink&#34; title=&#34;诱导公式一&#34;&gt;&lt;/a&gt;诱导公式一&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
-
+            <description><![CDATA[ &lt;h1&gt;诱导公式一&lt;/h1&gt;
+&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
 &lt;p&gt;设α为任意角,终边相同的角的同名三角函数的值相等&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&#34;sin-alpha-2k-pi-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-alpha-2k-pi-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\alpha+2k\pi)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\alpha+2k\pi)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;cos-alpha-2k-pi-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-2k-pi-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\alpha+2k\pi)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;tan-alpha-2k-pi-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-2k-pi-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\alpha+2k\pi)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;sin-alpha-2k-pi-sin-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sin(\alpha+2k\pi)=\sin\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;kπ&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6679em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;cos-alpha-2k-pi-cos-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\cos(\alpha+2k\pi)=\cos\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;kπ&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;tan-alpha-2k-pi-tan-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\tan(\alpha+2k\pi)=\tan\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;kπ&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6151em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式二&#34;&gt;&lt;a href=&#34;#诱导公式二&#34; class=&#34;headerlink&#34; title=&#34;诱导公式二&#34;&gt;&lt;/a&gt;诱导公式二&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式二.4j3th9s0n2u0.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;327&#34;&gt;
-
+&lt;h1&gt;诱导公式二&lt;/h1&gt;
+&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式二.4j3th9s0n2u0.webp&#34; title=&#34;&#34; alt=&#34;诱导公式二&#34; width=&#34;327&#34;&gt;
 &lt;p&gt;设α为任意角，π+α的三角函数值与α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&#34;sin-pi-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-pi-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\pi+\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\pi+\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi+\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi+\alpha)&amp;#x3D;\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;sin-pi-alpha-sin-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sin(\pi+\alpha)=-\sin\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7512em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;cos-pi-alpha-cos-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\cos(\pi+\alpha)=-\cos\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6667em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;tan-pi-alpha-tan-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\tan(\pi+\alpha)=\tan\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6151em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式三&#34;&gt;&lt;a href=&#34;#诱导公式三&#34; class=&#34;headerlink&#34; title=&#34;诱导公式三&#34;&gt;&lt;/a&gt;诱导公式三&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式三.29dt9ipdu4sg.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;331&#34;&gt;
-
+&lt;h1&gt;诱导公式三&lt;/h1&gt;
+&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式三.29dt9ipdu4sg.webp&#34; title=&#34;&#34; alt=&#34;诱导公式三&#34; width=&#34;331&#34;&gt;
 &lt;p&gt;任意角α与 -α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&#34;sin-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#sin-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(-\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(-\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;cos-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#cos-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;tan-alpha-x3D-tan-alpha&#34;&gt;&lt;a href=&#34;#tan-alpha-x3D-tan-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;sin-alpha-sin-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sin(-\alpha)=-\sin\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7512em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;cos-alpha-cos-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\cos(-\alpha)=\cos\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;tan-alpha-tan-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\tan(-\alpha)=-\tan\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6984em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式四&#34;&gt;&lt;a href=&#34;#诱导公式四&#34; class=&#34;headerlink&#34; title=&#34;诱导公式四&#34;&gt;&lt;/a&gt;诱导公式四&lt;/h1&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式四.2bopwlazvyqs.webp&#34; title=&#34;&#34; alt=&#34;诱导公式四&#34; width=&#34;349&#34;&gt;
-
+&lt;h1&gt;诱导公式四&lt;/h1&gt;
+&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式四.2bopwlazvyqs.webp&#34; title=&#34;&#34; alt=&#34;诱导公式四&#34; width=&#34;349&#34;&gt;
 &lt;p&gt;π-α与α的三角函数值之间的关系&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&#34;sin-pi-alpha-x3D-sin-alpha-1&#34;&gt;&lt;a href=&#34;#sin-pi-alpha-x3D-sin-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\pi-\alpha)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\sin(\pi-\alpha)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;cos-pi-alpha-x3D-cos-alpha-1&#34;&gt;&lt;a href=&#34;#cos-pi-alpha-x3D-cos-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&#34;&gt;&lt;/a&gt;$\cos(\pi-\alpha)&amp;#x3D;-\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;tan-pi-alpha-x3D-tan-alpha-1&#34;&gt;&lt;a href=&#34;#tan-pi-alpha-x3D-tan-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&#34;&gt;&lt;/a&gt;$\tan(\pi-\alpha)&amp;#x3D;-\tan\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式五&#34;&gt;&lt;a href=&#34;#诱导公式五&#34; class=&#34;headerlink&#34; title=&#34;诱导公式五&#34;&gt;&lt;/a&gt;诱导公式五&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;file:///C:/Users/likhs/AppData/Roaming/marktext/images/2022-12-17-19-37-15-image.png&#34; alt=&#34;&#34; width=&#34;348&#34;&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&#34;sin-frac-pi-2-alpha-x3D-cos-alpha&#34;&gt;&lt;a href=&#34;#sin-frac-pi-2-alpha-x3D-cos-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\frac{\pi}{2}-\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\sin(\frac{\pi}{2}-\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;cos-frac-pi-2-alpha-x3D-sin-alpha&#34;&gt;&lt;a href=&#34;#cos-frac-pi-2-alpha-x3D-sin-alpha&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\frac{\pi}{2}-\alpha)&amp;#x3D;\sin\alpha$&#34;&gt;&lt;/a&gt;$\cos(\frac{\pi}{2}-\alpha)&amp;#x3D;\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;诱导公式六&#34;&gt;&lt;a href=&#34;#诱导公式六&#34; class=&#34;headerlink&#34; title=&#34;诱导公式六&#34;&gt;&lt;/a&gt;诱导公式六&lt;/h1&gt;&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式六.gv58kq5xx60.webp&#34; alt=&#34;诱导公式六&#34; width=&#34;356&#34;&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&#34;sin-frac-pi-2-alpha-x3D-cos-alpha-1&#34;&gt;&lt;a href=&#34;#sin-frac-pi-2-alpha-x3D-cos-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\sin(\frac{\pi}{2}+\alpha)&amp;#x3D;\cos\alpha$&#34;&gt;&lt;/a&gt;$\sin(\frac{\pi}{2}+\alpha)&amp;#x3D;\cos\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;li&gt;&lt;h4 id=&#34;cos-frac-pi-2-alpha-x3D-sin-alpha-1&#34;&gt;&lt;a href=&#34;#cos-frac-pi-2-alpha-x3D-sin-alpha-1&#34; class=&#34;headerlink&#34; title=&#34;$\cos(\frac{\pi}{2}+\alpha)&amp;#x3D;-\sin\alpha$&#34;&gt;&lt;/a&gt;$\cos(\frac{\pi}{2}+\alpha)&amp;#x3D;-\sin\alpha$&lt;/h4&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;总结&#34;&gt;&lt;a href=&#34;#总结&#34; class=&#34;headerlink&#34; title=&#34;总结&#34;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;&lt;h2 id=&#34;诱导公式五六规律&#34;&gt;&lt;a href=&#34;#诱导公式五六规律&#34; class=&#34;headerlink&#34; title=&#34;诱导公式五六规律&#34;&gt;&lt;/a&gt;诱导公式五六规律&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;角$\frac{\pi}{2}\pm\alpha$的正弦等于角$\alpha$的余弦；角$\frac{\pi}{2}\pm\alpha$的余弦等于角$\alpha$的正弦&lt;/p&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;sin-pi-alpha-sin-alpha-2&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sin(\pi-\alpha)=\sin\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6679em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;“函数名改变，符号看象限”&lt;/p&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;cos-pi-alpha-cos-alpha-2&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\cos(\pi-\alpha)=-\cos\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6667em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;tan-pi-alpha-tan-alpha-2&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\tan(\pi-\alpha)=-\tan\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6984em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;tan&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;诱导公式五&lt;/h1&gt;
+&lt;img title=&#34;&#34; src=&#34;file:///C:/Users/likhs/AppData/Roaming/marktext/images/2022-12-17-19-37-15-image.png&#34; alt=&#34;&#34; width=&#34;348&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;sin-frac-pi-2-alpha-cos-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sin(\frac{\pi}{2}-\alpha)=\cos\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.095em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;cos-frac-pi-2-alpha-sin-alpha&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\cos(\frac{\pi}{2}-\alpha)=\sin\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.095em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6679em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;诱导公式六&lt;/h1&gt;
+&lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式六.gv58kq5xx60.webp&#34; alt=&#34;诱导公式六&#34; width=&#34;356&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;sin-frac-pi-2-alpha-cos-alpha-2&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sin(\frac{\pi}{2}+\alpha)=\cos\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.095em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;cos-frac-pi-2-alpha-sin-alpha-2&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;sin&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\cos(\frac{\pi}{2}+\alpha)=-\sin\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.095em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;cos&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7512em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;诱导公式五六规律&#34;&gt;诱导公式五六规律&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;角&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;±&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\frac{\pi}{2}\pm\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0404em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;±&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;的正弦等于角&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;的余弦；角&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;±&lt;/mo&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\frac{\pi}{2}\pm\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0404em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;±&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;的余弦等于角&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.0037em;&#34;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;的正弦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“函数名改变，符号看象限”&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;h2 id=&#34;六组公式应用场景&#34;&gt;&lt;a href=&#34;#六组公式应用场景&#34; class=&#34;headerlink&#34; title=&#34;六组公式应用场景&#34;&gt;&lt;/a&gt;六组公式应用场景&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;公式一：将任意角转化到0~$2\pi$之间的角求值&lt;/p&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;六组公式应用场景&#34;&gt;六组公式应用场景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;公式一：将任意角转化到0~&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2\pi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;之间的角求值&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;公式二：将0&lt;del&gt;2$\pi$之间的角转为0&lt;/del&gt;$\pi$之间的角求值&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;公式二：将0~2&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\pi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;之间的角转为0~&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\pi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;之间的角求值&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;公式三：将负角转化为正角求值&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;公式三：将负角转化为正角求值&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;公式四：将$(\frac{\pi}{2},\pi)$之间的角转化为$(0,\frac{\pi}{2})$之间的角求值&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;公式四：将&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;(\frac{\pi}{2},\pi)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.095em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;之间的角转化为&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;(0,\frac{\pi}{2})&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.095em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6954em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;之间的角求值&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;公式五六：正余弦之间相互转化&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;公式五六：正余弦之间相互转化&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lkhsss.github.io/2022/11/26/%E5%8C%96%E5%AD%A6-%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</guid>
-            <title>物质的量</title>
-            <link>https://lkhsss.github.io/2022/11/26/%E5%8C%96%E5%AD%A6-%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</link>
-            <category>高中</category>
-            <category>化学</category>
-            <category>内卷笔记</category>
-            <pubDate>Sat, 26 Nov 2022 22:12:20 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;物质的量&#34;&gt;&lt;a href=&#34;#物质的量&#34; class=&#34;headerlink&#34; title=&#34;物质的量&#34;&gt;&lt;/a&gt;物质的量&lt;/h1&gt;&lt;p&gt;高中化学必修一；第二章 海水中的重要元素——钠和氯；第七讲 物质的量&lt;/p&gt;
-&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#定义&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;表示含有一定数目粒子的集合体&lt;/p&gt;
-&lt;h2 id=&#34;符号&#34;&gt;&lt;a href=&#34;#符号&#34; class=&#34;headerlink&#34; title=&#34;符号&#34;&gt;&lt;/a&gt;符号&lt;/h2&gt;&lt;p&gt;使用&lt;code&gt;n&lt;/code&gt;表示&lt;/p&gt;
-&lt;h2 id=&#34;单位&#34;&gt;&lt;a href=&#34;#单位&#34; class=&#34;headerlink&#34; title=&#34;单位&#34;&gt;&lt;/a&gt;单位&lt;/h2&gt;&lt;p&gt;摩尔，简称摩，符号为mol&lt;/p&gt;
-&lt;h2 id=&#34;表示方法&#34;&gt;&lt;a href=&#34;#表示方法&#34; class=&#34;headerlink&#34; title=&#34;表示方法&#34;&gt;&lt;/a&gt;表示方法&lt;/h2&gt;&lt;p&gt;    &lt;code&gt;x&lt;/code&gt; &lt;code&gt;mol&lt;/code&gt; &lt;code&gt;化学式&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;例如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;0.5mol $H_2O$ &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;1 mol $H^+$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;2 mol $CO_3^{2-}$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;4 mol 氧原子&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;易错点&#34;&gt;&lt;a href=&#34;#易错点&#34; class=&#34;headerlink&#34; title=&#34;易错点&#34;&gt;&lt;/a&gt;易错点&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;用摩尔表示物质的量时必须指定微粒的名称、符号或化学式。&lt;strong&gt;可以使用中文&lt;/strong&gt;，只要不引起歧义&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;“物质的量”为一个专有名词。“物质的量”&lt;strong&gt;既不&lt;/strong&gt;表示物质的数量，&lt;strong&gt;也不&lt;/strong&gt;表示物质的质量。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;摩尔不是物理量，是&lt;strong&gt;物质的量&lt;/strong&gt;这一基本物理量的&lt;strong&gt;单位&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;物质的量不能表示宏观物质&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;“物质的量”总结&#34;&gt;&lt;a href=&#34;#“物质的量”总结&#34; class=&#34;headerlink&#34; title=&#34;“物质的量”总结&#34;&gt;&lt;/a&gt;“物质的量”总结&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34; mermaid&#34;&gt;graph LR
-
-A[&amp;quot;物质的量&amp;quot;]--定义--&amp;gt;id1([表示含有一定数目粒子的集合体])
-A--表示符号--&amp;gt;id2&amp;#123;n&amp;#125;
-A--单位--&amp;gt;摩尔,简称摩,符号为mol
-A--使用对象--&amp;gt;所有微观粒子
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr&gt;
-&lt;h1 id=&#34;阿伏加德罗常数&#34;&gt;&lt;a href=&#34;#阿伏加德罗常数&#34; class=&#34;headerlink&#34; title=&#34;阿伏加德罗常数&#34;&gt;&lt;/a&gt;阿伏加德罗常数&lt;/h1&gt;&lt;h2 id=&#34;定义-1&#34;&gt;&lt;a href=&#34;#定义-1&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;国际上定义1 mol粒子的集合体所含的粒子数与0.012kg $^{12}$C中所含有的碳原子数目相同，约为$6.02\times10^{23}$。1 mol任意粒子的粒子数叫做阿伏加德罗常数。&lt;/p&gt;
-&lt;h2 id=&#34;符号-1&#34;&gt;&lt;a href=&#34;#符号-1&#34; class=&#34;headerlink&#34; title=&#34;符号&#34;&gt;&lt;/a&gt;符号&lt;/h2&gt;&lt;p&gt;阿伏加德罗常数使用符号 $N_A$ 表示&lt;/p&gt;
-&lt;h2 id=&#34;单位-1&#34;&gt;&lt;a href=&#34;#单位-1&#34; class=&#34;headerlink&#34; title=&#34;单位&#34;&gt;&lt;/a&gt;单位&lt;/h2&gt;&lt;p&gt;$mol^{-1}$&lt;/p&gt;
-&lt;h2 id=&#34;近似值&#34;&gt;&lt;a href=&#34;#近似值&#34; class=&#34;headerlink&#34; title=&#34;近似值&#34;&gt;&lt;/a&gt;近似值&lt;/h2&gt;&lt;p&gt;1$N_A$ $\approx$ $6.02\times10^{23}$&lt;/p&gt;
-&lt;h2 id=&#34;计算公式&#34;&gt;&lt;a href=&#34;#计算公式&#34; class=&#34;headerlink&#34; title=&#34;计算公式&#34;&gt;&lt;/a&gt;计算公式&lt;/h2&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;公式&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;理解&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;$n&amp;#x3D;\frac{N}{N_A}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$物质的量&amp;#x3D;\frac{粒子总数}{阿伏加德罗常数}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;$N&amp;#x3D;n\cdot N_A$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$粒子总数&amp;#x3D;物质的量\cdot 阿伏加德罗常数$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;$N_A&amp;#x3D;\frac{N}{n}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$阿伏加德罗常数&amp;#x3D;\frac{粒子总数}{物质的量}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;n&lt;/code&gt;为&lt;a href=&#34;#%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F&#34;&gt;物质的量&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;N为粒子数&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;理解记忆&#34;&gt;&lt;a href=&#34;#理解记忆&#34; class=&#34;headerlink&#34; title=&#34;理解记忆&#34;&gt;&lt;/a&gt;理解记忆&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;阿伏加德罗常数是一个有&lt;a href=&#34;#%E5%8D%95%E4%BD%8D-1&#34;&gt;单位&lt;/a&gt;的物理量，不是一个纯数字&lt;/u&gt;。（类似于圆周率$\pi$，但是有单位）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用&lt;strong&gt;物质含有的粒子总量&lt;/strong&gt;&lt;code&gt;N&lt;/code&gt; 除以 &lt;strong&gt;一个单位物质的量&lt;/strong&gt; 所含有的 粒子数 等于 该物质含有几个 单位物质的量。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;形象记忆：假如求一袋大米有多少粒。整整一袋大米不可能去数有多少粒，但是如果知道一小碗可以装多少粒大米，就可以用碗快速地算出一袋大米有多少碗米，进而算出一袋大米有多少粒。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;一袋大米&lt;/code&gt;：物质含有的粒子总量—&amp;gt;&lt;code&gt;N&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;一碗米的粒数&lt;/code&gt;：一个单位物质的量—&amp;gt;$N_A$&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;物质的量&lt;/code&gt;：一袋大米有多少碗米—&amp;gt;&lt;code&gt;n&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;摩尔质量&#34;&gt;&lt;a href=&#34;#摩尔质量&#34; class=&#34;headerlink&#34; title=&#34;摩尔质量&#34;&gt;&lt;/a&gt;摩尔质量&lt;/h1&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2022/11/19/%E5%8C%96%E5%AD%A6-%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
@@ -193,86 +176,103 @@ A--使用对象--&amp;gt;所有微观粒子
             <category>化学</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 19 Nov 2022 23:48:51 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;氯单质–-cl-2&#34;&gt;&lt;a href=&#34;#氯单质–-cl-2&#34; class=&#34;headerlink&#34; title=&#34;氯单质–$cl_2$&#34;&gt;&lt;/a&gt;氯单质–$cl_2$&lt;/h1&gt;&lt;h2 id=&#34;物理性质&#34;&gt;&lt;a href=&#34;#物理性质&#34; class=&#34;headerlink&#34; title=&#34;物理性质&#34;&gt;&lt;/a&gt;物理性质&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;气态&lt;/p&gt;
+            <description><![CDATA[ &lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;物理性质&#34;&gt;物理性质&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;气态&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;黄绿色&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;黄绿色&lt;/p&gt;
 &lt;img src=&#34;https://img2.baidu.com/it/u=3759710032,3643689725&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=151&amp;h=160&#34; title=&#34;&#34; alt=&#34;https://img1.baidu.com/it/u=2744913012,3117706635&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=204&amp;h=220&#34; width=&#34;61&#34;&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;有刺激性气味&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;有刺激性气味&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;有毒&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;有毒&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;密度比空气大&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;密度比空气大&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;可溶于水&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;可溶于水&lt;/p&gt;
 &lt;div class=&#34;note note-info&#34;&gt;
             &lt;p&gt;由于氯气密度比空气大，且可溶于水，&lt;/p&gt;&lt;p&gt;所以收集时使用&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%91%E4%B8%8A%E6%8E%92%E7%A9%BA%E6%B0%94%E6%B3%95#1&#34;&gt;&lt;strong&gt;向上排空气法&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
           &lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;易液化&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;易液化&lt;/p&gt;
 &lt;div class=&#34;note note-info&#34;&gt;
             &lt;p&gt;储存在钢瓶当中（绿色）&lt;/p&gt;
-          &lt;/div&gt;&lt;/li&gt;
+          &lt;/div&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;化学性质&#34;&gt;&lt;a href=&#34;#化学性质&#34; class=&#34;headerlink&#34; title=&#34;化学性质&#34;&gt;&lt;/a&gt;化学性质&lt;/h2&gt;&lt;p&gt;易得电子，表现出强&lt;strong&gt;氧化性&lt;/strong&gt;，很活泼&lt;/p&gt;
-&lt;h3 id=&#34;与金属反应&#34;&gt;&lt;a href=&#34;#与金属反应&#34; class=&#34;headerlink&#34; title=&#34;与金属反应&#34;&gt;&lt;/a&gt;与金属反应&lt;/h3&gt;&lt;table&gt;
+&lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
+&lt;p&gt;易得电子，表现出强&lt;strong&gt;氧化性&lt;/strong&gt;，很活泼&lt;/p&gt;
+&lt;h3 id=&#34;与金属反应&#34;&gt;与金属反应&lt;/h3&gt;
+&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;金属&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;化学方程式&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;现象&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;溶液颜色&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;金属&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;化学方程式&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;现象&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;溶液颜色&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Na&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{2Na + cl_2 \xlongequal[]{点燃} 2Nacl}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白&lt;strong&gt;烟&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;\&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Na&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{2Na + cl_2 \xl…&#39;&gt;\ce{2Na + cl_2 \xlongequal[]{点燃} 2Nacl}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剧烈燃烧，产生白&lt;strong&gt;烟&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;\&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Fe&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{2Fe + 3cl_2 \xlongequal[]{点燃} 2Fecl_3}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生棕褐色烟&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;\&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Fe&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{2Fe + 3cl_2 \x…&#39;&gt;\ce{2Fe + 3cl_2 \xlongequal[]{点燃} 2Fecl_3}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剧烈燃烧，产生棕褐色烟&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;\&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Cu&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{Cu + cl_2 \xlongequal[]{点燃} Cucl_2}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生棕黄色烟&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;浓溶液-黄绿色；稀溶液：蓝色&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cu&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{Cu + cl_2 \xlo…&#39;&gt;\ce{Cu + cl_2 \xlongequal[]{点燃} Cucl_2}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剧烈燃烧，产生棕黄色烟&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;浓溶液-黄绿色；稀溶液：蓝色&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id=&#34;与非金属反应&#34;&gt;&lt;a href=&#34;#与非金属反应&#34; class=&#34;headerlink&#34; title=&#34;与非金属反应&#34;&gt;&lt;/a&gt;与非金属反应&lt;/h3&gt;&lt;table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;与非金属反应&#34;&gt;与非金属反应&lt;/h3&gt;
+&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;物质&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;化学方程式&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;现象&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;物质&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;化学方程式&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;现象&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;$H_2$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{H_2 + cl_2 \xlongequal[]{点燃} 2HCl}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;安静地燃烧，发出苍白色火焰，瓶口有白雾&lt;sup id=&#34;fnref:1&#34; class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn:1&#34; rel=&#34;footnote&#34;&gt;&lt;span class=&#34;hint--top hint--rounded&#34; aria-label=&#34;HCl分子挥发后与水蒸气结合形成白雾&#34;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;出现&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.08125em;&#34;&gt;H&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{H_2 + cl_2 \xl…&#39;&gt;\ce{H_2 + cl_2 \xlongequal[]{点燃} 2HCl}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;安静地燃烧，发出苍白色火焰，瓶口有白雾&lt;sup id=&#34;fnref:1&#34; class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn:1&#34; rel=&#34;footnote&#34;&gt;&lt;span class=&#34;hint--top hint--rounded&#34; aria-label=&#34;HCl分子挥发后与水蒸气结合形成白雾&#34;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;出现&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;$H_2$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{H_2 + cl_2 \xlongequal[]{光照} 2HCl}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;爆炸&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.08125em;&#34;&gt;H&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{H_2 + cl_2 \xl…&#39;&gt;\ce{H_2 + cl_2 \xlongequal[]{光照} 2HCl}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;爆炸&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;P&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{2P + 3cl_2(少) \xlongequal[]{点燃} 2PCl_3}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白雾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;P&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{2P + 3cl_2(少) …&#39;&gt;\ce{2P + 3cl_2(少) \xlongequal[]{点燃} 2PCl_3}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剧烈燃烧，产生白雾&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;P&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;$\ce{2P + 5cl_2(多) \xlongequal[]{点燃} 2PCl_5}$&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;剧烈燃烧，产生白烟&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;P&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;span class=&#39;katex-error&#39; title=&#39;ParseError: KaTeX parse error: Undefined control sequence: \ce at position 1: \̲c̲e̲{2P + 5cl_2(多) …&#39;&gt;\ce{2P + 5cl_2(多) \xlongequal[]{点燃} 2PCl_5}&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剧烈燃烧，产生白烟&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt; ]]></description>
         </item>
@@ -285,26 +285,39 @@ A--使用对象--&amp;gt;所有微观粒子
             <category>总结</category>
             <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;高一物理公式总结&#34;&gt;&lt;a href=&#34;#高一物理公式总结&#34; class=&#34;headerlink&#34; title=&#34;高一物理公式总结&#34;&gt;&lt;/a&gt;高一物理公式总结&lt;/h1&gt;&lt;h2 id=&#34;加速度-acceleration&#34;&gt;&lt;a href=&#34;#加速度-acceleration&#34; class=&#34;headerlink&#34; title=&#34;加速度(acceleration)&#34;&gt;&lt;/a&gt;加速度(acceleration)&lt;/h2&gt;&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
-&lt;h3 id=&#34;a-x3D-frac-Delta-v-Delta-t&#34;&gt;&lt;a href=&#34;#a-x3D-frac-Delta-v-Delta-t&#34; class=&#34;headerlink&#34; title=&#34;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&#34;&gt;&lt;/a&gt;$$a&amp;#x3D;\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;$\Delta v$为速度变化量，$\Delta t$为发生这个变化所需要的时间&lt;/p&gt;
+            <description><![CDATA[ &lt;h1&gt;高一物理公式总结&lt;/h1&gt;
+&lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
+&lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
+&lt;h3 id=&#34;a-frac-Delta-v-Delta-t&#34;&gt;$$a=\frac{\Delta v}{\Delta t}$$&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Δ&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\Delta v&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;Δ&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;为速度变化量，&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Δ&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\Delta t&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;Δ&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;为发生这个变化所需要的时间&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;速度方程&#34;&gt;&lt;a href=&#34;#速度方程&#34; class=&#34;headerlink&#34; title=&#34;速度方程&#34;&gt;&lt;/a&gt;速度方程&lt;/h2&gt;&lt;p&gt;匀变速直线运动的速度与时间的关系式&lt;/p&gt;
-&lt;h3 id=&#34;v-t-x3D-v-0-at&#34;&gt;&lt;a href=&#34;#v-t-x3D-v-0-at&#34; class=&#34;headerlink&#34; title=&#34;$$v_t&amp;#x3D;v_0+at$$&#34;&gt;&lt;/a&gt;$$v_t&amp;#x3D;v_0+at$$&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;$v_t$，$v_0$和加速度 a 都是矢量&lt;/p&gt;
+&lt;h2 id=&#34;速度方程&#34;&gt;速度方程&lt;/h2&gt;
+&lt;p&gt;匀变速直线运动的速度与时间的关系式&lt;/p&gt;
+&lt;h3 id=&#34;v-t-v-0-at&#34;&gt;$$v_t=v_0+at$$&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;v_t&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.5806em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.2806em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;v_0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.5806em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;和加速度 a 都是矢量&lt;/p&gt;
 &lt;p&gt;加速度 a 在式中作为常量存在&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;位移方程&#34;&gt;&lt;a href=&#34;#位移方程&#34; class=&#34;headerlink&#34; title=&#34;位移方程&#34;&gt;&lt;/a&gt;位移方程&lt;/h2&gt;&lt;p&gt;匀变速直线运动的位移与时间的关系式&lt;/p&gt;
-&lt;h3 id=&#34;x-x3D-v-0-t-frac-1-2-at-2&#34;&gt;&lt;a href=&#34;#x-x3D-v-0-t-frac-1-2-at-2&#34; class=&#34;headerlink&#34; title=&#34;$$x&amp;#x3D;v_0 t+\frac{1}{2}at^2$$&#34;&gt;&lt;/a&gt;$$x&amp;#x3D;v_0 t+\frac{1}{2}at^2$$&lt;/h3&gt;&lt;hr&gt;
-&lt;h2 id=&#34;位移差公式&#34;&gt;&lt;a href=&#34;#位移差公式&#34; class=&#34;headerlink&#34; title=&#34;位移差公式&#34;&gt;&lt;/a&gt;位移差公式&lt;/h2&gt;&lt;p&gt;在匀变速直线运动中，相邻两段相同时间的位移差&lt;/p&gt;
-&lt;h3 id=&#34;Delta-x-x3D-at-2&#34;&gt;&lt;a href=&#34;#Delta-x-x3D-at-2&#34; class=&#34;headerlink&#34; title=&#34;$$\Delta x&amp;#x3D;at^2$$&#34;&gt;&lt;/a&gt;$$\Delta x&amp;#x3D;at^2$$&lt;/h3&gt;&lt;hr&gt;
-&lt;h2 id=&#34;速度位移公式&#34;&gt;&lt;a href=&#34;#速度位移公式&#34; class=&#34;headerlink&#34; title=&#34;速度位移公式&#34;&gt;&lt;/a&gt;速度位移公式&lt;/h2&gt;&lt;h3 id=&#34;v-t-2-v-0-2-x3D-2ax&#34;&gt;&lt;a href=&#34;#v-t-2-v-0-2-x3D-2ax&#34; class=&#34;headerlink&#34; title=&#34;$$v_t^2-v_0^2&amp;#x3D;2ax$$&#34;&gt;&lt;/a&gt;$$v_t^2-v_0^2&amp;#x3D;2ax$$&lt;/h3&gt;&lt;blockquote&gt;
+&lt;h2 id=&#34;位移方程&#34;&gt;位移方程&lt;/h2&gt;
+&lt;p&gt;匀变速直线运动的位移与时间的关系式&lt;/p&gt;
+&lt;h3 id=&#34;x-v-0-t-frac-1-2-at-2&#34;&gt;$$x=v_0 t+\frac{1}{2}at^2$$&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;位移差公式&#34;&gt;位移差公式&lt;/h2&gt;
+&lt;p&gt;在匀变速直线运动中，相邻两段相同时间的位移差&lt;/p&gt;
+&lt;h3 id=&#34;Delta-x-at-2&#34;&gt;$$\Delta x=at^2$$&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;速度位移公式&#34;&gt;速度位移公式&lt;/h2&gt;
+&lt;h3 id=&#34;v-t-2-v-0-2-2ax&#34;&gt;$$v_t^2-v_0^2=2ax$$&lt;/h3&gt;
+&lt;blockquote&gt;
 &lt;p&gt;特点：计算时不涉及时间&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;位移中点瞬时速度公式&#34;&gt;&lt;a href=&#34;#位移中点瞬时速度公式&#34; class=&#34;headerlink&#34; title=&#34;位移中点瞬时速度公式&#34;&gt;&lt;/a&gt;位移中点瞬时速度公式&lt;/h2&gt;&lt;h3 id=&#34;v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2&#34;&gt;&lt;a href=&#34;#v-frac-x-2-x3D-sqrt-frac-v-0-2-v-t-2-2&#34; class=&#34;headerlink&#34; title=&#34;$$v_\frac{x}{2}&amp;#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$&#34;&gt;&lt;/a&gt;$$v_\frac{x}{2}&amp;#x3D;\sqrt{\frac{v_0^2+v_t^2}{2}}$$&lt;/h3&gt;&lt;details&gt;
+&lt;h2 id=&#34;位移中点瞬时速度公式&#34;&gt;位移中点瞬时速度公式&lt;/h2&gt;
+&lt;h3 id=&#34;v-frac-x-2-sqrt-frac-v-0-2-v-t-2-2&#34;&gt;$$v_\frac{x}{2}=\sqrt{\frac{v_0^2+v_t^2}{2}}$$&lt;/h3&gt;
+&lt;details&gt;
 &lt;summary&gt;证明过程&lt;/summary&gt;
 &lt;p&gt;$v_\frac{x}{2} ^2-v_0^2=2a\times\frac{x}{2}$&lt;/p&gt;
 &lt;p&gt;移项可得：$v_\frac{x}{2} ^2=ax+v_0^2$ ①&lt;/p&gt;
@@ -314,18 +327,21 @@ A--使用对象--&amp;gt;所有微观粒子
 &lt;p&gt;化简可得：$2v_\frac{x}{2} ^2=v_0^2+v_t^2$&lt;/p&gt;
 &lt;p&gt;最终得：$v_\frac{x}{2}=\sqrt{\frac{v_0^2+v_t^2}{2}}$&lt;/p&gt;
 &lt;/details&gt;
-
 &lt;hr&gt;
-&lt;h2 id=&#34;胡克定律&#34;&gt;&lt;a href=&#34;#胡克定律&#34; class=&#34;headerlink&#34; title=&#34;胡克定律&#34;&gt;&lt;/a&gt;胡克定律&lt;/h2&gt;&lt;p&gt;在弹性限度内，弹簧弹力 F 的大小与弹簧的伸长量成正比。&lt;/p&gt;
-&lt;p&gt;$$F&amp;#x3D;kx$$&lt;/p&gt;
+&lt;h2 id=&#34;胡克定律&#34;&gt;胡克定律&lt;/h2&gt;
+&lt;p&gt;在弹性限度内，弹簧弹力 F 的大小与弹簧的伸长量成正比。&lt;/p&gt;
+&lt;p class=&#34;katex-block &#34;&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;F=kx
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03148em;&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;比例系数 k 称为弹簧的&lt;strong&gt;劲度系数&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;滑动摩擦力公式&#34;&gt;&lt;a href=&#34;#滑动摩擦力公式&#34; class=&#34;headerlink&#34; title=&#34;滑动摩擦力公式&#34;&gt;&lt;/a&gt;滑动摩擦力公式&lt;/h2&gt;&lt;p&gt;$$f&amp;#x3D;\mu N$$&lt;/p&gt;
+&lt;h2 id=&#34;滑动摩擦力公式&#34;&gt;滑动摩擦力公式&lt;/h2&gt;
+&lt;p class=&#34;katex-block &#34;&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f=\mu N
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8889em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8778em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;μ&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10903em;&#34;&gt;N&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;比例系数$\mu$叫做&lt;strong&gt;动摩擦因数&lt;/strong&gt;，是两个力的比值，没有单位。&lt;/p&gt;
-&lt;p&gt;$\mu$的大小仅与两个接触面的材料、粗糙程度等情况有关。&lt;/p&gt;
+&lt;p&gt;比例系数&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mu&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.625em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;μ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;叫做&lt;strong&gt;动摩擦因数&lt;/strong&gt;，是两个力的比值，没有单位。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mu&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.625em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;μ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;的大小仅与两个接触面的材料、粗糙程度等情况有关。&lt;/p&gt;
 &lt;/blockquote&gt;
  ]]></description>
         </item>
