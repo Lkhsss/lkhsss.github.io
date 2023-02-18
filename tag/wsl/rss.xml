@@ -14,16 +14,16 @@
         <category>Java</category>
         <category>学习</category>
         <category>高中</category>
-        <category>数学</category>
-        <category>公式</category>
-        <category>总结</category>
         <category>化学</category>
         <category>内卷笔记</category>
         <category>物理</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>数学</category>
         <category>Linux</category>
-        <category>WSL</category>
         <category>Kali</category>
         <category>Python</category>
+        <category>WSL</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</guid>
             <title>WSL Ubuntu 美化</title>

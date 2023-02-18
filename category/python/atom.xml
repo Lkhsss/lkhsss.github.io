@@ -11,16 +11,16 @@
     <category term="Java" />
     <category term="学习" />
     <category term="高中" />
-    <category term="数学" />
-    <category term="公式" />
-    <category term="总结" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="物理" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="数学" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
     <category term="Python" />
+    <category term="WSL" />
     <entry>
         <id>https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/</id>
         <title>python-Click库</title>

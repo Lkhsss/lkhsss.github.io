@@ -11,16 +11,16 @@
     <category term="Java" />
     <category term="学习" />
     <category term="高中" />
-    <category term="数学" />
-    <category term="公式" />
-    <category term="总结" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="物理" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="数学" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
     <category term="Python" />
+    <category term="WSL" />
     <entry>
         <id>https://lkhsss.github.io/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/</id>
         <title>Hexo-fluid主题Tag插件</title>
@@ -600,9 +600,9 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
 &lt;/ol&gt;
 </content>
         <category term="高中" />
-        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
+        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
@@ -1017,9 +1017,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
+        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
-        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
     <entry>
