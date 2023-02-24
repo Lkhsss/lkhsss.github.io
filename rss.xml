@@ -5,9 +5,11 @@
         <link>https://lkhsss.github.io</link>
         <description>一个年轻程序猿的主页，包含了很多东西......</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 18 Feb 2023 10:45:29 +0800</pubDate>
-        <lastBuildDate>Sat, 18 Feb 2023 10:45:29 +0800</lastBuildDate>
+        <pubDate>Sun, 19 Feb 2023 16:38:27 +0800</pubDate>
+        <lastBuildDate>Sun, 19 Feb 2023 16:38:27 +0800</lastBuildDate>
         <category>Hexo</category>
+        <category>Go</category>
+        <category>学习笔记</category>
         <category>LaTex</category>
         <category>Html</category>
         <category>编程</category>
@@ -16,14 +18,115 @@
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
-        <category>物理</category>
+        <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>数学</category>
-        <category>Linux</category>
-        <category>Kali</category>
+        <category>物理</category>
         <category>Python</category>
+        <category>Linux</category>
         <category>WSL</category>
+        <category>Kali</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2023/02/19/Go-Go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</guid>
+            <title>Go语言结构</title>
+            <link>https://lkhsss.github.io/2023/02/19/Go-Go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</link>
+            <category>Go</category>
+            <category>学习笔记</category>
+            <pubDate>Sun, 19 Feb 2023 16:38:27 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;语言结构&#34;&gt;语言结构&lt;/h2&gt;
+&lt;p&gt;Go的语言结构分为&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8C%85%E5%A3%B0%E6%98%8E&#34;&gt;包声明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%BC%95%E5%85%A5%E5%8C%85&#34;&gt;引入包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%87%BD%E6%95%B0&#34;&gt;函数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%98%E9%87%8F&#34;&gt;变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E8%AF%AD%E5%8F%A5&#34;&gt;语句&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B3%A8%E9%87%8A&#34;&gt;注释&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;既然是学习语言结构，那么还是用最简单的&lt;a href=&#34;/2023/02/19/Go-Go-HelloWorld/&#34; title=&#34;Go: Hello World!&#34;&gt;HelloWorld&lt;/a&gt;演示好了&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-go&#34; data-language=&#34;go&#34;&gt;&lt;code class=&#34;language-go&#34;&gt;package main &amp;#x2F;* 包声明 *&amp;#x2F;
+
+import &amp;quot;fmt&amp;quot; &amp;#x2F;* 引入包 *&amp;#x2F;
+
+func main() &amp;#123;
+   &amp;#x2F;* 这是我的第一个简单的程序 *&amp;#x2F;
+   fmt.Println(&amp;quot;Hello, World!&amp;quot;)&amp;#x2F;&amp;#x2F;基本的输出语句，将自动换行
+   &amp;#x2F;&amp;#x2F;这是一条单行注释
+   &amp;#x2F;* 这是
+   一条
+   多行
+   注释
+   *&amp;#x2F;
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;包声明&#34;&gt;包声明&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;package main&lt;/code&gt;定义了包名。一个Go程序必须在源文件中非注释的第一行指明这个文件属于哪个包。&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;package main表示一个可独立执行的程序，&lt;strong&gt;每个 Go 应用程序都包含一个名为 &lt;code&gt;main&lt;/code&gt; 的包&lt;/strong&gt;。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;注意：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;文件名与包名没有直接关系，不一定要将文件名与包名定成同一个&lt;/li&gt;&lt;li&gt;文件夹名与包名没有直接关系，并非需要一致&lt;/li&gt;&lt;li&gt;同一个文件夹下的文件只能有一个包名，否则编译报错。&lt;span class=&#34;label label-danger&#34;&gt;package command-line-arguments is not a main package&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+          &lt;/div&gt;
+&lt;h3 id=&#34;引入包&#34;&gt;引入包&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;import &amp;quot;fmt&amp;quot;&lt;/code&gt; 告诉 Go 编译器这个程序需要使用 &lt;code&gt;fmt&lt;/code&gt; 包（的函数，或其他元素），&lt;code&gt;fmt&lt;/code&gt; 包实现了基本的格式化 I/O（输入/输出）&lt;/p&gt;
+&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;约等于Python中的&lt;code&gt;print()&lt;/code&gt;函数&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h3 id=&#34;函数&#34;&gt;函数&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;func&lt;/code&gt;是Go语言定义函数的方法。&lt;/p&gt;
+&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;约等于Python中的&lt;code&gt;def main():&lt;/code&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;p&gt;&lt;code&gt;func main()&lt;/code&gt; 是程序开始执行的函数。&lt;code&gt;main()&lt;/code&gt; 函数是每一个可执行程序所必须包含的，一般来说都是在启动后第一个执行的函数&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;如果有 &lt;code&gt;init()&lt;/code&gt; 函数则会先执行该函数。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h3 id=&#34;变量&#34;&gt;变量&lt;/h3&gt;
+&lt;p&gt;与其他语言相通&lt;/p&gt;
+&lt;div class=&#34;note note-danger&#34;&gt;
+            &lt;p&gt;但需要注意的是：当标识符（包括常量、变量、类型、函数名、结构字段等等）以一个大写字母开头，如：Group1，那么使用这种形式的标识符的对象就可以被外部包的代码所使用（客户端程序需要先导入这个包），这被称为导出（像面向对象语言中的 public）；标识符如果以小写字母开头，则对包外是不可见的，但是他们在整个包的内部是可见并且可用的（像面向对象语言中的 protected ）。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h3 id=&#34;语句&#34;&gt;语句&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;fmt.Println()&lt;/code&gt; 可以将字符串输出到控制台，并在最后自动增加换行字符 \n。&lt;br&gt;
+使用 &lt;code&gt;fmt.Print(&amp;quot;hello, world\n&amp;quot;)&lt;/code&gt; 可以得到相同的结果。&lt;br&gt;
+&lt;code&gt;Print&lt;/code&gt; 和 &lt;code&gt;Println&lt;/code&gt; 这两个函数也支持使用变量，如：&lt;code&gt;fmt.Println(arr)&lt;/code&gt; 。如果没有特别指定，它们会以默认的打印格式将变量 &lt;code&gt;arr&lt;/code&gt; 输出到控制台。&lt;/p&gt;
+&lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
+&lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/2023/02/19/Go-Go-HelloWorld/</guid>
+            <title>Go: Hello World!</title>
+            <link>https://lkhsss.github.io/2023/02/19/Go-Go-HelloWorld/</link>
+            <category>Go</category>
+            <category>学习笔记</category>
+            <pubDate>Sun, 19 Feb 2023 16:17:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;Go语言环境搭建&#34;&gt;Go语言环境搭建&lt;/h2&gt;
+&lt;p&gt;官方下载地址：&lt;a href=&#34;https://golang.org/dl/&#34;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;镜像站：&lt;a href=&#34;https://golang.google.cn/dl/&#34;&gt;https://golang.google.cn/dl/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;Hello-World&#34;&gt;Hello World!&lt;/h2&gt;
+&lt;p&gt;学习一门语言的第一步，那必定是去copy一份经典的HelloWorld啦 :)&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-go&#34; data-language=&#34;go&#34;&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() &amp;#123;
+   &amp;#x2F;* 这是我的第一个简单的程序 *&amp;#x2F;
+   fmt.Println(&amp;quot;Hello, World!&amp;quot;)
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;随便创建一个文件，修改后缀为&lt;code&gt;.go&lt;/code&gt;，直接把上面的代码copy进去。&lt;/p&gt;
+&lt;p&gt;作为第一个程序，我理所当然地取名为&lt;code&gt;helloworld.go&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;保存后直接一顿操作在&lt;strong&gt;当前目录&lt;/strong&gt;打开终端，输入：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;go run test.go&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;如果成功的话，会输出：&lt;/p&gt;
+&lt;span class=&#34;label label-success&#34;&gt;成功&lt;/span&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;D:\Go&amp;gt;go run test.go
+Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;&lt;span class=&#34;label label-danger&#34;&gt;失败&lt;/span&gt;&lt;/p&gt;&lt;p&gt;如果显示&lt;code&gt;&#39;go&#39;不是内部或外部命令，也不是可运行的程序或批处理文件。&lt;/code&gt;，那应当为Go语言添加系统环境，或这重新安装。&lt;/p&gt;
+          &lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/</guid>
             <title>Hexo-fluid主题Tag插件</title>
@@ -90,6 +193,12 @@ light
 &lt;span class=&#34;label label-success&#34;&gt;success&lt;/span&gt;
 &lt;span class=&#34;label label-warning&#34;&gt;warning&lt;/span&gt;
 &lt;span class=&#34;label label-danger&#34;&gt;danger&lt;/span&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% label primary @primary %&amp;#125;
+&amp;#123;% label default @default %&amp;#125;
+&amp;#123;% label info @info %&amp;#125;
+&amp;#123;% label success @success %&amp;#125;
+&amp;#123;% label warning @warning %&amp;#125;
+&amp;#123;% label danger @danger %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;勾选框&#34;&gt;勾选框&lt;/h2&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% cb text, checked?, incline? %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;div&gt;
@@ -492,9 +601,9 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
             <title>三角函数诱导公式</title>
             <link>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
             <category>高中</category>
+            <category>数学</category>
             <category>公式</category>
             <category>总结</category>
-            <category>数学</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;诱导公式一&lt;/h1&gt;
 &lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
@@ -961,9 +1070,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
             <title>高一物理公式总结</title>
             <link>https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
             <category>高中</category>
-            <category>物理</category>
             <category>公式</category>
             <category>总结</category>
+            <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;高一物理公式总结&lt;/h1&gt;
 &lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;

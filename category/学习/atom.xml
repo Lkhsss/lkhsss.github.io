@@ -5,6 +5,8 @@
     <link href="https://lkhsss.github.io" />
     <updated>2023-02-18T01:46:25.000Z</updated>
     <category term="Hexo" />
+    <category term="Go" />
+    <category term="学习笔记" />
     <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
@@ -13,14 +15,14 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="物理" />
+    <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="数学" />
-    <category term="Linux" />
-    <category term="Kali" />
+    <category term="物理" />
     <category term="Python" />
+    <category term="Linux" />
     <category term="WSL" />
+    <category term="Kali" />
     <entry>
         <id>https://lkhsss.github.io/2023/02/18/%E5%8C%96%E5%AD%A6-%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</id>
         <title>物理性质和化学性质</title>
@@ -160,9 +162,9 @@
 &lt;/ol&gt;
 </content>
         <category term="高中" />
+        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
-        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
@@ -337,9 +339,9 @@
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
-        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
+        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
 </feed>

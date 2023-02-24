@@ -8,6 +8,8 @@
         <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
         <lastBuildDate>Sat, 18 Feb 2023 09:46:25 +0800</lastBuildDate>
         <category>Hexo</category>
+        <category>Go</category>
+        <category>学习笔记</category>
         <category>LaTex</category>
         <category>Html</category>
         <category>编程</category>
@@ -16,14 +18,14 @@
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
-        <category>物理</category>
+        <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>数学</category>
-        <category>Linux</category>
-        <category>Kali</category>
+        <category>物理</category>
         <category>Python</category>
+        <category>Linux</category>
         <category>WSL</category>
+        <category>Kali</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/2023/02/18/%E5%8C%96%E5%AD%A6-%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
             <title>物理性质和化学性质</title>
