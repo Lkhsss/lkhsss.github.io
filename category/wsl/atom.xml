@@ -4,9 +4,9 @@
     <title>LKH的网站 • Posts by &#34;wsl&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-01-23T12:57:23.000Z</updated>
-    <category term="Hexo" />
     <category term="Go" />
     <category term="学习笔记" />
+    <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
@@ -15,18 +15,18 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
-    <category term="Python" />
+    <category term="数学" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="Python" />
+    <category term="WSL" />
     <entry>
-        <id>https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/</id>
+        <id>https://lkhsss.github.io/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</id>
         <title>WSL Ubuntu 美化</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2023/01/23/Linux-WSL-WSL-Ubuntu-%E7%BE%8E%E5%8C%96/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/"/>
         <content type="html">&lt;p&gt;自从微软公布了WSL后我就玩得不亦乐乎，重装系统后配置好的终端美化没了。很多步骤的忘了，记个笔记以备以后不备之需。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;系统：Windows 11&lt;/p&gt;

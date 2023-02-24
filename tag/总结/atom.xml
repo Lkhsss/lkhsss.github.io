@@ -4,9 +4,9 @@
     <title>LKH的网站 • Posts by &#34;总结&#34; tag</title>
     <link href="https://lkhsss.github.io" />
     <updated>2022-12-14T16:04:09.000Z</updated>
-    <category term="Hexo" />
     <category term="Go" />
     <category term="学习笔记" />
+    <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
@@ -15,18 +15,18 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
-    <category term="Python" />
+    <category term="数学" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="Python" />
+    <category term="WSL" />
     <entry>
-        <id>https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</id>
+        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</id>
         <title>三角函数诱导公式</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/12/15/%E6%95%B0%E5%AD%A6-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/"/>
         <content type="html">&lt;h1&gt;诱导公式一&lt;/h1&gt;
 &lt;img title=&#34;&#34; src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/三角函数诱导公式/诱导公式一.65qao2flthw0.webp&#34; alt=&#34;诱导公式一&#34; width=&#34;312&#34;&gt;
 &lt;p&gt;设α为任意角,终边相同的角的同名三角函数的值相等&lt;/p&gt;
@@ -139,15 +139,15 @@
 &lt;/ol&gt;
 </content>
         <category term="高中" />
-        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
+        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
+        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
         <title>高一物理公式总结</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/11/12/%E7%89%A9%E7%90%86-%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
         <content type="html">&lt;h1&gt;高一物理公式总结&lt;/h1&gt;
 &lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
 &lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
@@ -208,9 +208,9 @@
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
+        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
-        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
 </feed>

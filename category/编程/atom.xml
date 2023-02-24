@@ -4,9 +4,9 @@
     <title>LKH的网站 • Posts by &#34;编程&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-02-19T08:38:27.000Z</updated>
-    <category term="Hexo" />
     <category term="Go" />
     <category term="学习笔记" />
+    <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
@@ -15,18 +15,18 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
-    <category term="Python" />
+    <category term="数学" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="Python" />
+    <category term="WSL" />
     <entry>
-        <id>https://lkhsss.github.io/2023/02/19/Go-Go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
         <title>Go语言结构</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2023/02/19/Go-Go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
         <content type="html">&lt;h2 id=&#34;语言结构&#34;&gt;语言结构&lt;/h2&gt;
 &lt;p&gt;Go的语言结构分为&lt;/p&gt;
 &lt;ul&gt;
@@ -37,7 +37,7 @@
 &lt;li&gt;&lt;a href=&#34;#%E8%AF%AD%E5%8F%A5&#34;&gt;语句&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#%E6%B3%A8%E9%87%8A&#34;&gt;注释&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;既然是学习语言结构，那么还是用最简单的&lt;a href=&#34;/2023/02/19/Go-Go-HelloWorld/&#34; title=&#34;Go: Hello World!&#34;&gt;HelloWorld&lt;/a&gt;演示好了&lt;/p&gt;
+&lt;p&gt;既然是学习语言结构，那么还是用最简单的&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;HelloWorld&lt;/a&gt;演示好了&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-go&#34; data-language=&#34;go&#34;&gt;&lt;code class=&#34;language-go&#34;&gt;package main &amp;#x2F;* 包声明 *&amp;#x2F;
 
 import &amp;quot;fmt&amp;quot; &amp;#x2F;* 引入包 *&amp;#x2F;
@@ -91,9 +91,9 @@ func main() &amp;#123;
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2023/02/19/Go-Go-HelloWorld/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</id>
         <title>Go: Hello World!</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2023/02/19/Go-Go-HelloWorld/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/"/>
         <content type="html">&lt;h2 id=&#34;Go语言环境搭建&#34;&gt;Go语言环境搭建&lt;/h2&gt;
 &lt;p&gt;官方下载地址：&lt;a href=&#34;https://golang.org/dl/&#34;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;镜像站：&lt;a href=&#34;https://golang.google.cn/dl/&#34;&gt;https://golang.google.cn/dl/&lt;/a&gt;&lt;/p&gt;
@@ -125,9 +125,9 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
         <updated>2023-02-19T08:17:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</id>
         <title>Hexo-fluid主题Tag插件</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2023/02/18/Hexo-Hexo-fluid%E4%B8%BB%E9%A2%98Tag%E6%8F%92%E4%BB%B6/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/"/>
         <content type="html">&lt;p&gt;Hexo fluid主题的Tag插件，在此整理记录，方便取用&lt;br&gt;
 官网：&lt;a href=&#34;https://hexo.fluid-dev.com/docs/guide/#tag-%E6%8F%92%E4%BB%B6&#34;&gt;配置指南 | Hexo Fluid 用户手册 | Tag 插件&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;便签&#34;&gt;便签&lt;/h2&gt;
@@ -223,9 +223,9 @@ light
         <updated>2023-02-18T02:45:29.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
         <title>LaTex 数学公式速查表</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2023/01/02/Hexo-LaTex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
         <content type="html">&lt;h2 id=&#34;分数&#34;&gt;分数&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;$\frac&amp;#123;分子&amp;#125;&amp;#123;分母&amp;#125;$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mtext&gt;分子&lt;/mtext&gt;&lt;mtext&gt;分母&lt;/mtext&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\frac{分子}{分母}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.2173em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8723em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord cjk_fallback mtight&#34;&gt;分母&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord cjk_fallback mtight&#34;&gt;分子&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -244,9 +244,9 @@ light
         <updated>2023-01-02T03:53:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</id>
         <title>Java入门</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;h1&gt;万事开头难，先写一个 HelloWorld&lt;/h1&gt;
 &lt;p&gt;从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;
@@ -354,9 +354,9 @@ Hello World
         <updated>2022-12-12T16:32:49.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</id>
         <title>python-Click库</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/12/10/Python-%E5%BA%93-click/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/"/>
         <content type="html">&lt;h1&gt;Click&lt;/h1&gt;
 &lt;p&gt;Click全名&lt;em&gt;Command Line Interface Creation Kit&lt;/em&gt;，是一个用于构建命令行的第三方库，相较于Python自带的&lt;a href=&#34;https://docs.python.org/zh-cn/3/library/argparse.html&#34;&gt;Argparse&lt;/a&gt;更加友好和易用。&lt;/p&gt;
 &lt;hr&gt;
@@ -484,9 +484,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
         <updated>2022-12-10T02:20:24.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/2022/11/06/Html-container-element/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</id>
         <title>HTML-容器元素</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/11/06/Html-container-element/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/"/>
         <content type="html">&lt;h1&gt;容器元素&lt;/h1&gt;
 &lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;

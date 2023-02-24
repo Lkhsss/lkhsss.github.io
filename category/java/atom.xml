@@ -4,9 +4,9 @@
     <title>LKH的网站 • Posts by &#34;java&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2022-12-12T16:32:49.000Z</updated>
-    <category term="Hexo" />
     <category term="Go" />
     <category term="学习笔记" />
+    <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
     <category term="编程" />
@@ -15,18 +15,18 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
-    <category term="Python" />
+    <category term="数学" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="Python" />
+    <category term="WSL" />
     <entry>
-        <id>https://lkhsss.github.io/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</id>
         <title>Java入门</title>
-        <link rel="alternate" href="https://lkhsss.github.io/2022/12/13/Java-Java%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;h1&gt;万事开头难，先写一个 HelloWorld&lt;/h1&gt;
 &lt;p&gt;从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;
