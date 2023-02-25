@@ -16,23 +16,23 @@
   <meta name="author" content="LKH">
   <meta name="keywords" content="主页 博客 编程">
   
-    <meta name="description" content="语言结构 Go的语言结构分为  包声明 引入包 函数 变量 语句 注释  既然是学习语言结构，那么还是用最简单的HelloWorld演示好了 package main &#x2F;* 包声明 *&#x2F;  import &quot;fmt&quot; &#x2F;* 引入包 *&#x2F;  func main() &amp;#123;    &#x2F;* 这是我的第一个简单的程序 *&#x2F;">
+    <meta name="description" content="Windows系统下WSL&#x2F;WSL2更换虚拟硬盘位置(导出,导入)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Go语言结构">
-<meta property="og:url" content="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/">
+<meta property="og:title" content="WSL迁移">
+<meta property="og:url" content="https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/">
 <meta property="og:site_name" content="LKH的网站">
-<meta property="og:description" content="语言结构 Go的语言结构分为  包声明 引入包 函数 变量 语句 注释  既然是学习语言结构，那么还是用最简单的HelloWorld演示好了 package main &#x2F;* 包声明 *&#x2F;  import &quot;fmt&quot; &#x2F;* 引入包 *&#x2F;  func main() &amp;#123;    &#x2F;* 这是我的第一个简单的程序 *&#x2F;">
+<meta property="og:description" content="Windows系统下WSL&#x2F;WSL2更换虚拟硬盘位置(导出,导入)">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-02-19T08:38:27.000Z">
-<meta property="article:modified_time" content="2023-02-19T08:38:27.000Z">
+<meta property="article:published_time" content="2023-02-25T13:22:06.000Z">
+<meta property="article:modified_time" content="2023-02-25T13:22:06.000Z">
 <meta property="article:author" content="LKH">
-<meta property="article:tag" content="Go">
-<meta property="article:tag" content="学习笔记">
+<meta property="article:tag" content="WSL">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Go语言结构 | LKH的网站</title>
+  <title>WSL迁移 | LKH的网站</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -294,7 +294,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">Go语言结构</span>
+            <span id="subtitle">WSL迁移</span>
           
         </div>
 
@@ -310,8 +310,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-02-19 16:38" pubdate>
-          2023年2月19日 下午
+        <time datetime="2023-02-25 21:22" pubdate>
+          2023年2月25日 晚上
         </time>
       </span>
     
@@ -322,7 +322,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          477 字
         
       </span>
     
@@ -333,7 +333,7 @@
         
         
         
-          10 分钟
+          4 分钟
         
       </span>
     
@@ -386,17 +386,17 @@
     
     <div class="category row nomargin-x">
       <a class="category-item 
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="编程"
-        id="heading-41282bf95e43c64d579757573a03cdde" role="tab" data-toggle="collapse" href="#collapse-41282bf95e43c64d579757573a03cdde"
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Linux"
+        id="heading-edc9f0a5a5d57797bf68e37364743831" role="tab" data-toggle="collapse" href="#collapse-edc9f0a5a5d57797bf68e37364743831"
         aria-expanded="true"
       >
-        编程
-        <span class="list-group-count">(7)</span>
+        Linux
+        <span class="list-group-count">(3)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
-      <div class="category-collapse collapse show" id="collapse-41282bf95e43c64d579757573a03cdde"
-           role="tabpanel" aria-labelledby="heading-41282bf95e43c64d579757573a03cdde">
+      <div class="category-collapse collapse show" id="collapse-edc9f0a5a5d57797bf68e37364743831"
+           role="tabpanel" aria-labelledby="heading-edc9f0a5a5d57797bf68e37364743831">
         
         
           
@@ -407,23 +407,60 @@
   </div>
 
           
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Kali"
+        id="heading-0e16f5edcf6016868e6184a3b5043ce8" role="tab" data-toggle="collapse" href="#collapse-0e16f5edcf6016868e6184a3b5043ce8"
+        aria-expanded="false"
+      >
+        Kali
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-0e16f5edcf6016868e6184a3b5043ce8"
+           role="tabpanel" aria-labelledby="heading-0e16f5edcf6016868e6184a3b5043ce8">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/" title="Kali 更新源/软件源"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Kali 更新源/软件源</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
   
     
     
     
     <div class="category-sub row nomargin-x">
       <a class="category-subitem 
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Go"
-        id="heading-5f075ae3e1f9d0382bb8c4632991f96f" role="tab" data-toggle="collapse" href="#collapse-5f075ae3e1f9d0382bb8c4632991f96f"
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="WSL"
+        id="heading-2a4ed6e961001c691880d2fceefedcdd" role="tab" data-toggle="collapse" href="#collapse-2a4ed6e961001c691880d2fceefedcdd"
         aria-expanded="true"
       >
-        Go
+        WSL
         <span class="list-group-count">(2)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
-      <div class="category-collapse collapse show" id="collapse-5f075ae3e1f9d0382bb8c4632991f96f"
-           role="tabpanel" aria-labelledby="heading-5f075ae3e1f9d0382bb8c4632991f96f">
+      <div class="category-collapse collapse show" id="collapse-2a4ed6e961001c691880d2fceefedcdd"
+           role="tabpanel" aria-labelledby="heading-2a4ed6e961001c691880d2fceefedcdd">
         
         
           
@@ -432,212 +469,24 @@
     
       
       
-        <a href="/%E7%BC%96%E7%A8%8B/Go/go-hello-world/" title="Go: Hello World!"
+        <a href="/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/" title="WSL Ubuntu 美化"
            class="list-group-item list-group-item-action
            ">
-          <span class="category-post">Go: Hello World!</span>
+          <span class="category-post">WSL Ubuntu 美化</span>
         </a>
       
     
       
       
-        <a href="/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/" title="Go语言结构"
+        <a href="/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/" title="WSL迁移"
            class="list-group-item list-group-item-action
            active">
-          <span class="category-post">Go语言结构</span>
+          <span class="category-post">WSL迁移</span>
         </a>
       
     
   </div>
 
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Hexo"
-        id="heading-c00d1eb68b529768ba98c975c76a9b66" role="tab" data-toggle="collapse" href="#collapse-c00d1eb68b529768ba98c975c76a9b66"
-        aria-expanded="false"
-      >
-        Hexo
-        <span class="list-group-count">(2)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse " id="collapse-c00d1eb68b529768ba98c975c76a9b66"
-           role="tabpanel" aria-labelledby="heading-c00d1eb68b529768ba98c975c76a9b66">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/" title="Hexo-fluid主题Tag插件"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">Hexo-fluid主题Tag插件</span>
-        </a>
-      
-    
-      
-      
-        <a href="/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/" title="LaTex 数学公式速查表"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">LaTex 数学公式速查表</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Html"
-        id="heading-3135f4019bee015e2d1ae7f77f9f3f64" role="tab" data-toggle="collapse" href="#collapse-3135f4019bee015e2d1ae7f77f9f3f64"
-        aria-expanded="false"
-      >
-        Html
-        <span class="list-group-count">(1)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse " id="collapse-3135f4019bee015e2d1ae7f77f9f3f64"
-           role="tabpanel" aria-labelledby="heading-3135f4019bee015e2d1ae7f77f9f3f64">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/" title="HTML-容器元素"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">HTML-容器元素</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Java"
-        id="heading-d52387880e1ea22817a72d3759213819" role="tab" data-toggle="collapse" href="#collapse-d52387880e1ea22817a72d3759213819"
-        aria-expanded="false"
-      >
-        Java
-        <span class="list-group-count">(1)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse " id="collapse-d52387880e1ea22817a72d3759213819"
-           role="tabpanel" aria-labelledby="heading-d52387880e1ea22817a72d3759213819">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/" title="Java入门"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">Java入门</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Python"
-        id="heading-a7f5f35426b927411fc9231b56382173" role="tab" data-toggle="collapse" href="#collapse-a7f5f35426b927411fc9231b56382173"
-        aria-expanded="false"
-      >
-        Python
-        <span class="list-group-count">(1)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse " id="collapse-a7f5f35426b927411fc9231b56382173"
-           role="tabpanel" aria-labelledby="heading-a7f5f35426b927411fc9231b56382173">
-        
-        
-          
-          
-  <div class="category-post-list">
-    
-    
-  </div>
-
-          
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="库"
-        id="heading-90f6badc8a904646f5b2446ee94e9654" role="tab" data-toggle="collapse" href="#collapse-90f6badc8a904646f5b2446ee94e9654"
-        aria-expanded="false"
-      >
-        库
-        <span class="list-group-count">(1)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse " id="collapse-90f6badc8a904646f5b2446ee94e9654"
-           role="tabpanel" aria-labelledby="heading-90f6badc8a904646f5b2446ee94e9654">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/" title="python-Click库"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">python-Click库</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
         
       </div>
     </div>
@@ -659,69 +508,39 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Go语言结构</h1>
+            <h1 style="display: none">WSL迁移</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="语言结构">语言结构</h2>
-<p>Go的语言结构分为</p>
-<ul>
-<li><a href="#%E5%8C%85%E5%A3%B0%E6%98%8E">包声明</a></li>
-<li><a href="#%E5%BC%95%E5%85%A5%E5%8C%85">引入包</a></li>
-<li><a href="#%E5%87%BD%E6%95%B0">函数</a></li>
-<li><a href="#%E5%8F%98%E9%87%8F">变量</a></li>
-<li><a href="#%E8%AF%AD%E5%8F%A5">语句</a></li>
-<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
-</ul>
-<p>既然是学习语言结构，那么还是用最简单的<a href="/%E7%BC%96%E7%A8%8B/Go/go-hello-world/" title="Go: Hello World!">HelloWorld</a>演示好了</p>
-<figure><div class="code-wrapper"><pre class="line-numbers language-go" data-language="go"><code class="language-go">package main &#x2F;* 包声明 *&#x2F;
-
-import &quot;fmt&quot; &#x2F;* 引入包 *&#x2F;
-
-func main() &#123;
-   &#x2F;* 这是我的第一个简单的程序 *&#x2F;
-   fmt.Println(&quot;Hello, World!&quot;)&#x2F;&#x2F;基本的输出语句，将自动换行
-   &#x2F;&#x2F;这是一条单行注释
-   &#x2F;* 这是
-   一条
-   多行
-   注释
-   *&#x2F;
-&#125;</code></pre></div></figure>
-<h3 id="包声明">包声明</h3>
-<p><code>package main</code>定义了包名。一个Go程序必须在源文件中非注释的第一行指明这个文件属于哪个包。</p>
-<div class="note note-warning">
-            <p>package main表示一个可独立执行的程序，<strong>每个 Go 应用程序都包含一个名为 <code>main</code> 的包</strong>。</p>
+                <p>WSL子系统默认硬盘存放位置在c盘，对于很多人来说都想安装到别的盘内。设置里的迁移应用功能使用亲测会有Bug(无法启动)，Google一番后终于找到了解决方案，特在此记录。</p>
+<div class="note note-success">
+            <p>此方案也可以用于备份WSL或单纯导出WSL</p>
           </div>
 <div class="note note-warning">
-            <p>注意：</p><ul><li>文件名与包名没有直接关系，不一定要将文件名与包名定成同一个</li><li>文件夹名与包名没有直接关系，并非需要一致</li><li>同一个文件夹下的文件只能有一个包名，否则编译报错。<span class="label label-danger">package command-line-arguments is not a main package</span></li></ul>
+            <p><strong>前提</strong>：已经安装WSL</p>
           </div>
-<h3 id="引入包">引入包</h3>
-<p><code>import &quot;fmt&quot;</code> 告诉 Go 编译器这个程序需要使用 <code>fmt</code> 包（的函数，或其他元素），<code>fmt</code> 包实现了基本的格式化 I/O（输入/输出）</p>
-<div class="note note-success">
-            <p>约等于Python中的<code>print()</code>函数</p>
-          </div>
-<h3 id="函数">函数</h3>
-<p><code>func</code>是Go语言定义函数的方法。</p>
-<div class="note note-success">
-            <p>约等于Python中的<code>def main():</code></p>
-          </div>
-<p><code>func main()</code> 是程序开始执行的函数。<code>main()</code> 函数是每一个可执行程序所必须包含的，一般来说都是在启动后第一个执行的函数</p>
-<div class="note note-info">
-            <p>如果有 <code>init()</code> 函数则会先执行该函数。</p>
-          </div>
-<h3 id="变量">变量</h3>
-<p>与其他语言相通</p>
-<div class="note note-danger">
-            <p>但需要注意的是：当标识符（包括常量、变量、类型、函数名、结构字段等等）以一个大写字母开头，如：Group1，那么使用这种形式的标识符的对象就可以被外部包的代码所使用（客户端程序需要先导入这个包），这被称为导出（像面向对象语言中的 public）；标识符如果以小写字母开头，则对包外是不可见的，但是他们在整个包的内部是可见并且可用的（像面向对象语言中的 protected ）。</p>
-          </div>
-<h3 id="语句">语句</h3>
-<p><code>fmt.Println()</code> 可以将字符串输出到控制台，并在最后自动增加换行字符 \n。<br>
-使用 <code>fmt.Print(&quot;hello, world\n&quot;)</code> 可以得到相同的结果。<br>
-<code>Print</code> 和 <code>Println</code> 这两个函数也支持使用变量，如：<code>fmt.Println(arr)</code> 。如果没有特别指定，它们会以默认的打印格式将变量 <code>arr</code> 输出到控制台。</p>
-<h3 id="注释">注释</h3>
-<p>使用以 <code>//</code> 开头的单行注释，而<code>/*...*/</code> 是多行注释，这点与C和C艹是相似的。</p>
+<hr>
+<h2 id="关闭虚拟机">关闭虚拟机</h2>
+<p>终端输入 <code>wsl --shutdown</code> 以关闭虚拟机</p>
+<h2 id="查看已安装的WSL">查看已安装的WSL</h2>
+<p>终端输入</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl -l</code></pre></div></figure>
+<p>若要查看其他信息，则使用</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl -l -v</code></pre></div></figure>
+<h2 id="导出虚拟机">导出虚拟机</h2>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl --export &lt;需要导出的虚拟机&gt; &lt;导出路径&gt;</code></pre></div></figure>
+<p>例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl --export Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar</code></pre></div></figure>
+<h2 id="注销已经安装过的虚拟机">注销已经安装过的虚拟机</h2>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl --unregister &lt;虚拟机的名称&gt;</code></pre></div></figure>
+<p>例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl --unregister Ubuntu</code></pre></div></figure>
+<h2 id="重新导入虚拟机">重新导入虚拟机</h2>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl --import &lt;虚拟机的名称&gt; &lt;安装虚拟机的位置&gt; &lt;打包文件的位置&gt;</code></pre></div></figure>
+<p>例：</p>
+<figure><div class="code-wrapper"><pre class="line-numbers language-none"><code class="language-none">wsl --import Ubuntu G:\WSL\Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar</code></pre></div></figure>
+<hr>
 
                 
               </div>
@@ -740,12 +559,12 @@ func main() &#123;
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%BC%96%E7%A8%8B/" class="category-chain-item">编程</a>
+  <a href="/categories/Linux/" class="category-chain-item">Linux</a>
   
   
     <span>></span>
     
-  <a href="/categories/%E7%BC%96%E7%A8%8B/Go/" class="category-chain-item">Go</a>
+  <a href="/categories/Linux/WSL/" class="category-chain-item">WSL</a>
   
   
 
@@ -762,9 +581,9 @@ func main() &#123;
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Go/">#Go</a>
+        <a href="/tags/WSL/">#WSL</a>
       
-        <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">#学习笔记</a>
+        <a href="/tags/Linux/">#Linux</a>
       
     </div>
   
@@ -776,8 +595,8 @@ func main() &#123;
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Go语言结构</div>
-      <div>https://lkhsss.github.io/编程/Go/go语言结构/</div>
+      <div>WSL迁移</div>
+      <div>https://lkhsss.github.io/Linux/WSL/wsl迁移/</div>
     </div>
     <div class="license-meta">
       
@@ -789,7 +608,7 @@ func main() &#123;
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年2月19日</div>
+          <div>2023年2月25日</div>
         </div>
       
       
@@ -827,18 +646,12 @@ func main() &#123;
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/" title="WSL迁移">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">WSL迁移</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E7%BC%96%E7%A8%8B/Go/go-hello-world/" title="Go: Hello World!">
-                        <span class="hidden-mobile">Go: Hello World!</span>
+                      <a href="/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/" title="Go语言结构">
+                        <span class="hidden-mobile">Go语言结构</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

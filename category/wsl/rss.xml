@@ -5,33 +5,70 @@
         <link>https://lkhsss.github.io</link>
         <description>一个年轻程序猿的主页，包含了很多东西......</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 23 Jan 2023 20:57:23 +0800</pubDate>
-        <lastBuildDate>Mon, 23 Jan 2023 20:57:23 +0800</lastBuildDate>
-        <category>Html</category>
-        <category>编程</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
+        <pubDate>Sat, 25 Feb 2023 21:22:06 +0800</pubDate>
+        <lastBuildDate>Sat, 25 Feb 2023 21:22:06 +0800</lastBuildDate>
         <category>Go</category>
         <category>学习笔记</category>
+        <category>Html</category>
+        <category>编程</category>
         <category>Java</category>
         <category>学习</category>
         <category>高中</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
-        <category>Linux</category>
-        <category>Kali</category>
         <category>物理</category>
-        <category>Python</category>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>WSL</category>
+        <category>Linux</category>
+        <category>Python</category>
+        <category>Kali</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
+            <title>WSL迁移</title>
+            <link>https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</link>
+            <category>WSL</category>
+            <category>Linux</category>
+            <pubDate>Sat, 25 Feb 2023 21:22:06 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;WSL子系统默认硬盘存放位置在c盘，对于很多人来说都想安装到别的盘内。设置里的迁移应用功能使用亲测会有Bug(无法启动)，Google一番后终于找到了解决方案，特在此记录。&lt;/p&gt;
+&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;此方案也可以用于备份WSL或单纯导出WSL&lt;/p&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;前提&lt;/strong&gt;：已经安装WSL&lt;/p&gt;
+          &lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;关闭虚拟机&#34;&gt;关闭虚拟机&lt;/h2&gt;
+&lt;p&gt;终端输入 &lt;code&gt;wsl --shutdown&lt;/code&gt; 以关闭虚拟机&lt;/p&gt;
+&lt;h2 id=&#34;查看已安装的WSL&#34;&gt;查看已安装的WSL&lt;/h2&gt;
+&lt;p&gt;终端输入&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl -l&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;若要查看其他信息，则使用&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl -l -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;导出虚拟机&#34;&gt;导出虚拟机&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --export &amp;lt;需要导出的虚拟机&amp;gt; &amp;lt;导出路径&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --export Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;注销已经安装过的虚拟机&#34;&gt;注销已经安装过的虚拟机&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --unregister &amp;lt;虚拟机的名称&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --unregister Ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;重新导入虚拟机&#34;&gt;重新导入虚拟机&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --import &amp;lt;虚拟机的名称&amp;gt; &amp;lt;安装虚拟机的位置&amp;gt; &amp;lt;打包文件的位置&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --import Ubuntu G:\WSL\Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;hr&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</guid>
             <title>WSL Ubuntu 美化</title>
             <link>https://lkhsss.github.io/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</link>
-            <category>Linux</category>
             <category>WSL</category>
+            <category>Linux</category>
             <pubDate>Mon, 23 Jan 2023 20:57:23 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;自从微软公布了WSL后我就玩得不亦乐乎，重装系统后配置好的终端美化没了。很多步骤的忘了，记个笔记以备以后不备之需。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
