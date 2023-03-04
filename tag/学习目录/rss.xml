@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>LKH的网站 • Posts by &#34;学习目录&#34; tag</title>
+        <link>https://lkhsss.github.io</link>
+        <description>一个年轻程序猿的主页，包含了很多东西......</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 18 Feb 2023 12:04:27 +0800</pubDate>
+        <lastBuildDate>Sat, 18 Feb 2023 12:04:27 +0800</lastBuildDate>
+        <category>Go</category>
+        <category>学习笔记</category>
+        <category>学习目录</category>
+        <category>编程</category>
+        <category>Hexo</category>
+        <category>LaTex</category>
+        <category>Html</category>
+        <category>Java</category>
+        <category>学习</category>
+        <category>高中</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
+        <category>数学</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>Linux</category>
+        <category>Kali</category>
+        <category>WSL</category>
+        <category>物理</category>
+        <category>Python</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</guid>
+            <title>Go学习目录</title>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
+            <category>Go</category>
+            <category>学习目录</category>
+            <pubDate>Sat, 18 Feb 2023 12:04:27 +0800</pubDate>
+            <description><![CDATA[ &lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/&#34; title=&#34;Go语言基础语法&#34;&gt;Go语言基础语法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

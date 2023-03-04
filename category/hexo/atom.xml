@@ -6,8 +6,11 @@
     <updated>2023-02-18T02:45:29.000Z</updated>
     <category term="Go" />
     <category term="学习笔记" />
-    <category term="Html" />
+    <category term="学习目录" />
     <category term="编程" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Html" />
     <category term="Java" />
     <category term="学习" />
     <category term="高中" />
@@ -16,13 +19,11 @@
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
-    <category term="Hexo" />
-    <category term="LaTex" />
-    <category term="WSL" />
     <category term="Linux" />
-    <category term="Python" />
     <category term="Kali" />
+    <category term="WSL" />
+    <category term="物理" />
+    <category term="Python" />
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</id>
         <title>Hexo-fluid主题Tag插件</title>

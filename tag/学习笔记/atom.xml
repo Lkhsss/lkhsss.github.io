@@ -3,11 +3,14 @@
     <id>https://lkhsss.github.io</id>
     <title>LKH的网站 • Posts by &#34;学习笔记&#34; tag</title>
     <link href="https://lkhsss.github.io" />
-    <updated>2023-02-19T08:38:27.000Z</updated>
+    <updated>2023-03-04T17:23:36.000Z</updated>
     <category term="Go" />
     <category term="学习笔记" />
-    <category term="Html" />
+    <category term="学习目录" />
     <category term="编程" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Html" />
     <category term="Java" />
     <category term="学习" />
     <category term="高中" />
@@ -16,18 +19,150 @@
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
-    <category term="Hexo" />
-    <category term="LaTex" />
-    <category term="WSL" />
     <category term="Linux" />
-    <category term="Python" />
     <category term="Kali" />
+    <category term="WSL" />
+    <category term="物理" />
+    <category term="Python" />
+    <entry>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+        <title>Go语言基础语法</title>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+        <content type="html">&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;行代码&#34;&gt;行代码&lt;/h2&gt;
+&lt;p&gt;Go语言的行代码由 &lt;a href=&#34;#%E5%85%B3%E9%94%AE%E5%AD%97&#34;&gt;&lt;span class=&#34;label label-success&#34;&gt;关键字&lt;/span&gt;&lt;/a&gt;，&lt;span class=&#34;label label-success&#34;&gt;标识符&lt;/span&gt;，&lt;span class=&#34;label label-success&#34;&gt;常量&lt;/span&gt;，&lt;span class=&#34;label label-success&#34;&gt;字符串&lt;/span&gt;，&lt;span class=&#34;label label-success&#34;&gt;符号&lt;/span&gt; 等部分组成&lt;/p&gt;
+&lt;p&gt;Go语言的行代码末尾不需要加结尾符号（比如C语言中的&lt;code&gt;;&lt;/code&gt;），这些由编译器自动完成。&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;当然&lt;/strong&gt;，多个语句写在同一行时，也可以用&lt;code&gt;;&lt;/code&gt;手动将其区分。但是，&lt;span class=&#34;label label-danger&#34;&gt;不推荐&lt;/span&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;&lt;span class=&#34;label label-danger&#34;&gt;不推荐&lt;/span&gt;写成这样：&lt;/p&gt;&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-go&#34; data-language=&#34;go&#34;&gt;&lt;code class=&#34;language-go&#34;&gt;fmt.Println(&amp;quot;haihaihai&amp;quot;);fmt.Println(&amp;quot;不推荐此用法&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;&lt;span class=&#34;label label-success&#34;&gt;推荐&lt;/span&gt;写成这样，增加代码的可阅读性：&lt;/p&gt;&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-go&#34; data-language=&#34;go&#34;&gt;&lt;code class=&#34;language-go&#34;&gt;fmt.Println(&amp;quot;haihaihai&amp;quot;)
+fmt.Println(&amp;quot;推荐此用法&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;标识符&#34;&gt;标识符&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;标识符是用户编程时使用的名字，用于给变量、常量、函数、语句块等命名，以建立起名称与使用之间的关系。标识符通常由字母和数字以及其它字符构成。&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;百度百科&lt;/strong&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;p&gt;Go语言的标识符实际上是由 &lt;strong&gt;一个或是多个字母(A~Z和a~z)、数字(0~9)、下划线&lt;code&gt;_&lt;/code&gt;&lt;/strong&gt; 组成的序列，但是第一个字符必须是&lt;strong&gt;字母或下划线&lt;/strong&gt;而不能是数字或&lt;a href=&#34;#%E5%85%B3%E9%94%AE%E5%AD%97&#34;&gt;关键字&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;字符串&#34;&gt;字符串&lt;/h2&gt;
+&lt;p&gt;和其他语言相同，但是Go语言字符串的特性是可以用&lt;code&gt;+&lt;/code&gt;将两端字符串直接拼接在一起。&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;首尾相连，就像这样：&lt;/p&gt;&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-go&#34; data-language=&#34;go&#34;&gt;&lt;code class=&#34;language-go&#34;&gt;fmt.Println(&amp;quot;Hello&amp;quot; + &amp;quot;World&amp;quot;)	&amp;#x2F;&amp;#x2F;此行将输出HelloWorld
+fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将输出HelloWorld&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;&lt;s&gt;怎么感觉又把Python基础学了一遍（小声BB&lt;/s&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;关键字&#34;&gt;关键字&lt;/h2&gt;
+&lt;p&gt;和其它语言一样，Go也有其独特的保留字。&lt;/p&gt;
+&lt;div class=&#34;note note-danger&#34;&gt;
+            &lt;p&gt;未填写是因为还未学习 ( qwq )&lt;/p&gt;
+          &lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;保留字&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;作用&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;保留字&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;package&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;定义包名&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;default&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;func&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;定义函数&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;interface&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;import&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;引入包&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;break&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;var&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;定义变量&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;case&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;defer&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;go&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;struct&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;map&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;else&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;chan&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;switch&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;goto&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;fallthrough&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;if&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;range&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;type&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;continue&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;return&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;for&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;select&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;const&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+        <category term="Go" />
+        <category term="学习笔记" />
+        <category term="编程" />
+        <updated>2023-03-04T17:23:36.000Z</updated>
+    </entry>
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
         <title>Go语言结构</title>
         <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
-        <content type="html">&lt;h2 id=&#34;语言结构&#34;&gt;语言结构&lt;/h2&gt;
+        <content type="html">&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;语言结构&#34;&gt;语言结构&lt;/h2&gt;
 &lt;p&gt;Go的语言结构分为&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#%E5%8C%85%E5%A3%B0%E6%98%8E&#34;&gt;包声明&lt;/a&gt;&lt;/li&gt;
@@ -88,6 +223,7 @@ func main() &amp;#123;
 </content>
         <category term="Go" />
         <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
