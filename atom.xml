@@ -17,13 +17,13 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="物理" />
+    <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="WSL" />
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>Python环境搭建</title>
@@ -992,9 +992,9 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
             &lt;p&gt;&lt;span class=&#34;label label-success&#34;&gt;符号看象限&lt;/span&gt;&lt;/p&gt;&lt;p&gt;新函数的符号是把原来的角看成锐角时原函数值的符号&lt;/p&gt;
           &lt;/div&gt;</content>
         <category term="高中" />
+        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
-        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
@@ -1409,9 +1409,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
-        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
+        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
     <entry>

@@ -17,13 +17,13 @@
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
-    <category term="物理" />
+    <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="WSL" />
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
         <title>Go语言基础语法</title>
