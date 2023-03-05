@@ -4,26 +4,26 @@
     <title>LKH的网站 • Posts by &#34;wsl&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-02-02T13:22:06.000Z</updated>
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
     <category term="编程" />
-    <category term="Hexo" />
-    <category term="LaTex" />
-    <category term="Html" />
     <category term="Java" />
     <category term="学习" />
+    <category term="Html" />
+    <category term="Python" />
     <category term="高中" />
-    <category term="化学" />
-    <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
     <category term="物理" />
+    <category term="化学" />
+    <category term="内卷笔记" />
     <category term="Linux" />
-    <category term="Kali" />
     <category term="WSL" />
-    <category term="Python" />
+    <category term="Kali" />
     <entry>
         <id>https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</id>
         <title>WSL迁移</title>

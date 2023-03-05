@@ -5,28 +5,113 @@
         <link>https://lkhsss.github.io</link>
         <description>一个年轻程序猿的主页，包含了很多东西......</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 10 Dec 2022 10:20:24 +0800</pubDate>
-        <lastBuildDate>Sat, 10 Dec 2022 10:20:24 +0800</lastBuildDate>
+        <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
+        <lastBuildDate>Sun, 05 Mar 2023 12:55:12 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
         <category>编程</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
-        <category>Html</category>
         <category>Java</category>
         <category>学习</category>
+        <category>Html</category>
+        <category>Python</category>
         <category>高中</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
         <category>物理</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>Linux</category>
-        <category>Kali</category>
         <category>WSL</category>
-        <category>Python</category>
+        <category>Kali</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+            <title>Python环境搭建</title>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+            <category>学习笔记</category>
+            <category>编程</category>
+            <category>Python</category>
+            <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
+            <description><![CDATA[ &lt;h1&gt;啥是Python?&lt;/h1&gt;
+&lt;blockquote&gt;&lt;p&gt;Python由&lt;a href=&#34;https://baike.baidu.com/item/%E8%8D%B7%E5%85%B0/190469?fromModule=lemma_inlink&#34;&gt;荷兰&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%95%B0%E5%AD%A6/107037?fromModule=lemma_inlink&#34;&gt;数学&lt;/a&gt;和&lt;a href=&#34;https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/9132?fromModule=lemma_inlink&#34;&gt;计算机科学&lt;/a&gt;研究学会的&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%89%E5%A4%9A%C2%B7%E8%8C%83%E7%BD%97%E8%8B%8F%E5%A7%86/328361?fromModule=lemma_inlink&#34;&gt;吉多·范罗苏姆&lt;/a&gt;于1990年代初设计，作为一门叫做&lt;a href=&#34;https://baike.baidu.com/item/ABC%E8%AF%AD%E8%A8%80/334996?fromModule=lemma_inlink&#34;&gt;ABC语言&lt;/a&gt;的替代品。Python提供了高效的高级&lt;a href=&#34;https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1450?fromModule=lemma_inlink&#34;&gt;数据结构&lt;/a&gt;，还能简单有效地&lt;a href=&#34;https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/2262089?fromModule=lemma_inlink&#34;&gt;面向对象&lt;/a&gt;编程。Python&lt;a href=&#34;https://baike.baidu.com/item/%E8%AF%AD%E6%B3%95/23734941?fromModule=lemma_inlink&#34;&gt;语法&lt;/a&gt;和动态类型，以及&lt;a href=&#34;https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%9E%8B%E8%AF%AD%E8%A8%80/8888952?fromModule=lemma_inlink&#34;&gt;解释型语言&lt;/a&gt;的本质，使它成为多数平台上写&lt;a href=&#34;https://baike.baidu.com/item/%E8%84%9A%E6%9C%AC/1697005?fromModule=lemma_inlink&#34;&gt;脚本&lt;/a&gt;和快速开发应用的编程语言，随着版本的不断更新和语言新功能的添加，逐渐被用于独立的、&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E5%9E%8B%E9%A1%B9%E7%9B%AE/3986637?fromModule=lemma_inlink&#34;&gt;大型项目&lt;/a&gt;的开发。&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;百度百科&lt;/strong&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;p&gt;总之是一个对初学者来说很友好的编程语言（盯→_→    汇编）。&lt;/p&gt;
+&lt;p&gt;Python在数据处理，网络爬虫，训练AI等方面都很强大，很适合搞大数据和人工智能。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;安装Python&lt;/h1&gt;
+&lt;p&gt;Python的下载主要在官网&lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;&lt;em&gt;Python&lt;/em&gt;.org&lt;/a&gt;上&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;由于官网在国外，一般会出现加载下载很慢甚至加载不出来的情况。这个时候只能等待加载或切换网络&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;版本与选择&#34;&gt;版本与选择&lt;/h2&gt;
+&lt;p&gt;Python支持&lt;a href=&#34;https://www.python.org/downloads/windows/&#34;&gt;Windows&lt;/a&gt;，&lt;a href=&#34;https://www.python.org/downloads/source/&#34;&gt;Linux/UNIX&lt;/a&gt;和&lt;a href=&#34;https://www.python.org/downloads/macos/&#34;&gt;MacOS&lt;/a&gt;以及&lt;a href=&#34;https://www.python.org/download/other/&#34;&gt;其他&lt;/a&gt;系统&lt;/p&gt;
+&lt;p&gt;Python现在的主要版本为3.x版本，相对于2.0版本有质的提升以及有部分语法修改，建议现在直接学习3.x。&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;建议初学者选定版本后就暂时不要再更换版本。更换版本是可能出现各种奇怪的问题。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;目前的最新版本为&lt;a href=&#34;https://www.python.org/downloads/release/python-3112/&#34;&gt;3.11.2&lt;/a&gt;，是个尝鲜版本（听说运行速度有很大的提升？），但是不稳定。&lt;/p&gt;&lt;p&gt;建议大家食用3.9或3.10&lt;/p&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;下载时注意选择电脑的位数版本&lt;/p&gt;&lt;p&gt;&lt;code&gt;Windows x86-64 executable installer&lt;/code&gt; 为64位版本&lt;/p&gt;&lt;p&gt;&lt;code&gt;Windows x86 executable installer&lt;/code&gt; 为32位版本&lt;/p&gt;&lt;p&gt;不清楚的话就使用64位版本的吧，现在的电脑应该都是64位了。老的电脑应该还是32位。&lt;s&gt;实在不行就都试一遍&lt;/s&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;div class=&#34;note note-danger&#34;&gt;
+            &lt;p&gt;Windows7系统貌似最高只支持3.8 &lt;s&gt;(弔&lt;/s&gt; ，建议食用&lt;a href=&#34;https://www.python.org/downloads/release/python-386/&#34;&gt;3.8.6&lt;/a&gt;或&lt;a href=&#34;https://www.python.org/downloads/release/python-375/&#34;&gt;3.7.5&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;下载好的安装包后是酱紫的（这是我用过的各个版本）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/python%E5%AE%89%E8%A3%85%E5%8C%85.webp&#34; alt=&#34;python安装包&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;双击运行&#34;&gt;双击运行&lt;/h3&gt;
+&lt;p&gt;运行出来就是酱紫&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E5%8F%8C%E5%87%BB%E8%BF%90%E8%A1%8C%E5%AE%89%E8%A3%85.webp&#34; alt=&#34;双击运行安装&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;添加Python到系统环境（重点！）&#34;&gt;添加Python到系统环境（重点！）&lt;/h3&gt;
+&lt;div class=&#34;note note-danger&#34;&gt;
+            &lt;p&gt;除非要安装多个版本的Python，否则一定一定要记得勾选&lt;code&gt;Add python.exe to PATH&lt;/code&gt;这个选项！！！！（初学者墙裂推荐）&lt;/p&gt;&lt;p&gt;会省去很多麻烦！！！&lt;/p&gt;
+          &lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8B%BE%E9%80%89Add-python.exe-to-PATH-%E9%80%89%E9%A1%B9!.webp&#34; alt=&#34;一定要勾选Add-python&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;自定义安装位置&#34;&gt;自定义安装位置&lt;/h3&gt;
+&lt;p&gt;选择&lt;code&gt;Customize installation&lt;/code&gt;选项&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E9%80%89%E6%8B%A9%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%89%E8%A3%85.webp&#34; alt=&#34;选择自定义安装&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;如果此选项为灰色无法点击，则说明已经安装过同一版本或同一大版本的Python（如3.9.2和3.9.5为同一大版本）。&lt;/p&gt;&lt;p&gt;这时需要抉择你是要使用以前安装的版本还是现在安装的版本。如果使用现在安装的版本，则需要卸载之前安装的版本。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;p&gt;点击后出现的就是酱紫，选项全选即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E7%82%B9%E5%87%BB%E5%90%8E%E5%85%A8%E9%80%89%E5%8D%B3%E5%8F%AF.webp&#34; alt=&#34;点击后全选即可&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击Next&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E9%85%8D%E7%BD%AE%E5%AE%89%E8%A3%85.webp&#34; alt=&#34;配置安装&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Precompile standard library&lt;/code&gt;这个选项可选可不选，选了后在将来打包python程序的时候,速度会更快。&lt;s&gt;（不过我们暂时用不着&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;点击下面的&lt;code&gt;Browse&lt;/code&gt;可以选择安装的位置&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;程序最好不要装在C盘(系统盘)，会拖慢系统运行速度。也不要放在根目录，不方便管理，建议和我一样建个专门的Python文件夹管理不同的版本。&lt;/p&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E4%B8%93%E9%97%A8%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AAPython%E6%96%87%E4%BB%B6%E5%A4%B9%E7%AE%A1%E7%90%86%E7%89%88%E6%9C%AC.webp&#34; alt=&#34;专门建立一个Python文件夹管理版本&#34;&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h3 id=&#34;安装-2&#34;&gt;安装&lt;/h3&gt;
+&lt;p&gt;点击&lt;code&gt;Install&lt;/code&gt;即可开始安装&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E5%AE%89%E8%A3%85.webp&#34; alt=&#34;安装&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note note-success&#34;&gt;
+            &lt;p&gt;安装成功！&lt;/p&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.webp&#34; alt=&#34;安装成功&#34;&gt;&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;验证是否安装成功&#34;&gt;验证是否安装成功&lt;/h2&gt;
+&lt;p&gt;在命令行输入&lt;code&gt;python -V&lt;/code&gt;可以显示已经安装过的Python的版本信息&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E9%AA%8C%E8%AF%81%E5%AE%89%E8%A3%85.webp&#34; alt=&#34;验证安装&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;安装VScode&lt;/h1&gt;
+&lt;p&gt;VSCode（全称：Visual Studio Code）是一款由微软开发且跨平台的免费源代码编辑器，VSCode 开发环境非常简单易用。&lt;/p&gt;
+&lt;div class=&#34;note note-info&#34;&gt;
+            &lt;p&gt;Visual Studio Code其实就是Visual Studio它儿子。相对于Visual Studio的动辄十多个G，VScode轻量，可以做到秒开，并且凭借着强大的插件市场几乎支持所有编程语言。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&#34;安装-3&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;VSCode 安装也很简单，打开官网 &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt; 下载软件包，一步步安装即可，安装过程注意安装路径设置、环境变量默认自动添加到系统中，勾选以下所有选项：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/wp-content/uploads/2021/08/RM04TZb.png&#34;&gt;勾选以下所有选项&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安装python插件&#34;&gt;安装python插件&lt;/h2&gt;
+&lt;p&gt;安装好后在左侧的插件商店安装python插件&lt;br&gt;
+&lt;img src=&#34;https://www.runoob.com/wp-content/uploads/2021/08/D256086F-9E7F-4975-9362-3E3DC5A563AB.jpeg&#34; alt=&#34;安装python插件&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note note-warning&#34;&gt;
+            &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
+          &lt;/div&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</guid>
             <title>python-Click库</title>
