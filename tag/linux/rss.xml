@@ -11,22 +11,22 @@
         <category>学习笔记</category>
         <category>学习目录</category>
         <category>编程</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
-        <category>Html</category>
         <category>Java</category>
         <category>学习</category>
+        <category>Html</category>
         <category>Python</category>
         <category>高中</category>
+        <category>物理</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>Hexo</category>
         <category>化学</category>
         <category>内卷笔记</category>
         <category>数学</category>
-        <category>公式</category>
-        <category>总结</category>
-        <category>物理</category>
+        <category>LaTex</category>
         <category>Linux</category>
-        <category>Kali</category>
         <category>WSL</category>
+        <category>Kali</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
             <title>Kali 更新源/软件源</title>
