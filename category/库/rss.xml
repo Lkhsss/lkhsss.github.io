@@ -12,8 +12,8 @@
         <category>学习笔记</category>
         <category>学习目录</category>
         <category>编程</category>
-        <category>Hexo</category>
         <category>Html</category>
+        <category>Hexo</category>
         <category>LaTex</category>
         <category>Java</category>
         <category>学习</category>
@@ -25,9 +25,9 @@
         <category>公式</category>
         <category>总结</category>
         <category>物理</category>
+        <category>WSL</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>WSL</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</guid>
             <title>python-Click库</title>
