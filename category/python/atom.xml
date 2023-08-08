@@ -4,26 +4,27 @@
     <title>LKH的网站 • Posts by &#34;python&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-03-05T04:55:12.000Z</updated>
+    <category term="Mysql" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
     <category term="编程" />
+    <category term="Hexo" />
+    <category term="Html" />
+    <category term="LaTex" />
     <category term="Java" />
     <category term="学习" />
-    <category term="Html" />
     <category term="Python" />
     <category term="高中" />
-    <category term="物理" />
-    <category term="公式" />
-    <category term="总结" />
-    <category term="Hexo" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="数学" />
-    <category term="LaTex" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="物理" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="WSL" />
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>Python环境搭建</title>
