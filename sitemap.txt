@@ -40,9 +40,9 @@ https://lkhsss.github.io/tags/%E6%95%B0%E5%AD%A6/
 https://lkhsss.github.io/tags/%E5%85%AC%E5%BC%8F/
 https://lkhsss.github.io/tags/%E6%80%BB%E7%BB%93/
 https://lkhsss.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/
+https://lkhsss.github.io/tags/%E7%89%A9%E7%90%86/
 https://lkhsss.github.io/tags/Linux/
 https://lkhsss.github.io/tags/Kali/
-https://lkhsss.github.io/tags/%E7%89%A9%E7%90%86/
 https://lkhsss.github.io/tags/WSL/
 https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/
 https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/Hexo/
@@ -58,8 +58,8 @@ https://lkhsss.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/
 https://lkhsss.github.io/categories/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/
 https://lkhsss.github.io/categories/Linux/Kali/
 https://lkhsss.github.io/categories/Linux/WSL/
+https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/
 https://lkhsss.github.io/categories/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/
 https://lkhsss.github.io/categories/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/
 https://lkhsss.github.io/categories/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/
 https://lkhsss.github.io/categories/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/
-https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/
