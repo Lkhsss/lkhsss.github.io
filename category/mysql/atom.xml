@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lkhsss.github.io</id>
+    <title>LKH的网站 • Posts by &#34;mysql&#34; category</title>
+    <link href="https://lkhsss.github.io" />
+    <updated>2023-04-08T10:58:34.000Z</updated>
+    <category term="汇编" />
+    <category term="Go" />
+    <category term="学习笔记" />
+    <category term="学习目录" />
+    <category term="编程" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Html" />
+    <category term="Java" />
+    <category term="学习" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="Python" />
+    <category term="高中" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="计算机" />
+    <category term="Linux" />
+    <category term="Kali" />
+    <category term="物理" />
+    <category term="WSL" />
+    <entry>
+        <id>https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+        <title>MySQL安装报错部分解决方案</title>
+        <link rel="alternate" href="https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+        <content type="html">&lt;h2 id=&#34;1-ERROR-1698-28000-Access-denied-for-user-root-localhost&#34;&gt;1.&lt;code&gt;ERROR 1698 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39;&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;一般出现这种情况多数是安装新版本mysql，root密码是随机的，也不是空密码，所以要通过查看随机密码进入，再进行修改原来的密码。&lt;/p&gt;
+&lt;h3 id=&#34;解决方案&#34;&gt;解决方案&lt;/h3&gt;
+&lt;h4 id=&#34;1-查看内置用户的随机密码&#34;&gt;1.查看内置用户的随机密码&lt;/h4&gt;
+&lt;p&gt;下载安装MySQL的过程中，系统会自动给我们创建一个用户，我们借助如下指令便可以查看该用户信息：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo cat /etc/mysql/debian.cnf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;返回：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;❯ sudo cat &amp;#x2F;etc&amp;#x2F;mysql&amp;#x2F;debian.cnf
+# Automatically generated for Debian scripts. DO NOT TOUCH!
+[client]
+host     &amp;#x3D; localhost
+user     &amp;#x3D; debian-sys-maint
+password &amp;#x3D; R4ZiuvNnNykAuP9N
+socket   &amp;#x3D; &amp;#x2F;var&amp;#x2F;run&amp;#x2F;mysqld&amp;#x2F;mysqld.sock
+[mysql_upgrade]
+host     &amp;#x3D; localhost
+user     &amp;#x3D; debian-sys-maint
+password &amp;#x3D; R4ZiuvNnNykAuP9N
+socket   &amp;#x3D; &amp;#x2F;var&amp;#x2F;run&amp;#x2F;mysqld&amp;#x2F;mysqld.sock&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;2-进入MySQL&#34;&gt;2.进入MySQL&lt;/h4&gt;
+&lt;p&gt;然后使用&lt;code&gt;debian-sys-maint&lt;/code&gt;和&lt;code&gt;R4ZiuvNnNykAuP9N&lt;/code&gt;(看&lt;code&gt;password&lt;/code&gt;那一行，这个是随机生成的，我的和你的不一样)&lt;strong&gt;进入MySQL&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mysql -u debian-sys-maint -p&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在显示&lt;code&gt;Enter password:&lt;/code&gt;之后输入&lt;code&gt;password&lt;/code&gt;那一行后面的密码，此时密码不会显示（&lt;s&gt;copy下来就对了&lt;/s&gt;&lt;/p&gt;
+&lt;h4 id=&#34;3-修改root账户密码&#34;&gt;3.修改root账户密码&lt;/h4&gt;
+&lt;p&gt;先查看一下原来的用户表：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;use mysql;
+select user,plugin from user;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;输出：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;mysql&amp;gt; use mysql;
+t user,plugin from user;Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql&amp;gt; select user,plugin from user;
++------------------+-----------------------+
+| user             | plugin                |
++------------------+-----------------------+
+| lkhsss           | caching_sha2_password |
+| debian-sys-maint | caching_sha2_password |
+| mysql.infoschema | caching_sha2_password |
+| mysql.session    | caching_sha2_password |
+| mysql.sys        | caching_sha2_password |
+| root             | auth_socket           |
++------------------+-----------------------+
+6 rows in set (0.00 sec)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;可以看到root账户的密码格式为&lt;code&gt;auth_socket &lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;现在来修改一下root账户的密码格式:&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;update user set plugin&amp;#x3D;&amp;#39;mysql_native_password&amp;#39; where user&amp;#x3D;&amp;#39;root&amp;#39;; # 修改其密码格式
+select user,plugin from user; # 查询其用户&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;输出：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;mysql&amp;gt; update user set plugin&amp;#x3D;&amp;#39;mysql_native_password&amp;#39; where user&amp;#x3D;&amp;#39;root&amp;#39;;
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 1  Changed: 0  Warnings: 0
+
+mysql&amp;gt; select user,plugin from user;
++------------------+-----------------------+
+| user             | plugin                |
++------------------+-----------------------+
+| lkhsss           | caching_sha2_password |
+| debian-sys-maint | caching_sha2_password |
+| mysql.infoschema | caching_sha2_password |
+| mysql.session    | caching_sha2_password |
+| mysql.sys        | caching_sha2_password |
+| root             | mysql_native_password |
++------------------+-----------------------+
+6 rows in set (0.00 sec)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;修改好后要刷新权限&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;flush privileges;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;然后新增密码：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;alter user &#39;root&#39;@&#39;localhost&#39; identified by &#39;密码&#39;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;再刷新一次&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;flush privileges;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;退出&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-mysql&#34; data-language=&#34;mysql&#34;&gt;&lt;code class=&#34;language-mysql&#34;&gt;exit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;4-重启服务&#34;&gt;4.重启服务&lt;/h4&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;service mysql restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;现在即可用&lt;code&gt;mysql -u root -p&lt;/code&gt;，然后使用刚刚设置的密码登陆了&lt;/p&gt;
+</content>
+        <category term="数据库" />
+        <category term="MySQL" />
+        <updated>2023-04-08T10:58:34.000Z</updated>
+    </entry>
+</feed>
