@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>Rust在Windows系统中安装过慢的解决方法</title>
+    <link href="/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <url>/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。<br>这时应换源处理。</p><h2 id="换源">换源</h2><h3 id="1-打开powershell">1.打开<code>powershell</code></h3><h3 id="2-添加临时环境变量">2.添加临时环境变量</h3><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#39;$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&#39;</code></pre></div></figure><p>这两行代码将会把rust的下载源更改为中科大的镜像服务器</p><h3 id="3-正常安装Rust">3.正常安装Rust</h3><p>不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。</p><p>运行：</p><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">.\rustup-init.exe</code></pre></div></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程</category>
+      
+      <category>Rust</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>Rust</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>计算机的存储单元</title>
     <link href="/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/"/>
     <url>/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</url>
@@ -22,9 +51,9 @@
     
     <tags>
       
-      <tag>汇编</tag>
-      
       <tag>计算机</tag>
+      
+      <tag>汇编</tag>
       
     </tags>
     
