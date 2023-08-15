@@ -9,10 +9,11 @@
             "url": "https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/",
             "title": "Rust在Windows系统中安装过慢的解决方法",
             "date_published": "2023-08-15T03:23:36.000Z",
-            "content_html": "<p>由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。<br>\n这时应换源处理。</p>\n<h2 id=\"换源\">换源</h2>\n<h3 id=\"1-打开powershell\">1.打开<code>powershell</code></h3>\n<h3 id=\"2-添加临时环境变量\">2.添加临时环境变量</h3>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#39;\n\n$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&#39;</code></pre></div></figure>\n<p>这两行代码将会把rust的下载源更改为中科大的镜像服务器</p>\n<h3 id=\"3-正常安装Rust\">3.正常安装Rust</h3>\n<p>不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。</p>\n<p>运行：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">.\\rustup-init.exe</code></pre></div></figure>\n",
+            "content_html": "<p>由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。<br>\n这时应换源处理。</p>\n<h2 id=\"换源\">换源</h2>\n<h3 id=\"1-打开powershell\">1.打开<code>powershell</code></h3>\n<h3 id=\"2-添加临时环境变量\">2.添加临时环境变量</h3>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#39;\n$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&#39;</code></pre></div></figure>\n<p>这两行代码将会把rust的下载源更改为中科大的镜像服务器</p>\n<h3 id=\"3-正常安装Rust\">3.正常安装Rust</h3>\n<p>不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。</p>\n<p>运行：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">.\\rustup-init.exe</code></pre></div></figure>\n",
             "tags": [
                 "编程",
-                "Rust"
+                "Rust",
+                "解决方案"
             ]
         }
     ]

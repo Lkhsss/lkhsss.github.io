@@ -46,6 +46,7 @@ https://lkhsss.github.io/tags/%E7%89%A9%E7%90%86/
 https://lkhsss.github.io/tags/Linux/
 https://lkhsss.github.io/tags/Kali/
 https://lkhsss.github.io/tags/WSL/
+https://lkhsss.github.io/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/
 https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/
 https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/Go/
 https://lkhsss.github.io/categories/%E7%BC%96%E7%A8%8B/Hexo/

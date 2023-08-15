@@ -29,6 +29,7 @@
     <category term="Linux" />
     <category term="Kali" />
     <category term="WSL" />
+    <category term="解决方案" />
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>Rust在Windows系统中安装过慢的解决方法</title>
@@ -39,7 +40,6 @@
 &lt;h3 id=&#34;1-打开powershell&#34;&gt;1.打开&lt;code&gt;powershell&lt;/code&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;2-添加临时环境变量&#34;&gt;2.添加临时环境变量&lt;/h3&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
-
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;这两行代码将会把rust的下载源更改为中科大的镜像服务器&lt;/p&gt;
 &lt;h3 id=&#34;3-正常安装Rust&#34;&gt;3.正常安装Rust&lt;/h3&gt;
@@ -49,6 +49,7 @@ $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
 </content>
         <category term="编程" />
         <category term="Rust" />
+        <category term="解决方案" />
         <updated>2023-08-15T03:23:36.000Z</updated>
     </entry>
 </feed>

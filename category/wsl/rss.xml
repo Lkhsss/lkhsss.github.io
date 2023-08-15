@@ -32,6 +32,7 @@
         <category>Linux</category>
         <category>Kali</category>
         <category>WSL</category>
+        <category>解决方案</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
             <title>WSL迁移</title>
