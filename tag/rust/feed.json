@@ -1,7 +1,7 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "LKH的网站 • All posts by \"rust\" tag",
-    "description": "一个年轻程序猿的主页，包含了很多东西......",
+    "title": "LKHSS的Blog • All posts by \"rust\" tag",
+    "description": "嗨嗨嗨",
     "home_page_url": "https://lkhsss.github.io",
     "items": [
         {
@@ -12,8 +12,8 @@
             "content_html": "<p>由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。<br>\n这时应换源处理。</p>\n<h2 id=\"换源\">换源</h2>\n<h3 id=\"1-打开powershell\">1.打开<code>powershell</code></h3>\n<h3 id=\"2-添加临时环境变量\">2.添加临时环境变量</h3>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#39;\n$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&#39;</code></pre></div></figure>\n<p>这两行代码将会把rust的下载源更改为中科大的镜像服务器</p>\n<h3 id=\"3-正常安装Rust\">3.正常安装Rust</h3>\n<p>不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。</p>\n<p>运行：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">.\\rustup-init.exe</code></pre></div></figure>\n",
             "tags": [
                 "编程",
-                "Rust",
-                "解决方案"
+                "解决方案",
+                "Rust"
             ]
         }
     ]

@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>LKH的网站 • Posts by &#34;计算机&#34; tag</title>
+        <title>LKHSS的Blog • Posts by &#34;计算机&#34; tag</title>
         <link>https://lkhsss.github.io</link>
-        <description>一个年轻程序猿的主页，包含了很多东西......</description>
+        <description>嗨嗨嗨</description>
         <language>zh-CN</language>
         <pubDate>Wed, 09 Aug 2023 23:22:57 +0800</pubDate>
         <lastBuildDate>Wed, 09 Aug 2023 23:22:57 +0800</lastBuildDate>
+        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
         <category>编程</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
         <category>Html</category>
         <category>Java</category>
         <category>学习</category>
+        <category>Hexo</category>
+        <category>Python</category>
+        <category>LaTex</category>
         <category>数据库</category>
         <category>MySQL</category>
-        <category>Python</category>
+        <category>解决方案</category>
         <category>Rust</category>
         <category>高中</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>计算机</category>
-        <category>汇编</category>
+        <category>化学</category>
+        <category>内卷笔记</category>
         <category>物理</category>
+        <category>计算机</category>
         <category>Linux</category>
         <category>Kali</category>
         <category>WSL</category>
-        <category>解决方案</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</guid>
             <title>计算机的存储单元</title>
             <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</link>
-            <category>计算机</category>
             <category>汇编</category>
+            <category>计算机</category>
             <pubDate>Wed, 09 Aug 2023 23:22:57 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;之前研究汇编语言（&lt;s&gt;妄图1个月速成手搓一个操作系统&lt;/s&gt;，把汇编学了个大概，但是也只知道最基础的用法。最近狂妄之心死灰复燃，又来死磕汇编，特写此笔记记录重点。&lt;/p&gt;
 &lt;div class=&#34;note note-info&#34;&gt;
