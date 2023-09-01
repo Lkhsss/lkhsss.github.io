@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lkhsss.github.io</id>
+    <id>https://blog.lkhsss.cn</id>
     <title>LKHSS的Blog • Posts by &#34;库&#34; category</title>
-    <link href="https://lkhsss.github.io" />
+    <link href="https://blog.lkhsss.cn" />
     <updated>2022-12-10T02:20:24.000Z</updated>
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="汇编" />
+    <category term="编程" />
+    <category term="Java" />
+    <category term="学习" />
+    <category term="Html" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
-    <category term="Html" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Hexo" />
     <category term="Python" />
-    <category term="LaTex" />
+    <category term="Rust" />
+    <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="解决方案" />
-    <category term="Rust" />
     <category term="高中" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="计算机" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="物理" />
-    <category term="计算机" />
     <category term="Linux" />
-    <category term="Kali" />
     <category term="WSL" />
+    <category term="Kali" />
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</id>
         <title>python-Click库</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/"/>
         <content type="html">&lt;h1&gt;Click&lt;/h1&gt;
 &lt;p&gt;Click全名&lt;em&gt;Command Line Interface Creation Kit&lt;/em&gt;，是一个用于构建命令行的第三方库，相较于Python自带的&lt;a href=&#34;https://docs.python.org/zh-cn/3/library/argparse.html&#34;&gt;Argparse&lt;/a&gt;更加友好和易用。&lt;/p&gt;
 &lt;hr&gt;

@@ -2,44 +2,44 @@
 <rss version="2.0">
     <channel>
         <title>LKHSS的Blog • Posts by &#34;rust&#34; category</title>
-        <link>https://lkhsss.github.io</link>
+        <link>https://blog.lkhsss.cn</link>
         <description>嗨嗨嗨</description>
         <language>zh-CN</language>
         <pubDate>Tue, 15 Aug 2023 11:23:36 +0800</pubDate>
         <lastBuildDate>Tue, 15 Aug 2023 11:23:36 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>汇编</category>
+        <category>编程</category>
+        <category>Java</category>
+        <category>学习</category>
+        <category>Html</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
-        <category>编程</category>
-        <category>Html</category>
-        <category>Java</category>
-        <category>学习</category>
-        <category>Hexo</category>
         <category>Python</category>
-        <category>LaTex</category>
+        <category>Rust</category>
+        <category>解决方案</category>
         <category>数据库</category>
         <category>MySQL</category>
-        <category>解决方案</category>
-        <category>Rust</category>
         <category>高中</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>计算机</category>
         <category>化学</category>
         <category>内卷笔记</category>
         <category>物理</category>
-        <category>计算机</category>
         <category>Linux</category>
-        <category>Kali</category>
         <category>WSL</category>
+        <category>Kali</category>
         <item>
-            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>Rust在Windows系统中安装过慢的解决方法</title>
-            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
             <category>编程</category>
-            <category>解决方案</category>
             <category>Rust</category>
+            <category>解决方案</category>
             <pubDate>Tue, 15 Aug 2023 11:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;

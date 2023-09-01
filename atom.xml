@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lkhsss.github.io</id>
+    <id>https://blog.lkhsss.cn</id>
     <title>LKHSS的Blog</title>
-    <link href="https://lkhsss.github.io" />
+    <link href="https://blog.lkhsss.cn" />
     <updated>2023-08-15T03:23:36.000Z</updated>
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="汇编" />
+    <category term="编程" />
+    <category term="Java" />
+    <category term="学习" />
+    <category term="Html" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
-    <category term="Html" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Hexo" />
     <category term="Python" />
-    <category term="LaTex" />
+    <category term="Rust" />
+    <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="解决方案" />
-    <category term="Rust" />
     <category term="高中" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="计算机" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="物理" />
-    <category term="计算机" />
     <category term="Linux" />
-    <category term="Kali" />
     <category term="WSL" />
+    <category term="Kali" />
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>Rust在Windows系统中安装过慢的解决方法</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
         <content type="html">&lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
@@ -48,14 +48,14 @@ $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;.\rustup-init.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
         <category term="编程" />
-        <category term="解决方案" />
         <category term="Rust" />
+        <category term="解决方案" />
         <updated>2023-08-15T03:23:36.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</id>
         <title>计算机的存储单元</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/"/>
         <content type="html">&lt;p&gt;之前研究汇编语言（&lt;s&gt;妄图1个月速成手搓一个操作系统&lt;/s&gt;，把汇编学了个大概，但是也只知道最基础的用法。最近狂妄之心死灰复燃，又来死磕汇编，特写此笔记记录重点。&lt;/p&gt;
 &lt;div class=&#34;note note-info&#34;&gt;
             &lt;p&gt;参考书籍：王爽老师的《汇编语言》&lt;br&gt;豆瓣读书链接：&lt;a href=&#34;https://book.douban.com/subject/35038473/&#34;&gt;https://book.douban.com/subject/35038473/&lt;/a&gt;&lt;/p&gt;
@@ -98,9 +98,9 @@ $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
         <updated>2023-08-09T15:22:57.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+        <id>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
         <title>MySQL安装报错部分解决方案</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
         <content type="html">&lt;h2 id=&#34;1-ERROR-1698-28000-Access-denied-for-user-root-localhost&#34;&gt;1.&lt;code&gt;ERROR 1698 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39;&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;一般出现这种情况多数是安装新版本mysql，root密码是随机的，也不是空密码，所以要通过查看随机密码进入，再进行修改原来的密码。&lt;/p&gt;
 &lt;h3 id=&#34;解决方案&#34;&gt;解决方案&lt;/h3&gt;
@@ -179,15 +179,15 @@ mysql&amp;gt; select user,plugin from user;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;service mysql restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;现在即可用&lt;code&gt;mysql -u root -p&lt;/code&gt;，然后使用刚刚设置的密码登陆了&lt;/p&gt;
 </content>
+        <category term="解决方案" />
         <category term="数据库" />
         <category term="MySQL" />
-        <category term="解决方案" />
         <updated>2023-04-08T10:58:34.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>Python环境搭建</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
         <content type="html">&lt;h2 id=&#34;啥是Python&#34;&gt;啥是Python?&lt;/h2&gt;
 &lt;blockquote&gt;&lt;p&gt;Python由&lt;a href=&#34;https://baike.baidu.com/item/%E8%8D%B7%E5%85%B0/190469?fromModule=lemma_inlink&#34;&gt;荷兰&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%95%B0%E5%AD%A6/107037?fromModule=lemma_inlink&#34;&gt;数学&lt;/a&gt;和&lt;a href=&#34;https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/9132?fromModule=lemma_inlink&#34;&gt;计算机科学&lt;/a&gt;研究学会的&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%89%E5%A4%9A%C2%B7%E8%8C%83%E7%BD%97%E8%8B%8F%E5%A7%86/328361?fromModule=lemma_inlink&#34;&gt;吉多·范罗苏姆&lt;/a&gt;于1990年代初设计，作为一门叫做&lt;a href=&#34;https://baike.baidu.com/item/ABC%E8%AF%AD%E8%A8%80/334996?fromModule=lemma_inlink&#34;&gt;ABC语言&lt;/a&gt;的替代品。Python提供了高效的高级&lt;a href=&#34;https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1450?fromModule=lemma_inlink&#34;&gt;数据结构&lt;/a&gt;，还能简单有效地&lt;a href=&#34;https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/2262089?fromModule=lemma_inlink&#34;&gt;面向对象&lt;/a&gt;编程。Python&lt;a href=&#34;https://baike.baidu.com/item/%E8%AF%AD%E6%B3%95/23734941?fromModule=lemma_inlink&#34;&gt;语法&lt;/a&gt;和动态类型，以及&lt;a href=&#34;https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%9E%8B%E8%AF%AD%E8%A8%80/8888952?fromModule=lemma_inlink&#34;&gt;解释型语言&lt;/a&gt;的本质，使它成为多数平台上写&lt;a href=&#34;https://baike.baidu.com/item/%E8%84%9A%E6%9C%AC/1697005?fromModule=lemma_inlink&#34;&gt;脚本&lt;/a&gt;和快速开发应用的编程语言，随着版本的不断更新和语言新功能的添加，逐渐被用于独立的、&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E5%9E%8B%E9%A1%B9%E7%9B%AE/3986637?fromModule=lemma_inlink&#34;&gt;大型项目&lt;/a&gt;的开发。&lt;/p&gt;
 &lt;footer&gt;&lt;strong&gt;百度百科&lt;/strong&gt;&lt;/footer&gt;&lt;/blockquote&gt;
@@ -264,15 +264,15 @@ mysql&amp;gt; select user,plugin from user;
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
         <title>Go语言基础语法</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
         <content type="html">&lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
           &lt;/div&gt;
@@ -395,15 +395,15 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
         <title>Go语言结构</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
         <content type="html">&lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
           &lt;/div&gt;
@@ -466,15 +466,15 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</id>
         <title>Go: Hello World!</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go-hello-world/"/>
         <content type="html">&lt;h2 id=&#34;Go语言环境搭建&#34;&gt;Go语言环境搭建&lt;/h2&gt;
 &lt;p&gt;官方下载地址：&lt;a href=&#34;https://golang.org/dl/&#34;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;镜像站：&lt;a href=&#34;https://golang.google.cn/dl/&#34;&gt;https://golang.google.cn/dl/&lt;/a&gt;&lt;/p&gt;
@@ -506,9 +506,9 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
         <updated>2023-02-19T08:17:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
         <title>Go学习目录</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;
@@ -525,9 +525,9 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
         <updated>2023-02-18T04:04:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</id>
         <title>Hexo-fluid主题Tag插件</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/"/>
         <content type="html">&lt;p&gt;Hexo fluid主题的Tag插件，在此整理记录，方便取用&lt;br&gt;
 官网：&lt;a href=&#34;https://hexo.fluid-dev.com/docs/guide/#tag-%E6%8F%92%E4%BB%B6&#34;&gt;配置指南 | Hexo Fluid 用户手册 | Tag 插件&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;便签&#34;&gt;便签&lt;/h2&gt;
@@ -623,9 +623,9 @@ light
         <updated>2023-02-18T02:45:29.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</id>
+        <id>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</id>
         <title>物理性质和化学性质</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/"/>
         <content type="html">&lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;物质在化学变化中表现出来的性质叫化学性质，如铁在潮湿的空气中生成铁锈，铜能在潮湿的空气中生成铜绿。化学性质只能通过化学变化表现出来。&lt;/p&gt;
@@ -646,9 +646,9 @@ light
         <updated>2023-02-18T01:46:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</id>
+        <id>https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</id>
         <title>Kali 更新源/软件源</title>
-        <link rel="alternate" href="https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/"/>
         <content type="html">&lt;p&gt;源文件位置：&lt;code&gt;/etc/apt/sources.list&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;直接键入&lt;code&gt;sudo vim /etc/apt/sources.list&lt;/code&gt;即可开始编辑&lt;/p&gt;
 &lt;h2 id=&#34;清华源&#34;&gt;清华源&lt;/h2&gt;
@@ -705,9 +705,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
         <updated>2023-02-04T12:05:16.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</id>
+        <id>https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</id>
         <title>WSL迁移</title>
-        <link rel="alternate" href="https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/"/>
         <content type="html">&lt;p&gt;WSL子系统默认硬盘存放位置在c盘，对于很多人来说都想安装到别的盘内。设置里的迁移应用功能使用亲测会有Bug(无法启动)，Google一番后终于找到了解决方案，特在此记录。&lt;/p&gt;
 &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;此方案也可以用于备份WSL或单纯导出WSL&lt;/p&gt;
@@ -742,9 +742,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
         <updated>2023-02-02T13:22:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</id>
+        <id>https://blog.lkhsss.cn/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</id>
         <title>WSL Ubuntu 美化</title>
-        <link rel="alternate" href="https://lkhsss.github.io/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/"/>
         <content type="html">&lt;p&gt;自从微软公布了WSL后我就玩得不亦乐乎，重装系统后配置好的终端美化没了。很多步骤的忘了，记个笔记以备以后不备之需。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;系统：Windows 11&lt;/p&gt;
@@ -1010,9 +1010,9 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
         <updated>2023-01-23T12:57:23.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
         <title>LaTex 数学公式速查表</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
         <content type="html">&lt;h2 id=&#34;分数&#34;&gt;分数&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;$\frac&amp;#123;分子&amp;#125;&amp;#123;分母&amp;#125;$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mtext&gt;分子&lt;/mtext&gt;&lt;mtext&gt;分母&lt;/mtext&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\frac{分子}{分母}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.2173em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8723em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord cjk_fallback mtight&#34;&gt;分母&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord cjk_fallback mtight&#34;&gt;分子&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -1031,9 +1031,9 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
         <updated>2023-01-02T03:53:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</id>
+        <id>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</id>
         <title>三角函数诱导公式</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/"/>
         <content type="html">&lt;h2 id=&#34;诱导公式&#34;&gt;诱导公式&lt;/h2&gt;
 &lt;h3 id=&#34;诱导公式一&#34;&gt;诱导公式一&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F%E4%B8%80.65qao2flthw0.webp&#34; alt=&#34;诱导公式一图像&#34;&gt;&lt;/p&gt;
@@ -1158,9 +1158,9 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</id>
         <title>Java入门</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;h1&gt;万事开头难，先写一个 HelloWorld&lt;/h1&gt;
 &lt;p&gt;从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;
@@ -1268,9 +1268,9 @@ Hello World
         <updated>2022-12-12T16:32:49.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</id>
         <title>python-Click库</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/"/>
         <content type="html">&lt;h1&gt;Click&lt;/h1&gt;
 &lt;p&gt;Click全名&lt;em&gt;Command Line Interface Creation Kit&lt;/em&gt;，是一个用于构建命令行的第三方库，相较于Python自带的&lt;a href=&#34;https://docs.python.org/zh-cn/3/library/argparse.html&#34;&gt;Argparse&lt;/a&gt;更加友好和易用。&lt;/p&gt;
 &lt;hr&gt;
@@ -1398,9 +1398,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
         <updated>2022-12-10T02:20:24.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</id>
+        <id>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</id>
         <title>氯及其化合物</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/"/>
         <content type="html">&lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;物理性质&#34;&gt;物理性质&lt;/h2&gt;
 &lt;ul&gt;
@@ -1506,9 +1506,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
         <updated>2022-11-19T15:48:51.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
+        <id>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
         <title>高一物理公式总结</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
         <content type="html">&lt;h1&gt;高一物理公式总结&lt;/h1&gt;
 &lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
 &lt;p&gt;用速度的变化量 Δv 与发生这个变化所需的时间 Δt 的比定量地描述物体速度变化的快慢和方向&lt;/p&gt;
@@ -1575,9 +1575,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</id>
         <title>HTML-容器元素</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/"/>
         <content type="html">&lt;h1&gt;容器元素&lt;/h1&gt;
 &lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;

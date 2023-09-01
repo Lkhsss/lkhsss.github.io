@@ -2,44 +2,44 @@
 <rss version="2.0">
     <channel>
         <title>LKHSS的Blog • Posts by &#34;数据库&#34; category</title>
-        <link>https://lkhsss.github.io</link>
+        <link>https://blog.lkhsss.cn</link>
         <description>嗨嗨嗨</description>
         <language>zh-CN</language>
         <pubDate>Sat, 08 Apr 2023 18:58:34 +0800</pubDate>
         <lastBuildDate>Sat, 08 Apr 2023 18:58:34 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>汇编</category>
+        <category>编程</category>
+        <category>Java</category>
+        <category>学习</category>
+        <category>Html</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
-        <category>编程</category>
-        <category>Html</category>
-        <category>Java</category>
-        <category>学习</category>
-        <category>Hexo</category>
         <category>Python</category>
-        <category>LaTex</category>
+        <category>Rust</category>
+        <category>解决方案</category>
         <category>数据库</category>
         <category>MySQL</category>
-        <category>解决方案</category>
-        <category>Rust</category>
         <category>高中</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>计算机</category>
         <category>化学</category>
         <category>内卷笔记</category>
         <category>物理</category>
-        <category>计算机</category>
         <category>Linux</category>
-        <category>Kali</category>
         <category>WSL</category>
+        <category>Kali</category>
         <item>
-            <guid isPermalink="true">https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+            <guid isPermalink="true">https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
             <title>MySQL安装报错部分解决方案</title>
-            <link>https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <link>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <category>解决方案</category>
             <category>数据库</category>
             <category>MySQL</category>
-            <category>解决方案</category>
             <pubDate>Sat, 08 Apr 2023 18:58:34 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;1-ERROR-1698-28000-Access-denied-for-user-root-localhost&#34;&gt;1.&lt;code&gt;ERROR 1698 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39;&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;一般出现这种情况多数是安装新版本mysql，root密码是随机的，也不是空密码，所以要通过查看随机密码进入，再进行修改原来的密码。&lt;/p&gt;

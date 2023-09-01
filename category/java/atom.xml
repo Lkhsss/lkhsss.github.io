@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lkhsss.github.io</id>
+    <id>https://blog.lkhsss.cn</id>
     <title>LKHSS的Blog • Posts by &#34;java&#34; category</title>
-    <link href="https://lkhsss.github.io" />
+    <link href="https://blog.lkhsss.cn" />
     <updated>2022-12-12T16:32:49.000Z</updated>
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="汇编" />
+    <category term="编程" />
+    <category term="Java" />
+    <category term="学习" />
+    <category term="Html" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
-    <category term="Html" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Hexo" />
     <category term="Python" />
-    <category term="LaTex" />
+    <category term="Rust" />
+    <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="解决方案" />
-    <category term="Rust" />
     <category term="高中" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="计算机" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="物理" />
-    <category term="计算机" />
     <category term="Linux" />
-    <category term="Kali" />
     <category term="WSL" />
+    <category term="Kali" />
     <entry>
-        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</id>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</id>
         <title>Java入门</title>
-        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;h1&gt;万事开头难，先写一个 HelloWorld&lt;/h1&gt;
 &lt;p&gt;从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;
