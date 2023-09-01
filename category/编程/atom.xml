@@ -4,32 +4,32 @@
     <title>LKHSS的Blog • Posts by &#34;编程&#34; category</title>
     <link href="https://blog.lkhsss.cn" />
     <updated>2023-08-15T03:23:36.000Z</updated>
-    <category term="Hexo" />
-    <category term="LaTex" />
     <category term="汇编" />
-    <category term="编程" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Html" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
+    <category term="编程" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Html" />
+    <category term="Java" />
+    <category term="学习" />
     <category term="Python" />
     <category term="Rust" />
     <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="高中" />
+    <category term="化学" />
+    <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
     <category term="计算机" />
-    <category term="化学" />
-    <category term="内卷笔记" />
     <category term="物理" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="WSL" />
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>Rust在Windows系统中安装过慢的解决方法</title>
@@ -177,8 +177,8 @@ $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="编程" />
         <category term="学习笔记" />
+        <category term="编程" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -308,9 +308,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
-        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -379,9 +379,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
-        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>

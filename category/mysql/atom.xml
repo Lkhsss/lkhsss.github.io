@@ -4,32 +4,32 @@
     <title>LKHSS的Blog • Posts by &#34;mysql&#34; category</title>
     <link href="https://blog.lkhsss.cn" />
     <updated>2023-04-08T10:58:34.000Z</updated>
-    <category term="Hexo" />
-    <category term="LaTex" />
     <category term="汇编" />
-    <category term="编程" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Html" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
+    <category term="编程" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Html" />
+    <category term="Java" />
+    <category term="学习" />
     <category term="Python" />
     <category term="Rust" />
     <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="高中" />
+    <category term="化学" />
+    <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
     <category term="计算机" />
-    <category term="化学" />
-    <category term="内卷笔记" />
     <category term="物理" />
     <category term="Linux" />
-    <category term="WSL" />
     <category term="Kali" />
+    <category term="WSL" />
     <entry>
         <id>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
         <title>MySQL安装报错部分解决方案</title>
