@@ -15,13 +15,11 @@
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
-        <category>Java</category>
-        <category>学习</category>
-        <category>Python</category>
-        <category>Rust</category>
-        <category>解决方案</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>解决方案</category>
+        <category>Python</category>
+        <category>Rust</category>
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
@@ -38,19 +36,20 @@
             <title>Rust在Windows系统中安装过慢的解决方法</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
             <category>编程</category>
-            <category>Rust</category>
             <category>解决方案</category>
+            <category>Rust</category>
             <pubDate>Tue, 15 Aug 2023 11:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
-&lt;h3 id=&#34;1-打开powershell&#34;&gt;1.打开&lt;code&gt;powershell&lt;/code&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;2-添加临时环境变量&#34;&gt;2.添加临时环境变量&lt;/h3&gt;
+&lt;h3 id=&#34;1-添加临时环境变量&#34;&gt;1.添加临时环境变量&lt;/h3&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;quot;
+set RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;这两行代码将会把rust的下载源更改为中科大的镜像服务器&lt;/p&gt;
-&lt;h3 id=&#34;3-正常安装Rust&#34;&gt;3.正常安装Rust&lt;/h3&gt;
-&lt;p&gt;不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
+&lt;h3 id=&#34;2-正常安装Rust&#34;&gt;2.正常安装Rust&lt;/h3&gt;
+&lt;p&gt;不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
 &lt;p&gt;运行：&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;.\rustup-init.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
@@ -104,9 +103,9 @@ $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
             <guid isPermalink="true">https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
             <title>MySQL安装报错部分解决方案</title>
             <link>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
-            <category>解决方案</category>
             <category>数据库</category>
             <category>MySQL</category>
+            <category>解决方案</category>
             <pubDate>Sat, 08 Apr 2023 18:58:34 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;1-ERROR-1698-28000-Access-denied-for-user-root-localhost&#34;&gt;1.&lt;code&gt;ERROR 1698 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39;&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;一般出现这种情况多数是安装新版本mysql，root密码是随机的，也不是空密码，所以要通过查看随机密码进入，再进行修改原来的密码。&lt;/p&gt;
@@ -745,274 +744,6 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</guid>
-            <title>WSL Ubuntu 美化</title>
-            <link>https://blog.lkhsss.cn/Linux/WSL/wsl-ubuntu-%E7%BE%8E%E5%8C%96/</link>
-            <category>Linux</category>
-            <category>WSL</category>
-            <pubDate>Mon, 23 Jan 2023 20:57:23 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;自从微软公布了WSL后我就玩得不亦乐乎，重装系统后配置好的终端美化没了。很多步骤的忘了，记个笔记以备以后不备之需。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;系统：Windows 11&lt;/p&gt;
-&lt;p&gt;版本：Cumulative Update for Windows 11 Insider Preview (10.0.22623.1180) (KB5022363)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;子系统：Ubuntu&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;子系统版本：22.04.1 LTS&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;1-安装WSL&#34;&gt;1.安装WSL&lt;/h2&gt;
-&lt;p&gt;微软官网上写得很清楚：&lt;a href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/install&#34;&gt;安装 WSL | Microsoft Learn&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;2-安装zsh&#34;&gt;2.安装zsh&lt;/h2&gt;
-&lt;p&gt;Linux系统有许多中终端(shell)类型。除了默认的&lt;code&gt;bash&lt;/code&gt;之外，还有&lt;code&gt;sh&lt;/code&gt;，&lt;code&gt;ash&lt;/code&gt;，&lt;code&gt;ksh&lt;/code&gt;，&lt;code&gt;csh&lt;/code&gt;，以及&lt;code&gt;zsh&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;其中&lt;code&gt;zsh&lt;/code&gt;在shell当中美化非常漂亮，个人很喜欢。&lt;/p&gt;
-&lt;h3 id=&#34;检查是否已安装shell&#34;&gt;检查是否已安装shell&lt;/h3&gt;
-&lt;p&gt;终端输入：&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;cat &amp;#x2F;etc&amp;#x2F;shells&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;以查看系统中已安装的shell&lt;/p&gt;
-&lt;details&gt;
-    &lt;summary&gt;我的输出&lt;/summary&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;lkhsss@LKH-PC:~$ cat &amp;#x2F;etc&amp;#x2F;shells
-# &amp;#x2F;etc&amp;#x2F;shells: valid login shells
-&amp;#x2F;bin&amp;#x2F;sh
-&amp;#x2F;bin&amp;#x2F;bash
-&amp;#x2F;usr&amp;#x2F;bin&amp;#x2F;bash
-&amp;#x2F;bin&amp;#x2F;rbash
-&amp;#x2F;usr&amp;#x2F;bin&amp;#x2F;rbash
-&amp;#x2F;usr&amp;#x2F;bin&amp;#x2F;sh
-&amp;#x2F;bin&amp;#x2F;dash
-&amp;#x2F;usr&amp;#x2F;bin&amp;#x2F;dash
-&amp;#x2F;usr&amp;#x2F;bin&amp;#x2F;tmux
-&amp;#x2F;usr&amp;#x2F;bin&amp;#x2F;screen&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;/details&gt;
-&lt;p&gt;如果显示结果中包含&lt;code&gt;zsh&lt;/code&gt;，可以直接跳到配置zsh&lt;/p&gt;
-&lt;h3 id=&#34;安装zsh&#34;&gt;安装zsh&lt;/h3&gt;
-&lt;p&gt;终端输入:&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;apt install zsh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;details&gt;
-    &lt;summary&gt;我的输出&lt;/summary&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;lkhsss@LKH-PC:~$ sudo apt install zsh
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-Suggested packages:
-  zsh-doc
-The following NEW packages will be installed:
-  zsh
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 707 kB of archives.
-After this operation, 2390 kB of additional disk space will be used.
-Get:1 http:&amp;#x2F;&amp;#x2F;mirrors.aliyun.com&amp;#x2F;ubuntu focal-security&amp;#x2F;main amd64 zsh amd64 5.8-3ubuntu1.1 [707 kB]
-Fetched 707 kB in 1s (1365 kB&amp;#x2F;s)
-Selecting previously unselected package zsh.
-(Reading database ... 27850 files and directories currently installed.)
-Preparing to unpack ...&amp;#x2F;zsh_5.8-3ubuntu1.1_amd64.deb ...
-Unpacking zsh (5.8-3ubuntu1.1) ...
-Setting up zsh (5.8-3ubuntu1.1) ...
-Processing triggers for man-db (2.10.2-1) ...
-lkhsss@LKH-PC:~$&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;/details&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;3-配置zsh&#34;&gt;3.配置zsh&lt;/h2&gt;
-&lt;h3 id=&#34;安装Oh-My-Zsh&#34;&gt;安装Oh-My-Zsh&lt;/h3&gt;
-&lt;p&gt;可选自动安装或者手动安装&lt;/p&gt;
-&lt;h4 id=&#34;自动安装Oh-My-Zsh&#34;&gt;自动安装Oh-My-Zsh&lt;/h4&gt;
-&lt;p&gt;因为zsh配置很多，很多人不能自行把自己的shell美化（甚至会变丑，比如我），所以我选择使用网上别人配置好的文件。&lt;/p&gt;
-&lt;p&gt;此次我选择了&lt;a href=&#34;https://ohmyz.sh/&#34;&gt;&lt;strong&gt;Oh My Zsh&lt;/strong&gt;&lt;/a&gt;，因为它可以换主题。Github：&lt;a href=&#34;https://github.com/ohmyzsh/ohmyzsh&#34;&gt;ohmyzsh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;输入：&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sh -c &amp;quot;$(curl -fsSL https:&amp;#x2F;&amp;#x2F;raw.githubusercontent.com&amp;#x2F;ohmyzsh&amp;#x2F;ohmyzsh&amp;#x2F;master&amp;#x2F;tools&amp;#x2F;install.sh)&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;如出现&lt;code&gt;curl: (6) Could not resolve host: raw.githubusercontent.com&lt;/code&gt;的问题，这说明无法连接github（WSL网络和windows隔离）。如果不想折腾hosts或者代理，那么可以选择&lt;a href=&#34;#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85Oh-My-Zsh&#34;&gt;手动安装&lt;/a&gt;。&lt;/p&gt;
-&lt;h4 id=&#34;手动安装Oh-My-Zsh&#34;&gt;手动安装Oh-My-Zsh&lt;/h4&gt;
-&lt;p&gt;用gitee镜像源克隆oh-my-zsh&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https:&amp;#x2F;&amp;#x2F;gitee.com&amp;#x2F;mirrors&amp;#x2F;oh-my-zsh.git ~&amp;#x2F;.oh-my-zsh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;details&gt;
-    &lt;summary&gt;输出&lt;/summary&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;lkhsss@LKH-PC:~$ git clone https:&amp;#x2F;&amp;#x2F;gitee.com&amp;#x2F;mirrors&amp;#x2F;oh-my-zsh.git ~&amp;#x2F;.oh-my-zsh
-Cloning into &amp;#39;&amp;#x2F;home&amp;#x2F;lkhsss&amp;#x2F;.oh-my-zsh&amp;#39;...
-remote: Enumerating objects: 30309, done.
-remote: Counting objects: 100% (30309&amp;#x2F;30309), done.
-remote: Compressing objects: 100% (11786&amp;#x2F;11786), done.
-remote: Total 30309 (delta 17822), reused 29356 (delta 17296), pack-reused 0
-Receiving objects: 100% (30309&amp;#x2F;30309), 6.26 MiB | 951.00 KiB&amp;#x2F;s, done.
-Resolving deltas: 100% (17822&amp;#x2F;17822), done.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;/details&gt;
-&lt;p&gt;然后复制ohmyzsh配置文件到zsh配置文件&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;cp ~&amp;#x2F;.oh-my-zsh&amp;#x2F;templates&amp;#x2F;zshrc.zsh-template ~&amp;#x2F;.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;安装powerlevel10k主题&#34;&gt;安装powerlevel10k主题&lt;/h3&gt;
-&lt;p&gt;官方源安装：&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone --depth&amp;#x3D;1 https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;romkatv&amp;#x2F;powerlevel10k.git $&amp;#123;ZSH_CUSTOM:-$HOME&amp;#x2F;.oh-my-zsh&amp;#x2F;custom&amp;#125;&amp;#x2F;themes&amp;#x2F;powerlevel10k&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;国内镜像源安装：&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone --depth&amp;#x3D;1 https:&amp;#x2F;&amp;#x2F;gitee.com&amp;#x2F;romkatv&amp;#x2F;powerlevel10k.git $&amp;#123;ZSH_CUSTOM:-$HOME&amp;#x2F;.oh-my-zsh&amp;#x2F;custom&amp;#125;&amp;#x2F;themes&amp;#x2F;powerlevel10k&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;配置主题为p10k&#34;&gt;配置主题为p10k&lt;/h3&gt;
-&lt;p&gt;打开&lt;code&gt;~/.zshrc&lt;/code&gt;文件&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;vim ~&amp;#x2F;.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;找到&lt;code&gt;ZSH_THEME=&amp;quot;robbyrussell&amp;quot;&lt;/code&gt;这一行，把它注释掉。&lt;/p&gt;
-&lt;p&gt;在这句后面补上&lt;code&gt;ZSH_THEME=&amp;quot;powerlevel10k/powerlevel10k&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;即为&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;# ZSH_THEME&amp;#x3D;&amp;quot;robbyrussell&amp;quot;
-ZSH_THEME&amp;#x3D;&amp;quot;powerlevel10k&amp;#x2F;powerlevel10k&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;配置powerlevel10k主题&#34;&gt;配置powerlevel10k主题&lt;/h3&gt;
-&lt;p&gt;再修改完&lt;code&gt;~/.zshrc&lt;/code&gt;文件后，终端输入&lt;code&gt;source ~/.zshrc&lt;/code&gt;即可生效&lt;/p&gt;
-&lt;p&gt;如果安装和配置成功，powerlevel10k会显示配置画面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E9%85%8D%E7%BD%AEpowerlevel10k%E4%B8%BB%E9%A2%98.webp&#34; alt=&#34;配置powerlevel10k主题&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;详细配置&#34;&gt;详细配置&lt;/h4&gt;
-&lt;p&gt;这个图案像一个钻石吗（菱形）？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E8%BF%99%E4%B8%AA%E5%9B%BE%E6%A1%88%E5%83%8F%E4%B8%80%E4%B8%AA%E8%8F%B1%E5%BD%A2%E5%90%97.webp&#34; alt=&#34;这个图案像一个菱形吗&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这个图案像一个锁吗？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E8%BF%99%E4%B8%AA%E5%9B%BE%E6%A1%88%E5%83%8F%E4%B8%80%E4%B8%AA%E9%94%81%E5%90%97.webp&#34; alt=&#34;这个图案像一个锁吗&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这个图案像Linux Debian系列的logo吗？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E8%BF%99%E4%B8%AA%E5%9B%BE%E6%A1%88%E5%83%8FLinux-Debian%E7%B3%BB%E5%88%97%E7%9A%84logo%E5%90%97.webp&#34; alt=&#34;这个图案像Linux-Debian系列的logo吗&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这些小图标是否和字符没有重合？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E8%BF%99%E4%BA%9B%E5%B0%8F%E5%9B%BE%E6%A0%87%E6%98%AF%E5%90%A6%E5%92%8C%E5%AD%97%E7%AC%A6%E6%B2%A1%E6%9C%89%E9%87%8D%E5%90%88.webp&#34; alt=&#34;这些小图标是否和字符没有重合&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符样式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E6%A0%B7%E5%BC%8F.webp&#34; alt=&#34;提示符样式&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符外框形状&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E5%A4%96%E6%A1%86%E5%BD%A2%E7%8A%B6.webp&#34; alt=&#34;提示符外框形状&#34;&gt;&lt;/p&gt;
-&lt;p&gt;是否显示实时时间&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/image.webp&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符外框分隔形状&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E5%A4%96%E6%A1%86%E5%88%86%E9%9A%94%E5%BD%A2%E7%8A%B6.webp&#34; alt=&#34;提示符外框分隔形状&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符外框图形顶端样式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E5%A4%96%E6%A1%86%E5%9B%BE%E5%BD%A2%E9%A1%B6%E7%AB%AF%E6%A0%B7%E5%BC%8F.webp&#34; alt=&#34;提示符外框图形顶端样式&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符外框图形尾部样式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E5%A4%96%E6%A1%86%E5%9B%BE%E5%BD%A2%E9%A1%B6%E7%AB%AF%E6%A0%B7%E5%BC%8F.webp&#34; alt=&#34;提示符外框图形顶端样式&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符是否换行&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E8%BE%93%E5%85%A5%E6%98%AF%E5%90%A6%E6%8D%A2%E8%A1%8C.webp&#34; alt=&#34;提示符输入是否换行&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符首端末端连接样式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E9%A6%96%E7%AB%AF%E6%9C%AB%E7%AB%AF%E8%BF%9E%E6%8E%A5%E6%A0%B7%E5%BC%8F.webp&#34; alt=&#34;提示符首端末端连接样式&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符整体框架样式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E6%95%B4%E4%BD%93%E6%A1%86%E6%9E%B6%E6%A0%B7%E5%BC%8F.webp&#34; alt=&#34;提示符整体框架样式&#34;&gt;&lt;/p&gt;
-&lt;p&gt;框架颜色&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%A1%86%E6%9E%B6%E9%A2%9C%E8%89%B2.webp&#34; alt=&#34;框架颜色&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提示符之间距离&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%8F%90%E7%A4%BA%E7%AC%A6%E4%B9%8B%E9%97%B4%E8%B7%9D%E7%A6%BB.webp&#34; alt=&#34;提示符之间距离&#34;&gt;&lt;/p&gt;
-&lt;p&gt;是否显示小图标&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%98%AF%E5%90%A6%E6%98%BE%E7%A4%BA%E5%B0%8F%E5%9B%BE%E6%A0%87.webp&#34; alt=&#34;是否显示小图标&#34;&gt;&lt;/p&gt;
-&lt;p&gt;显示文字提示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%98%BE%E7%A4%BA%E6%96%87%E5%AD%97%E6%8F%90%E7%A4%BA.webp&#34; alt=&#34;显示文字提示&#34;&gt;&lt;/p&gt;
-&lt;p&gt;瞬时提示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E7%9E%AC%E6%97%B6%E6%8F%90%E7%A4%BA.webp&#34; alt=&#34;瞬时提示&#34;&gt;&lt;/p&gt;
-&lt;p&gt;即时提示模式（不知道啥玩意，听说开了可能会出错）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E5%8D%B3%E6%97%B6%E6%8F%90%E7%A4%BA%E6%A8%A1%E5%BC%8F.webp&#34; alt=&#34;即时提示模式&#34;&gt;&lt;/p&gt;
-&lt;p&gt;自动将配置保存到配置文件&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E8%87%AA%E5%8A%A8%E5%B0%86%E9%85%8D%E7%BD%AE%E4%BF%9D%E5%AD%98%E5%88%B0%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.webp&#34; alt=&#34;自动将配置保存到配置文件&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;修改小图标&#34;&gt;修改小图标&lt;/h3&gt;
-&lt;p&gt;在&lt;code&gt;~/.p10k.zsh&lt;/code&gt;里可以修改一些微小的设置&lt;/p&gt;
-&lt;p&gt;这是左边提示符设置&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;# The list of segments shown on the left. Fill it with the most important segments.
-typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
-  # &amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;[ Line #1 ]&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;
-  os_icon                 # os identifier
-  dir                     # current directory
-  vcs                     # git status
-  # &amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;[ Line #2 ]&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;
-  newline                 # \n
-  # prompt_char           # prompt symbol
-)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;这是右边提示符设置（我开启了CPU负荷显示和内存剩余）&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;# The list of segments shown on the right. Fill it with less important segments.
-  # Right prompt on the last prompt line (where you are typing your commands) gets
-  # automatically hidden when the input line reaches it. Right prompt above the
-  # last prompt line gets hidden if it would overlap with left prompt.
-  typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS&amp;#x3D;(
-    # &amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;[ Line #1 ]&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;
-    status                  # exit code of the last command
-    command_execution_time  # duration of the last command
-    background_jobs         # presence of background jobs
-    direnv                  # direnv status (https:&amp;#x2F;&amp;#x2F;direnv.net&amp;#x2F;)
-    asdf                    # asdf version manager (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;asdf-vm&amp;#x2F;asdf)
-    virtualenv              # python virtual environment (https:&amp;#x2F;&amp;#x2F;docs.python.org&amp;#x2F;3&amp;#x2F;library&amp;#x2F;venv.html)
-    anaconda                # conda environment (https:&amp;#x2F;&amp;#x2F;conda.io&amp;#x2F;)
-    pyenv                   # python environment (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;pyenv&amp;#x2F;pyenv)
-    goenv                   # go environment (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;syndbg&amp;#x2F;goenv)
-    nodenv                  # node.js version from nodenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;nodenv&amp;#x2F;nodenv)
-    nvm                     # node.js version from nvm (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;nvm-sh&amp;#x2F;nvm)
-    nodeenv                 # node.js environment (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ekalinin&amp;#x2F;nodeenv)
-    # node_version          # node.js version
-    # go_version            # go version (https:&amp;#x2F;&amp;#x2F;golang.org)
-    # rust_version          # rustc version (https:&amp;#x2F;&amp;#x2F;www.rust-lang.org)
-    # dotnet_version        # .NET version (https:&amp;#x2F;&amp;#x2F;dotnet.microsoft.com)
-    # php_version           # php version (https:&amp;#x2F;&amp;#x2F;www.php.net&amp;#x2F;)
-    # laravel_version       # laravel php framework version (https:&amp;#x2F;&amp;#x2F;laravel.com&amp;#x2F;)
-    # java_version          # java version (https:&amp;#x2F;&amp;#x2F;www.java.com&amp;#x2F;)
-    # package               # name@version from package.json (https:&amp;#x2F;&amp;#x2F;docs.npmjs.com&amp;#x2F;files&amp;#x2F;package.json)
-    rbenv                   # ruby version from rbenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;rbenv&amp;#x2F;rbenv)
-    rvm                     # ruby version from rvm (https:&amp;#x2F;&amp;#x2F;rvm.io)
-    fvm                     # flutter version management (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;leoafarias&amp;#x2F;fvm)
-    luaenv                  # lua version from luaenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;cehoffman&amp;#x2F;luaenv)
-    jenv                    # java version from jenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;jenv&amp;#x2F;jenv)
-    plenv                   # perl version from plenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;tokuhirom&amp;#x2F;plenv)
-    perlbrew                # perl version from perlbrew (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;gugod&amp;#x2F;App-perlbrew)
-    phpenv                  # php version from phpenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;phpenv&amp;#x2F;phpenv)
-    scalaenv                # scala version from scalaenv (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;scalaenv&amp;#x2F;scalaenv)
-    haskell_stack           # haskell version from stack (https:&amp;#x2F;&amp;#x2F;haskellstack.org&amp;#x2F;)
-    kubecontext             # current kubernetes context (https:&amp;#x2F;&amp;#x2F;kubernetes.io&amp;#x2F;)
-    terraform               # terraform workspace (https:&amp;#x2F;&amp;#x2F;www.terraform.io)
-    # terraform_version     # terraform version (https:&amp;#x2F;&amp;#x2F;www.terraform.io)
-    aws                     # aws profile (https:&amp;#x2F;&amp;#x2F;docs.aws.amazon.com&amp;#x2F;cli&amp;#x2F;latest&amp;#x2F;userguide&amp;#x2F;cli-configure-profiles.html)
-    aws_eb_env              # aws elastic beanstalk environment (https:&amp;#x2F;&amp;#x2F;aws.amazon.com&amp;#x2F;elasticbeanstalk&amp;#x2F;)
-    azure                   # azure account name (https:&amp;#x2F;&amp;#x2F;docs.microsoft.com&amp;#x2F;en-us&amp;#x2F;cli&amp;#x2F;azure)
-    gcloud                  # google cloud cli account and project (https:&amp;#x2F;&amp;#x2F;cloud.google.com&amp;#x2F;)
-    google_app_cred         # google application credentials (https:&amp;#x2F;&amp;#x2F;cloud.google.com&amp;#x2F;docs&amp;#x2F;authentication&amp;#x2F;production)
-    toolbox                 # toolbox name (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;containers&amp;#x2F;toolbox)
-    context                 # user@hostname
-    nordvpn                 # nordvpn connection status, linux only (https:&amp;#x2F;&amp;#x2F;nordvpn.com&amp;#x2F;)
-    ranger                  # ranger shell (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ranger&amp;#x2F;ranger)
-    nnn                     # nnn shell (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;jarun&amp;#x2F;nnn)
-    xplr                    # xplr shell (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;sayanarijit&amp;#x2F;xplr)
-    vim_shell               # vim shell indicator (:sh)
-    midnight_commander      # midnight commander shell (https:&amp;#x2F;&amp;#x2F;midnight-commander.org&amp;#x2F;)
-    nix_shell               # nix shell (https:&amp;#x2F;&amp;#x2F;nixos.org&amp;#x2F;nixos&amp;#x2F;nix-pills&amp;#x2F;developing-with-nix-shell.html)
-    vi_mode                 # vi mode (you don&amp;#39;t need this if you&amp;#39;ve enabled prompt_char)
-    # vpn_ip                # virtual private network indicator
-    load                  # CPU load
-    # disk_usage            # disk usage
-    ram                   # free RAM
-    # swap                  # used swap
-    todo                    # todo items (https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;todotxt&amp;#x2F;todo.txt-cli)
-    timewarrior             # timewarrior tracking status (https:&amp;#x2F;&amp;#x2F;timewarrior.net&amp;#x2F;)
-    taskwarrior             # taskwarrior task count (https:&amp;#x2F;&amp;#x2F;taskwarrior.org&amp;#x2F;)
-    # cpu_arch              # CPU architecture
-    # time                  # current time
-    # &amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;[ Line #2 ]&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;&amp;#x3D;
-    newline
-    # ip                    # ip address and bandwidth usage for a specified network interface
-    # public_ip             # public IP address
-    # proxy                 # system-wide http&amp;#x2F;https&amp;#x2F;ftp proxy
-    # battery               # internal battery
-    # wifi                  # wifi speed
-    # example               # example user-defined segment (see prompt_example function below)
-  )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;修改用户shell&#34;&gt;修改用户shell&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;lkhsss&lt;/code&gt;是我的用户名，改成你的就好&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;chsh -s &amp;#x2F;bin&amp;#x2F;zsh lkhsss&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果不加用户名，会把zsh变为默认shell&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;4-安装插件&#34;&gt;4.安装插件&lt;/h2&gt;
-&lt;h3 id=&#34;命令语法高亮&#34;&gt;命令语法高亮&lt;/h3&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https:&amp;#x2F;&amp;#x2F;gitee.com&amp;#x2F;Annihilater&amp;#x2F;zsh-syntax-highlighting.git $&amp;#123;ZSH_CUSTOM:-~&amp;#x2F;.oh-my-zsh&amp;#x2F;custom&amp;#125;&amp;#x2F;plugins&amp;#x2F;zsh-syntax-highlighting&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;自动命令提示&#34;&gt;自动命令提示&lt;/h3&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https:&amp;#x2F;&amp;#x2F;gitee.com&amp;#x2F;zsh-users&amp;#x2F;zsh-autosuggestions ~&amp;#x2F;.oh-my-zsh&amp;#x2F;plugins&amp;#x2F;zsh-autosuggestions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;加载插件&#34;&gt;加载插件&lt;/h3&gt;
-&lt;p&gt;安装好后在&lt;code&gt;~/.zshrc&lt;/code&gt;中引入&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;plugins&amp;#x3D;(
-    git
-    zsh-syntax-highlighting
-    zsh-autosuggestions
-)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;最后&lt;code&gt;source ./.zshrc&lt;/code&gt;重载&lt;/p&gt;
-&lt;h2 id=&#34;5-安装Neofetch&#34;&gt;5.安装Neofetch&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Neofetch&lt;/strong&gt;，这是一个在终端上显示带有发行徽标的信息的工具。~(没卵用but好看~&lt;/p&gt;
-&lt;p&gt;输入&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt install neofetch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;安装完成后，输入&lt;code&gt;neofetch&lt;/code&gt;显示发行版本信息&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/neofetch.webp&#34; alt=&#34;neofetch&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;最终成品&#34;&gt;最终成品&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/Lkhsss/picx@main/Linux/WSL/WSL-Ubuntu-%E7%BE%8E%E5%8C%96/%E6%9C%80%E7%BB%88%E6%88%90%E5%93%81.webp&#34; alt=&#34;最终成品&#34;&gt;&lt;/p&gt;
-&lt;p&gt;漂亮吧！嘿嘿嘿嘿&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</guid>
             <title>LaTex 数学公式速查表</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</link>
@@ -1159,116 +890,6 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&amp;#x3D;(
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;&lt;span class=&#34;label label-success&#34;&gt;符号看象限&lt;/span&gt;&lt;/p&gt;&lt;p&gt;新函数的符号是把原来的角看成锐角时原函数值的符号&lt;/p&gt;
           &lt;/div&gt; ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</guid>
-            <title>Java入门</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Java/java%E5%85%A5%E9%97%A8/</link>
-            <category>编程</category>
-            <category>Java</category>
-            <category>学习</category>
-            <pubDate>Tue, 13 Dec 2022 00:32:49 +0800</pubDate>
-            <description><![CDATA[ &lt;h1&gt;万事开头难，先写一个 HelloWorld&lt;/h1&gt;
-&lt;p&gt;从网上 copy 了一个最简单的 java 程序下来，体会 java 的基础语法&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;
-    &amp;#x2F;* 第一个Java程序
-     * 它将输出字符串 Hello World
-     *&amp;#x2F;
-    public static void main(String[] args) &amp;#123;
-        System.out.println(&amp;quot;Hello World&amp;quot;); &amp;#x2F;&amp;#x2F; 输出 Hello World
-    &amp;#125;
-&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;运行步骤&#34;&gt;运行步骤&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;保存为文件**&lt;code&gt;HelloWorld.java&lt;/code&gt;**&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注意，文件名一定要是&lt;code&gt;HelloWorld.java&lt;/code&gt;! 不然会有奇怪的事情发生哦（&lt;a href=&#34;#public%E7%B1%BB&#34;&gt;Why?&lt;/a&gt;）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在&lt;strong&gt;该文件目录下&lt;/strong&gt;分别运行&lt;code&gt;javac HelloWorld.java&lt;/code&gt;和&lt;code&gt;java HelloWorld&lt;/code&gt;进行编译和运行&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;也可以直接输入&lt;code&gt;java HelloWorld.java&lt;/code&gt;进行运行（Java 11 新增功能，单个文件直接运行）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;完整输出过程&#34;&gt;完整输出过程&lt;/h2&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;lkhsss@LKH-PC:&amp;#x2F;mnt&amp;#x2F;d&amp;#x2F;Java$ javac HelloWorld.java
-lkhsss@LKH-PC:&amp;#x2F;mnt&amp;#x2F;d&amp;#x2F;Java$ java HelloWorld
-Hello World&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;或者直接&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;lkhsss@LKH-PC:&amp;#x2F;mnt&amp;#x2F;d&amp;#x2F;Java$ java HelloWorld.java
-Hello World&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;hr&gt;
-&lt;h1&gt;语法解析&lt;/h1&gt;
-&lt;h2 id=&#34;类&#34;&gt;类&lt;/h2&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;这玩意儿叫做 java 的类(class)。其中&lt;code&gt;public&lt;/code&gt;表示这个类公开，而&lt;code&gt;HelloWorld&lt;/code&gt;则为这个类的类名。&lt;/p&gt;
-&lt;h3 id=&#34;public-类&#34;&gt;public 类&lt;/h3&gt;
-&lt;p&gt;在 java 程序当中，可以同时出现很多个类，但有且仅有一个类是&lt;code&gt;public&lt;/code&gt;并且这个&lt;code&gt;public&lt;/code&gt;类的名字&lt;strong&gt;必须和文件名相同&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;因为每一个 java 程序运行的时候都会先执行 public 这个类（类似于 Python 中的&lt;code&gt;__init__&lt;/code&gt;）。&lt;/p&gt;
-&lt;h3 id=&#34;多个类&#34;&gt;多个类&lt;/h3&gt;
-&lt;p&gt;也可以多个类，然后相互调用&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld &amp;#123;
-    &amp;#x2F;* 第一个Java程序
-     * 它将输出字符串 Hello World
-     *&amp;#x2F;
-    public static void main(String[] args) &amp;#123;
-        System.out.println(&amp;quot;Hello World&amp;quot;); &amp;#x2F;&amp;#x2F; 输出 Hello World
-        about a&amp;#x3D;new about(); &amp;#x2F;&amp;#x2F;创建一个about类
-        a.sayabout(); &amp;#x2F;&amp;#x2F;调用about类中的sayabout()方法
-
-    &amp;#125;
-&amp;#125;
-class about &amp;#123;
-    void sayabout() &amp;#123;
-        System.out.println(&amp;quot;现在我正在学习java&amp;quot;);
-    &amp;#125;
-&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;输出：&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;lkhsss@LKH-PC:&amp;#x2F;mnt&amp;#x2F;d&amp;#x2F;Java$ java HelloWorld.java
-Hello World
-现在我正在学习java&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;public static void main(String[] args) &amp;#123;&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;这个玩意儿叫做 java 的方法。&lt;/p&gt;
-&lt;p&gt;类似于其他编程语言的&lt;strong&gt;函数&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;将一段可重复运行的代码绑在一起调用，简化代码，提高代码的可读性，可维护性，可重用性，安全性。&lt;/p&gt;
-&lt;h3 id=&#34;修饰符&#34;&gt;修饰符&lt;/h3&gt;
-&lt;p&gt;java 方法的首个属性就是&lt;strong&gt;访问修饰符&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;访问修饰符分为 公有的(public)，默认的(default)，私有的(private)，受保护的(protected) 和 私有的(private)。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;修饰符&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;区别&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;public&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;可以被所有其他类所访问&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;default&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;同一包中的类可以访问，声明时没有加修饰符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;protected&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;自身，子类及同一个包中类可以访问。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;private&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;只能被自己访问和修改&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;输出&#34;&gt;输出&lt;/h2&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-java&#34; data-language=&#34;java&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;System.out.println(&amp;quot;Hello World&amp;quot;);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;只是输出一个 Hello World 而已&lt;/p&gt;
- ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</guid>

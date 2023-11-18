@@ -12,13 +12,11 @@
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Python" />
-    <category term="Rust" />
-    <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="解决方案" />
+    <category term="Python" />
+    <category term="Rust" />
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
@@ -37,19 +35,20 @@
         <content type="html">&lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
-&lt;h3 id=&#34;1-打开powershell&#34;&gt;1.打开&lt;code&gt;powershell&lt;/code&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;2-添加临时环境变量&#34;&gt;2.添加临时环境变量&lt;/h3&gt;
+&lt;h3 id=&#34;1-添加临时环境变量&#34;&gt;1.添加临时环境变量&lt;/h3&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;quot;
+set RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;这两行代码将会把rust的下载源更改为中科大的镜像服务器&lt;/p&gt;
-&lt;h3 id=&#34;3-正常安装Rust&#34;&gt;3.正常安装Rust&lt;/h3&gt;
-&lt;p&gt;不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
+&lt;h3 id=&#34;2-正常安装Rust&#34;&gt;2.正常安装Rust&lt;/h3&gt;
+&lt;p&gt;不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
 &lt;p&gt;运行：&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;.\rustup-init.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
         <category term="编程" />
-        <category term="Rust" />
         <category term="解决方案" />
+        <category term="Rust" />
         <updated>2023-08-15T03:23:36.000Z</updated>
     </entry>
     <entry>
@@ -134,9 +133,9 @@ mysql&amp;gt; select user,plugin from user;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;service mysql restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;现在即可用&lt;code&gt;mysql -u root -p&lt;/code&gt;，然后使用刚刚设置的密码登陆了&lt;/p&gt;
 </content>
-        <category term="解决方案" />
         <category term="数据库" />
         <category term="MySQL" />
+        <category term="解决方案" />
         <updated>2023-04-08T10:58:34.000Z</updated>
     </entry>
 </feed>

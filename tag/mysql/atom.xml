@@ -12,13 +12,11 @@
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
-    <category term="Java" />
-    <category term="学习" />
-    <category term="Python" />
-    <category term="Rust" />
-    <category term="解决方案" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="解决方案" />
+    <category term="Python" />
+    <category term="Rust" />
     <category term="高中" />
     <category term="化学" />
     <category term="内卷笔记" />
@@ -112,9 +110,9 @@ mysql&amp;gt; select user,plugin from user;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;service mysql restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;现在即可用&lt;code&gt;mysql -u root -p&lt;/code&gt;，然后使用刚刚设置的密码登陆了&lt;/p&gt;
 </content>
-        <category term="解决方案" />
         <category term="数据库" />
         <category term="MySQL" />
+        <category term="解决方案" />
         <updated>2023-04-08T10:58:34.000Z</updated>
     </entry>
 </feed>

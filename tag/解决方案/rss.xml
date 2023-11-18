@@ -15,13 +15,11 @@
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
-        <category>Java</category>
-        <category>学习</category>
-        <category>Python</category>
-        <category>Rust</category>
-        <category>解决方案</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>解决方案</category>
+        <category>Python</category>
+        <category>Rust</category>
         <category>高中</category>
         <category>化学</category>
         <category>内卷笔记</category>
@@ -38,19 +36,20 @@
             <title>Rust在Windows系统中安装过慢的解决方法</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
             <category>编程</category>
-            <category>Rust</category>
             <category>解决方案</category>
+            <category>Rust</category>
             <pubDate>Tue, 15 Aug 2023 11:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
-&lt;h3 id=&#34;1-打开powershell&#34;&gt;1.打开&lt;code&gt;powershell&lt;/code&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;2-添加临时环境变量&#34;&gt;2.添加临时环境变量&lt;/h3&gt;
+&lt;h3 id=&#34;1-添加临时环境变量&#34;&gt;1.添加临时环境变量&lt;/h3&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;quot;
+set RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;这两行代码将会把rust的下载源更改为中科大的镜像服务器&lt;/p&gt;
-&lt;h3 id=&#34;3-正常安装Rust&#34;&gt;3.正常安装Rust&lt;/h3&gt;
-&lt;p&gt;不关闭上一个powershell命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
+&lt;h3 id=&#34;2-正常安装Rust&#34;&gt;2.正常安装Rust&lt;/h3&gt;
+&lt;p&gt;不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
 &lt;p&gt;运行：&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;.\rustup-init.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
@@ -59,9 +58,9 @@ $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
             <guid isPermalink="true">https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
             <title>MySQL安装报错部分解决方案</title>
             <link>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
-            <category>解决方案</category>
             <category>数据库</category>
             <category>MySQL</category>
+            <category>解决方案</category>
             <pubDate>Sat, 08 Apr 2023 18:58:34 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;1-ERROR-1698-28000-Access-denied-for-user-root-localhost&#34;&gt;1.&lt;code&gt;ERROR 1698 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39;&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;一般出现这种情况多数是安装新版本mysql，root密码是随机的，也不是空密码，所以要通过查看随机密码进入，再进行修改原来的密码。&lt;/p&gt;
