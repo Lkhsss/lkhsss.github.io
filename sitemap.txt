@@ -44,8 +44,8 @@ https://blog.lkhsss.cn/tags/Linux/
 https://blog.lkhsss.cn/tags/Kali/
 https://blog.lkhsss.cn/tags/WSL/
 https://blog.lkhsss.cn/categories/%E7%BC%96%E7%A8%8B/
-https://blog.lkhsss.cn/categories/%E7%BC%96%E7%A8%8B/Hexo/
 https://blog.lkhsss.cn/categories/%E7%BC%96%E7%A8%8B/Go/
+https://blog.lkhsss.cn/categories/%E7%BC%96%E7%A8%8B/Hexo/
 https://blog.lkhsss.cn/categories/%E7%BC%96%E7%A8%8B/Html/
 https://blog.lkhsss.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/
 https://blog.lkhsss.cn/categories/%E7%BC%96%E7%A8%8B/Python/
