@@ -4,47 +4,55 @@
     <title>LKHSS的Blog • Posts by &#34;编程&#34; category</title>
     <link href="https://blog.lkhsss.cn" />
     <updated>2023-08-15T03:23:36.000Z</updated>
-    <category term="汇编" />
-    <category term="Go" />
-    <category term="学习笔记" />
-    <category term="学习目录" />
-    <category term="编程" />
     <category term="Hexo" />
-    <category term="LaTex" />
     <category term="Html" />
+    <category term="编程" />
+    <category term="Go" />
+    <category term="学习目录" />
+    <category term="学习笔记" />
+    <category term="LaTex" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
     <category term="Python" />
     <category term="Rust" />
     <category term="高中" />
-    <category term="化学" />
-    <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
     <category term="计算机" />
-    <category term="物理" />
+    <category term="汇编" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="数学" />
     <category term="Linux" />
     <category term="Kali" />
     <category term="WSL" />
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
-        <title>Rust在Windows系统中安装过慢的解决方法</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-        <content type="html">&lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。&lt;br&gt;
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+        <title>Rust在Windows系统中下载过慢的解决方法</title>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+        <content type="html">&lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装和更新的时候经常出现下载时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
 &lt;h3 id=&#34;1-添加临时环境变量&#34;&gt;1.添加临时环境变量&lt;/h3&gt;
+&lt;h4 id=&#34;中科大镜像&#34;&gt;中科大镜像&lt;/h4&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;quot;
-set RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;这两行代码将会把rust的下载源更改为中科大的镜像服务器&lt;/p&gt;
-&lt;h3 id=&#34;2-正常安装Rust&#34;&gt;2.正常安装Rust&lt;/h3&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static
+set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;字节跳动镜像&#34;&gt;字节跳动镜像&lt;/h4&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#39;
+$ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn
+set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;这两行代码将会把rust的下载和更新源更改为中科大和字节跳动的镜像服务器&lt;/p&gt;
+&lt;h3 id=&#34;2-正常安装或更新Rust&#34;&gt;2.正常安装或更新Rust&lt;/h3&gt;
 &lt;p&gt;不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
 &lt;p&gt;运行：&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;.\rustup-init.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;或者更新&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;rustup update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
         <category term="编程" />
         <category term="解决方案" />
@@ -92,8 +100,8 @@ set RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
 &lt;hr&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;bit, 计算机的最小信息单位，1个bit即为一个二进制位，音译比特。在计算机中，多被表示为&lt;strong&gt;B&lt;/strong&gt;。
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
-        <category term="汇编" />
         <category term="计算机" />
+        <category term="汇编" />
         <updated>2023-08-09T15:22:57.000Z</updated>
     </entry>
     <entry>
@@ -176,8 +184,8 @@ set RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;quot;https:&amp;#x2F;&amp;#x2F;mirrors.ustc
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -307,9 +315,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -378,9 +386,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
@@ -745,8 +753,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
   &amp;lt;p&amp;gt;必应&amp;lt;&amp;#x2F;p&amp;gt;
 &amp;lt;&amp;#x2F;nav&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
-        <category term="编程" />
         <category term="Html" />
+        <category term="编程" />
         <updated>2022-11-06T03:52:22.000Z</updated>
     </entry>
 </feed>

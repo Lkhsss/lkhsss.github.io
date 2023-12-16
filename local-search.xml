@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>Rust在Windows系统中安装过慢的解决方法</title>
-    <link href="/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    <url>/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%AE%89%E8%A3%85%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <title>Rust在Windows系统中下载过慢的解决方法</title>
+    <link href="/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <url>/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     
-    <content type="html"><![CDATA[<p>由于rust的官方服务器在中国访问很慢，所以在安装的时候出现了下载组件时卡住的情况。<br>这时应换源处理。</p><h2 id="换源">换源</h2><h3 id="1-添加临时环境变量">1.添加临时环境变量</h3><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#39;$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&#39;</code></pre></div></figure><figure><div class="code-wrapper"><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">set RUSTUP_DIST_SERVER&#x3D;&quot;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&quot;set RUSTUP_UPDATE_ROOT&#x3D;&quot;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&quot;</code></pre></div></figure><p>这两行代码将会把rust的下载源更改为中科大的镜像服务器</p><h3 id="2-正常安装Rust">2.正常安装Rust</h3><p>不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。</p><p>运行：</p><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">.\rustup-init.exe</code></pre></div></figure>]]></content>
+    <content type="html"><![CDATA[<p>由于rust的官方服务器在中国访问很慢，所以在安装和更新的时候经常出现下载时卡住的情况。<br>这时应换源处理。</p><h2 id="换源">换源</h2><h3 id="1-添加临时环境变量">1.添加临时环境变量</h3><h4 id="中科大镜像">中科大镜像</h4><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#39;$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup&#39;</code></pre></div></figure><figure><div class="code-wrapper"><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">set RUSTUP_DIST_SERVER&#x3D;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-staticset RUSTUP_UPDATE_ROOT&#x3D;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;rust-static&#x2F;rustup</code></pre></div></figure><h4 id="字节跳动镜像">字节跳动镜像</h4><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">$ENV:RUSTUP_DIST_SERVER&#x3D;&#39;https:&#x2F;&#x2F;rsproxy.cn&#39;$ENV:RUSTUP_UPDATE_ROOT&#x3D;&#39;https:&#x2F;&#x2F;rsproxy.cn&#x2F;rustup&#39;</code></pre></div></figure><figure><div class="code-wrapper"><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">set RUSTUP_DIST_SERVER&#x3D;https:&#x2F;&#x2F;rsproxy.cnset RUSTUP_UPDATE_ROOT&#x3D;https:&#x2F;&#x2F;rsproxy.cn&#x2F;rustup</code></pre></div></figure><p>这两行代码将会把rust的下载和更新源更改为中科大和字节跳动的镜像服务器</p><h3 id="2-正常安装或更新Rust">2.正常安装或更新Rust</h3><p>不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。</p><p>运行：</p><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">.\rustup-init.exe</code></pre></div></figure><p>或者更新</p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">rustup update</code></pre></div></figure>]]></content>
     
     
     <categories>
@@ -53,9 +53,9 @@
     
     <tags>
       
-      <tag>汇编</tag>
-      
       <tag>计算机</tag>
+      
+      <tag>汇编</tag>
       
     </tags>
     
@@ -113,9 +113,9 @@
     
     <tags>
       
-      <tag>学习笔记</tag>
-      
       <tag>编程</tag>
+      
+      <tag>学习笔记</tag>
       
       <tag>Python</tag>
       
@@ -144,11 +144,11 @@
     
     <tags>
       
+      <tag>编程</tag>
+      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
-      
-      <tag>编程</tag>
       
     </tags>
     
@@ -175,11 +175,11 @@
     
     <tags>
       
+      <tag>编程</tag>
+      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
-      
-      <tag>编程</tag>
       
     </tags>
     
@@ -417,11 +417,11 @@
       
       <tag>高中</tag>
       
-      <tag>数学</tag>
-      
       <tag>公式</tag>
       
       <tag>总结</tag>
+      
+      <tag>数学</tag>
       
     </tags>
     
@@ -516,11 +516,11 @@
       
       <tag>高中</tag>
       
+      <tag>物理</tag>
+      
       <tag>公式</tag>
       
       <tag>总结</tag>
-      
-      <tag>物理</tag>
       
     </tags>
     
@@ -547,9 +547,9 @@
     
     <tags>
       
-      <tag>编程</tag>
-      
       <tag>Html</tag>
+      
+      <tag>编程</tag>
       
     </tags>
     
