@@ -3,31 +3,149 @@
     <id>https://blog.lkhsss.cn</id>
     <title>LKHSS的Blog • Posts by &#34;rust&#34; tag</title>
     <link href="https://blog.lkhsss.cn" />
-    <updated>2023-08-15T03:23:36.000Z</updated>
-    <category term="Hexo" />
-    <category term="Html" />
-    <category term="编程" />
+    <updated>2024-02-16T03:33:38.000Z</updated>
     <category term="Go" />
-    <category term="学习目录" />
     <category term="学习笔记" />
+    <category term="学习目录" />
+    <category term="编程" />
+    <category term="汇编" />
+    <category term="Hexo" />
     <category term="LaTex" />
+    <category term="Html" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
     <category term="Python" />
     <category term="Rust" />
     <category term="高中" />
-    <category term="物理" />
-    <category term="公式" />
-    <category term="总结" />
-    <category term="计算机" />
-    <category term="汇编" />
     <category term="化学" />
     <category term="内卷笔记" />
     <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="计算机" />
+    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
     <category term="WSL" />
+    <entry>
+        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
+        <title>Rust-使用config配置程序</title>
+        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/"/>
+        <content type="html">&lt;p&gt;在应用开发中，我们通常会将一些可变项放到配置文件中。&lt;/p&gt;
+&lt;p&gt;此次将使用&lt;code&gt;config&lt;/code&gt;来进行配置项的读取。&lt;/p&gt;
+&lt;h2 id=&#34;安装依赖项&#34;&gt;安装依赖项&lt;/h2&gt;
+&lt;p&gt;config提供api，去一个字段一个字段的读取配置。但是有一种更高级地方法，那就是声明一个struct，然后config帮我们进行反序列化处理，如果字段有错，会直接报错&lt;code&gt;config::ConfigError&lt;/code&gt;。此方法更安全，更rust，代码脉络也更强。、&lt;/p&gt;
+&lt;p&gt;因为要反序列化，所以要为struct启用&lt;code&gt;Deserialize&lt;/code&gt;的trait。故而还要引用serde，并启用&lt;code&gt;derive&lt;/code&gt;特性。&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;[dependencies]
+config &amp;#x3D; &amp;quot;0.14.0&amp;quot;
+serde &amp;#x3D; &amp;#123; version &amp;#x3D; &amp;quot;1.0.196&amp;quot;, features &amp;#x3D; [&amp;quot;derive&amp;quot;] &amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;或者使用：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;cargo add config serde -F serde&amp;#x2F;derive&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;声明配置struct&#34;&gt;声明配置struct&lt;/h2&gt;
+&lt;p&gt;此处的结构体为一个典型示例&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;src/main.rs&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use serde::Deserialize;
+
+#[derive(Debug,Deserialize)]
+pub struct AppConfig &amp;#123;
+    address: String, &amp;#x2F;&amp;#x2F; 配置项地址
+    port: u16, &amp;#x2F;&amp;#x2F; 配置项端口
+    server_name: String, &amp;#x2F;&amp;#x2F; 配置项服务器名称
+    database_url: String, &amp;#x2F;&amp;#x2F; 配置项数据库URL
+    database_port: u16, &amp;#x2F;&amp;#x2F; 配置项数据库端口
+    database_user: String, &amp;#x2F;&amp;#x2F; 配置项数据库用户名
+    database_password: String, &amp;#x2F;&amp;#x2F; 配置项数据库密码
+    debug: bool, &amp;#x2F;&amp;#x2F; 是否启用应用的调试(debug)模式
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;创建配置文件&#34;&gt;创建配置文件&lt;/h2&gt;
+&lt;p&gt;在程序根目录下创建一个&lt;code&gt;toml&lt;/code&gt;文件。这里创建一个名为&lt;code&gt;config.toml&lt;/code&gt;的文件。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;# 配置项地址
+address&amp;#x3D;&amp;quot;0.0.0.0&amp;quot;
+# 配置项端口
+port&amp;#x3D;8080 
+# 配置项服务器名称
+server_name&amp;#x3D; &amp;quot;这是一个config库的demo&amp;quot;
+
+#配置项数据库URL
+database_url&amp;#x3D;&amp;quot;0.0.0.0&amp;quot;
+# 配置项数据库端口
+database_port&amp;#x3D;&amp;quot;7890&amp;quot;
+# 配置项数据库用户名
+database_user&amp;#x3D;&amp;quot;root&amp;quot;
+# 配置项数据库密码
+database_password&amp;#x3D;&amp;quot;ABCabc12345678&amp;quot;
+
+# 是否启用应用的调试(debug)模式
+debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;读取配置文件&#34;&gt;读取配置文件&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use config::&amp;#123;Config, File&amp;#125;;
+fn main() &amp;#123;
+    let config &amp;#x3D; Config::builder().add_source(File::with_name(&amp;quot;config.toml&amp;quot;)).build().expect(&amp;quot;读取配置文件错误&amp;quot;);;
+    let app_config: AppConfig &amp;#x3D; config.try_deserialize()..expect(&amp;quot;反序列化失败！&amp;quot;);
+    println!(&amp;quot;&amp;#123;:#?&amp;#125;&amp;quot;, app_config); &amp;#x2F;&amp;#x2F; 输出配置信息
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;输出如下：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;AppConfig &amp;#123;
+    address: &amp;quot;0.0.0.0&amp;quot;,
+    port: 8080,
+    server_name: &amp;quot;这是一个config库的demo&amp;quot;,
+    database_url: &amp;quot;0.0.0.0&amp;quot;,
+    database_port: 7890,
+    database_user: &amp;quot;root&amp;quot;,
+    database_password: &amp;quot;ABCabc12345678&amp;quot;,
+    debug: true,
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;完整代码&#34;&gt;完整代码&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;├─src
+│  └─main.rs
+└─config.toml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;src/main.rs&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use config::&amp;#123;Config, File&amp;#125;;
+use serde::Deserialize;
+
+#[derive(Debug,Deserialize)]
+pub struct AppConfig &amp;#123;
+    address: String, &amp;#x2F;&amp;#x2F; 配置项地址
+    port: u16, &amp;#x2F;&amp;#x2F; 配置项端口
+    server_name: String, &amp;#x2F;&amp;#x2F; 配置项服务器名称
+    database_url: String, &amp;#x2F;&amp;#x2F; 配置项数据库URL
+    database_port: u16, &amp;#x2F;&amp;#x2F; 配置项数据库端口
+    database_user: String, &amp;#x2F;&amp;#x2F; 配置项数据库用户名
+    database_password: String, &amp;#x2F;&amp;#x2F; 配置项数据库密码
+    debug: bool, &amp;#x2F;&amp;#x2F; 是否启用应用的调试(debug)模式
+&amp;#125;
+fn main() &amp;#123;
+    let config &amp;#x3D; Config::builder().add_source(File::with_name(&amp;quot;config.toml&amp;quot;)).build().expect(&amp;quot;读取配置文件错误&amp;quot;);
+    let app_config: AppConfig &amp;#x3D; config.try_deserialize().expect(&amp;quot;反序列化失败！&amp;quot;);
+    println!(&amp;quot;&amp;#123;:#?&amp;#125;&amp;quot;, app_config); &amp;#x2F;&amp;#x2F; 输出配置信息
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;# 配置项地址
+address&amp;#x3D;&amp;quot;0.0.0.0&amp;quot;
+# 配置项端口
+port&amp;#x3D;8080 
+# 配置项服务器名称
+server_name&amp;#x3D; &amp;quot;这是一个config库的demo&amp;quot;
+
+#配置项数据库URL
+database_url&amp;#x3D;&amp;quot;0.0.0.0&amp;quot;
+# 配置项数据库端口
+database_port&amp;#x3D;&amp;quot;7890&amp;quot;
+# 配置项数据库用户名
+database_user&amp;#x3D;&amp;quot;root&amp;quot;
+# 配置项数据库密码
+database_password&amp;#x3D;&amp;quot;ABCabc12345678&amp;quot;
+
+# 是否启用应用的调试(debug)模式
+debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+</content>
+        <category term="编程" />
+        <category term="Rust" />
+        <updated>2024-02-16T03:33:38.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>Rust在Windows系统中下载过慢的解决方法</title>
