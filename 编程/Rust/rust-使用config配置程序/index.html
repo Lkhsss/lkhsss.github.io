@@ -408,7 +408,7 @@ debug&#x3D;true </code></pre></div></figure>
 <figure><div class="code-wrapper"><pre class="line-numbers language-rust" data-language="rust"><code class="language-rust">use config::&#123;Config, File&#125;;
 fn main() &#123;
     let config &#x3D; Config::builder().add_source(File::with_name(&quot;config.toml&quot;)).build().expect(&quot;读取配置文件错误&quot;);;
-    let app_config: AppConfig &#x3D; config.try_deserialize()..expect(&quot;反序列化失败！&quot;);
+    let app_config: AppConfig &#x3D; config.try_deserialize().expect(&quot;反序列化失败！&quot;);
     println!(&quot;&#123;:#?&#125;&quot;, app_config); &#x2F;&#x2F; 输出配置信息
 &#125;</code></pre></div></figure>
 <p>输出如下：</p>

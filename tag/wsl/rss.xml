@@ -7,36 +7,36 @@
         <language>zh-CN</language>
         <pubDate>Thu, 02 Feb 2023 21:22:06 +0800</pubDate>
         <lastBuildDate>Thu, 02 Feb 2023 21:22:06 +0800</lastBuildDate>
+        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
         <category>编程</category>
-        <category>汇编</category>
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
+        <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
-        <category>Python</category>
         <category>Rust</category>
-        <category>高中</category>
         <category>化学</category>
+        <category>高中</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
         <category>计算机</category>
         <category>物理</category>
+        <category>WSL</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>WSL</category>
         <item>
             <guid isPermalink="true">https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
             <title>WSL迁移</title>
             <link>https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</link>
-            <category>Linux</category>
             <category>WSL</category>
+            <category>Linux</category>
             <pubDate>Thu, 02 Feb 2023 21:22:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;WSL子系统默认硬盘存放位置在c盘，对于很多人来说都想安装到别的盘内。设置里的迁移应用功能使用亲测会有Bug(无法启动)，Google一番后终于找到了解决方案，特在此记录。&lt;/p&gt;
 &lt;div class=&#34;note note-success&#34;&gt;

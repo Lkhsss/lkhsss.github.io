@@ -7,30 +7,30 @@
         <language>zh-CN</language>
         <pubDate>Fri, 16 Feb 2024 11:33:38 +0800</pubDate>
         <lastBuildDate>Fri, 16 Feb 2024 11:33:38 +0800</lastBuildDate>
+        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
         <category>编程</category>
-        <category>汇编</category>
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
+        <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
-        <category>Python</category>
         <category>Rust</category>
-        <category>高中</category>
         <category>化学</category>
+        <category>高中</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
         <category>计算机</category>
         <category>物理</category>
+        <category>WSL</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>WSL</category>
         <item>
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</guid>
             <title>Rust-使用config配置程序</title>
@@ -89,7 +89,7 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use config::&amp;#123;Config, File&amp;#125;;
 fn main() &amp;#123;
     let config &amp;#x3D; Config::builder().add_source(File::with_name(&amp;quot;config.toml&amp;quot;)).build().expect(&amp;quot;读取配置文件错误&amp;quot;);;
-    let app_config: AppConfig &amp;#x3D; config.try_deserialize()..expect(&amp;quot;反序列化失败！&amp;quot;);
+    let app_config: AppConfig &amp;#x3D; config.try_deserialize().expect(&amp;quot;反序列化失败！&amp;quot;);
     println!(&amp;quot;&amp;#123;:#?&amp;#125;&amp;quot;, app_config); &amp;#x2F;&amp;#x2F; 输出配置信息
 &amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;输出如下：&lt;/p&gt;

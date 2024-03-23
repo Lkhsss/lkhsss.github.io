@@ -251,7 +251,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/myimg/banner.webp') no-repeat center center; background-size: cover;">
+     style="background: url('https://api.imlazy.ink/img') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -1076,9 +1076,9 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E9%AB%98%E4%B8%AD/">#高中</a>
-            
               <a href="/tags/%E5%8C%96%E5%AD%A6/">#化学</a>
+            
+              <a href="/tags/%E9%AB%98%E4%B8%AD/">#高中</a>
             
               <a href="/tags/%E5%86%85%E5%8D%B7%E7%AC%94%E8%AE%B0/">#内卷笔记</a>
             
@@ -1224,9 +1224,9 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Linux/">#Linux</a>
-            
               <a href="/tags/WSL/">#WSL</a>
+            
+              <a href="/tags/Linux/">#Linux</a>
             
           </div>
         
@@ -1542,9 +1542,9 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E9%AB%98%E4%B8%AD/">#高中</a>
-            
               <a href="/tags/%E5%8C%96%E5%AD%A6/">#化学</a>
+            
+              <a href="/tags/%E9%AB%98%E4%B8%AD/">#高中</a>
             
               <a href="/tags/%E5%86%85%E5%8D%B7%E7%AC%94%E8%AE%B0/">#内卷笔记</a>
             
@@ -1818,7 +1818,37 @@
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        typing(text);
+        jQuery.ajax({
+          type: 'GET',
+          url: 'https://v1.hitokoto.cn/?c=a&c=b&c=c',
+          headers: {},
+          dataType: 'json',
+          success: function(result) {
+            var apiText;
+            if (result) {
+              var keys = 'hitokoto'.split(',');
+              if (result instanceof Array) {
+                result = result[0];
+              }
+              for (const k of keys) {
+                var value = result[k];
+                if (typeof value === 'string') {
+                  apiText = value;
+                  break;
+                } else if (value instanceof Object) {
+                  result = value;
+                }
+              }
+            }
+            apiText ? typing(apiText) : typing(text);
+          },
+          error: function(xhr, status, error) {
+            if (error) {
+              console.error('Failed to request https://v1.hitokoto.cn/?c=a&amp;c=b&amp;c=c:', error);
+            }
+            typing(text);
+          }
+        })
       
     })(window, document);
   </script>

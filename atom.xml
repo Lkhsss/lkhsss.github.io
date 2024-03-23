@@ -4,30 +4,30 @@
     <title>LKHSS的Blog</title>
     <link href="https://blog.lkhsss.cn" />
     <updated>2024-02-16T03:33:38.000Z</updated>
+    <category term="汇编" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
     <category term="编程" />
-    <category term="汇编" />
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
+    <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
-    <category term="Python" />
     <category term="Rust" />
-    <category term="高中" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
     <category term="计算机" />
     <category term="物理" />
+    <category term="WSL" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="WSL" />
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
         <title>Rust-使用config配置程序</title>
@@ -83,7 +83,7 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use config::&amp;#123;Config, File&amp;#125;;
 fn main() &amp;#123;
     let config &amp;#x3D; Config::builder().add_source(File::with_name(&amp;quot;config.toml&amp;quot;)).build().expect(&amp;quot;读取配置文件错误&amp;quot;);;
-    let app_config: AppConfig &amp;#x3D; config.try_deserialize()..expect(&amp;quot;反序列化失败！&amp;quot;);
+    let app_config: AppConfig &amp;#x3D; config.try_deserialize().expect(&amp;quot;反序列化失败！&amp;quot;);
     println!(&amp;quot;&amp;#123;:#?&amp;#125;&amp;quot;, app_config); &amp;#x2F;&amp;#x2F; 输出配置信息
 &amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;输出如下：&lt;/p&gt;
@@ -665,60 +665,60 @@ primary
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;灰色&#34;&gt;灰色&lt;/h3&gt;
 &lt;div class=&#34;note note-secondary&#34;&gt;
-            &lt;p&gt;secondary&lt;/p&gt;
+            &lt;p&gt;Secondary&lt;/p&gt;
           &lt;/div&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note secondary %&amp;#125;
 secondary
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;绿色&#34;&gt;绿色&lt;/h3&gt;
 &lt;div class=&#34;note note-success&#34;&gt;
-            &lt;p&gt;success&lt;/p&gt;
+            &lt;p&gt;Success&lt;/p&gt;
           &lt;/div&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note success %&amp;#125;
 success
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;红色&#34;&gt;红色&lt;/h3&gt;
 &lt;div class=&#34;note note-danger&#34;&gt;
-            &lt;p&gt;danger&lt;/p&gt;
+            &lt;p&gt;Danger&lt;/p&gt;
           &lt;/div&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note danger %&amp;#125;
 danger
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;黄色&#34;&gt;黄色&lt;/h3&gt;
 &lt;div class=&#34;note note-warning&#34;&gt;
-            &lt;p&gt;warning&lt;/p&gt;
+            &lt;p&gt;Warning&lt;/p&gt;
           &lt;/div&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note warning %&amp;#125;
 warning
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;蓝色&#34;&gt;蓝色&lt;/h3&gt;
 &lt;div class=&#34;note note-info&#34;&gt;
-            &lt;p&gt;info&lt;/p&gt;
+            &lt;p&gt;Info&lt;/p&gt;
           &lt;/div&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note info %&amp;#125;
 info
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;黑色&#34;&gt;黑色&lt;/h3&gt;
 &lt;div class=&#34;note note-light&#34;&gt;
-            &lt;p&gt;light&lt;/p&gt;
+            &lt;p&gt;Light&lt;/p&gt;
           &lt;/div&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% note light %&amp;#125;
 light
 &amp;#123;% endnote %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;行内标签&#34;&gt;行内标签&lt;/h2&gt;
-&lt;span class=&#34;label label-primary&#34;&gt;primary&lt;/span&gt;
-&lt;span class=&#34;label label-default&#34;&gt;default&lt;/span&gt;
-&lt;span class=&#34;label label-info&#34;&gt;info&lt;/span&gt;
-&lt;span class=&#34;label label-success&#34;&gt;success&lt;/span&gt;
-&lt;span class=&#34;label label-warning&#34;&gt;warning&lt;/span&gt;
-&lt;span class=&#34;label label-danger&#34;&gt;danger&lt;/span&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% label primary @primary %&amp;#125;
-&amp;#123;% label default @default %&amp;#125;
-&amp;#123;% label info @info %&amp;#125;
-&amp;#123;% label success @success %&amp;#125;
-&amp;#123;% label warning @warning %&amp;#125;
-&amp;#123;% label danger @danger %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;span class=&#34;label label-primary&#34;&gt;紫色&lt;/span&gt;
+&lt;span class=&#34;label label-default&#34;&gt;默认&lt;/span&gt;
+&lt;span class=&#34;label label-info&#34;&gt;蓝色&lt;/span&gt;
+&lt;span class=&#34;label label-success&#34;&gt;绿色&lt;/span&gt;
+&lt;span class=&#34;label label-warning&#34;&gt;黄色&lt;/span&gt;
+&lt;span class=&#34;label label-danger&#34;&gt;红色&lt;/span&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% label primary @紫色 %&amp;#125;
+&amp;#123;% label default @默认 %&amp;#125;
+&amp;#123;% label info @蓝色 %&amp;#125;
+&amp;#123;% label success @绿色 %&amp;#125;
+&amp;#123;% label warning @黄色 %&amp;#125;
+&amp;#123;% label danger @红色 %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;勾选框&#34;&gt;勾选框&lt;/h2&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-markdown&#34; data-language=&#34;markdown&#34;&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;#123;% cb text, checked?, incline? %&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;div&gt;
@@ -765,8 +765,8 @@ light
 &lt;p&gt;&lt;strong&gt;常见的物理性质&lt;/strong&gt;：颜色、状态、气味、硬度、熔点、沸点、密度、可溶性等&lt;/p&gt;
 &lt;p&gt;例：固态的冰受热熔化成水、液态的水蒸发变成水蒸气、水蒸气冷凝成水、汽油挥发&lt;/p&gt;
 </content>
-        <category term="高中" />
         <category term="化学" />
+        <category term="高中" />
         <category term="内卷笔记" />
         <updated>2023-02-18T01:46:25.000Z</updated>
     </entry>
@@ -862,8 +862,8 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --import Ubuntu G:\WSL\Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;hr&gt;
 </content>
-        <category term="Linux" />
         <category term="WSL" />
+        <category term="Linux" />
         <updated>2023-02-02T13:22:06.000Z</updated>
     </entry>
     <entry>
@@ -1247,8 +1247,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/table&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
-        <category term="高中" />
         <category term="化学" />
+        <category term="高中" />
         <category term="内卷笔记" />
         <updated>2022-11-19T15:48:51.000Z</updated>
     </entry>
