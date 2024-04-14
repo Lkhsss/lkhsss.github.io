@@ -5,6 +5,16 @@
     "home_page_url": "https://blog.lkhsss.cn",
     "items": [
         {
+            "id": "https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/",
+            "url": "https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/",
+            "title": "树莓派：优雅地修改swap分区大小",
+            "date_published": "2024-04-14T00:53:38.000Z",
+            "content_html": "<p>Raspberry Pi OS默认的swap分区为100MiB，这对于我买的sd卡来说这明显太小了。这时就可以用树莓派的配置文件来优雅地修改swap分区，而不用创建swap文件和使用奇淫巧计。</p>\n<h2 id=\"修改swap分区配置\">修改swap分区配置</h2>\n<p>配置文件地址：<code>/etc/dphys-swapfile</code><br>\n选择使用合你喜欢的方式编辑文本就行，但是要root权限。<br>\n比如：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-bash\" data-language=\"bash\"><code class=\"language-bash\">sudo nano &#x2F;etc&#x2F;dphys-swapfile</code></pre></div></figure>\n<p>找到<code>CONF_SWAPSIZE</code>这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)<br>\n而<code>CONF_MAXSWAP</code>参数则用来设置最大大小，这个值应比<code>CONF_SWAPSIZE</code>大</p>\n<h2 id=\"重启swap服务\">重启swap服务</h2>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-bash\" data-language=\"bash\"><code class=\"language-bash\">sudo &#x2F;etc&#x2F;init.d&#x2F;dphys-swapfile restart</code></pre></div></figure>\n<p>重启完后可以使用<code>free -h</code>查看swap分区大小。</p>\n",
+            "tags": [
+                "树莓派"
+            ]
+        },
+        {
             "id": "https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/",
             "url": "https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/",
             "title": "Kali 更新源/软件源",
@@ -22,8 +32,8 @@
             "date_published": "2023-02-02T13:22:06.000Z",
             "content_html": "<p>WSL子系统默认硬盘存放位置在c盘，对于很多人来说都想安装到别的盘内。设置里的迁移应用功能使用亲测会有Bug(无法启动)，Google一番后终于找到了解决方案，特在此记录。</p>\n<div class=\"note note-success\">\n            <p>此方案也可以用于备份WSL或单纯导出WSL</p>\n          </div>\n<div class=\"note note-warning\">\n            <p><strong>前提</strong>：已经安装WSL</p>\n          </div>\n<hr>\n<h2 id=\"关闭虚拟机\">关闭虚拟机</h2>\n<p>终端输入 <code>wsl --shutdown</code> 以关闭虚拟机</p>\n<h2 id=\"查看已安装的WSL\">查看已安装的WSL</h2>\n<p>终端输入</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl -l</code></pre></div></figure>\n<p>若要查看其他信息，则使用</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl -l -v</code></pre></div></figure>\n<h2 id=\"导出虚拟机\">导出虚拟机</h2>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl --export &lt;需要导出的虚拟机&gt; &lt;导出路径&gt;</code></pre></div></figure>\n<p>例：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl --export Ubuntu G:\\WSL\\Ubuntu\\ubuntu(2023.2.25备份).tar</code></pre></div></figure>\n<h2 id=\"注销已经安装过的虚拟机\">注销已经安装过的虚拟机</h2>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl --unregister &lt;虚拟机的名称&gt;</code></pre></div></figure>\n<p>例：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl --unregister Ubuntu</code></pre></div></figure>\n<h2 id=\"重新导入虚拟机\">重新导入虚拟机</h2>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl --import &lt;虚拟机的名称&gt; &lt;安装虚拟机的位置&gt; &lt;打包文件的位置&gt;</code></pre></div></figure>\n<p>例：</p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-none\"><code class=\"language-none\">wsl --import Ubuntu G:\\WSL\\Ubuntu G:\\WSL\\Ubuntu\\ubuntu(2023.2.25备份).tar</code></pre></div></figure>\n<hr>\n",
             "tags": [
-                "WSL",
-                "Linux"
+                "Linux",
+                "WSL"
             ]
         }
     ]

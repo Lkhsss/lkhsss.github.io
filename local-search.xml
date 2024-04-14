@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>树莓派：优雅地修改swap分区大小</title>
+    <link href="/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/"/>
+    <url>/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</url>
+    
+    <content type="html"><![CDATA[<p>Raspberry Pi OS默认的swap分区为100MiB，这对于我买的sd卡来说这明显太小了。这时就可以用树莓派的配置文件来优雅地修改swap分区，而不用创建swap文件和使用奇淫巧计。</p><h2 id="修改swap分区配置">修改swap分区配置</h2><p>配置文件地址：<code>/etc/dphys-swapfile</code><br>选择使用合你喜欢的方式编辑文本就行，但是要root权限。<br>比如：</p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo nano &#x2F;etc&#x2F;dphys-swapfile</code></pre></div></figure><p>找到<code>CONF_SWAPSIZE</code>这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)<br>而<code>CONF_MAXSWAP</code>参数则用来设置最大大小，这个值应比<code>CONF_SWAPSIZE</code>大</p><h2 id="重启swap服务">重启swap服务</h2><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo &#x2F;etc&#x2F;init.d&#x2F;dphys-swapfile restart</code></pre></div></figure><p>重启完后可以使用<code>free -h</code>查看swap分区大小。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+      <category>Raspberry Pi OS</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>树莓派</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Rust-使用config配置程序</title>
     <link href="/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/"/>
     <url>/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</url>
@@ -142,9 +169,9 @@
     
     <tags>
       
-      <tag>学习笔记</tag>
-      
       <tag>编程</tag>
+      
+      <tag>学习笔记</tag>
       
       <tag>Python</tag>
       
@@ -173,11 +200,11 @@
     
     <tags>
       
+      <tag>编程</tag>
+      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
-      
-      <tag>编程</tag>
       
     </tags>
     
@@ -204,11 +231,11 @@
     
     <tags>
       
+      <tag>编程</tag>
+      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
-      
-      <tag>编程</tag>
       
     </tags>
     
@@ -322,9 +349,9 @@
     
     <tags>
       
-      <tag>化学</tag>
-      
       <tag>高中</tag>
+      
+      <tag>化学</tag>
       
       <tag>内卷笔记</tag>
       
@@ -382,9 +409,9 @@
     
     <tags>
       
-      <tag>WSL</tag>
-      
       <tag>Linux</tag>
+      
+      <tag>WSL</tag>
       
     </tags>
     
@@ -446,11 +473,11 @@
       
       <tag>高中</tag>
       
-      <tag>数学</tag>
-      
       <tag>公式</tag>
       
       <tag>总结</tag>
+      
+      <tag>数学</tag>
       
     </tags>
     
@@ -510,9 +537,9 @@
     
     <tags>
       
-      <tag>化学</tag>
-      
       <tag>高中</tag>
+      
+      <tag>化学</tag>
       
       <tag>内卷笔记</tag>
       
@@ -545,11 +572,11 @@
       
       <tag>高中</tag>
       
+      <tag>物理</tag>
+      
       <tag>公式</tag>
       
       <tag>总结</tag>
-      
-      <tag>物理</tag>
       
     </tags>
     

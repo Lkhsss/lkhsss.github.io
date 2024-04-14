@@ -4,30 +4,31 @@
     <title>LKHSS的Blog • Posts by &#34;rust&#34; category</title>
     <link href="https://blog.lkhsss.cn" />
     <updated>2024-02-16T03:33:38.000Z</updated>
-    <category term="汇编" />
+    <category term="编程" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Html" />
     <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
     <category term="Rust" />
-    <category term="化学" />
     <category term="高中" />
-    <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="汇编" />
+    <category term="数学" />
     <category term="计算机" />
-    <category term="物理" />
-    <category term="WSL" />
     <category term="Linux" />
     <category term="Kali" />
+    <category term="树莓派" />
+    <category term="WSL" />
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
         <title>Rust-使用config配置程序</title>

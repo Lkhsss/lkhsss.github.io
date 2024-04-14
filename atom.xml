@@ -3,31 +3,51 @@
     <id>https://blog.lkhsss.cn</id>
     <title>LKHSS的Blog</title>
     <link href="https://blog.lkhsss.cn" />
-    <updated>2024-02-16T03:33:38.000Z</updated>
-    <category term="汇编" />
+    <updated>2024-04-14T00:53:38.000Z</updated>
+    <category term="编程" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Html" />
     <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
     <category term="Rust" />
-    <category term="化学" />
     <category term="高中" />
-    <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="汇编" />
+    <category term="数学" />
     <category term="计算机" />
-    <category term="物理" />
-    <category term="WSL" />
     <category term="Linux" />
     <category term="Kali" />
+    <category term="树莓派" />
+    <category term="WSL" />
+    <entry>
+        <id>https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</id>
+        <title>树莓派：优雅地修改swap分区大小</title>
+        <link rel="alternate" href="https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/"/>
+        <content type="html">&lt;p&gt;Raspberry Pi OS默认的swap分区为100MiB，这对于我买的sd卡来说这明显太小了。这时就可以用树莓派的配置文件来优雅地修改swap分区，而不用创建swap文件和使用奇淫巧计。&lt;/p&gt;
+&lt;h2 id=&#34;修改swap分区配置&#34;&gt;修改swap分区配置&lt;/h2&gt;
+&lt;p&gt;配置文件地址：&lt;code&gt;/etc/dphys-swapfile&lt;/code&gt;&lt;br&gt;
+选择使用合你喜欢的方式编辑文本就行，但是要root权限。&lt;br&gt;
+比如：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo nano &amp;#x2F;etc&amp;#x2F;dphys-swapfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;找到&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)&lt;br&gt;
+而&lt;code&gt;CONF_MAXSWAP&lt;/code&gt;参数则用来设置最大大小，这个值应比&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;大&lt;/p&gt;
+&lt;h2 id=&#34;重启swap服务&#34;&gt;重启swap服务&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo &amp;#x2F;etc&amp;#x2F;init.d&amp;#x2F;dphys-swapfile restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;重启完后可以使用&lt;code&gt;free -h&lt;/code&gt;查看swap分区大小。&lt;/p&gt;
+</content>
+        <category term="树莓派" />
+        <updated>2024-04-14T00:53:38.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
         <title>Rust-使用config配置程序</title>
@@ -389,8 +409,8 @@ mysql&amp;gt; select user,plugin from user;
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -520,9 +540,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -591,9 +611,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
@@ -765,8 +785,8 @@ light
 &lt;p&gt;&lt;strong&gt;常见的物理性质&lt;/strong&gt;：颜色、状态、气味、硬度、熔点、沸点、密度、可溶性等&lt;/p&gt;
 &lt;p&gt;例：固态的冰受热熔化成水、液态的水蒸发变成水蒸气、水蒸气冷凝成水、汽油挥发&lt;/p&gt;
 </content>
-        <category term="化学" />
         <category term="高中" />
+        <category term="化学" />
         <category term="内卷笔记" />
         <updated>2023-02-18T01:46:25.000Z</updated>
     </entry>
@@ -862,8 +882,8 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --import Ubuntu G:\WSL\Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;hr&gt;
 </content>
-        <category term="WSL" />
         <category term="Linux" />
+        <category term="WSL" />
         <updated>2023-02-02T13:22:06.000Z</updated>
     </entry>
     <entry>
@@ -1009,9 +1029,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
             &lt;p&gt;&lt;span class=&#34;label label-success&#34;&gt;符号看象限&lt;/span&gt;&lt;/p&gt;&lt;p&gt;新函数的符号是把原来的角看成锐角时原函数值的符号&lt;/p&gt;
           &lt;/div&gt;</content>
         <category term="高中" />
-        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
+        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
@@ -1247,8 +1267,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/table&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
-        <category term="化学" />
         <category term="高中" />
+        <category term="化学" />
         <category term="内卷笔记" />
         <updated>2022-11-19T15:48:51.000Z</updated>
     </entry>
@@ -1316,9 +1336,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
+        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
-        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
     <entry>

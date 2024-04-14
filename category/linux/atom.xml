@@ -3,31 +3,51 @@
     <id>https://blog.lkhsss.cn</id>
     <title>LKHSS的Blog • Posts by &#34;linux&#34; category</title>
     <link href="https://blog.lkhsss.cn" />
-    <updated>2023-02-04T12:05:16.000Z</updated>
-    <category term="汇编" />
+    <updated>2024-04-14T00:53:38.000Z</updated>
+    <category term="编程" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Html" />
     <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
     <category term="Rust" />
-    <category term="化学" />
     <category term="高中" />
-    <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
+    <category term="化学" />
+    <category term="内卷笔记" />
+    <category term="汇编" />
+    <category term="数学" />
     <category term="计算机" />
-    <category term="物理" />
-    <category term="WSL" />
     <category term="Linux" />
     <category term="Kali" />
+    <category term="树莓派" />
+    <category term="WSL" />
+    <entry>
+        <id>https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</id>
+        <title>树莓派：优雅地修改swap分区大小</title>
+        <link rel="alternate" href="https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/"/>
+        <content type="html">&lt;p&gt;Raspberry Pi OS默认的swap分区为100MiB，这对于我买的sd卡来说这明显太小了。这时就可以用树莓派的配置文件来优雅地修改swap分区，而不用创建swap文件和使用奇淫巧计。&lt;/p&gt;
+&lt;h2 id=&#34;修改swap分区配置&#34;&gt;修改swap分区配置&lt;/h2&gt;
+&lt;p&gt;配置文件地址：&lt;code&gt;/etc/dphys-swapfile&lt;/code&gt;&lt;br&gt;
+选择使用合你喜欢的方式编辑文本就行，但是要root权限。&lt;br&gt;
+比如：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo nano &amp;#x2F;etc&amp;#x2F;dphys-swapfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;找到&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)&lt;br&gt;
+而&lt;code&gt;CONF_MAXSWAP&lt;/code&gt;参数则用来设置最大大小，这个值应比&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;大&lt;/p&gt;
+&lt;h2 id=&#34;重启swap服务&#34;&gt;重启swap服务&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo &amp;#x2F;etc&amp;#x2F;init.d&amp;#x2F;dphys-swapfile restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;重启完后可以使用&lt;code&gt;free -h&lt;/code&gt;查看swap分区大小。&lt;/p&gt;
+</content>
+        <category term="树莓派" />
+        <updated>2024-04-14T00:53:38.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</id>
         <title>Kali 更新源/软件源</title>
@@ -120,8 +140,8 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;wsl --import Ubuntu G:\WSL\Ubuntu G:\WSL\Ubuntu\ubuntu(2023.2.25备份).tar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;hr&gt;
 </content>
-        <category term="WSL" />
         <category term="Linux" />
+        <category term="WSL" />
         <updated>2023-02-02T13:22:06.000Z</updated>
     </entry>
 </feed>
