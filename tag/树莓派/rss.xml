@@ -7,27 +7,27 @@
         <language>zh-CN</language>
         <pubDate>Sun, 14 Apr 2024 08:53:38 +0800</pubDate>
         <lastBuildDate>Sun, 14 Apr 2024 08:53:38 +0800</lastBuildDate>
-        <category>编程</category>
+        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
-        <category>Html</category>
+        <category>编程</category>
         <category>Hexo</category>
         <category>LaTex</category>
-        <category>Python</category>
+        <category>Html</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
+        <category>Python</category>
         <category>Rust</category>
+        <category>化学</category>
         <category>高中</category>
-        <category>物理</category>
+        <category>内卷笔记</category>
+        <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
-        <category>汇编</category>
-        <category>数学</category>
         <category>计算机</category>
+        <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
         <category>树莓派</category>
@@ -44,8 +44,11 @@
 选择使用合你喜欢的方式编辑文本就行，但是要root权限。&lt;br&gt;
 比如：&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo nano &amp;#x2F;etc&amp;#x2F;dphys-swapfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;找到&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)&lt;br&gt;
-而&lt;code&gt;CONF_MAXSWAP&lt;/code&gt;参数则用来设置最大大小，这个值应比&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;大&lt;/p&gt;
+&lt;p&gt;找到&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;经过尝试，目前修改的最大swap分区大小为4048MiB&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;而&lt;code&gt;CONF_MAXSWAP&lt;/code&gt;参数则用来设置最大大小，这个值应比&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;大&lt;/p&gt;
 &lt;h2 id=&#34;重启swap服务&#34;&gt;重启swap服务&lt;/h2&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo &amp;#x2F;etc&amp;#x2F;init.d&amp;#x2F;dphys-swapfile restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;重启完后可以使用&lt;code&gt;free -h&lt;/code&gt;查看swap分区大小。&lt;/p&gt;

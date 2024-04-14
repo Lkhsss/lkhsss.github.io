@@ -295,7 +295,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          181 字
+          197 字
         
       </span>
     
@@ -362,8 +362,11 @@
 选择使用合你喜欢的方式编辑文本就行，但是要root权限。<br>
 比如：</p>
 <figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo nano &#x2F;etc&#x2F;dphys-swapfile</code></pre></div></figure>
-<p>找到<code>CONF_SWAPSIZE</code>这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)<br>
-而<code>CONF_MAXSWAP</code>参数则用来设置最大大小，这个值应比<code>CONF_SWAPSIZE</code>大</p>
+<p>找到<code>CONF_SWAPSIZE</code>这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)</p>
+<blockquote>
+<p>经过尝试，目前修改的最大swap分区大小为4048MiB</p>
+</blockquote>
+<p>而<code>CONF_MAXSWAP</code>参数则用来设置最大大小，这个值应比<code>CONF_SWAPSIZE</code>大</p>
 <h2 id="重启swap服务">重启swap服务</h2>
 <figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo &#x2F;etc&#x2F;init.d&#x2F;dphys-swapfile restart</code></pre></div></figure>
 <p>重启完后可以使用<code>free -h</code>查看swap分区大小。</p>

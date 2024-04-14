@@ -7,27 +7,27 @@
         <language>zh-CN</language>
         <pubDate>Sun, 14 Apr 2024 08:53:38 +0800</pubDate>
         <lastBuildDate>Sun, 14 Apr 2024 08:53:38 +0800</lastBuildDate>
-        <category>编程</category>
+        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
-        <category>Html</category>
+        <category>编程</category>
         <category>Hexo</category>
         <category>LaTex</category>
-        <category>Python</category>
+        <category>Html</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
+        <category>Python</category>
         <category>Rust</category>
+        <category>化学</category>
         <category>高中</category>
-        <category>物理</category>
+        <category>内卷笔记</category>
+        <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>化学</category>
-        <category>内卷笔记</category>
-        <category>汇编</category>
-        <category>数学</category>
         <category>计算机</category>
+        <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
         <category>树莓派</category>
@@ -44,8 +44,11 @@
 选择使用合你喜欢的方式编辑文本就行，但是要root权限。&lt;br&gt;
 比如：&lt;/p&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo nano &amp;#x2F;etc&amp;#x2F;dphys-swapfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;找到&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)&lt;br&gt;
-而&lt;code&gt;CONF_MAXSWAP&lt;/code&gt;参数则用来设置最大大小，这个值应比&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;大&lt;/p&gt;
+&lt;p&gt;找到&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;这一行，将后面的数字改为你想调整的大小，单位是MiB。(1GiB=1024MiB)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;经过尝试，目前修改的最大swap分区大小为4048MiB&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;而&lt;code&gt;CONF_MAXSWAP&lt;/code&gt;参数则用来设置最大大小，这个值应比&lt;code&gt;CONF_SWAPSIZE&lt;/code&gt;大&lt;/p&gt;
 &lt;h2 id=&#34;重启swap服务&#34;&gt;重启swap服务&lt;/h2&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo &amp;#x2F;etc&amp;#x2F;init.d&amp;#x2F;dphys-swapfile restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;重启完后可以使用&lt;code&gt;free -h&lt;/code&gt;查看swap分区大小。&lt;/p&gt;
@@ -336,8 +339,8 @@ mysql&amp;gt; select user,plugin from user;
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
             <title>Python环境搭建</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
-            <category>编程</category>
             <category>学习笔记</category>
+            <category>编程</category>
             <category>Python</category>
             <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;啥是Python&#34;&gt;啥是Python?&lt;/h2&gt;
@@ -421,9 +424,9 @@ mysql&amp;gt; select user,plugin from user;
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
             <title>Go语言基础语法</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
-            <category>编程</category>
             <category>Go</category>
             <category>学习笔记</category>
+            <category>编程</category>
             <pubDate>Sun, 05 Mar 2023 01:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -552,9 +555,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</guid>
             <title>Go语言结构</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</link>
-            <category>编程</category>
             <category>Go</category>
             <category>学习笔记</category>
+            <category>编程</category>
             <pubDate>Sun, 19 Feb 2023 16:38:27 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -774,8 +777,8 @@ light
             <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
             <title>物理性质和化学性质</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</link>
-            <category>高中</category>
             <category>化学</category>
+            <category>高中</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
@@ -915,9 +918,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
             <title>三角函数诱导公式</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
             <category>高中</category>
+            <category>数学</category>
             <category>公式</category>
             <category>总结</category>
-            <category>数学</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;诱导公式&#34;&gt;诱导公式&lt;/h2&gt;
 &lt;h3 id=&#34;诱导公式一&#34;&gt;诱导公式一&lt;/h3&gt;
@@ -1171,8 +1174,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
             <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
             <title>氯及其化合物</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</link>
-            <category>高中</category>
             <category>化学</category>
+            <category>高中</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 19 Nov 2022 23:48:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;
@@ -1280,9 +1283,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
             <title>高一物理公式总结</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
             <category>高中</category>
-            <category>物理</category>
             <category>公式</category>
             <category>总结</category>
+            <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;高一物理公式总结&lt;/h1&gt;
 &lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
