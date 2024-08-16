@@ -7,26 +7,26 @@
         <language>zh-CN</language>
         <pubDate>Fri, 16 Feb 2024 11:33:38 +0800</pubDate>
         <lastBuildDate>Fri, 16 Feb 2024 11:33:38 +0800</lastBuildDate>
-        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
-        <category>学习目录</category>
         <category>编程</category>
+        <category>学习目录</category>
+        <category>Html</category>
         <category>Hexo</category>
         <category>LaTex</category>
-        <category>Html</category>
+        <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
-        <category>Python</category>
         <category>Rust</category>
-        <category>化学</category>
         <category>高中</category>
+        <category>化学</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
         <category>计算机</category>
+        <category>汇编</category>
         <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
@@ -151,9 +151,9 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
-            <title>Rust在Windows系统中下载过慢的解决方法</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</guid>
+            <title>Rustup换源</title>
+            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</link>
             <category>编程</category>
             <category>解决方案</category>
             <category>Rust</category>
@@ -162,16 +162,24 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
 &lt;h3 id=&#34;1-添加临时环境变量&#34;&gt;1.添加临时环境变量&lt;/h3&gt;
-&lt;h4 id=&#34;中科大镜像&#34;&gt;中科大镜像&lt;/h4&gt;
+&lt;h4 id=&#34;Windows&#34;&gt;Windows&lt;/h4&gt;
+&lt;h5 id=&#34;中科大镜像&#34;&gt;中科大镜像&lt;/h5&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static
 set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h4 id=&#34;字节跳动镜像&#34;&gt;字节跳动镜像&lt;/h4&gt;
+&lt;h5 id=&#34;字节跳动镜像&#34;&gt;字节跳动镜像&lt;/h5&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn
 set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;Linux&#34;&gt;Linux&lt;/h4&gt;
+&lt;h5 id=&#34;中科大镜像-2&#34;&gt;中科大镜像&lt;/h5&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;export RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static
+export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;字节跳动镜像-2&#34;&gt;字节跳动镜像&lt;/h5&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;export RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn
+export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;这两行代码将会把rust的下载和更新源更改为中科大和字节跳动的镜像服务器&lt;/p&gt;
 &lt;h3 id=&#34;2-正常安装或更新Rust&#34;&gt;2.正常安装或更新Rust&lt;/h3&gt;
 &lt;p&gt;不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;

@@ -7,26 +7,26 @@
         <language>zh-CN</language>
         <pubDate>Sun, 14 Apr 2024 08:53:38 +0800</pubDate>
         <lastBuildDate>Sun, 14 Apr 2024 08:53:38 +0800</lastBuildDate>
-        <category>汇编</category>
         <category>Go</category>
         <category>学习笔记</category>
-        <category>学习目录</category>
         <category>编程</category>
+        <category>学习目录</category>
+        <category>Html</category>
         <category>Hexo</category>
         <category>LaTex</category>
-        <category>Html</category>
+        <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
-        <category>Python</category>
         <category>Rust</category>
-        <category>化学</category>
         <category>高中</category>
+        <category>化学</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
         <category>计算机</category>
+        <category>汇编</category>
         <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
@@ -173,9 +173,9 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
-            <title>Rust在Windows系统中下载过慢的解决方法</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust%E5%9C%A8windows%E7%B3%BB%E7%BB%9F%E4%B8%AD%E4%B8%8B%E8%BD%BD%E8%BF%87%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</guid>
+            <title>Rustup换源</title>
+            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</link>
             <category>编程</category>
             <category>解决方案</category>
             <category>Rust</category>
@@ -184,16 +184,24 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;
 &lt;h3 id=&#34;1-添加临时环境变量&#34;&gt;1.添加临时环境变量&lt;/h3&gt;
-&lt;h4 id=&#34;中科大镜像&#34;&gt;中科大镜像&lt;/h4&gt;
+&lt;h4 id=&#34;Windows&#34;&gt;Windows&lt;/h4&gt;
+&lt;h5 id=&#34;中科大镜像&#34;&gt;中科大镜像&lt;/h5&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static
 set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;h4 id=&#34;字节跳动镜像&#34;&gt;字节跳动镜像&lt;/h4&gt;
+&lt;h5 id=&#34;字节跳动镜像&#34;&gt;字节跳动镜像&lt;/h5&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;$ENV:RUSTUP_DIST_SERVER&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#39;
 $ENV:RUSTUP_UPDATE_ROOT&amp;#x3D;&amp;#39;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-cmd&#34; data-language=&#34;cmd&#34;&gt;&lt;code class=&#34;language-cmd&#34;&gt;set RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn
 set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;Linux&#34;&gt;Linux&lt;/h4&gt;
+&lt;h5 id=&#34;中科大镜像-2&#34;&gt;中科大镜像&lt;/h5&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;export RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static
+export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;mirrors.ustc.edu.cn&amp;#x2F;rust-static&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;字节跳动镜像-2&#34;&gt;字节跳动镜像&lt;/h5&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;export RUSTUP_DIST_SERVER&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn
+export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;rustup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;这两行代码将会把rust的下载和更新源更改为中科大和字节跳动的镜像服务器&lt;/p&gt;
 &lt;h3 id=&#34;2-正常安装或更新Rust&#34;&gt;2.正常安装或更新Rust&lt;/h3&gt;
 &lt;p&gt;不关闭刚刚打开的命令行，将工作目录定位到rust安装包的位置。&lt;/p&gt;
@@ -207,8 +215,8 @@ set RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F;ru
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</guid>
             <title>计算机的存储单元</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</link>
-            <category>汇编</category>
             <category>计算机</category>
+            <category>汇编</category>
             <pubDate>Wed, 09 Aug 2023 23:22:57 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;之前研究汇编语言（&lt;s&gt;妄图1个月速成手搓一个操作系统&lt;/s&gt;，把汇编学了个大概，但是也只知道最基础的用法。最近狂妄之心死灰复燃，又来死磕汇编，特写此笔记记录重点。&lt;/p&gt;
 &lt;div class=&#34;note note-info&#34;&gt;
@@ -777,8 +785,8 @@ light
             <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
             <title>物理性质和化学性质</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</link>
-            <category>化学</category>
             <category>高中</category>
+            <category>化学</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
@@ -1174,8 +1182,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
             <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
             <title>氯及其化合物</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</link>
-            <category>化学</category>
             <category>高中</category>
+            <category>化学</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 19 Nov 2022 23:48:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;

@@ -4,26 +4,26 @@
     <title>LKHSS的Blog • Posts by &#34;计算机&#34; tag</title>
     <link href="https://blog.lkhsss.cn" />
     <updated>2023-08-09T15:22:57.000Z</updated>
-    <category term="汇编" />
     <category term="Go" />
     <category term="学习笔记" />
-    <category term="学习目录" />
     <category term="编程" />
+    <category term="学习目录" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Html" />
+    <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
-    <category term="Python" />
     <category term="Rust" />
-    <category term="化学" />
     <category term="高中" />
+    <category term="化学" />
     <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
     <category term="计算机" />
+    <category term="汇编" />
     <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
@@ -70,8 +70,8 @@
 &lt;hr&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;bit, 计算机的最小信息单位，1个bit即为一个二进制位，音译比特。在计算机中，多被表示为&lt;strong&gt;B&lt;/strong&gt;。
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
-        <category term="汇编" />
         <category term="计算机" />
+        <category term="汇编" />
         <updated>2023-08-09T15:22:57.000Z</updated>
     </entry>
 </feed>
