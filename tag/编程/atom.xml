@@ -5,30 +5,31 @@
     <link href="https://blog.lkhsss.cn" />
     <updated>2024-02-16T03:33:38.000Z</updated>
     <category term="Go" />
-    <category term="学习笔记" />
-    <category term="编程" />
     <category term="学习目录" />
+    <category term="编程" />
+    <category term="学习笔记" />
     <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
+    <category term="Rust" />
+    <category term="iced" />
+    <category term="解决方案" />
     <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="解决方案" />
-    <category term="Rust" />
-    <category term="高中" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
-    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="树莓派" />
     <category term="WSL" />
+    <category term="树莓派" />
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
         <title>Rust-使用config配置程序</title>
@@ -182,8 +183,8 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;rustup update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
         <category term="编程" />
-        <category term="解决方案" />
         <category term="Rust" />
+        <category term="解决方案" />
         <updated>2023-08-15T03:23:36.000Z</updated>
     </entry>
     <entry>
@@ -266,8 +267,8 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -398,8 +399,8 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/table&gt;
 </content>
         <category term="Go" />
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -469,8 +470,8 @@ func main() &amp;#123;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
         <category term="Go" />
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>

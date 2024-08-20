@@ -5,33 +5,92 @@
         <link>https://blog.lkhsss.cn</link>
         <description>嗨嗨嗨</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 14 Apr 2024 08:53:38 +0800</pubDate>
-        <lastBuildDate>Sun, 14 Apr 2024 08:53:38 +0800</lastBuildDate>
+        <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
+        <lastBuildDate>Wed, 21 Aug 2024 00:15:31 +0800</lastBuildDate>
         <category>Go</category>
-        <category>学习笔记</category>
-        <category>编程</category>
         <category>学习目录</category>
+        <category>编程</category>
+        <category>学习笔记</category>
         <category>Html</category>
         <category>Hexo</category>
         <category>LaTex</category>
+        <category>Rust</category>
+        <category>iced</category>
+        <category>解决方案</category>
         <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
-        <category>解决方案</category>
-        <category>Rust</category>
-        <category>高中</category>
         <category>化学</category>
+        <category>高中</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>物理</category>
         <category>计算机</category>
         <category>汇编</category>
-        <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>树莓派</category>
         <category>WSL</category>
+        <category>树莓派</category>
+        <item>
+            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</guid>
+            <title>优雅地为iced应用程序添加图标</title>
+            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</link>
+            <category>Rust</category>
+            <category>iced</category>
+            <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h1&gt;设置图标&lt;/h1&gt;
+&lt;p&gt;图标分为两种。&lt;/p&gt;
+&lt;p&gt;一种是显示在应用左上角异界任务栏上的图标。&lt;/p&gt;
+&lt;p&gt;一种是系统读取文件时显示的图标（本文方法仅适用于Windows）。&lt;/p&gt;
+&lt;p&gt;首先准备好一个符合windows规范的icon文件（本文以&lt;code&gt;icon.ico&lt;/code&gt;为例），放在根目录中&lt;/p&gt;
+&lt;h2 id=&#34;在iced中设置应用内和任务栏图标&#34;&gt;在iced中设置应用内和任务栏图标&lt;/h2&gt;
+&lt;p&gt;其他人多使用&lt;code&gt;icon::from_rgba()&lt;/code&gt;方法，配合&lt;code&gt;image&lt;/code&gt;库读取图片来为程序添加图标，但其实iced为大家提供了&lt;code&gt;image&lt;/code&gt;feature来直接一步到位。&lt;br&gt;
+使用以下命令启用iced的&lt;code&gt;image&lt;/code&gt;feature:&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;cargo add iced -F image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;然后直接设置一手&lt;code&gt;iced::window::icon::from_file_data()&lt;/code&gt;,然后用&lt;code&gt;include_bytes&lt;/code&gt;宏直接读取图片数据，然后设置&lt;code&gt;window&lt;/code&gt;的设置&lt;code&gt;icon&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;图片不能是矢量图(&lt;code&gt;.svg&lt;/code&gt;)，但是位图(&lt;code&gt;.png&lt;/code&gt;,&lt;code&gt;.jpg&lt;/code&gt;,&lt;code&gt;.ico&lt;/code&gt;…)应该都可以。&lt;br&gt;
+图片的位置时相对于&lt;code&gt;main.rs&lt;/code&gt;文件的。所以当icon文件放在项目根目录时，相对路径应为&lt;code&gt;../icon.png&lt;/code&gt;&lt;br&gt;
+同时``iced::window::icon&lt;code&gt;还有一个&lt;/code&gt;from_file&lt;code&gt;方法，可以动态读取图标。而&lt;/code&gt;from_file_data`主要是为了在编译时就硬编码好图标。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;设置代码如下：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use iced::window::&amp;#123;icon, Icon&amp;#125;;
+fn main() -&amp;gt; iced::Result &amp;#123;
+    App::run(Settings&amp;#123;
+        window:iced::window::Settings&amp;#123;
+    		icon:Some(Icon::from(icon::from_file_data(include_bytes!(&amp;quot;..&amp;#x2F;icon.png&amp;quot;),None).unwrap())),
+    		..Default::default()
+		&amp;#125;,
+	..Default::default()
+    	&amp;#125;)
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;设置程序文件图标&#34;&gt;设置程序文件图标&lt;/h2&gt;
+&lt;h3 id=&#34;首先添加编译脚本依赖&#34;&gt;首先添加编译脚本依赖&lt;/h3&gt;
+&lt;p&gt;以下是&lt;code&gt;Cargo.toml&lt;/code&gt;的内容&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;[package]
+build &amp;#x3D; &amp;quot;src&amp;#x2F;build.rs&amp;quot;
+[build-dependencies]
+winres &amp;#x3D; &amp;quot;*&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;然后在src文件夹中添加一个叫&lt;code&gt;build.rs&lt;/code&gt;文件&lt;br&gt;
+文件内容如下&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use winres;
+
+fn main() &amp;#123;
+    let mut res &amp;#x3D; winres::WindowsResource::new();
+    res.set_icon(&amp;quot;icon.ico&amp;quot;);
+    res.compile().unwrap();
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;winres的图片相对路径是项目根目录，所以&lt;code&gt;icon.ico&lt;/code&gt;即可。&lt;br&gt;
+还可以在&lt;code&gt;Cargo.toml&lt;/code&gt;中使用&lt;code&gt;[package.metadata.winres]&lt;/code&gt;来设置应用的信息。具体请看&lt;a href=&#34;https://learn.microsoft.com/zh-cn/windows/win32/menurc/versioninfo-resource?redirectedfrom=MSDN&#34;&gt;MSDN&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;最后一步！&#34;&gt;最后一步！&lt;/h3&gt;
+&lt;p&gt;熟悉的构建环节！&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;cargo build -r&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</guid>
             <title>树莓派：优雅地修改swap分区大小</title>
@@ -177,8 +236,8 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
             <title>Rustup换源</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</link>
             <category>编程</category>
-            <category>解决方案</category>
             <category>Rust</category>
+            <category>解决方案</category>
             <pubDate>Tue, 15 Aug 2023 11:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装和更新的时候经常出现下载时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
@@ -260,9 +319,9 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
             <guid isPermalink="true">https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
             <title>MySQL安装报错部分解决方案</title>
             <link>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <category>解决方案</category>
             <category>数据库</category>
             <category>MySQL</category>
-            <category>解决方案</category>
             <pubDate>Sat, 08 Apr 2023 18:58:34 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;1-ERROR-1698-28000-Access-denied-for-user-root-localhost&#34;&gt;1.&lt;code&gt;ERROR 1698 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39;&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;一般出现这种情况多数是安装新版本mysql，root密码是随机的，也不是空密码，所以要通过查看随机密码进入，再进行修改原来的密码。&lt;/p&gt;
@@ -347,8 +406,8 @@ mysql&amp;gt; select user,plugin from user;
             <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
             <title>Python环境搭建</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
-            <category>学习笔记</category>
             <category>编程</category>
+            <category>学习笔记</category>
             <category>Python</category>
             <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;啥是Python&#34;&gt;啥是Python?&lt;/h2&gt;
@@ -433,8 +492,8 @@ mysql&amp;gt; select user,plugin from user;
             <title>Go语言基础语法</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
             <category>Go</category>
-            <category>学习笔记</category>
             <category>编程</category>
+            <category>学习笔记</category>
             <pubDate>Sun, 05 Mar 2023 01:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -564,8 +623,8 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
             <title>Go语言结构</title>
             <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</link>
             <category>Go</category>
-            <category>学习笔记</category>
             <category>编程</category>
+            <category>学习笔记</category>
             <pubDate>Sun, 19 Feb 2023 16:38:27 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -785,8 +844,8 @@ light
             <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
             <title>物理性质和化学性质</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</link>
-            <category>高中</category>
             <category>化学</category>
+            <category>高中</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
@@ -1182,8 +1241,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
             <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
             <title>氯及其化合物</title>
             <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</link>
-            <category>高中</category>
             <category>化学</category>
+            <category>高中</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 19 Nov 2022 23:48:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;

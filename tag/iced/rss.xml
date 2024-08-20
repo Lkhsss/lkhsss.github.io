@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>LKHSS的Blog • Posts by &#34;iced&#34; tag</title>
+        <link>https://blog.lkhsss.cn</link>
+        <description>嗨嗨嗨</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
+        <lastBuildDate>Wed, 21 Aug 2024 00:15:31 +0800</lastBuildDate>
+        <category>Go</category>
+        <category>学习目录</category>
+        <category>编程</category>
+        <category>学习笔记</category>
+        <category>Html</category>
+        <category>Hexo</category>
+        <category>LaTex</category>
+        <category>Rust</category>
+        <category>iced</category>
+        <category>解决方案</category>
+        <category>Python</category>
+        <category>数据库</category>
+        <category>MySQL</category>
+        <category>化学</category>
+        <category>高中</category>
+        <category>内卷笔记</category>
+        <category>数学</category>
+        <category>公式</category>
+        <category>总结</category>
+        <category>物理</category>
+        <category>计算机</category>
+        <category>汇编</category>
+        <category>Linux</category>
+        <category>Kali</category>
+        <category>WSL</category>
+        <category>树莓派</category>
+        <item>
+            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</guid>
+            <title>优雅地为iced应用程序添加图标</title>
+            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</link>
+            <category>Rust</category>
+            <category>iced</category>
+            <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h1&gt;设置图标&lt;/h1&gt;
+&lt;p&gt;图标分为两种。&lt;/p&gt;
+&lt;p&gt;一种是显示在应用左上角异界任务栏上的图标。&lt;/p&gt;
+&lt;p&gt;一种是系统读取文件时显示的图标（本文方法仅适用于Windows）。&lt;/p&gt;
+&lt;p&gt;首先准备好一个符合windows规范的icon文件（本文以&lt;code&gt;icon.ico&lt;/code&gt;为例），放在根目录中&lt;/p&gt;
+&lt;h2 id=&#34;在iced中设置应用内和任务栏图标&#34;&gt;在iced中设置应用内和任务栏图标&lt;/h2&gt;
+&lt;p&gt;其他人多使用&lt;code&gt;icon::from_rgba()&lt;/code&gt;方法，配合&lt;code&gt;image&lt;/code&gt;库读取图片来为程序添加图标，但其实iced为大家提供了&lt;code&gt;image&lt;/code&gt;feature来直接一步到位。&lt;br&gt;
+使用以下命令启用iced的&lt;code&gt;image&lt;/code&gt;feature:&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;cargo add iced -F image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;然后直接设置一手&lt;code&gt;iced::window::icon::from_file_data()&lt;/code&gt;,然后用&lt;code&gt;include_bytes&lt;/code&gt;宏直接读取图片数据，然后设置&lt;code&gt;window&lt;/code&gt;的设置&lt;code&gt;icon&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;图片不能是矢量图(&lt;code&gt;.svg&lt;/code&gt;)，但是位图(&lt;code&gt;.png&lt;/code&gt;,&lt;code&gt;.jpg&lt;/code&gt;,&lt;code&gt;.ico&lt;/code&gt;…)应该都可以。&lt;br&gt;
+图片的位置时相对于&lt;code&gt;main.rs&lt;/code&gt;文件的。所以当icon文件放在项目根目录时，相对路径应为&lt;code&gt;../icon.png&lt;/code&gt;&lt;br&gt;
+同时``iced::window::icon&lt;code&gt;还有一个&lt;/code&gt;from_file&lt;code&gt;方法，可以动态读取图标。而&lt;/code&gt;from_file_data`主要是为了在编译时就硬编码好图标。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;设置代码如下：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use iced::window::&amp;#123;icon, Icon&amp;#125;;
+fn main() -&amp;gt; iced::Result &amp;#123;
+    App::run(Settings&amp;#123;
+        window:iced::window::Settings&amp;#123;
+    		icon:Some(Icon::from(icon::from_file_data(include_bytes!(&amp;quot;..&amp;#x2F;icon.png&amp;quot;),None).unwrap())),
+    		..Default::default()
+		&amp;#125;,
+	..Default::default()
+    	&amp;#125;)
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;设置程序文件图标&#34;&gt;设置程序文件图标&lt;/h2&gt;
+&lt;h3 id=&#34;首先添加编译脚本依赖&#34;&gt;首先添加编译脚本依赖&lt;/h3&gt;
+&lt;p&gt;以下是&lt;code&gt;Cargo.toml&lt;/code&gt;的内容&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;[package]
+build &amp;#x3D; &amp;quot;src&amp;#x2F;build.rs&amp;quot;
+[build-dependencies]
+winres &amp;#x3D; &amp;quot;*&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;然后在src文件夹中添加一个叫&lt;code&gt;build.rs&lt;/code&gt;文件&lt;br&gt;
+文件内容如下&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;use winres;
+
+fn main() &amp;#123;
+    let mut res &amp;#x3D; winres::WindowsResource::new();
+    res.set_icon(&amp;quot;icon.ico&amp;quot;);
+    res.compile().unwrap();
+&amp;#125;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;winres的图片相对路径是项目根目录，所以&lt;code&gt;icon.ico&lt;/code&gt;即可。&lt;br&gt;
+还可以在&lt;code&gt;Cargo.toml&lt;/code&gt;中使用&lt;code&gt;[package.metadata.winres]&lt;/code&gt;来设置应用的信息。具体请看&lt;a href=&#34;https://learn.microsoft.com/zh-cn/windows/win32/menurc/versioninfo-resource?redirectedfrom=MSDN&#34;&gt;MSDN&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;最后一步！&#34;&gt;最后一步！&lt;/h3&gt;
+&lt;p&gt;熟悉的构建环节！&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-rust&#34; data-language=&#34;rust&#34;&gt;&lt;code class=&#34;language-rust&#34;&gt;cargo build -r&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

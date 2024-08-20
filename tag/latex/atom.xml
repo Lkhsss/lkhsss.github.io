@@ -5,30 +5,31 @@
     <link href="https://blog.lkhsss.cn" />
     <updated>2023-01-02T03:53:06.000Z</updated>
     <category term="Go" />
-    <category term="学习笔记" />
-    <category term="编程" />
     <category term="学习目录" />
+    <category term="编程" />
+    <category term="学习笔记" />
     <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
+    <category term="Rust" />
+    <category term="iced" />
+    <category term="解决方案" />
     <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="解决方案" />
-    <category term="Rust" />
-    <category term="高中" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
-    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="树莓派" />
     <category term="WSL" />
+    <category term="树莓派" />
     <entry>
         <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
         <title>LaTex 数学公式速查表</title>
