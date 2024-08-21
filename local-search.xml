@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>清除Powershell所有历史记录</title>
+    <link href="/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/"/>
+    <url>/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="清除Powershell所有历史记录">清除Powershell所有历史记录</h2><figure><div class="code-wrapper"><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">Remove-Item (Get-PSReadlineOption).HistorySavePath</code></pre></div></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Windows</category>
+      
+      <category>Powershell</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Powershell</tag>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>优雅地为iced应用程序添加图标</title>
     <link href="/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/"/>
     <url>/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</url>
@@ -109,9 +138,9 @@
       
       <tag>编程</tag>
       
-      <tag>Rust</tag>
-      
       <tag>解决方案</tag>
+      
+      <tag>Rust</tag>
       
     </tags>
     
@@ -167,11 +196,11 @@
     
     <tags>
       
-      <tag>解决方案</tag>
-      
       <tag>数据库</tag>
       
       <tag>MySQL</tag>
+      
+      <tag>解决方案</tag>
       
     </tags>
     
@@ -198,11 +227,11 @@
     
     <tags>
       
+      <tag>学习笔记</tag>
+      
       <tag>编程</tag>
       
       <tag>Python</tag>
-      
-      <tag>学习笔记</tag>
       
     </tags>
     
@@ -229,11 +258,11 @@
     
     <tags>
       
-      <tag>编程</tag>
+      <tag>Go</tag>
       
       <tag>学习笔记</tag>
       
-      <tag>Go</tag>
+      <tag>编程</tag>
       
     </tags>
     
@@ -260,11 +289,11 @@
     
     <tags>
       
-      <tag>编程</tag>
+      <tag>Go</tag>
       
       <tag>学习笔记</tag>
       
-      <tag>Go</tag>
+      <tag>编程</tag>
       
     </tags>
     
@@ -291,9 +320,9 @@
     
     <tags>
       
-      <tag>学习笔记</tag>
-      
       <tag>Go</tag>
+      
+      <tag>学习笔记</tag>
       
     </tags>
     
@@ -378,9 +407,9 @@
     
     <tags>
       
-      <tag>高中</tag>
-      
       <tag>化学</tag>
+      
+      <tag>高中</tag>
       
       <tag>内卷笔记</tag>
       
@@ -502,11 +531,11 @@
       
       <tag>高中</tag>
       
+      <tag>数学</tag>
+      
       <tag>公式</tag>
       
       <tag>总结</tag>
-      
-      <tag>数学</tag>
       
     </tags>
     
@@ -566,9 +595,9 @@
     
     <tags>
       
-      <tag>高中</tag>
-      
       <tag>化学</tag>
+      
+      <tag>高中</tag>
       
       <tag>内卷笔记</tag>
       
@@ -601,11 +630,11 @@
       
       <tag>高中</tag>
       
-      <tag>物理</tag>
-      
       <tag>公式</tag>
       
       <tag>总结</tag>
+      
+      <tag>物理</tag>
       
     </tags>
     
@@ -632,9 +661,9 @@
     
     <tags>
       
-      <tag>Html</tag>
-      
       <tag>编程</tag>
+      
+      <tag>Html</tag>
       
     </tags>
     

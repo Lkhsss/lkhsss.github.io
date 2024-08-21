@@ -4,28 +4,30 @@
     <title>LKHSSS的Blog • Posts by &#34;rust&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2024-08-20T16:15:31.000Z</updated>
-    <category term="Html" />
+    <category term="Powershell" />
+    <category term="Windows" />
+    <category term="Go" />
+    <category term="学习笔记" />
+    <category term="学习目录" />
     <category term="编程" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Python" />
-    <category term="学习笔记" />
-    <category term="Rust" />
-    <category term="解决方案" />
-    <category term="iced" />
-    <category term="Go" />
-    <category term="学习目录" />
-    <category term="高中" />
-    <category term="物理" />
-    <category term="公式" />
-    <category term="总结" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="解决方案" />
+    <category term="Rust" />
+    <category term="iced" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
     <category term="计算机" />
     <category term="汇编" />
+    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
     <category term="树莓派" />
@@ -241,8 +243,8 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;rustup update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
         <category term="编程" />
-        <category term="Rust" />
         <category term="解决方案" />
+        <category term="Rust" />
         <updated>2023-08-15T03:23:36.000Z</updated>
     </entry>
 </feed>

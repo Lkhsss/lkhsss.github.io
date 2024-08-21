@@ -4,28 +4,30 @@
     <title>LKHSSS的Blog • Posts by &#34;python&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-03-05T04:55:12.000Z</updated>
-    <category term="Html" />
+    <category term="Powershell" />
+    <category term="Windows" />
+    <category term="Go" />
+    <category term="学习笔记" />
+    <category term="学习目录" />
     <category term="编程" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Python" />
-    <category term="学习笔记" />
-    <category term="Rust" />
-    <category term="解决方案" />
-    <category term="iced" />
-    <category term="Go" />
-    <category term="学习目录" />
-    <category term="高中" />
-    <category term="物理" />
-    <category term="公式" />
-    <category term="总结" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="解决方案" />
+    <category term="Rust" />
+    <category term="iced" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
     <category term="计算机" />
     <category term="汇编" />
+    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
     <category term="树莓派" />
@@ -110,9 +112,9 @@
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
+        <category term="学习笔记" />
         <category term="编程" />
         <category term="Python" />
-        <category term="学习笔记" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
     <entry>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lkhsss.github.io</id>
+    <title>LKHSSS的Blog • Posts by &#34;powershell&#34; category</title>
+    <link href="https://lkhsss.github.io" />
+    <updated>2024-08-21T15:08:15.000Z</updated>
+    <category term="Powershell" />
+    <category term="Windows" />
+    <category term="Go" />
+    <category term="学习笔记" />
+    <category term="学习目录" />
+    <category term="编程" />
+    <category term="Html" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Python" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="解决方案" />
+    <category term="Rust" />
+    <category term="iced" />
+    <category term="化学" />
+    <category term="高中" />
+    <category term="内卷笔记" />
+    <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
+    <category term="计算机" />
+    <category term="汇编" />
+    <category term="物理" />
+    <category term="Linux" />
+    <category term="Kali" />
+    <category term="树莓派" />
+    <category term="WSL" />
+    <entry>
+        <id>https://lkhsss.github.io/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</id>
+        <title>清除Powershell所有历史记录</title>
+        <link rel="alternate" href="https://lkhsss.github.io/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/"/>
+        <content type="html">&lt;h2 id=&#34;清除Powershell所有历史记录&#34;&gt;清除Powershell所有历史记录&lt;/h2&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-powershell&#34; data-language=&#34;powershell&#34;&gt;&lt;code class=&#34;language-powershell&#34;&gt;Remove-Item (Get-PSReadlineOption).HistorySavePath&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+</content>
+        <category term="Powershell" />
+        <category term="Windows" />
+        <updated>2024-08-21T15:08:15.000Z</updated>
+    </entry>
+</feed>

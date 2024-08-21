@@ -4,28 +4,30 @@
     <title>LKHSSS的Blog • Posts by &#34;go&#34; category</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-03-04T17:23:36.000Z</updated>
-    <category term="Html" />
+    <category term="Powershell" />
+    <category term="Windows" />
+    <category term="Go" />
+    <category term="学习笔记" />
+    <category term="学习目录" />
     <category term="编程" />
+    <category term="Html" />
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Python" />
-    <category term="学习笔记" />
-    <category term="Rust" />
-    <category term="解决方案" />
-    <category term="iced" />
-    <category term="Go" />
-    <category term="学习目录" />
-    <category term="高中" />
-    <category term="物理" />
-    <category term="公式" />
-    <category term="总结" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="解决方案" />
+    <category term="Rust" />
+    <category term="iced" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
+    <category term="公式" />
+    <category term="总结" />
     <category term="计算机" />
     <category term="汇编" />
+    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
     <category term="树莓派" />
@@ -156,9 +158,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
-        <category term="编程" />
-        <category term="学习笔记" />
         <category term="Go" />
+        <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -227,9 +229,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
-        <category term="编程" />
-        <category term="学习笔记" />
         <category term="Go" />
+        <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
@@ -262,8 +264,8 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
             &lt;p&gt;&lt;span class=&#34;label label-danger&#34;&gt;失败&lt;/span&gt;&lt;/p&gt;&lt;p&gt;如果显示&lt;code&gt;&#39;go&#39;不是内部或外部命令，也不是可运行的程序或批处理文件。&lt;/code&gt;，那应当为Go语言添加系统环境，或这重新安装。&lt;/p&gt;
           &lt;/div&gt;
 </content>
-        <category term="学习笔记" />
         <category term="Go" />
+        <category term="学习笔记" />
         <updated>2023-02-19T08:17:10.000Z</updated>
     </entry>
     <entry>

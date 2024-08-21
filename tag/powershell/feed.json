@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "LKHSSS的Blog • All posts by \"powershell\" tag",
+    "description": "嗨嗨嗨",
+    "home_page_url": "https://lkhsss.github.io",
+    "items": [
+        {
+            "id": "https://lkhsss.github.io/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/",
+            "url": "https://lkhsss.github.io/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/",
+            "title": "清除Powershell所有历史记录",
+            "date_published": "2024-08-21T15:08:15.000Z",
+            "content_html": "<h2 id=\"清除Powershell所有历史记录\">清除Powershell所有历史记录</h2>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-powershell\" data-language=\"powershell\"><code class=\"language-powershell\">Remove-Item (Get-PSReadlineOption).HistorySavePath</code></pre></div></figure>\n",
+            "tags": [
+                "Powershell",
+                "Windows"
+            ]
+        }
+    ]
+}
