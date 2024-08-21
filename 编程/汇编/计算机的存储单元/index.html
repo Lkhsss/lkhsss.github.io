@@ -19,8 +19,8 @@
     <meta name="description" content="之前研究汇编语言（妄图1个月速成手搓一个操作系统，把汇编学了个大概，但是也只知道最基础的用法。最近狂妄之心死灰复燃，又来死磕汇编，特写此笔记记录重点。              参考书籍：王爽老师的《汇编语言》豆瓣读书链接：https:&#x2F;&#x2F;book.douban.com&#x2F;subject&#x2F;35038473&#x2F;             学习汇编，很重要的一点便是要对计算机的各种知识和基础原理熟悉。包括但">
 <meta property="og:type" content="article">
 <meta property="og:title" content="计算机的存储单元">
-<meta property="og:url" content="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/">
-<meta property="og:site_name" content="LKHSS的Blog">
+<meta property="og:url" content="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/">
+<meta property="og:site_name" content="LKHSSS的Blog">
 <meta property="og:description" content="之前研究汇编语言（妄图1个月速成手搓一个操作系统，把汇编学了个大概，但是也只知道最基础的用法。最近狂妄之心死灰复燃，又来死磕汇编，特写此笔记记录重点。              参考书籍：王爽老师的《汇编语言》豆瓣读书链接：https:&#x2F;&#x2F;book.douban.com&#x2F;subject&#x2F;35038473&#x2F;             学习汇编，很重要的一点便是要对计算机的各种知识和基础原理熟悉。包括但">
 <meta property="og:locale">
 <meta property="og:image" content="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/1ad5ad6eddc451da7a71e3f6b5fd5266d016322c.jpg">
@@ -34,7 +34,7 @@
   
   
   
-  <title>计算机的存储单元 | LKHSS的Blog</title>
+  <title>计算机的存储单元 | LKHSSS的Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -80,7 +80,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"blog.lkhsss.cn","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home","tag","category","about","links","page"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"3060d340ee076edcd2a16bd08d4ad57a","google":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"BVEvjfzG1fbxdCSMfLiFIQ75-gzGzoHsz","app_key":"EmHB1jNkOwTLWaudtyOeMd7B","server_url":"https://bvevjfzg.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true},"gtag":null},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"lkhsss.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home","tag","category","about","links","page"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"3060d340ee076edcd2a16bd08d4ad57a","google":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"BVEvjfzG1fbxdCSMfLiFIQ75-gzGzoHsz","app_key":"EmHB1jNkOwTLWaudtyOeMd7B","server_url":"https://bvevjfzg.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true},"gtag":null},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -134,7 +134,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>LKHSS的Blog</strong>
+      <strong>LKHSSS的Blog</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -452,7 +452,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>计算机的存储单元</div>
-      <div>https://blog.lkhsss.cn/编程/汇编/计算机的存储单元/</div>
+      <div>https://lkhsss.github.io/编程/汇编/计算机的存储单元/</div>
     </div>
     <div class="license-meta">
       

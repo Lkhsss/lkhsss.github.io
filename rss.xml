@@ -1,42 +1,42 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>LKHSS的Blog</title>
-        <link>https://blog.lkhsss.cn</link>
+        <title>LKHSSS的Blog</title>
+        <link>https://lkhsss.github.io</link>
         <description>嗨嗨嗨</description>
         <language>zh-CN</language>
         <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
         <lastBuildDate>Wed, 21 Aug 2024 00:15:31 +0800</lastBuildDate>
-        <category>Go</category>
-        <category>学习目录</category>
-        <category>编程</category>
-        <category>学习笔记</category>
         <category>Html</category>
+        <category>编程</category>
         <category>Hexo</category>
         <category>LaTex</category>
-        <category>Rust</category>
-        <category>iced</category>
-        <category>解决方案</category>
         <category>Python</category>
+        <category>学习笔记</category>
+        <category>Rust</category>
+        <category>解决方案</category>
+        <category>iced</category>
+        <category>Go</category>
+        <category>学习目录</category>
+        <category>高中</category>
+        <category>物理</category>
+        <category>公式</category>
+        <category>总结</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>化学</category>
-        <category>高中</category>
         <category>内卷笔记</category>
         <category>数学</category>
-        <category>公式</category>
-        <category>总结</category>
-        <category>物理</category>
         <category>计算机</category>
         <category>汇编</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>WSL</category>
         <category>树莓派</category>
+        <category>WSL</category>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</guid>
             <title>优雅地为iced应用程序添加图标</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</link>
             <category>Rust</category>
             <category>iced</category>
             <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
@@ -92,9 +92,9 @@ fn main() &amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</guid>
             <title>树莓派：优雅地修改swap分区大小</title>
-            <link>https://blog.lkhsss.cn/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</link>
+            <link>https://lkhsss.github.io/Linux/Raspberry-Pi-OS/%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%9A%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BF%AE%E6%94%B9swap%E5%88%86%E5%8C%BA%E5%A4%A7%E5%B0%8F/</link>
             <category>树莓派</category>
             <pubDate>Sun, 14 Apr 2024 08:53:38 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Raspberry Pi OS默认的swap分区为100MiB，这对于我买的sd卡来说这明显太小了。这时就可以用树莓派的配置文件来优雅地修改swap分区，而不用创建swap文件和使用奇淫巧计。&lt;/p&gt;
@@ -114,9 +114,9 @@ fn main() &amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</guid>
             <title>Rust-使用config配置程序</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</link>
             <category>编程</category>
             <category>Rust</category>
             <pubDate>Fri, 16 Feb 2024 11:33:38 +0800</pubDate>
@@ -232,9 +232,9 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</guid>
             <title>Rustup换源</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</link>
             <category>编程</category>
             <category>Rust</category>
             <category>解决方案</category>
@@ -271,9 +271,9 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</guid>
             <title>计算机的存储单元</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/%E6%B1%87%E7%BC%96/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83/</link>
             <category>计算机</category>
             <category>汇编</category>
             <pubDate>Wed, 09 Aug 2023 23:22:57 +0800</pubDate>
@@ -316,9 +316,9 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
             <title>MySQL安装报错部分解决方案</title>
-            <link>https://blog.lkhsss.cn/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <link>https://lkhsss.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/mysql%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E9%83%A8%E5%88%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
             <category>解决方案</category>
             <category>数据库</category>
             <category>MySQL</category>
@@ -403,12 +403,12 @@ mysql&amp;gt; select user,plugin from user;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
             <title>Python环境搭建</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
             <category>编程</category>
-            <category>学习笔记</category>
             <category>Python</category>
+            <category>学习笔记</category>
             <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;啥是Python&#34;&gt;啥是Python?&lt;/h2&gt;
 &lt;blockquote&gt;&lt;p&gt;Python由&lt;a href=&#34;https://baike.baidu.com/item/%E8%8D%B7%E5%85%B0/190469?fromModule=lemma_inlink&#34;&gt;荷兰&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%95%B0%E5%AD%A6/107037?fromModule=lemma_inlink&#34;&gt;数学&lt;/a&gt;和&lt;a href=&#34;https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/9132?fromModule=lemma_inlink&#34;&gt;计算机科学&lt;/a&gt;研究学会的&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%89%E5%A4%9A%C2%B7%E8%8C%83%E7%BD%97%E8%8B%8F%E5%A7%86/328361?fromModule=lemma_inlink&#34;&gt;吉多·范罗苏姆&lt;/a&gt;于1990年代初设计，作为一门叫做&lt;a href=&#34;https://baike.baidu.com/item/ABC%E8%AF%AD%E8%A8%80/334996?fromModule=lemma_inlink&#34;&gt;ABC语言&lt;/a&gt;的替代品。Python提供了高效的高级&lt;a href=&#34;https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1450?fromModule=lemma_inlink&#34;&gt;数据结构&lt;/a&gt;，还能简单有效地&lt;a href=&#34;https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/2262089?fromModule=lemma_inlink&#34;&gt;面向对象&lt;/a&gt;编程。Python&lt;a href=&#34;https://baike.baidu.com/item/%E8%AF%AD%E6%B3%95/23734941?fromModule=lemma_inlink&#34;&gt;语法&lt;/a&gt;和动态类型，以及&lt;a href=&#34;https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%9E%8B%E8%AF%AD%E8%A8%80/8888952?fromModule=lemma_inlink&#34;&gt;解释型语言&lt;/a&gt;的本质，使它成为多数平台上写&lt;a href=&#34;https://baike.baidu.com/item/%E8%84%9A%E6%9C%AC/1697005?fromModule=lemma_inlink&#34;&gt;脚本&lt;/a&gt;和快速开发应用的编程语言，随着版本的不断更新和语言新功能的添加，逐渐被用于独立的、&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E5%9E%8B%E9%A1%B9%E7%9B%AE/3986637?fromModule=lemma_inlink&#34;&gt;大型项目&lt;/a&gt;的开发。&lt;/p&gt;
@@ -488,12 +488,12 @@ mysql&amp;gt; select user,plugin from user;
           &lt;/div&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
             <title>Go语言基础语法</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
-            <category>Go</category>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
             <category>编程</category>
             <category>学习笔记</category>
+            <category>Go</category>
             <pubDate>Sun, 05 Mar 2023 01:23:36 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -619,12 +619,12 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</guid>
             <title>Go语言结构</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</link>
-            <category>Go</category>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</link>
             <category>编程</category>
             <category>学习笔记</category>
+            <category>Go</category>
             <pubDate>Sun, 19 Feb 2023 16:38:27 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -690,11 +690,11 @@ func main() &amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</guid>
             <title>Go: Hello World!</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</link>
-            <category>Go</category>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</link>
             <category>学习笔记</category>
+            <category>Go</category>
             <pubDate>Sun, 19 Feb 2023 16:17:10 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;Go语言环境搭建&#34;&gt;Go语言环境搭建&lt;/h2&gt;
 &lt;p&gt;官方下载地址：&lt;a href=&#34;https://golang.org/dl/&#34;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
@@ -724,9 +724,9 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</guid>
             <title>Go学习目录</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
             <category>Go</category>
             <category>学习目录</category>
             <pubDate>Sat, 18 Feb 2023 12:04:27 +0800</pubDate>
@@ -743,9 +743,9 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</guid>
             <title>Hexo-fluid主题Tag插件</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/hexo-fluid%E4%B8%BB%E9%A2%98tag%E6%8F%92%E4%BB%B6/</link>
             <category>Hexo</category>
             <pubDate>Sat, 18 Feb 2023 10:45:29 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Hexo fluid主题的Tag插件，在此整理记录，方便取用&lt;br&gt;
@@ -841,11 +841,11 @@ light
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</guid>
             <title>物理性质和化学性质</title>
-            <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</link>
-            <category>化学</category>
+            <link>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</link>
             <category>高中</category>
+            <category>化学</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 18 Feb 2023 09:46:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
@@ -864,9 +864,9 @@ light
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
             <title>Kali 更新源/软件源</title>
-            <link>https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+            <link>https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
             <category>Linux</category>
             <category>Kali</category>
             <pubDate>Sat, 04 Feb 2023 20:05:16 +0800</pubDate>
@@ -923,9 +923,9 @@ deb http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-f
 deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
             <title>WSL迁移</title>
-            <link>https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</link>
+            <link>https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</link>
             <category>Linux</category>
             <category>WSL</category>
             <pubDate>Thu, 02 Feb 2023 21:22:06 +0800</pubDate>
@@ -960,9 +960,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</guid>
             <title>LaTex 数学公式速查表</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Hexo/latex-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8/</link>
             <category>Hexo</category>
             <category>LaTex</category>
             <pubDate>Mon, 02 Jan 2023 11:53:06 +0800</pubDate>
@@ -981,13 +981,13 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</guid>
             <title>三角函数诱导公式</title>
-            <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
+            <link>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
             <category>高中</category>
-            <category>数学</category>
             <category>公式</category>
             <category>总结</category>
+            <category>数学</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;诱导公式&#34;&gt;诱导公式&lt;/h2&gt;
 &lt;h3 id=&#34;诱导公式一&#34;&gt;诱导公式一&lt;/h3&gt;
@@ -1108,9 +1108,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
           &lt;/div&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</guid>
             <title>python-Click库</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</link>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/%E5%BA%93/python-click%E5%BA%93/</link>
             <category>编程</category>
             <category>Python</category>
             <pubDate>Sat, 10 Dec 2022 10:20:24 +0800</pubDate>
@@ -1238,11 +1238,11 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</guid>
             <title>氯及其化合物</title>
-            <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</link>
-            <category>化学</category>
+            <link>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</link>
             <category>高中</category>
+            <category>化学</category>
             <category>内卷笔记</category>
             <pubDate>Sat, 19 Nov 2022 23:48:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;
@@ -1346,13 +1346,13 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
             <title>高一物理公式总结</title>
-            <link>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
+            <link>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
             <category>高中</category>
+            <category>物理</category>
             <category>公式</category>
             <category>总结</category>
-            <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;高一物理公式总结&lt;/h1&gt;
 &lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
@@ -1415,11 +1415,11 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</guid>
             <title>HTML-容器元素</title>
-            <link>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</link>
-            <category>编程</category>
+            <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Html/html-%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0/</link>
             <category>Html</category>
+            <category>编程</category>
             <pubDate>Sun, 06 Nov 2022 11:52:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;容器元素&lt;/h1&gt;
 &lt;p&gt;HTML 学习 - 容器元素&lt;/p&gt;

@@ -1,42 +1,42 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>LKHSS的Blog • Posts by &#34;linux&#34; tag</title>
-        <link>https://blog.lkhsss.cn</link>
+        <title>LKHSSS的Blog • Posts by &#34;linux&#34; tag</title>
+        <link>https://lkhsss.github.io</link>
         <description>嗨嗨嗨</description>
         <language>zh-CN</language>
         <pubDate>Sat, 04 Feb 2023 20:05:16 +0800</pubDate>
         <lastBuildDate>Sat, 04 Feb 2023 20:05:16 +0800</lastBuildDate>
-        <category>Go</category>
-        <category>学习目录</category>
-        <category>编程</category>
-        <category>学习笔记</category>
         <category>Html</category>
+        <category>编程</category>
         <category>Hexo</category>
         <category>LaTex</category>
-        <category>Rust</category>
-        <category>iced</category>
-        <category>解决方案</category>
         <category>Python</category>
+        <category>学习笔记</category>
+        <category>Rust</category>
+        <category>解决方案</category>
+        <category>iced</category>
+        <category>Go</category>
+        <category>学习目录</category>
+        <category>高中</category>
+        <category>物理</category>
+        <category>公式</category>
+        <category>总结</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>化学</category>
-        <category>高中</category>
         <category>内卷笔记</category>
         <category>数学</category>
-        <category>公式</category>
-        <category>总结</category>
-        <category>物理</category>
         <category>计算机</category>
         <category>汇编</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>WSL</category>
         <category>树莓派</category>
+        <category>WSL</category>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
             <title>Kali 更新源/软件源</title>
-            <link>https://blog.lkhsss.cn/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+            <link>https://lkhsss.github.io/Linux/Kali/kali-%E6%9B%B4%E6%96%B0%E6%BA%90-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
             <category>Linux</category>
             <category>Kali</category>
             <pubDate>Sat, 04 Feb 2023 20:05:16 +0800</pubDate>
@@ -93,9 +93,9 @@ deb http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-f
 deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
+            <guid isPermalink="true">https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
             <title>WSL迁移</title>
-            <link>https://blog.lkhsss.cn/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</link>
+            <link>https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</link>
             <category>Linux</category>
             <category>WSL</category>
             <pubDate>Thu, 02 Feb 2023 21:22:06 +0800</pubDate>

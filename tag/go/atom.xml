@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.lkhsss.cn</id>
-    <title>LKHSS的Blog • Posts by &#34;go&#34; tag</title>
-    <link href="https://blog.lkhsss.cn" />
+    <id>https://lkhsss.github.io</id>
+    <title>LKHSSS的Blog • Posts by &#34;go&#34; tag</title>
+    <link href="https://lkhsss.github.io" />
     <updated>2023-03-04T17:23:36.000Z</updated>
-    <category term="Go" />
-    <category term="学习目录" />
-    <category term="编程" />
-    <category term="学习笔记" />
     <category term="Html" />
+    <category term="编程" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Rust" />
-    <category term="iced" />
-    <category term="解决方案" />
     <category term="Python" />
+    <category term="学习笔记" />
+    <category term="Rust" />
+    <category term="解决方案" />
+    <category term="iced" />
+    <category term="Go" />
+    <category term="学习目录" />
+    <category term="高中" />
+    <category term="物理" />
+    <category term="公式" />
+    <category term="总结" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="化学" />
-    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
-    <category term="公式" />
-    <category term="总结" />
-    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="WSL" />
     <category term="树莓派" />
+    <category term="WSL" />
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
         <title>Go语言基础语法</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
         <content type="html">&lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/&#34; title=&#34;Go语言结构&#34;&gt;Go语言结构&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
           &lt;/div&gt;
@@ -156,15 +156,15 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
-        <category term="Go" />
         <category term="编程" />
         <category term="学习笔记" />
+        <category term="Go" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/</id>
         <title>Go语言结构</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84/"/>
         <content type="html">&lt;div class=&#34;note note-success&#34;&gt;
             &lt;p&gt;上文：&lt;strong&gt;&lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
           &lt;/div&gt;
@@ -227,15 +227,15 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
-        <category term="Go" />
         <category term="编程" />
         <category term="学习笔记" />
+        <category term="Go" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/</id>
         <title>Go: Hello World!</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go-hello-world/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go-hello-world/"/>
         <content type="html">&lt;h2 id=&#34;Go语言环境搭建&#34;&gt;Go语言环境搭建&lt;/h2&gt;
 &lt;p&gt;官方下载地址：&lt;a href=&#34;https://golang.org/dl/&#34;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;镜像站：&lt;a href=&#34;https://golang.google.cn/dl/&#34;&gt;https://golang.google.cn/dl/&lt;/a&gt;&lt;/p&gt;
@@ -262,14 +262,14 @@ Hello, World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
             &lt;p&gt;&lt;span class=&#34;label label-danger&#34;&gt;失败&lt;/span&gt;&lt;/p&gt;&lt;p&gt;如果显示&lt;code&gt;&#39;go&#39;不是内部或外部命令，也不是可运行的程序或批处理文件。&lt;/code&gt;，那应当为Go语言添加系统环境，或这重新安装。&lt;/p&gt;
           &lt;/div&gt;
 </content>
-        <category term="Go" />
         <category term="学习笔记" />
+        <category term="Go" />
         <updated>2023-02-19T08:17:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
         <title>Go学习目录</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Go/go%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;/%E7%BC%96%E7%A8%8B/Go/go-hello-world/&#34; title=&#34;Go: Hello World!&#34;&gt;Go: Hello World!&lt;/a&gt;

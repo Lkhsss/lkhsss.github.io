@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.lkhsss.cn</id>
-    <title>LKHSS的Blog • Posts by &#34;rust&#34; category</title>
-    <link href="https://blog.lkhsss.cn" />
+    <id>https://lkhsss.github.io</id>
+    <title>LKHSSS的Blog • Posts by &#34;rust&#34; category</title>
+    <link href="https://lkhsss.github.io" />
     <updated>2024-08-20T16:15:31.000Z</updated>
-    <category term="Go" />
-    <category term="学习目录" />
-    <category term="编程" />
-    <category term="学习笔记" />
     <category term="Html" />
+    <category term="编程" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Rust" />
-    <category term="iced" />
-    <category term="解决方案" />
     <category term="Python" />
+    <category term="学习笔记" />
+    <category term="Rust" />
+    <category term="解决方案" />
+    <category term="iced" />
+    <category term="Go" />
+    <category term="学习目录" />
+    <category term="高中" />
+    <category term="物理" />
+    <category term="公式" />
+    <category term="总结" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="化学" />
-    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
-    <category term="公式" />
-    <category term="总结" />
-    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="WSL" />
     <category term="树莓派" />
+    <category term="WSL" />
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</id>
         <title>优雅地为iced应用程序添加图标</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/"/>
         <content type="html">&lt;h1&gt;设置图标&lt;/h1&gt;
 &lt;p&gt;图标分为两种。&lt;/p&gt;
 &lt;p&gt;一种是显示在应用左上角异界任务栏上的图标。&lt;/p&gt;
@@ -89,9 +89,9 @@ fn main() &amp;#123;
         <updated>2024-08-20T16:15:31.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/</id>
         <title>Rust-使用config配置程序</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rust-%E4%BD%BF%E7%94%A8config%E9%85%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F/"/>
         <content type="html">&lt;p&gt;在应用开发中，我们通常会将一些可变项放到配置文件中。&lt;/p&gt;
 &lt;p&gt;此次将使用&lt;code&gt;config&lt;/code&gt;来进行配置项的读取。&lt;/p&gt;
 &lt;h2 id=&#34;安装依赖项&#34;&gt;安装依赖项&lt;/h2&gt;
@@ -207,9 +207,9 @@ debug&amp;#x3D;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
         <updated>2024-02-16T03:33:38.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</id>
+        <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/</id>
         <title>Rustup换源</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/rustup%E6%8D%A2%E6%BA%90/"/>
         <content type="html">&lt;p&gt;由于rust的官方服务器在中国访问很慢，所以在安装和更新的时候经常出现下载时卡住的情况。&lt;br&gt;
 这时应换源处理。&lt;/p&gt;
 &lt;h2 id=&#34;换源&#34;&gt;换源&lt;/h2&gt;

@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.lkhsss.cn</id>
-    <title>LKHSS的Blog • Posts by &#34;化学&#34; tag</title>
-    <link href="https://blog.lkhsss.cn" />
+    <id>https://lkhsss.github.io</id>
+    <title>LKHSSS的Blog • Posts by &#34;化学&#34; tag</title>
+    <link href="https://lkhsss.github.io" />
     <updated>2023-02-18T01:46:25.000Z</updated>
-    <category term="Go" />
-    <category term="学习目录" />
-    <category term="编程" />
-    <category term="学习笔记" />
     <category term="Html" />
+    <category term="编程" />
     <category term="Hexo" />
     <category term="LaTex" />
-    <category term="Rust" />
-    <category term="iced" />
-    <category term="解决方案" />
     <category term="Python" />
+    <category term="学习笔记" />
+    <category term="Rust" />
+    <category term="解决方案" />
+    <category term="iced" />
+    <category term="Go" />
+    <category term="学习目录" />
+    <category term="高中" />
+    <category term="物理" />
+    <category term="公式" />
+    <category term="总结" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="化学" />
-    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
-    <category term="公式" />
-    <category term="总结" />
-    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="WSL" />
     <category term="树莓派" />
+    <category term="WSL" />
     <entry>
-        <id>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</id>
+        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/</id>
         <title>物理性质和化学性质</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E6%80%A7%E8%B4%A8%E5%92%8C%E5%8C%96%E5%AD%A6%E6%80%A7%E8%B4%A8/"/>
         <content type="html">&lt;h2 id=&#34;化学性质&#34;&gt;化学性质&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;物质在化学变化中表现出来的性质叫化学性质，如铁在潮湿的空气中生成铁锈，铜能在潮湿的空气中生成铜绿。化学性质只能通过化学变化表现出来。&lt;/p&gt;
@@ -48,15 +48,15 @@
 &lt;p&gt;&lt;strong&gt;常见的物理性质&lt;/strong&gt;：颜色、状态、气味、硬度、熔点、沸点、密度、可溶性等&lt;/p&gt;
 &lt;p&gt;例：固态的冰受热熔化成水、液态的水蒸发变成水蒸气、水蒸气冷凝成水、汽油挥发&lt;/p&gt;
 </content>
-        <category term="化学" />
         <category term="高中" />
+        <category term="化学" />
         <category term="内卷笔记" />
         <updated>2023-02-18T01:46:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</id>
+        <id>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/</id>
         <title>氯及其化合物</title>
-        <link rel="alternate" href="https://blog.lkhsss.cn/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/"/>
+        <link rel="alternate" href="https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E5%8C%96%E5%AD%A6/%E6%B0%AF%E5%8F%8A%E5%85%B6%E5%8C%96%E5%90%88%E7%89%A9/"/>
         <content type="html">&lt;h1&gt;氯单质–&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;cl_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8444em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3011em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;物理性质&#34;&gt;物理性质&lt;/h2&gt;
 &lt;ul&gt;
@@ -156,8 +156,8 @@
 &lt;/table&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
-        <category term="化学" />
         <category term="高中" />
+        <category term="化学" />
         <category term="内卷笔记" />
         <updated>2022-11-19T15:48:51.000Z</updated>
     </entry>
