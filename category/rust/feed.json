@@ -5,6 +5,16 @@
     "home_page_url": "https://lkhsss.github.io",
     "items": [
         {
+            "id": "https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/",
+            "url": "https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/",
+            "title": "rust编译体积优化",
+            "date_published": "2024-08-24T10:08:47.000Z",
+            "content_html": "<h2 id=\"Cargo优化\">Cargo优化</h2>\n<p><code>Cargo.toml</code></p>\n<figure><div class=\"code-wrapper\"><pre class=\"line-numbers language-toml\" data-language=\"toml\"><code class=\"language-toml\">[profile.release]\n#缩小编译后体积\nstrip &#x3D; true\n# strip &#x3D; &quot;debuginfo&quot; #仅移除debug信息\n\nlto &#x3D; true #启用链接时间优化\npanic &#x3D; &quot;abort&quot; #panic时直接abort\nopt-level &#x3D; &quot;z&quot; #优化级别   1, 2, 3, &quot;s&quot;, &quot;z&quot;\n</code></pre></div></figure>\n",
+            "tags": [
+                "Rust"
+            ]
+        },
+        {
             "id": "https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/",
             "url": "https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/",
             "title": "优雅地为iced应用程序添加图标",

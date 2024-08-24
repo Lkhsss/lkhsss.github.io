@@ -7,40 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
         <lastBuildDate>Sun, 05 Mar 2023 12:55:12 +0800</lastBuildDate>
-        <category>Powershell</category>
-        <category>Windows</category>
+        <category>Html</category>
+        <category>编程</category>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
-        <category>编程</category>
-        <category>Html</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
-        <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
         <category>Rust</category>
         <category>iced</category>
-        <category>化学</category>
+        <category>Python</category>
+        <category>Powershell</category>
+        <category>Windows</category>
         <category>高中</category>
+        <category>化学</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>物理</category>
         <category>计算机</category>
         <category>汇编</category>
-        <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>树莓派</category>
         <category>WSL</category>
+        <category>树莓派</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
             <title>Python环境搭建</title>
             <link>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Python/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
-            <category>学习笔记</category>
             <category>编程</category>
+            <category>学习笔记</category>
             <category>Python</category>
             <pubDate>Sun, 05 Mar 2023 12:55:12 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;啥是Python&#34;&gt;啥是Python?&lt;/h2&gt;

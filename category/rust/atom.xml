@@ -3,35 +3,54 @@
     <id>https://lkhsss.github.io</id>
     <title>LKHSSS的Blog • Posts by &#34;rust&#34; category</title>
     <link href="https://lkhsss.github.io" />
-    <updated>2024-08-20T16:15:31.000Z</updated>
-    <category term="Powershell" />
-    <category term="Windows" />
+    <updated>2024-08-24T10:08:47.000Z</updated>
+    <category term="Html" />
+    <category term="编程" />
+    <category term="Hexo" />
+    <category term="LaTex" />
     <category term="Go" />
     <category term="学习笔记" />
     <category term="学习目录" />
-    <category term="编程" />
-    <category term="Html" />
-    <category term="Hexo" />
-    <category term="LaTex" />
-    <category term="Python" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
     <category term="Rust" />
     <category term="iced" />
-    <category term="化学" />
+    <category term="Python" />
+    <category term="Powershell" />
+    <category term="Windows" />
     <category term="高中" />
+    <category term="化学" />
     <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
+    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
-    <category term="物理" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="树莓派" />
     <category term="WSL" />
+    <category term="树莓派" />
+    <entry>
+        <id>https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/</id>
+        <title>rust编译体积优化</title>
+        <link rel="alternate" href="https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/"/>
+        <content type="html">&lt;h2 id=&#34;Cargo优化&#34;&gt;Cargo优化&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Cargo.toml&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;[profile.release]
+#缩小编译后体积
+strip &amp;#x3D; true
+# strip &amp;#x3D; &amp;quot;debuginfo&amp;quot; #仅移除debug信息
+
+lto &amp;#x3D; true #启用链接时间优化
+panic &amp;#x3D; &amp;quot;abort&amp;quot; #panic时直接abort
+opt-level &amp;#x3D; &amp;quot;z&amp;quot; #优化级别   1, 2, 3, &amp;quot;s&amp;quot;, &amp;quot;z&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+</content>
+        <category term="Rust" />
+        <updated>2024-08-24T10:08:47.000Z</updated>
+    </entry>
     <entry>
         <id>https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</id>
         <title>优雅地为iced应用程序添加图标</title>

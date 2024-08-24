@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>rust编译体积优化</title>
+    <link href="/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/"/>
+    <url>/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Cargo优化">Cargo优化</h2><p><code>Cargo.toml</code></p><figure><div class="code-wrapper"><pre class="line-numbers language-toml" data-language="toml"><code class="language-toml">[profile.release]#缩小编译后体积strip &#x3D; true# strip &#x3D; &quot;debuginfo&quot; #仅移除debug信息lto &#x3D; true #启用链接时间优化panic &#x3D; &quot;abort&quot; #panic时直接abortopt-level &#x3D; &quot;z&quot; #优化级别   1, 2, 3, &quot;s&quot;, &quot;z&quot;</code></pre></div></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Rust</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Rust</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>清除Powershell所有历史记录</title>
     <link href="/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/"/>
     <url>/Windows/Powershell/%E6%B8%85%E9%99%A4powershell%E6%89%80%E6%9C%89%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</url>
@@ -227,9 +252,9 @@
     
     <tags>
       
-      <tag>学习笔记</tag>
-      
       <tag>编程</tag>
+      
+      <tag>学习笔记</tag>
       
       <tag>Python</tag>
       
@@ -258,11 +283,11 @@
     
     <tags>
       
+      <tag>编程</tag>
+      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
-      
-      <tag>编程</tag>
       
     </tags>
     
@@ -289,11 +314,11 @@
     
     <tags>
       
+      <tag>编程</tag>
+      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
-      
-      <tag>编程</tag>
       
     </tags>
     
@@ -407,9 +432,9 @@
     
     <tags>
       
-      <tag>化学</tag>
-      
       <tag>高中</tag>
+      
+      <tag>化学</tag>
       
       <tag>内卷笔记</tag>
       
@@ -595,9 +620,9 @@
     
     <tags>
       
-      <tag>化学</tag>
-      
       <tag>高中</tag>
+      
+      <tag>化学</tag>
       
       <tag>内卷笔记</tag>
       
@@ -661,9 +686,9 @@
     
     <tags>
       
-      <tag>编程</tag>
-      
       <tag>Html</tag>
+      
+      <tag>编程</tag>
       
     </tags>
     

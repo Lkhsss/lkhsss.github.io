@@ -5,36 +5,55 @@
         <link>https://lkhsss.github.io</link>
         <description>嗨嗨嗨</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 21 Aug 2024 00:15:31 +0800</pubDate>
-        <lastBuildDate>Wed, 21 Aug 2024 00:15:31 +0800</lastBuildDate>
-        <category>Powershell</category>
-        <category>Windows</category>
+        <pubDate>Sat, 24 Aug 2024 18:08:47 +0800</pubDate>
+        <lastBuildDate>Sat, 24 Aug 2024 18:08:47 +0800</lastBuildDate>
+        <category>Html</category>
+        <category>编程</category>
+        <category>Hexo</category>
+        <category>LaTex</category>
         <category>Go</category>
         <category>学习笔记</category>
         <category>学习目录</category>
-        <category>编程</category>
-        <category>Html</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
-        <category>Python</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
         <category>Rust</category>
         <category>iced</category>
-        <category>化学</category>
+        <category>Python</category>
+        <category>Powershell</category>
+        <category>Windows</category>
         <category>高中</category>
+        <category>化学</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
+        <category>物理</category>
         <category>计算机</category>
         <category>汇编</category>
-        <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>树莓派</category>
         <category>WSL</category>
+        <category>树莓派</category>
+        <item>
+            <guid isPermalink="true">https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/</guid>
+            <title>rust编译体积优化</title>
+            <link>https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/</link>
+            <category>Rust</category>
+            <pubDate>Sat, 24 Aug 2024 18:08:47 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;Cargo优化&#34;&gt;Cargo优化&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Cargo.toml&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-toml&#34; data-language=&#34;toml&#34;&gt;&lt;code class=&#34;language-toml&#34;&gt;[profile.release]
+#缩小编译后体积
+strip &amp;#x3D; true
+# strip &amp;#x3D; &amp;quot;debuginfo&amp;quot; #仅移除debug信息
+
+lto &amp;#x3D; true #启用链接时间优化
+panic &amp;#x3D; &amp;quot;abort&amp;quot; #panic时直接abort
+opt-level &amp;#x3D; &amp;quot;z&amp;quot; #优化级别   1, 2, 3, &amp;quot;s&amp;quot;, &amp;quot;z&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/%E7%BC%96%E7%A8%8B/Rust/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%B8%BAiced%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%9B%BE%E6%A0%87/</guid>
             <title>优雅地为iced应用程序添加图标</title>
