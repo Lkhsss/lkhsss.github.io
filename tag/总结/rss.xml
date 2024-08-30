@@ -9,30 +9,30 @@
         <lastBuildDate>Thu, 15 Dec 2022 00:04:09 +0800</lastBuildDate>
         <category>Git</category>
         <category>代理</category>
+        <category>Go</category>
+        <category>学习笔记</category>
+        <category>学习目录</category>
+        <category>编程</category>
         <category>Hexo</category>
         <category>LaTex</category>
         <category>Html</category>
-        <category>编程</category>
-        <category>Go</category>
-        <category>学习目录</category>
-        <category>学习笔记</category>
-        <category>Rust</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
-        <category>iced</category>
         <category>Python</category>
+        <category>Rust</category>
+        <category>iced</category>
+        <category>Powershell</category>
+        <category>Windows</category>
         <category>化学</category>
         <category>高中</category>
         <category>内卷笔记</category>
-        <category>物理</category>
+        <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>数学</category>
-        <category>Powershell</category>
-        <category>Windows</category>
         <category>计算机</category>
         <category>汇编</category>
+        <category>物理</category>
         <category>Linux</category>
         <category>Kali</category>
         <category>树莓派</category>
@@ -42,9 +42,9 @@
             <title>三角函数诱导公式</title>
             <link>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F/</link>
             <category>高中</category>
+            <category>数学</category>
             <category>公式</category>
             <category>总结</category>
-            <category>数学</category>
             <pubDate>Thu, 15 Dec 2022 00:04:09 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;诱导公式&#34;&gt;诱导公式&lt;/h2&gt;
 &lt;h3 id=&#34;诱导公式一&#34;&gt;诱导公式一&lt;/h3&gt;
@@ -169,9 +169,9 @@
             <title>高一物理公式总结</title>
             <link>https://lkhsss.github.io/%E5%AD%A6%E4%B9%A0/%E9%AB%98%E4%B8%AD/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E7%89%A9%E7%90%86%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
             <category>高中</category>
-            <category>物理</category>
             <category>公式</category>
             <category>总结</category>
+            <category>物理</category>
             <pubDate>Sat, 12 Nov 2022 14:05:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1&gt;高一物理公式总结&lt;/h1&gt;
 &lt;h2 id=&#34;加速度-acceleration&#34;&gt;加速度(acceleration)&lt;/h2&gt;
