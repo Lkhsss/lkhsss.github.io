@@ -4,34 +4,34 @@
     <title>LKHSSS的Blog</title>
     <link href="https://lkhsss.github.io" />
     <updated>2024-08-30T17:11:52.000Z</updated>
-    <category term="Go" />
-    <category term="学习笔记" />
-    <category term="编程" />
-    <category term="学习目录" />
     <category term="Git" />
     <category term="代理" />
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
+    <category term="编程" />
+    <category term="Go" />
+    <category term="学习目录" />
+    <category term="学习笔记" />
+    <category term="Rust" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
-    <category term="Python" />
-    <category term="Rust" />
     <category term="iced" />
-    <category term="Powershell" />
-    <category term="Windows" />
+    <category term="Python" />
     <category term="化学" />
     <category term="高中" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
+    <category term="数学" />
+    <category term="Powershell" />
+    <category term="Windows" />
     <category term="计算机" />
     <category term="汇编" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="物理" />
     <category term="树莓派" />
     <category term="WSL" />
     <entry>
@@ -40,11 +40,11 @@
         <link rel="alternate" href="https://lkhsss.github.io/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/"/>
         <content type="html">&lt;h2 id=&#34;设置代理&#34;&gt;设置代理&lt;/h2&gt;
 &lt;h3 id=&#34;http&#34;&gt;http&lt;/h3&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config –-global http.proxy http:&amp;#x2F;&amp;#x2F;ip:port&amp;#x2F;
-git config –-global https.proxy http:&amp;#x2F;&amp;#x2F;ip:port&amp;#x2F;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config –-global http.proxy http:&amp;#x2F;&amp;#x2F;ip:port
+git config –-global https.proxy http:&amp;#x2F;&amp;#x2F;ip:port&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;例如：&lt;/p&gt;
-&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config –-global http.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890&amp;#x2F;
-git config –-global https.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890&amp;#x2F;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config –-global http.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890
+git config –-global https.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;取消设置&#34;&gt;取消设置&lt;/h2&gt;
 &lt;h3 id=&#34;http-2&#34;&gt;http&lt;/h3&gt;
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config --global --unset http.proxy
@@ -317,8 +317,8 @@ export RUSTUP_UPDATE_ROOT&amp;#x3D;https:&amp;#x2F;&amp;#x2F;rsproxy.cn&amp;#x2F
 &lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;rustup update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
         <category term="编程" />
-        <category term="解决方案" />
         <category term="Rust" />
+        <category term="解决方案" />
         <updated>2023-08-15T03:23:36.000Z</updated>
     </entry>
     <entry>
@@ -533,8 +533,8 @@ mysql&amp;gt; select user,plugin from user;
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -664,9 +664,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -735,9 +735,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
@@ -1153,9 +1153,9 @@ deb-src http:&amp;#x2F;&amp;#x2F;http.kali.org&amp;#x2F;kali kali-rolling main n
             &lt;p&gt;&lt;span class=&#34;label label-success&#34;&gt;符号看象限&lt;/span&gt;&lt;/p&gt;&lt;p&gt;新函数的符号是把原来的角看成锐角时原函数值的符号&lt;/p&gt;
           &lt;/div&gt;</content>
         <category term="高中" />
-        <category term="数学" />
         <category term="公式" />
         <category term="总结" />
+        <category term="数学" />
         <updated>2022-12-14T16:04:09.000Z</updated>
     </entry>
     <entry>
@@ -1460,9 +1460,9 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/blockquote&gt;
 </content>
         <category term="高中" />
+        <category term="物理" />
         <category term="公式" />
         <category term="总结" />
-        <category term="物理" />
         <updated>2022-11-12T06:05:49.000Z</updated>
     </entry>
     <entry>
@@ -1525,8 +1525,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
   &amp;lt;p&amp;gt;必应&amp;lt;&amp;#x2F;p&amp;gt;
 &amp;lt;&amp;#x2F;nav&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
-        <category term="编程" />
         <category term="Html" />
+        <category term="编程" />
         <updated>2022-11-06T03:52:22.000Z</updated>
     </entry>
 </feed>

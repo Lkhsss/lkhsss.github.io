@@ -4,34 +4,34 @@
     <title>LKHSSS的Blog • Posts by &#34;学习笔记&#34; tag</title>
     <link href="https://lkhsss.github.io" />
     <updated>2023-03-05T04:55:12.000Z</updated>
-    <category term="Go" />
-    <category term="学习笔记" />
-    <category term="编程" />
-    <category term="学习目录" />
     <category term="Git" />
     <category term="代理" />
     <category term="Hexo" />
     <category term="LaTex" />
     <category term="Html" />
+    <category term="编程" />
+    <category term="Go" />
+    <category term="学习目录" />
+    <category term="学习笔记" />
+    <category term="Rust" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
-    <category term="Python" />
-    <category term="Rust" />
     <category term="iced" />
-    <category term="Powershell" />
-    <category term="Windows" />
+    <category term="Python" />
     <category term="化学" />
     <category term="高中" />
     <category term="内卷笔记" />
-    <category term="数学" />
+    <category term="物理" />
     <category term="公式" />
     <category term="总结" />
+    <category term="数学" />
+    <category term="Powershell" />
+    <category term="Windows" />
     <category term="计算机" />
     <category term="汇编" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="物理" />
     <category term="树莓派" />
     <category term="WSL" />
     <entry>
@@ -114,8 +114,8 @@
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="学习笔记" />
         <category term="编程" />
+        <category term="学习笔记" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -245,9 +245,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -316,9 +316,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
+        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
-        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
