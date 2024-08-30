@@ -3,35 +3,57 @@
     <id>https://lkhsss.github.io</id>
     <title>LKHSSS的Blog</title>
     <link href="https://lkhsss.github.io" />
-    <updated>2024-08-24T10:08:47.000Z</updated>
-    <category term="Html" />
-    <category term="编程" />
-    <category term="Hexo" />
-    <category term="LaTex" />
+    <updated>2024-08-30T17:11:52.000Z</updated>
     <category term="Go" />
     <category term="学习笔记" />
+    <category term="编程" />
     <category term="学习目录" />
+    <category term="Git" />
+    <category term="代理" />
+    <category term="Hexo" />
+    <category term="LaTex" />
+    <category term="Html" />
     <category term="数据库" />
     <category term="MySQL" />
     <category term="解决方案" />
+    <category term="Python" />
     <category term="Rust" />
     <category term="iced" />
-    <category term="Python" />
     <category term="Powershell" />
     <category term="Windows" />
-    <category term="高中" />
     <category term="化学" />
+    <category term="高中" />
     <category term="内卷笔记" />
     <category term="数学" />
     <category term="公式" />
     <category term="总结" />
-    <category term="物理" />
     <category term="计算机" />
     <category term="汇编" />
     <category term="Linux" />
     <category term="Kali" />
-    <category term="WSL" />
+    <category term="物理" />
     <category term="树莓派" />
+    <category term="WSL" />
+    <entry>
+        <id>https://lkhsss.github.io/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</id>
+        <title>Git设置代理</title>
+        <link rel="alternate" href="https://lkhsss.github.io/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/"/>
+        <content type="html">&lt;h2 id=&#34;设置代理&#34;&gt;设置代理&lt;/h2&gt;
+&lt;h3 id=&#34;http&#34;&gt;http&lt;/h3&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config –-global http.proxy http:&amp;#x2F;&amp;#x2F;ip:port&amp;#x2F;
+git config –-global https.proxy http:&amp;#x2F;&amp;#x2F;ip:port&amp;#x2F;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config –-global http.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890&amp;#x2F;
+git config –-global https.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890&amp;#x2F;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;取消设置&#34;&gt;取消设置&lt;/h2&gt;
+&lt;h3 id=&#34;http-2&#34;&gt;http&lt;/h3&gt;
+&lt;figure&gt;&lt;div class=&#34;code-wrapper&#34;&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;git config --global --unset http.proxy
+git config --global --unset https.proxy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
+</content>
+        <category term="Git" />
+        <category term="代理" />
+        <updated>2024-08-30T17:11:52.000Z</updated>
+    </entry>
     <entry>
         <id>https://lkhsss.github.io/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/</id>
         <title>rust编译体积优化</title>
@@ -511,8 +533,8 @@ mysql&amp;gt; select user,plugin from user;
 &lt;div class=&#34;note note-warning&#34;&gt;
             &lt;p&gt;VScode的功能很多，可以自行百度或摸索&lt;/p&gt;
           &lt;/div&gt;</content>
-        <category term="编程" />
         <category term="学习笔记" />
+        <category term="编程" />
         <category term="Python" />
         <updated>2023-03-05T04:55:12.000Z</updated>
     </entry>
@@ -642,9 +664,9 @@ fmt.Println(&amp;quot;HelloWorld&amp;quot;)			&amp;#x2F;&amp;#x2F;此行也将�
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
-        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-03-04T17:23:36.000Z</updated>
     </entry>
     <entry>
@@ -713,9 +735,9 @@ func main() &amp;#123;
 &lt;h3 id=&#34;注释&#34;&gt;注释&lt;/h3&gt;
 &lt;p&gt;使用以 &lt;code&gt;//&lt;/code&gt; 开头的单行注释，而&lt;code&gt;/*...*/&lt;/code&gt; 是多行注释，这点与C和C艹是相似的。&lt;/p&gt;
 </content>
-        <category term="编程" />
         <category term="Go" />
         <category term="学习笔记" />
+        <category term="编程" />
         <updated>2023-02-19T08:38:27.000Z</updated>
     </entry>
     <entry>
@@ -887,8 +909,8 @@ light
 &lt;p&gt;&lt;strong&gt;常见的物理性质&lt;/strong&gt;：颜色、状态、气味、硬度、熔点、沸点、密度、可溶性等&lt;/p&gt;
 &lt;p&gt;例：固态的冰受热熔化成水、液态的水蒸发变成水蒸气、水蒸气冷凝成水、汽油挥发&lt;/p&gt;
 </content>
-        <category term="高中" />
         <category term="化学" />
+        <category term="高中" />
         <category term="内卷笔记" />
         <updated>2023-02-18T01:46:25.000Z</updated>
     </entry>
@@ -1369,8 +1391,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
 &lt;/table&gt;
 &lt;section class=&#34;footnotes&#34;&gt;&lt;div class=&#34;footnote-list&#34;&gt;&lt;ol&gt;&lt;li&gt;&lt;span id=&#34;fn:1&#34; class=&#34;footnote-text&#34;&gt;&lt;span&gt;HCl分子挥发后与水蒸气结合形成白雾
 &lt;a href=&#34;#fnref:1&#34; rev=&#34;footnote&#34; class=&#34;footnote-backref&#34;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/section&gt;</content>
-        <category term="高中" />
         <category term="化学" />
+        <category term="高中" />
         <category term="内卷笔记" />
         <updated>2022-11-19T15:48:51.000Z</updated>
     </entry>
@@ -1503,8 +1525,8 @@ if __name__ &amp;#x3D;&amp;#x3D; &amp;quot;__main__&amp;quot;:
   &amp;lt;p&amp;gt;必应&amp;lt;&amp;#x2F;p&amp;gt;
 &amp;lt;&amp;#x2F;nav&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 </content>
-        <category term="Html" />
         <category term="编程" />
+        <category term="Html" />
         <updated>2022-11-06T03:52:22.000Z</updated>
     </entry>
 </feed>

@@ -7,34 +7,36 @@
         <language>zh-CN</language>
         <pubDate>Thu, 02 Feb 2023 21:22:06 +0800</pubDate>
         <lastBuildDate>Thu, 02 Feb 2023 21:22:06 +0800</lastBuildDate>
-        <category>Html</category>
-        <category>编程</category>
-        <category>Hexo</category>
-        <category>LaTex</category>
         <category>Go</category>
         <category>学习笔记</category>
+        <category>编程</category>
         <category>学习目录</category>
+        <category>Git</category>
+        <category>代理</category>
+        <category>Hexo</category>
+        <category>LaTex</category>
+        <category>Html</category>
         <category>数据库</category>
         <category>MySQL</category>
         <category>解决方案</category>
+        <category>Python</category>
         <category>Rust</category>
         <category>iced</category>
-        <category>Python</category>
         <category>Powershell</category>
         <category>Windows</category>
-        <category>高中</category>
         <category>化学</category>
+        <category>高中</category>
         <category>内卷笔记</category>
         <category>数学</category>
         <category>公式</category>
         <category>总结</category>
-        <category>物理</category>
         <category>计算机</category>
         <category>汇编</category>
         <category>Linux</category>
         <category>Kali</category>
-        <category>WSL</category>
+        <category>物理</category>
         <category>树莓派</category>
+        <category>WSL</category>
         <item>
             <guid isPermalink="true">https://lkhsss.github.io/Linux/WSL/wsl%E8%BF%81%E7%A7%BB/</guid>
             <title>WSL迁移</title>

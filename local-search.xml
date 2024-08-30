@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Git设置代理</title>
+    <link href="/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/"/>
+    <url>/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<h2 id="设置代理">设置代理</h2><h3 id="http">http</h3><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git config –-global http.proxy http:&#x2F;&#x2F;ip:port&#x2F;git config –-global https.proxy http:&#x2F;&#x2F;ip:port&#x2F;</code></pre></div></figure><p>例如：</p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git config –-global http.proxy http:&#x2F;&#x2F;127.0.0.1:7890&#x2F;git config –-global https.proxy http:&#x2F;&#x2F;127.0.0.1:7890&#x2F;</code></pre></div></figure><h2 id="取消设置">取消设置</h2><h3 id="http-2">http</h3><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git config --global --unset http.proxygit config --global --unset https.proxy</code></pre></div></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Git</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+      <tag>代理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>rust编译体积优化</title>
     <link href="/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/"/>
     <url>/Rust/rust%E7%BC%96%E8%AF%91%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96/</url>
@@ -252,9 +279,9 @@
     
     <tags>
       
-      <tag>编程</tag>
-      
       <tag>学习笔记</tag>
+      
+      <tag>编程</tag>
       
       <tag>Python</tag>
       
@@ -283,11 +310,11 @@
     
     <tags>
       
-      <tag>编程</tag>
-      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
+      
+      <tag>编程</tag>
       
     </tags>
     
@@ -314,11 +341,11 @@
     
     <tags>
       
-      <tag>编程</tag>
-      
       <tag>Go</tag>
       
       <tag>学习笔记</tag>
+      
+      <tag>编程</tag>
       
     </tags>
     
@@ -432,9 +459,9 @@
     
     <tags>
       
-      <tag>高中</tag>
-      
       <tag>化学</tag>
+      
+      <tag>高中</tag>
       
       <tag>内卷笔记</tag>
       
@@ -620,9 +647,9 @@
     
     <tags>
       
-      <tag>高中</tag>
-      
       <tag>化学</tag>
+      
+      <tag>高中</tag>
       
       <tag>内卷笔记</tag>
       
@@ -686,9 +713,9 @@
     
     <tags>
       
-      <tag>Html</tag>
-      
       <tag>编程</tag>
+      
+      <tag>Html</tag>
       
     </tags>
     
