@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>cargo换源</title>
+    <link href="/%E7%BC%96%E7%A8%8B/Rust/cargo%E6%8D%A2%E6%BA%90/"/>
+    <url>/%E7%BC%96%E7%A8%8B/Rust/cargo%E6%8D%A2%E6%BA%90/</url>
+    
+    <content type="html"><![CDATA[<p>~/.cargo/config.toml</p><figure><div class="code-wrapper"><pre class="line-numbers language-toml" data-language="toml"><code class="language-toml"># 替换成你偏好的镜像源#replace-with &#x3D; &#39;tuna&#39;# replace-with &#x3D; &#39;ustc&#39;#replace-with &#x3D; &#39;zju&#39;# 源地址[source.crates-io]# registry &#x3D; &quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;crates.io-index&quot;replace-with &#x3D; &#39;rsproxy-sparse&#39;#字节跳动[source.rsproxy]registry &#x3D; &quot;https:&#x2F;&#x2F;rsproxy.cn&#x2F;crates.io-index&quot;[source.rsproxy-sparse]registry &#x3D; &quot;sparse+https:&#x2F;&#x2F;rsproxy.cn&#x2F;index&#x2F;&quot;[registries.rsproxy]index &#x3D; &quot;https:&#x2F;&#x2F;rsproxy.cn&#x2F;crates.io-index&quot;# 清华大学[source.tuna]registry &#x3D; &quot;https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;git&#x2F;crates.io-index.git&quot;# 中国科学技术大学[source.ustc]#registry &#x3D; &quot;git:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;crates.io-index&quot;registry &#x3D; &quot;sparse+https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;crates.io-index&#x2F;&quot;# 浙江大学[source.zju]registry &#x3D; &quot;https:&#x2F;&#x2F;mirrors.zju.edu.cn&#x2F;git&#x2F;crates.io-index.git&quot;# 上海交通大学[source.sjtu]registry &#x3D; &quot;https:&#x2F;&#x2F;mirrors.sjtug.sjtu.edu.cn&#x2F;git&#x2F;crates.io-index&quot;</code></pre></div></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程</category>
+      
+      <category>Rust</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>Rust</tag>
+      
+      <tag>解决方案</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Git设置代理</title>
     <link href="/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/"/>
     <url>/Git/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</url>
@@ -190,9 +221,9 @@
       
       <tag>编程</tag>
       
-      <tag>解决方案</tag>
-      
       <tag>Rust</tag>
+      
+      <tag>解决方案</tag>
       
     </tags>
     
@@ -459,9 +490,9 @@
     
     <tags>
       
-      <tag>化学</tag>
-      
       <tag>高中</tag>
+      
+      <tag>化学</tag>
       
       <tag>内卷笔记</tag>
       
@@ -647,9 +678,9 @@
     
     <tags>
       
-      <tag>化学</tag>
-      
       <tag>高中</tag>
+      
+      <tag>化学</tag>
       
       <tag>内卷笔记</tag>
       
